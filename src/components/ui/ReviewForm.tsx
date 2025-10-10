@@ -146,7 +146,6 @@ const ReviewForm = () => {
                     >
                         Submit Review
                     </button>
-                    {loading ? "Submitting..." : "Submit Review"} {/* show loading text */}
                 </div>
             </form>
         </div>
