@@ -39,7 +39,6 @@ export default function Testimonials() {
             try {
                 const res = await fetch("/api/review");
                 const data = await res.json();
-                console.log("Fetched Reviews:", data.reviews);
                 if (data.success && data.reviews?.length > 0) {
                     // 🧠 Option 1: Replace static with API data
                     setReviews(data.reviews);
