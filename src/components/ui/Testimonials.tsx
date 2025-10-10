@@ -99,7 +99,7 @@ export default function Testimonials() {
 
                     {/* Review Text */}
                     <p className="text-gray-700 text-sm md:text-base leading-relaxed mb-6">
-                        "{review.review}"
+                        {review.review}
                     </p>
 
                     {/* Trip Package */}
@@ -133,13 +133,7 @@ export default function Testimonials() {
                         ? reviews.map((_, i) => (
                             <span
                                 key={i}
-                                className={[
-                                    "w-2.5",
-                                    "h-2.5",
-                                    "rounded-full",
-                                    i === currentIndex ? "bg-purple-600" : "bg-gray-300",
-                                ].join(" ")}
-
+                                className={`w-2.5 h-2.5 rounded-full ${i === currentIndex ? 'bg-purple-600' : 'bg-gray-300'}`}
                             ></span>
                         ))
                         : null}
