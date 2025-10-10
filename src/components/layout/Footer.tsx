@@ -58,7 +58,7 @@ export default function Footer() {
         </div>
 
         {/* Middle Section */}
-        <div className="flex flex-col items-center">
+        <div className="">
           <div className="w-fit">
             <h2 className="text-xl font-semibold text-sea-green mb-4 text-center">
               Quick Links
