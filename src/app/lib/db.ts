@@ -5,7 +5,16 @@ export const db = createClient({
   authToken: process.env.TURSO_AUTH_TOKEN!,
 });
 
-export async function insertReview(body: any) {
+interface ReviewForm {
+  name: string;
+  email: string;
+  location?: string; // optional
+  package?: string; // optional
+  review: string;
+  rating?: number; // optional
+}
+
+export async function insertReview(body: ReviewForm) {
   try {
     const {
       name,
