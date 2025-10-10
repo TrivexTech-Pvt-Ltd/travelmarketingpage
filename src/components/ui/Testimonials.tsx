@@ -39,7 +39,6 @@ export default function Testimonials() {
             try {
                 const res = await fetch("/api/review");
                 const data = await res.json();
-                console.log("Fetched Reviews:", data.reviews);
                 if (data.success && data.reviews?.length > 0) {
                     // 🧠 Option 1: Replace static with API data
                     setReviews(data.reviews);
@@ -134,8 +133,8 @@ export default function Testimonials() {
                         ? reviews.map((_, i) => (
                             <span
                                 key={i}
-                                className={`w-2.5 h-2.5 rounded-full ${i === currentIndex ? "bg-purple-600" : "bg-gray-300"
-                                    }`}
+                                className={`w-2.5 h-2.5 rounded-full ${i === currentIndex ? 'bg-purple-600' : 'bg-gray-300'}`}
+
                             ></span>
                         ))
                         : null}
