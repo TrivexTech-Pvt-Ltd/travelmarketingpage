@@ -3,12 +3,7 @@
 import { useState } from "react";
 import React from 'react'
 
-interface StarRatingProps {
-    value: number;
-    onChange: (value: number) => void;
-}
-
-const ReviewForm = ({ value, onChange }: StarRatingProps) => {
+const ReviewForm = () => {
     const [hover, setHover] = useState(0);
     const [form, setForm] = useState({
         name: "",
