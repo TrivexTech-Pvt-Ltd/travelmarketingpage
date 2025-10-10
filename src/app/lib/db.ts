@@ -43,3 +43,17 @@ export async function insertReview(body: ReviewForm) {
     return { success: false, error: (error as Error).message };
   }
 }
+
+export async function getAllReviews() {
+  try {
+    const result = await db.execute(`
+      SELECT name, email, location, package, review, rating
+      FROM inquery
+    `);
+
+    return { success: true, reviews: result.rows };
+  } catch (error) {
+    console.error("Error fetching reviews:", error);
+    return { success: false, error: (error as Error).message };
+  }
+}
