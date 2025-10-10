@@ -13,7 +13,7 @@ const Hero = () => {
 
     const [activeSlide, setActiveSlide] = useState<number>(0);
 
-    let settings = {
+    const settings = {
         dots: false,
         infinite: true,
         slidesToShow: 1,
