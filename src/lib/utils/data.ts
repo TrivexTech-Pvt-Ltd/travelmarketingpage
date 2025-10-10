@@ -1,5 +1,5 @@
 import { StaticImageData } from "next/image";
-import { Hero1, Hero2, Hero3, Hero4, PackageM1, PackageM2, PackageM3, PackageM4, PackageM5, PackageM6 } from "./staticImages";
+import { AdventureActivities, CustomPackage, Hero1, Hero2, Hero3, Hero4, LuxuryHotel, PackageM1, PackageM2, PackageM3, PackageM4, PackageM5, PackageM6, PackageSL1, PackageSL2, PackageSL3, SafeTravelling } from "./staticImages";
 
 export const slideData = [
     {
@@ -42,7 +42,7 @@ export interface PackageType {
     location: string;
     nights: string;
     price: string;
-    transfer: string;
+    transfer?: string;
     image: StaticImageData;
 }
 
@@ -108,3 +108,57 @@ export const MaldivesData: PackageType[] = [
         image: PackageM6,
     },
 ];
+
+export const srilankanData: PackageType[] = [
+    {
+        name: "Sri Lanka Experience",
+        title: "Sri Lanka Journeys",
+        description: "Experience the highlights of this emerald island nation on a luxury 10-day Classic Sri Lanka journey.",
+        location: "Sri Lanka",
+        nights: "9 NIGHTS / 10 Days",
+        price: "$1,299.00",
+        image: PackageSL1,
+    },
+    {
+        name: "Sri Lanka Highlights",
+        title: "Sri Lanka Journeys",
+        description: "Soak up the culture, history, and landscapes of Sri Lanka as you visit Colombo, Dambulla, Kandy, Bogawantalawa Valley, Tangalle, and Galle, all while staying at some of the most luxurious hotels the country has to offer.",
+        location: "Sri Lanka",
+        nights: "5 NIGHTS / 6 Days",
+        price: "$999.00",
+        image: PackageSL2,
+    },
+    {
+        name: "Swift Escape to Sri Lanka's Hills & Shores",
+        title: "Sri Lanka Journeys",
+        description: "Criss-cross the island from the historically-rich central province to the verdant mountains in the heart of the island and finally to the southernmost palm-fringed shores.",
+        location: "Sri Lanka",
+        nights: "3 NIGHTS / 4 Days",
+        price: "$499.00",
+        image: PackageSL3,
+    },
+]
+
+
+export const servicesData = [
+    {
+        id: 1,
+        image: CustomPackage,
+        description: "We design personalized itineraries that match your preferences, budget, and travel style."
+    },
+    {
+        id: 2,
+        image: LuxuryHotel,
+        description: "Stay at carefully selected hotels and resorts that offer comfort and authentic experiences."
+    },
+    {
+        id: 3,
+        image: AdventureActivities,
+        description: "From hiking to water sports, we arrange thrilling activities for adventure enthusiasts."
+    },
+    {
+        id: 4,
+        image: SafeTravelling,
+        description: "Travel with confidence and peace of mind. Our Safe Travelling service ensures secure, comfortable, and well-organized journeys"
+    },
+]

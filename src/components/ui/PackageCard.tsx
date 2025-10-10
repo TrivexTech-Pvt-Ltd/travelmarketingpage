@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image";
-import { MapPin, Clock, Mail, Share2, Calendar1, PlaneIcon } from "lucide-react";
+import { MapPin, Calendar1, PlaneIcon, SailboatIcon } from "lucide-react";
 
 interface TravelCardProps {
     name: string;
@@ -48,10 +48,16 @@ const PackageCard = ({
                         <Calendar1 className="w-4 h-4 text-emerald-600" />
                         <span className="text-sm font-medium">{nights}</span>
                     </div>
-                    <div className="flex items-center gap-1 mb-2">
-                        <PlaneIcon className="w-4 h-4 text-emerald-600" />
-                        <span className="text-sm font-medium">Seaplane Transfers</span>
-                    </div>
+                    {
+                        transfer && <div className="flex items-center gap-1 mb-2">
+                            {
+                                transfer === "Seaplane Transfers" ? <PlaneIcon className="w-4 h-4 text-emerald-600" /> : <SailboatIcon className="w-4 h-4 text-emerald-600" />
+                            }
+
+                            <span className="text-sm font-medium">{transfer}</span>
+                        </div>
+                    }
+
                 </div>
 
                 <p className="text-gray-500 text-base py-2 border-gray-300 border-b border-t pb-4 mb-5">
