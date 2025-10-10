@@ -23,7 +23,16 @@ export default function Testimonials() {
     const prevSlide = () =>
         setCurrentIndex((prev) => (prev - 1 + reviews.length) % reviews.length);
 
-    let review = reviews[currentIndex];
+    // let review: Review = {
+    //     name: "",
+    //     email: "",
+    //     location: "",
+    //     package: "",
+    //     review: "",
+    //     rating: 0
+    // };
+
+    const review = reviews[currentIndex];
 
     useEffect(() => {
         const fetchReviews = async () => {
@@ -48,7 +57,10 @@ export default function Testimonials() {
         fetchReviews();
     }, []);
 
+    if (!review) return null;
     return (
+
+
         <section className="bg-gray-50 min-h-screen flex items-center justify-center p-6">
             <div className="max-w-4xl w-full bg-white rounded-2xl shadow-xl p-8 relative">
                 {/* Header */}
@@ -121,8 +133,7 @@ export default function Testimonials() {
                     {reviews.map((_, i) => (
                         <span
                             key={i}
-                            className={`w-2.5 h-2.5 rounded-full ${i === currentIndex ? "bg-purple-600" : "bg-gray-300"
-                                }`}
+                            className={`w-2.5 h-2.5 rounded-full ${i === currentIndex ? "bg-purple-600" : "bg-gray-300"}`}
                         ></span>
                     ))}
                 </div>
