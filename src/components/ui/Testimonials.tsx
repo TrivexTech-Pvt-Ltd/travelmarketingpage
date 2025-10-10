@@ -130,12 +130,15 @@ export default function Testimonials() {
 
                 {/* Dots */}
                 <div className="flex justify-center mt-4 space-x-2">
-                    {reviews.map((_, i) => (
-                        <span
-                            key={i}
-                            className={`w-2.5 h-2.5 rounded-full ${i === currentIndex ? "bg-purple-600" : "bg-gray-300"}`}
-                        ></span>
-                    ))}
+                    {reviews?.length
+                        ? reviews.map((_, i) => (
+                            <span
+                                key={i}
+                                className={`w-2.5 h-2.5 rounded-full ${i === currentIndex ? "bg-purple-600" : "bg-gray-300"
+                                    }`}
+                            ></span>
+                        ))
+                        : null}
                 </div>
             </div>
         </section>
