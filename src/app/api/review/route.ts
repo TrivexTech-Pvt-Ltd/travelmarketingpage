@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { db, insertReview } from "./../../lib/db";
+import { insertReview, getAllReviews } from "./../../lib/db";
 
 export async function POST(req: Request) {
   try {
@@ -28,4 +28,9 @@ export async function POST(req: Request) {
       { status: 500 }
     );
   }
+}
+
+export async function GET() {
+  const result = await getAllReviews();
+  return NextResponse.json(result);
 }
