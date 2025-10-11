@@ -20,8 +20,34 @@ import PackageSL2 from "../../../public/images/packages/srilanka/pk-sl2.webp";
 import PackageSL3 from "../../../public/images/packages/srilanka/pk-sl3.webp";
 
 //shapes
-import PlaneShape from "../../../public/images/shapes/about-shape.png"
+import PlaneShape from "../../../public/images/shapes/about-shape.png";
+
+//intro
+import CustomPackage from "../../../public/images/intro/tour-custom.svg";
+import LuxuryHotel from "../../../public/images/intro/luxuryhotel.svg";
+import SafeTravelling from "../../../public/images/intro/safe-travel.svg";
+import AdventureActivities from "../../../public/images/intro/adventure.svg";
 
 
 
-export { Logo, Hero1, Hero2, Hero3, Hero4, PackageM1, PackageM2, PackageM3, PackageM4, PackageM5, PackageM6, PlaneShape, PackageSL1, PackageSL2, PackageSL3 }
+export {
+    Logo,
+    Hero1,
+    Hero2,
+    Hero3,
+    Hero4,
+    PackageM1,
+    PackageM2,
+    PackageM3,
+    PackageM4,
+    PackageM5,
+    PackageM6,
+    PlaneShape,
+    PackageSL1,
+    PackageSL2,
+    PackageSL3,
+    CustomPackage,
+    LuxuryHotel,
+    SafeTravelling,
+    AdventureActivities
+}
