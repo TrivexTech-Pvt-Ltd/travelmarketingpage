@@ -49,6 +49,8 @@ export async function getAllReviews() {
     const result = await db.execute(`
       SELECT name, email, location, package, review, rating
       FROM inquery
+      ORDER BY id DESC
+      LIMIT 10
     `);
 
     return { success: true, reviews: result.rows };
