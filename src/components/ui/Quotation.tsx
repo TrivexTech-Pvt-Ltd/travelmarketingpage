@@ -1,9 +1,15 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
+interface CountryData {
+    country: string;
+    cities: string[];
+}
 
 export default function Quotation() {
 
     const [phone, setPhone] = useState("+94");
+    const [countries, setCountries] = useState<CountryData[]>([]);
 
     const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         // Keep digits and optional + at start
@@ -14,6 +20,20 @@ export default function Quotation() {
 
         setPhone(filtered);
     };
+
+    useEffect(() => {
+        const fetchCountries = async () => {
+            try {
+                const res = await fetch(process.env.COUNTRY_API_URL!);
+                const data = await res.json();
+                setCountries(data.data); // API returns { data: [ { country, cities } ] }
+            } catch (error) {
+                console.error("Error fetching countries:", error);
+            }
+        };
+
+        fetchCountries();
+    }, []);
 
     return <>
         <div className="max-w-4xl mx-auto p-8 bg-white rounded-2xl shadow-lg my-10">
@@ -100,11 +120,12 @@ export default function Quotation() {
                         Country
                     </label>
                     <select className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green">
-                        <option value="1">1 Adult</option>
-                        <option value="2">2 Adults</option>
-                        <option value="3">3 Adults</option>
-                        <option value="4">4 Adults</option>
-                        <option value="5+">5+ Adults</option>
+                        <option value="">Select Country</option>
+                        {countries.map((c) => (
+                            <option key={c.country} value={c.country}>
+                                {c.country}
+                            </option>
+                        ))}
                     </select>
                 </div>
                 <div className="flex flex-col">
@@ -112,6 +133,7 @@ export default function Quotation() {
                         Adults ( Age 12+ )
                     </label>
                     <select className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green">
+                        <option value="0">- Select -</option>
                         <option value="1">1 Adult</option>
                         <option value="2">2 Adults</option>
                         <option value="3">3 Adults</option>
