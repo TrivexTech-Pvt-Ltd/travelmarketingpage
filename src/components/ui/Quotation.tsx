@@ -77,7 +77,7 @@ export default function Quotation() {
     return <>
         <div className="max-w-4xl mx-auto p-8 bg-white rounded-2xl shadow-lg my-10">
             <h2 className="text-3xl font-semibold text-center mb-8 text-gray-800">
-                Let's Plan Your Tour
+                Let&apos;s Plan Your Tour
             </h2>
 
             <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-6">
