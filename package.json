@@ -18,7 +18,8 @@
     "react-modern-drawer": "^1.4.0",
     "react-slick": "^0.31.0",
     "resend": "^6.1.2",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.26.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

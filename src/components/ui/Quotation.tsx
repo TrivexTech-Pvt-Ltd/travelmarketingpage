@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Swal from "sweetalert2";
 
 interface CountryData {
     country: string;
@@ -8,7 +9,7 @@ interface CountryData {
 
 export default function Quotation() {
 
-    const [phone, setPhone] = useState("+94");
+    const [phone, setPhone] = useState("");
     const [countries, setCountries] = useState<CountryData[]>([]);
     const [formData, setFormData] = useState({
         destination: "",
@@ -72,6 +73,34 @@ export default function Quotation() {
                 dataToSubmit
             }),
         });
+
+        if (res.ok) {
+            Swal.fire({
+                icon: 'success',
+                title: 'Thank You!',
+                text: 'Your inquiry has been submitted successfully. We will get back to you soon.',
+            });
+
+            setFormData({
+                destination: "",
+                date: "",
+                firstName: "",
+                lastName: "",
+                email: "",
+                country: "",
+                adults: "0",
+                children: "0",
+                infants: "0",
+                message: "",
+            });
+            setPhone("");
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: 'Submission Failed',
+                text: 'There was an error submitting your inquiry. Please try again later.',
+            });
+        }
     };
 
     return <>
@@ -110,62 +139,67 @@ export default function Quotation() {
 
                 {/* First Name */}
                 <div className="flex flex-col">
-                    <label className="text-gray-700 font-medium mb-2">First Name</label>
+                    <label className="text-gray-700 font-medium mb-2">First Name <span className="text-red-500">*</span></label>
                     <input
                         type="text"
                         name="firstName"
                         placeholder="Enter your first name"
                         value={formData.firstName}
                         onChange={handleChange}
+                        required
                         className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
                     />
                 </div>
 
                 {/* Last Name */}
                 <div className="flex flex-col">
-                    <label className="text-gray-700 font-medium mb-2">Last Name</label>
+                    <label className="text-gray-700 font-medium mb-2">Last Name <span className="text-red-500">*</span></label>
                     <input
                         type="text"
                         name="lastName"
                         placeholder="Enter your last name"
                         value={formData.lastName}
                         onChange={handleChange}
+                        required
                         className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
                     />
                 </div>
 
                 {/* Email */}
                 <div className="flex flex-col">
-                    <label className="text-gray-700 font-medium mb-2">Email Address</label>
+                    <label className="text-gray-700 font-medium mb-2">Your Email <span className="text-red-500">*</span></label>
                     <input
                         type="email"
                         name="email"
                         placeholder="hello@example.com"
                         value={formData.email}
                         onChange={handleChange}
+                        required
                         className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
                     />
                 </div>
 
                 {/* Phone */}
                 <div className="flex flex-col">
-                    <label className="text-gray-700 font-medium mb-2">Phone Number</label>
+                    <label className="text-gray-700 font-medium mb-2">Phone Number <span className="text-red-500">*</span></label>
                     <input
                         type="tel"
                         name="phone"
                         value={phone}
                         onChange={handlePhoneChange}
+                        required
                         className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
                     />
                 </div>
 
                 {/* Country */}
                 <div className="flex flex-col">
-                    <label className="text-gray-700 font-medium mb-2">Country</label>
+                    <label className="text-gray-700 font-medium mb-2">Country <span className="text-red-500">*</span></label>
                     <select
                         name="country"
                         value={formData.country}
                         onChange={handleChange}
+                        required
                         className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
                     >
                         <option value="">Select Country</option>
@@ -179,16 +213,18 @@ export default function Quotation() {
 
                 {/* Adults */}
                 <div className="flex flex-col">
-                    <label className="text-gray-700 font-medium mb-2">Adults (Age 12+)</label>
+                    <label className="text-gray-700 font-medium mb-2">Adults (Age 12+) <span className="text-red-500">*</span></label>
                     <select
                         name="adults"
                         value={formData.adults}
                         onChange={handleChange}
+                        required
                         className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
                     >
-                        {Array.from({ length: 11 }, (_, i) => (
-                            <option key={i} value={i}>
-                                {i === 0 ? "- Select -" : `${i} Adult${i > 1 ? "s" : ""}`}
+                        <option value="">- Select -</option>
+                        {Array.from({ length: 10 }, (_, i) => (
+                            <option key={i + 1} value={i + 1}>
+                                {i + 1} Adult{i + 1 > 1 ? "s" : ""}
                             </option>
                         ))}
                     </select>
@@ -196,16 +232,18 @@ export default function Quotation() {
 
                 {/* Children */}
                 <div className="flex flex-col">
-                    <label className="text-gray-700 font-medium mb-2">Children (Age 2–11)</label>
+                    <label className="text-gray-700 font-medium mb-2">Children (Age 2–11) <span className="text-red-500">*</span></label>
                     <select
                         name="children"
                         value={formData.children}
                         onChange={handleChange}
                         className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
+                        required
                     >
-                        {Array.from({ length: 7 }, (_, i) => (
-                            <option key={i} value={i}>
-                                {i === 0 ? "- Select -" : `${i} Child${i > 1 ? "ren" : ""}`}
+                        <option value="">- Select -</option>
+                        {Array.from({ length: 6 }, (_, i) => (
+                            <option key={i + 1} value={i + 1}>
+                                {i + 1} Child{i + 1 > 1 ? "ren" : ""}
                             </option>
                         ))}
                     </select>
@@ -213,16 +251,18 @@ export default function Quotation() {
 
                 {/* Infants */}
                 <div className="flex flex-col">
-                    <label className="text-gray-700 font-medium mb-2">Infants (Age 0–1)</label>
+                    <label className="text-gray-700 font-medium mb-2">Infants (Age 0–1) <span className="text-red-500">*</span></label>
                     <select
                         name="infants"
                         value={formData.infants}
                         onChange={handleChange}
                         className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
+                        required
                     >
-                        {Array.from({ length: 6 }, (_, i) => (
-                            <option key={i} value={i}>
-                                {i === 0 ? "- Select -" : i}
+                        <option value="">- Select -</option>
+                        {Array.from({ length: 5 }, (_, i) => (
+                            <option key={i + 1} value={i + 1}>
+                                {i + 1}
                             </option>
                         ))}
                     </select>
@@ -231,7 +271,7 @@ export default function Quotation() {
                 {/* Message */}
                 <div className="flex flex-col md:col-span-2">
                     <label className="text-gray-700 font-medium mb-2">
-                        Tell us your budget, wishes if you&apos;re celebrating something special.
+                        Tell us your budget, wishes if you&apos;re celebrating something special. <span className="text-red-500">*</span>
                     </label>
                     <textarea
                         name="message"
@@ -239,6 +279,7 @@ export default function Quotation() {
                         value={formData.message}
                         onChange={handleChange}
                         placeholder="Any special requests or requirements?"
+                        required
                         className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
                     ></textarea>
                 </div>
