@@ -55,8 +55,8 @@ const Header = () => {
             <li key={index}>
               <Link
                 href={item.path}
-                className={`hover:text-red-500 transition-colors duration-300 ${
-                  pathname === item.path ? "text-red-500" : ""
+                className={`hover:text-sea-green transition-colors duration-300 ${
+                  pathname === item.path ? "text-sea-green" : "text-white"
                 }`}
               >
                 {item.name}

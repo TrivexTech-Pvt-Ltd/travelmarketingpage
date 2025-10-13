@@ -2,10 +2,14 @@
 import Logo from "../../../public/images/logo/Logo.webp";
 
 //Hero
-import Hero1 from "../../../public/images/hero/hero-image-1.webp";
-import Hero2 from "../../../public/images/hero/hero-image-2.webp";
-import Hero3 from "../../../public/images/hero/hero-image-3.webp";
-import Hero4 from "../../../public/images/hero/hero-image-4.webp";
+import Hero1 from "../../../public/images/hero/siyam-worlds-hero.webp";
+import Hero2 from "../../../public/images/hero/kunnavashi-hero.webp";
+import Hero3 from "../../../public/images/hero/kandy-hero.webp";
+import Hero4 from "../../../public/images/hero/nh-maldives-hero.webp";
+import Hero5 from "../../../public/images/hero/so-maldives-hero.webp";
+import Hero6 from "../../../public/images/hero/sigiriya-hero.webp";
+import Hero7 from "../../../public/images/hero/Kuredhivaru-hero.webp";
+import Hero8 from "../../../public/images/hero/Alila-Kothaifaru-hero.webp";
 
 //packages
 import PackageM1 from "../../../public/images/packages/maldives/pk-m1.webp";
@@ -36,6 +40,10 @@ export {
     Hero2,
     Hero3,
     Hero4,
+    Hero5,
+    Hero6,
+    Hero7,
+    Hero8,
     PackageM1,
     PackageM2,
     PackageM3,

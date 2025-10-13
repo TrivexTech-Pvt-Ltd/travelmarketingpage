@@ -1,36 +1,66 @@
 import { StaticImageData } from "next/image";
-import { AdventureActivities, CustomPackage, Hero1, Hero2, Hero3, Hero4, LuxuryHotel, PackageM1, PackageM2, PackageM3, PackageM4, PackageM5, PackageM6, PackageSL1, PackageSL2, PackageSL3, SafeTravelling } from "./staticImages";
+import { AdventureActivities, CustomPackage, Hero1, Hero2, Hero3, Hero4, Hero5, Hero6, Hero7, Hero8, LuxuryHotel, PackageM1, PackageM2, PackageM3, PackageM4, PackageM5, PackageM6, PackageSL1, PackageSL2, PackageSL3, SafeTravelling } from "./staticImages";
 
+//Home Page Hero
 export const slideData = [
     {
         id: 1,
         image: Hero1,
-        country: "Sri Lanka",
-        text: " Sri Lanka Highlights\nJourney"
+        country: "Maldives",
+        text: "Siyam Worlds"
 
     },
     {
         id: 2,
         image: Hero2,
         country: "Maldives",
-        text: "SO/ Maldives"
+        text: "NOOE Maldives\nKunaavashi"
 
     },
+
     {
         id: 3,
         image: Hero3,
-        country: "Maldives",
-        text: "Siyam Worlds"
+        country: "Sri Lanka",
+        text: " Sri Lanka Experience"
 
     },
-
     {
         id: 4,
         image: Hero4,
         country: "Maldives",
-        text: "NOOE Maldives\nKunaavashi"
+        text: "NH Maldives Kuda Rah"
 
     },
+    {
+        id: 5,
+        image: Hero5,
+        country: "Maldives",
+        text: "SO/ Maldives"
+
+    },
+    {
+        id: 6,
+        image: Hero6,
+        country: "Sri Lanka",
+        text: "Sri Lanka Highlights\nJourney"
+
+    },
+    {
+        id: 7,
+        image: Hero7,
+        country: "Maldives",
+        text: "Movenpick Resort\nKurendhivaru"
+
+    },
+    {
+        id: 8,
+        image: Hero8,
+        country: "Maldives",
+        text: "Alila Kothaifaru\nMaldives"
+
+    },
+
 
 
 ]
@@ -46,6 +76,7 @@ export interface PackageType {
     image: StaticImageData;
 }
 
+//Maldives tour packages
 export const MaldivesData: PackageType[] = [
     {
         name: "Siyam World Maldives",
@@ -109,6 +140,7 @@ export const MaldivesData: PackageType[] = [
     },
 ];
 
+//Sri Lankan tour packages
 export const srilankanData: PackageType[] = [
     {
         name: "Sri Lanka Experience",
@@ -139,7 +171,7 @@ export const srilankanData: PackageType[] = [
     },
 ]
 
-
+//intro
 export const servicesData = [
     {
         id: 1,
