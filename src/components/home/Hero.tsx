@@ -1,10 +1,9 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Slide from './Slide';
-import { Hero1, Hero2, Hero3, Hero4 } from '@/lib/utils/staticImages';
 import { slideData } from '@/lib/utils/data';
 
 
@@ -12,16 +11,19 @@ import { slideData } from '@/lib/utils/data';
 const Hero = () => {
 
     const [activeSlide, setActiveSlide] = useState<number>(0);
+    const sliderRef = useRef<Slider>(null);
 
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         pauseOnHover: false,
+        pauseOnFocus: true,
+        autoplaySpeed: 3000,
         accessibility: true,
-        speed: 1500,
+        speed: 2000,
         beforeChange: (next: number) => {
             // Get all slide elements
             document.querySelectorAll(".slick-slide").forEach((slide) => {
@@ -45,11 +47,22 @@ const Hero = () => {
         },
     };
 
+    // Handle dot click → pause & resume autoplay
+    const handleDotClick = () => {
+        if (sliderRef.current) {
+            sliderRef.current.slickPause(); // pause autoplay
+            setTimeout(() => {
+                sliderRef.current?.slickPlay(); // resume after delay
+            }, 5000); // resume autoplay after 5 seconds
+        }
+    };
 
 
     return (
         <div className="overflow-hidden">
-            <Slider {...settings}>
+            <Slider {...settings} appendDots={(dots) => (
+                <ul onClick={handleDotClick}> {dots} </ul> // add click handler here
+            )}>
                 {slideData.map((item) => (
                     <Slide
                         key={item.id}

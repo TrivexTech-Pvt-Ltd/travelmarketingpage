@@ -14,4 +14,14 @@
   --color-sea-green: #1F686A;
 }
 
+.slick-dots {
+  bottom: 10px !important;
+}
 
+.slick-dots li button:before {
+  font-size: 10px !important; /* default is 6px, try 12–20px */
+}
+
+.slick-dots li button:focus {
+  outline: none !important;
+}
