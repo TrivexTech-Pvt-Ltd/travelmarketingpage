@@ -67,7 +67,7 @@ const PackageCard = ({
 
             <div className="absolute bottom-0 right-0 bg-gradient-to-r from-sea-green to-emerald-400 text-white px-5 py-2 rounded-tl-xl shadow-lg">
                 <div className="flex items-center gap-2">
-                    <span className="text-lg font-bold">{price}</span>
+                    <span className="text-base font-medium">View Details</span>
                 </div>
             </div>
         </div>

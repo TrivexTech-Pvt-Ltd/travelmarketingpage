@@ -12,6 +12,8 @@
 
   /* colors */
   --color-sea-green: #1F686A;
+  --color-soft-beige: #F5F3EC;
+  --color-athens-gray: #F7F8FA;
 }
 
 .slick-dots {
@@ -24,4 +26,10 @@
 
 .slick-dots li button:focus {
   outline: none !important;
+}
+
+.services-bg {
+  background-image: url("../../public/images/hero/services-hero.webp");
+  background-repeat: no-repeat;
+  background-position: center;
 }

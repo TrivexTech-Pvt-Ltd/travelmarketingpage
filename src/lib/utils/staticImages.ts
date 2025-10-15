@@ -10,6 +10,10 @@ import Hero5 from "../../../public/images/hero/so-maldives-hero.webp";
 import Hero6 from "../../../public/images/hero/sigiriya-hero.webp";
 import Hero7 from "../../../public/images/hero/Kuredhivaru-hero.webp";
 import Hero8 from "../../../public/images/hero/Alila-Kothaifaru-hero.webp";
+import ServicesHero from "../../../public/images/hero/services-hero.webp";
+
+//Destinations
+import MaldivesHero from "../../../public/images/hero/maldives.webp";
 
 //packages
 import PackageM1 from "../../../public/images/packages/maldives/pk-m1.webp";
@@ -32,6 +36,13 @@ import LuxuryHotel from "../../../public/images/intro/luxuryhotel.svg";
 import SafeTravelling from "../../../public/images/intro/safe-travel.svg";
 import AdventureActivities from "../../../public/images/intro/adventure.svg";
 
+//Dedicated services
+import HandpickedStays from "../../../public/images/services/handpicked-stays.webp"
+import TailoredPerfection from "../../../public/images/services/tailored-perfection.webp"
+import DestinationMastery from "../../../public/images/services/destination-mastery.webp"
+import IconicExperiences from "../../../public/images/services/iconic-experiences.webp"
+import UnparalleledService from "../../../public/images/services/unparalleled-services.webp"
+
 
 
 export {
@@ -44,6 +55,13 @@ export {
     Hero6,
     Hero7,
     Hero8,
+    MaldivesHero,
+    ServicesHero,
+    HandpickedStays,
+    TailoredPerfection,
+    DestinationMastery,
+    IconicExperiences,
+    UnparalleledService,
     PackageM1,
     PackageM2,
     PackageM3,

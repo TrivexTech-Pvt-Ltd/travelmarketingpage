@@ -1,5 +1,5 @@
 import { StaticImageData } from "next/image";
-import { AdventureActivities, CustomPackage, Hero1, Hero2, Hero3, Hero4, Hero5, Hero6, Hero7, Hero8, LuxuryHotel, PackageM1, PackageM2, PackageM3, PackageM4, PackageM5, PackageM6, PackageSL1, PackageSL2, PackageSL3, SafeTravelling } from "./staticImages";
+import { AdventureActivities, CustomPackage, DestinationMastery, HandpickedStays, Hero1, Hero2, Hero3, Hero4, Hero5, Hero6, Hero7, Hero8, IconicExperiences, LuxuryHotel, PackageM1, PackageM2, PackageM3, PackageM4, PackageM5, PackageM6, PackageSL1, PackageSL2, PackageSL3, SafeTravelling, TailoredPerfection, UnparalleledService } from "./staticImages";
 
 //Home Page Hero
 export const slideData = [
@@ -194,3 +194,32 @@ export const servicesData = [
         description: "Travel with confidence and peace of mind. Our Safe Travelling service ensures secure, comfortable, and well-organized journeys"
     },
 ]
+
+export const dedicatedServices = [
+    {
+        id: 1,
+        image: TailoredPerfection,
+        title: "Tailored Perfection"
+    },
+    {
+        id: 2,
+        image: DestinationMastery,
+        title: "Destination Mastery"
+    },
+    {
+        id: 3,
+        image: UnparalleledService,
+        title: "Unparalled Services"
+    },
+    {
+        id: 4,
+        image: HandpickedStays,
+        title: "Handpicked Stays"
+    },
+    {
+        id: 5,
+        image: IconicExperiences,
+        title: "Iconic Experiences"
+    }
+]
+
