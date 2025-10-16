@@ -43,6 +43,23 @@ import DestinationMastery from "../../../public/images/services/destination-mast
 import IconicExperiences from "../../../public/images/services/iconic-experiences.webp"
 import UnparalleledService from "../../../public/images/services/unparalleled-services.webp"
 
+//maldives
+import SiyamWorldsLogo from "../../../public/images/maldives/Siyam-World-logo.webp";
+import NooeMaldivesLogo from "../../../public/images/maldives/nooe-maldives-logo.webp";
+import Highlights from "../../../public/images/maldives/highlight/highlight.webp";
+import Accommodation1 from "../../../public/images/maldives/accommodation/image-1.webp";
+import Accommodation2 from "../../../public/images/maldives/accommodation/image-2.webp";
+import Accommodation3 from "../../../public/images/maldives/accommodation/image-3.webp";
+import Accommodation4 from "../../../public/images/maldives/accommodation/image-4.webp";
+import Dining1 from "../../../public/images/maldives/dining/dining-1.webp";
+import Dining2 from "../../../public/images/maldives/dining/dining-2.webp";
+import Dining3 from "../../../public/images/maldives/dining/dining-3.webp";
+import WellnessSpa from "../../../public/images/maldives/wellness-spa/wellness-Spa.webp";
+import ResortActivities from "../../../public/images/maldives/activities/activities.webp";
+
+import SWStay1 from "../../../public/images/maldives/stays/siyam-world/Siyam-World-Cudajet-1-1.webp";
+import SWStay2 from "../../../public/images/maldives/stays/siyam-world/Siyam-World-Wedding-1-2.webp";
+import SWStay3 from "../../../public/images/maldives/stays/siyam-world/Siyam-World-Horse-Riding-5-1.webp";
 
 
 export {
@@ -75,5 +92,20 @@ export {
     CustomPackage,
     LuxuryHotel,
     SafeTravelling,
-    AdventureActivities
+    AdventureActivities,
+    SiyamWorldsLogo,
+    NooeMaldivesLogo,
+    Highlights,
+    Accommodation1,
+    Accommodation2,
+    Accommodation3,
+    Accommodation4,
+    Dining1,
+    Dining2,
+    Dining3,
+    WellnessSpa,
+    ResortActivities,
+    SWStay1,
+    SWStay2,
+    SWStay3
 }

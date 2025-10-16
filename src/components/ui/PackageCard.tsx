@@ -1,15 +1,16 @@
 import Image, { StaticImageData } from "next/image";
 import { MapPin, Calendar1, PlaneIcon, SailboatIcon } from "lucide-react";
+import Link from "next/link";
 
 interface TravelCardProps {
     name: string;
     description: string;
     location: string;
     nights: string;
-    price: string;
     transfer?: string;
     image: StaticImageData;
     title: string;
+    slug:string;
 }
 
 const PackageCard = ({
@@ -19,8 +20,8 @@ const PackageCard = ({
     location,
     nights,
     description,
-    price,
-    transfer
+    transfer,
+    slug
 }: TravelCardProps) => {
     return (
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 relative">
@@ -65,11 +66,11 @@ const PackageCard = ({
                 </p>
             </div>
 
-            <div className="absolute bottom-0 right-0 bg-gradient-to-r from-sea-green to-emerald-400 text-white px-5 py-2 rounded-tl-xl shadow-lg">
+            <Link href={`maldives/${slug}`} className="absolute bottom-0 right-0 bg-gradient-to-r from-sea-green to-emerald-400 text-white px-5 py-2 rounded-tl-xl shadow-lg">
                 <div className="flex items-center gap-2">
                     <span className="text-base font-medium">View Details</span>
                 </div>
-            </div>
+            </Link>
         </div>
 
     );
