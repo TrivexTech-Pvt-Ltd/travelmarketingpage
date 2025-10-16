@@ -4,6 +4,7 @@ import Hero from "@/components/home/Hero";
 import Intro from "@/components/home/Intro";
 import Services from "@/components/home/Services";
 import TourPackages from "@/components/tour/TourPackages";
+import ContactUs from "@/components/ui/ContactUs";
 import Quotation from "@/components/ui/Quotation";
 import ReviewForm from "@/components/ui/ReviewForm";
 import Testimonials from "@/components/ui/Testimonials";
@@ -13,9 +14,10 @@ export default function Home() {
     <>
       <Hero />
       <Intro />
-      <Destinations/>
-      <Services/>
+      <Destinations />
+      <Services />
       <TourPackages />
+      <ContactUs />
       <Quotation />
       <ReviewForm />
       <Testimonials />
