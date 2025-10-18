@@ -1,0 +1,29 @@
+"use client"
+import { useTourPackageStore } from '@/store/TourPackageStore'
+import Image from 'next/image'
+import React from 'react'
+
+const DetailsHeader = () => {
+    const data = useTourPackageStore(s => s.tourPackage)
+    return (
+        <div className='flex flex-col md:flex-row md:justify-center md:items-center gap-8 md:gap-16 my-5 max-w-7xl mx-auto'>
+            {data?.logo && (
+                <div className='flex-shrink-0'>
+                    <Image src={data.logo} alt={data.name} width={300} height={300} className='max-sm:mx-auto' />
+                </div>
+            )}
+            <div className='text-lg text-gray-500 flex-1 max-sm:text-center'>
+                {data?.descriptionLong}
+            </div>
+            <div className="flex-shrink-0">
+                <div className='space-y-3 max-sm:mx-auto'>
+                    <p className='text-lg text-gray-500 uppercase'>PER ROOM STARTING</p>
+                    <p className='text-5xl text-sea-green font-medium'>$ {data?.price}</p>
+                </div>
+            </div>
+
+        </div>
+    )
+}
+
+export default DetailsHeader
