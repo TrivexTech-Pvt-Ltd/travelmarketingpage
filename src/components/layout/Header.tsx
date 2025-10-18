@@ -7,11 +7,13 @@ import React, { useState, useEffect } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RiCloseLine } from "react-icons/ri";
 import { Logo } from "@/lib/utils/staticImages";
+import ModalWithForm from "@/components/ui/InqueryModalWithForm";
 
 const Header = () => {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [stickyNavbar, setStickyNavbar] = useState<boolean>(false);
+  const [isOpenModal, setIsOpenModal] = useState(false);
 
   //Nvabar items
   const menuItems = [
@@ -67,8 +69,16 @@ const Header = () => {
               </Link>
             </li>
           ))}
-        </ul>
+          <li>
 
+            <button
+              onClick={() => setIsOpenModal(true)}
+              className="bg-green-700 hover:bg-green-800 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-200">
+              Inquery
+            </button>
+          </li>
+        </ul>
+        <ModalWithForm isOpenModal={isOpenModal} setIsOpenModal={setIsOpenModal} />
         {/* Mobile Toggle Button */}
         <button
           className="md:hidden text-3xl focus:outline-none"

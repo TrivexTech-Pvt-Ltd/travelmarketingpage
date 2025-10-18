@@ -17,7 +17,7 @@ export default function Home() {
       <Destinations />
       <Services />
       <TourPackages />
-      <ContactUs />
+      {/* <ContactUs /> */}
       <Quotation />
       <ReviewForm />
       <Testimonials />

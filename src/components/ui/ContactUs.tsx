@@ -3,7 +3,11 @@
 import { useState } from "react";
 import Swal from "sweetalert2";
 
-export default function ContactUs() {
+interface ContactFormProps {
+    onClose: () => void;
+}
+
+export default function ContactUs({ onClose }: ContactFormProps) {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -54,15 +58,15 @@ export default function ContactUs() {
                     title: 'Thank You!',
                     text: 'Your message has been sent successfully.',
                 });
-                // setFormData({
-                //     name: "",
-                //     email: "",
-                //     phone: "",
-                //     subject: "",
-                //     message: "",
-                //     consent: false,
-                // });
-                // setErrors({});
+                setFormData({
+                    name: "",
+                    email: "",
+                    phone: "",
+                    subject: "",
+                    message: "",
+                    consent: false,
+                });
+                setErrors({});
             }
         } else {
             Swal.fire({
@@ -180,7 +184,14 @@ export default function ContactUs() {
                     {errors.consent && <p className="text-red-500 text-sm">{errors.consent}</p>}
 
                     {/* Button */}
-                    <div>
+                    <div className="flex justify-end gap-3 mt-4">
+                        <button
+                            type="button"
+                            onClick={onClose}
+                            className="bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-lg transition"
+                        >
+                            Cancel
+                        </button>
                         <button
                             type="submit"
                             className="bg-teal-700 hover:bg-teal-800 text-white font-semibold px-8 py-2 rounded shadow"
