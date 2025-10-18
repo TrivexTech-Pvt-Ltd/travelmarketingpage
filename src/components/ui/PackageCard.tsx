@@ -6,7 +6,7 @@ interface TravelCardProps {
     name: string;
     description: string;
     location: string;
-    nights: string;
+    nights: number;
     transfer?: string;
     image: StaticImageData;
     title: string;

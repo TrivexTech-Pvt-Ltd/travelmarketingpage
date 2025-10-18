@@ -23,15 +23,15 @@ const Slide = ({ image, country, text, activeSlide }: SliderProps) => {
                 transition={{ duration: 1.6, ease: "easeOut" }}
                 key={activeSlide}
             >
-                <h1 className="text-2xl tracking-wide uppercase">{country}</h1>
+                <h4 className="text-2xl tracking-wide uppercase">{country}</h4>
 
-                <p className="text-5xl md:text-7xl font-work-sans font-medium leading-tight">
+                <h1 className="text-5xl md:text-7xl font-work-sans font-medium leading-tight">
                     {text.split("\n").map((line: string, i: number) => (
                         <span key={i} className="block">
                             {line}
                         </span>
                     ))}
-                </p>
+                </h1>
 
                 <Link
                     href="#"

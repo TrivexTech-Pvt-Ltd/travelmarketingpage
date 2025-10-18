@@ -1,5 +1,5 @@
 import { StaticImageData } from "next/image";
-import { Accommodation1, Accommodation2, Accommodation3, Accommodation4, AdventureActivities, CustomPackage, DestinationMastery, Dining1, Dining2, Dining3, HandpickedStays, Hero1, Hero2, Hero3, Hero4, Hero5, Hero6, Hero7, Hero8, IconicExperiences, LuxuryHotel, PackageM1, PackageM2, PackageM3, PackageM4, PackageM5, PackageM6, PackageSL1, PackageSL2, PackageSL3, ResortActivities, SafeTravelling, TailoredPerfection, UnparalleledService, WellnessSpa, SiyamWorldsLogo, NooeMaldivesLogo } from "./staticImages";
+import { Accommodation1, Accommodation2, Accommodation3, Accommodation4, AdventureActivities, CustomPackage, DestinationMastery, Dining1, Dining2, Dining3, HandpickedStays, Hero1, Hero2, Hero3, Hero4, Hero5, Hero6, Hero7, Hero8, IconicExperiences, LuxuryHotel, PackageM1, PackageM2, PackageM3, PackageM4, PackageM5, PackageM6, PackageSL1, PackageSL2, PackageSL3, ResortActivities, SafeTravelling, TailoredPerfection, UnparalleledService, WellnessSpa, SiyamWorldsLogo, NooeMaldivesLogo, SWStay1, SWStay2, SWStay3 } from "./staticImages";
 
 //Home Page Hero
 export const slideData = [
@@ -87,25 +87,31 @@ export const MaldivesData = [
         description: "Siyam World Maldives Siyam World Maldives is a breathtaking 5-star luxury island resort offering an unparalleled all-inclusive experience.",
         descriptionLong: "Siyam World Maldives is a breathtaking 5-star luxury island resort offering an unparalleled all-inclusive experience. Spanning across 54 hectares in the Noonu Atoll, this resort offers an unlimited WOW! experience with endless dining, adventure, and entertainment. Whether you seek relaxation, thrilling water sports, or vibrant nightlife, Siyam World delivers an unparalleled Maldives escape.",
         location: "Noonu Atoll, Maldives",
-        nights: "3 NIGHTS",
+        nights: 3,
         transfer: "Seaplane Transfers",
         image: PackageM1,
         logo: SiyamWorldsLogo,
+        heroImages: [
+            Hero1, Hero2, Hero3, Hero4
+        ],
         stays: [
             {
-                name: "Water Villa with Pool + Slide",
+                name: "Water Villa with\nPool + Slide",
                 threeNightPrice: 3499,
-                fourNightPrice: 3869
+                fourNightPrice: 3869,
+                image: SWStay1
             },
             {
-                name: "Sunset Pool Beach Villa",
+                name: "Sunset Pool\nBeach Villa",
                 threeNightPrice: 3499,
-                fourNightPrice: 3869
+                fourNightPrice: 3869,
+                image: SWStay2
             },
             {
-                name: "Lagoon Villa with Pool + Slide",
+                name: "Lagoon Villa\nwith Pool + Slide",
                 threeNightPrice: 3799,
-                fourNightPrice: 4269
+                fourNightPrice: 4269,
+                image: SWStay3
             }
         ],
         inclusions: {
@@ -124,7 +130,6 @@ export const MaldivesData = [
 
         },
         honeymoonInclusions: {
-            description: "A minimum 3-night stay is required. A marriage certificate/registration dated within the last 12 months must be presented at the time of booking.",
             list: [
                 "1 bottle of sparkling wine & a fruit basket on arrival",
                 "Romantic honeymoon dinner with a decorated table at an à la carte restaurant",
@@ -132,10 +137,13 @@ export const MaldivesData = [
                 "1 celebratory honeymoon cake"
             ],
         },
-        bdayAnvInclusions: [
-            "1 bottle of sparkling wine & a fruit basket on arrival",
-            "Fruit basket on arrival day"
-        ],
+        bdayAnvInclusions: {
+            description: "A minimum 3-night stay is required. A marriage certificate/registration dated within the last 12 months must be presented at the time of booking.",
+            list: [
+                "1 bottle of sparkling wine & a fruit basket on arrival",
+                "Fruit basket on arrival day"
+            ]
+        },
         resortHighlights: [
             "The stylish collection of 80 villas with private pool",
             "15-minute speedboat ride from Malé International Airport",
@@ -145,25 +153,24 @@ export const MaldivesData = [
             "Island Couture",
             "Malé Velana International Airport"
         ],
-        accommodation: [
-            {
-                name: "Lagoon water pool villa",
-                area: "120 sqm",
-                pax: 2,
-                features: [
-                    "Located over water in the lagoon",
-                    "Short swim to the reef",
-                    "Glass facade villa",
-                    "Infinity pool and private deck"
-                ],
-                images: [
-                    Accommodation1,
-                    Accommodation2,
-                    Accommodation3,
-                    Accommodation4
-                ]
-            }
-        ],
+        accommodation:
+        {
+            name: "Lagoon water pool villa",
+            area: "120 sqm",
+            pax: 2,
+            features: [
+                "Located over water in the lagoon",
+                "Short swim to the reef",
+                "Glass facade villa",
+                "Infinity pool and private deck"
+            ],
+            images: [
+                Accommodation1,
+                Accommodation2,
+                Accommodation3,
+                Accommodation4
+            ]
+        },
         dinings: [
             {
                 name: "Andalucia Resturant",
@@ -209,7 +216,7 @@ export const MaldivesData = [
         },
         direction: {
             description: "A 15-minute speedboat ride from Malé International Airport whisks you away to a private island in this idyllic archipelago overlooking the Emboodhoo Lagoon. Introducing a new generation of luxury for modern adventurers.",
-            mapEmbed: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.879609110734!2d73.35665487581474!3d5.730475231868851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b6b49000000070d%3A0x78a59fe2dd50922!2sSiyam%20World%20Maldives!5e0!3m2!1sen!2slk!4v1760547149905!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+            mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.879609110734!2d73.35665487581474!3d5.730475231868851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b6b49000000070d%3A0x78a59fe2dd50922!2sSiyam%20World%20Maldives!5e0!3m2!1sen!2slk!4v1760547149905!5m2!1sen!2slk"
         },
         featuredHotels: [
             "d0e3f36a-e4bb-4312-aba6-aa5292f7b026",
@@ -221,15 +228,38 @@ export const MaldivesData = [
         id: "d0e3f36a-e4bb-4312-aba6-aa5292f7b026",
         name: "NOOE Maldives Kunaavashi",
         title: "Pure Luxury & Serenity",
-        slug: "siyam-world-maldives",
+        slug: "nooe-maldives-kunaavashi",
         description: "NOOE Maldives Kunaavashi is a luxury island retreat in the Vaavu Atoll, offering overwater and beachfront villas, world-class dining, and stunning marine adventures.",
         descriptionLong: "NOOE Maldives Kunaavashi is a luxury island retreat in the Vaavu Atoll, offering overwater and beachfront villas, world-class dining, and stunning marine adventures. With crystal-clear waters, vibrant coral reefs, and a serene ambiance, it’s the perfect escape for relaxation and adventure.",
         location: "Vaavu Atoll, Maldives",
-        nights: "3 NIGHTS",
+        nights: 3,
         price: 1999,
         transfer: "Seaplane Transfers",
         image: PackageM2,
         logo: NooeMaldivesLogo,
+        heroImages: [
+            Hero1, Hero2, Hero3, Hero4
+        ],
+        stays: [
+            {
+                name: "Water Villa with Pool + Slide",
+                threeNightPrice: 3499,
+                fourNightPrice: 3869,
+                image: SWStay1
+            },
+            {
+                name: "Sunset Pool Beach Villa",
+                threeNightPrice: 3499,
+                fourNightPrice: 3869,
+                image: SWStay1
+            },
+            {
+                name: "Lagoon Villa with Pool + Slide",
+                threeNightPrice: 3799,
+                fourNightPrice: 4269,
+                image: SWStay1
+            }
+        ],
         inclusions: {
             description: "Additional Inclusions (Minimum 3-Night Stay)",
             list: [
@@ -261,25 +291,25 @@ export const MaldivesData = [
             "Island Couture",
             "Malé Velana International Airport"
         ],
-        accommodation: [
-            {
-                name: "Lagoon water pool villa",
-                area: "120 sqm",
-                pax: 2,
-                features: [
-                    "Located over water in the lagoon",
-                    "Short swim to the reef",
-                    "Glass facade villa",
-                    "Infinity pool and private deck"
-                ],
-                images: [
-                    Accommodation1,
-                    Accommodation2,
-                    Accommodation3,
-                    Accommodation4
-                ]
-            }
-        ],
+        accommodation:
+        {
+            name: "Lagoon water pool villa",
+            area: "120 sqm",
+            pax: 2,
+            features: [
+                "Located over water in the lagoon",
+                "Short swim to the reef",
+                "Glass facade villa",
+                "Infinity pool and private deck"
+            ],
+            images: [
+                Accommodation1,
+                Accommodation2,
+                Accommodation3,
+                Accommodation4
+            ]
+        }
+        ,
         dinings: [
             {
                 name: "Andalucia Resturant",
@@ -325,7 +355,7 @@ export const MaldivesData = [
         },
         direction: {
             description: "A 15-minute speedboat ride from Malé International Airport whisks you away to a private island in this idyllic archipelago overlooking the Emboodhoo Lagoon. Introducing a new generation of luxury for modern adventurers.",
-            mapEmbed: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.78387728504!2d73.36210477581298!3d3.636736749960175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b40ab277acbc16b%3A0x4969a487361598b4!2sNOOE%20Maldives%20Kunaavashi!5e0!3m2!1sen!2slk!4v1760574930140!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+            mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.78387728504!2d73.36210477581298!3d3.636736749960175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b40ab277acbc16b%3A0x4969a487361598b4!2sNOOE%20Maldives%20Kunaavashi!5e0!3m2!1sen!2slk!4v1760574930140!5m2!1sen!2slk"
         },
         featuredHotels: [
             "eb8801d0-d377-4721-8ae5-c09f8ec4c45c",
@@ -333,55 +363,55 @@ export const MaldivesData = [
             "ec37735e-8b69-451c-871d-e5da508c5f9e"
         ]
     },
-    {
-        id: "ec37735e-8b69-451c-871d-e5da508c5f9e",
-        name: "NH Maldives Kuda Rah",
-        title: "A perfect blend of relaxation & Adventure",
-        slug: "siyam-world-maldives",
-        description: "NH Maldives Kuda Rah is a luxurious island retreat in the South Ari Atoll, offering elegant overwater and beachfront villas, world-class dining, and breathtaking ocean views.",
-        descriptionLong: "NH Maldives Kuda Rah Resort offers the perfect blend of relaxation and adventure. Stay at the best resort in Maldives to enjoy the lounge by the pool in your overwater villa, swim in our crystal-clear lagoon and enjoy signature treatments at our spa. Discover world-class dive sites, then unwind with delicious dining and chilled cocktails as the stars light up the night sky. Welcome to your island paradise.",
-        location: "South Ari Atoll, Maldives",
-        nights: "3 NIGHTS",
-        price: 2329,
-        transfer: "Seaplane Transfers",
-        image: PackageM3,
-    },
-    {
-        id: "9345f679-21be-4067-a1f7-c00b67d2d4e3",
-        name: "SO/ Maldives",
-        title: "A Luxurious escape to exclusive beachfront villas",
-        slug: "siyam-world-maldives",
-        description: "SO/ Maldives is a stunning 5-star resort located on the private island of Hinnavaru in the Noonu Atoll, offering guests an exclusive retreat surrounded by crystal-clear waters and pristine white-sand beaches.",
-        location: "Noonu Atoll, Maldives",
-        nights: "3 NIGHTS",
-        price: "$4,459.00",
-        transfer: "Speedboat Transfers",
-        image: PackageM4,
-    },
-    {
-        id: "f2f02ff2-1dd2-405a-a140-726ae84fa8a3",
-        name: "MÖVENPICK Resort Kuredhivaru Maldives",
-        title: "Luxurious overwater villas, crystal-clear waters, and world-class amenities",
-        slug: "siyam-world-maldives",
-        description: "Mövenpick Resort Kuredhivaru Maldives is a luxurious resort located in the pristine Noonu Atoll, offering stunning overwater villas and beachfront bungalows with breathtaking views of turquoise waters.",
-        location: "Noonu Atoll, Maldives",
-        nights: "3 NIGHTS",
-        price: "$4,459.00",
-        transfer: "Seaplane Transfers",
-        image: PackageM5,
-    },
-    {
-        id: "f540cbb7-0314-4aae-923d-dc9e518998de",
-        name: "Alila Kothaifaru Maldives",
-        title: "Ultimate Relaxation in Crystal-clear waters",
-        slug: "siyam-world-maldives",
-        description: "Alila Kothaifaru Maldives is a luxurious resort nestled in the heart of the Maldives, offering an idyllic escape surrounded by pristine white-sand beaches and crystal-clear waters.",
-        location: "North Raa Atoll, Maldives",
-        nights: "3 NIGHTS",
-        price: "$5,599.00",
-        transfer: "Seaplane Transfers",
-        image: PackageM6,
-    },
+    // {
+    //     id: "ec37735e-8b69-451c-871d-e5da508c5f9e",
+    //     name: "NH Maldives Kuda Rah",
+    //     title: "A perfect blend of relaxation & Adventure",
+    //     slug: "siyam-world-maldives",
+    //     description: "NH Maldives Kuda Rah is a luxurious island retreat in the South Ari Atoll, offering elegant overwater and beachfront villas, world-class dining, and breathtaking ocean views.",
+    //     descriptionLong: "NH Maldives Kuda Rah Resort offers the perfect blend of relaxation and adventure. Stay at the best resort in Maldives to enjoy the lounge by the pool in your overwater villa, swim in our crystal-clear lagoon and enjoy signature treatments at our spa. Discover world-class dive sites, then unwind with delicious dining and chilled cocktails as the stars light up the night sky. Welcome to your island paradise.",
+    //     location: "South Ari Atoll, Maldives",
+    //     nights: 3,
+    //     price: 2329,
+    //     transfer: "Seaplane Transfers",
+    //     image: PackageM3,
+    // },
+    // {
+    //     id: "9345f679-21be-4067-a1f7-c00b67d2d4e3",
+    //     name: "SO/ Maldives",
+    //     title: "A Luxurious escape to exclusive beachfront villas",
+    //     slug: "siyam-world-maldives",
+    //     description: "SO/ Maldives is a stunning 5-star resort located on the private island of Hinnavaru in the Noonu Atoll, offering guests an exclusive retreat surrounded by crystal-clear waters and pristine white-sand beaches.",
+    //     location: "Noonu Atoll, Maldives",
+    //     nights: 3,
+    //     price: "$4,459.00",
+    //     transfer: "Speedboat Transfers",
+    //     image: PackageM4,
+    // },
+    // {
+    //     id: "f2f02ff2-1dd2-405a-a140-726ae84fa8a3",
+    //     name: "MÖVENPICK Resort Kuredhivaru Maldives",
+    //     title: "Luxurious overwater villas, crystal-clear waters, and world-class amenities",
+    //     slug: "siyam-world-maldives",
+    //     description: "Mövenpick Resort Kuredhivaru Maldives is a luxurious resort located in the pristine Noonu Atoll, offering stunning overwater villas and beachfront bungalows with breathtaking views of turquoise waters.",
+    //     location: "Noonu Atoll, Maldives",
+    //     nights: 3,
+    //     price: "$4,459.00",
+    //     transfer: "Seaplane Transfers",
+    //     image: PackageM5,
+    // },
+    // {
+    //     id: "f540cbb7-0314-4aae-923d-dc9e518998de",
+    //     name: "Alila Kothaifaru Maldives",
+    //     title: "Ultimate Relaxation in Crystal-clear waters",
+    //     slug: "siyam-world-maldives",
+    //     description: "Alila Kothaifaru Maldives is a luxurious resort nestled in the heart of the Maldives, offering an idyllic escape surrounded by pristine white-sand beaches and crystal-clear waters.",
+    //     location: "North Raa Atoll, Maldives",
+    //     nights: 3,
+    //     price: "$5,599.00",
+    //     transfer: "Seaplane Transfers",
+    //     image: PackageM6,
+    // },
 ];
 
 //Sri Lankan tour packages
