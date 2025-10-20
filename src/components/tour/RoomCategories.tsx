@@ -10,8 +10,8 @@ const RoomCategories = () => {
     const data = useSLTourPackageStore(s => s.tourPackage);
     if (!data) return null;
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto py-16">
-            <div className="w-full h-[720px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto py-8 md:py-16">
+            <div className="w-full h-[480px] md:h-[720px]">
                 <Swiper
                     modules={[Navigation, Autoplay, A11y]}
                     slidesPerView={1}
@@ -33,8 +33,8 @@ const RoomCategories = () => {
                     ))}
                 </Swiper>
             </div>
-            <div className="bg-soft-beige flex flex-col items-center justify-center p-10">
-                <h2 className="text-5xl font-semibold font-work-sans mb-10 text-center text-black">Pricing</h2>
+            <div className="bg-soft-beige flex flex-col items-center justify-center p-4 md:p-10">
+                <h2 className="text-4xl md:text-5xl font-semibold font-work-sans mb-10 text-center text-black">Pricing</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-8 gap-x-16">
                     {data.roomCategories.pricings.map((item, index) => (
                         <div key={index} className="text-center">
