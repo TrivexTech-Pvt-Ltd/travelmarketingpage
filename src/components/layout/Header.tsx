@@ -17,7 +17,7 @@ const Header = () => {
   const menuItems = [
     { name: "Home", path: "/" },
     { name: "Destination", path: "#destination" },
-    { name: "About Us", path: "#about" },
+    { name: "About Us", path: "/about" },
     { name: "Contact Us", path: "#contact" },
   ];
 
@@ -35,9 +35,10 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500
-        ${stickyNavbar
-          ? "bg-soft-beige shadow-md text-black"
-          : isHomePage
+        ${
+          stickyNavbar
+            ? "bg-soft-beige shadow-md text-black"
+            : isHomePage
             ? "bg-transparent text-white"
             : "bg-soft-beige text-black"
         }`}
@@ -60,8 +61,9 @@ const Header = () => {
             <li key={index}>
               <Link
                 href={item.path}
-                className={`hover:text-sea-green transition-colors duration-300 ${pathname === item.path ? "text-sea-green" : "text-white"
-                  }`}
+                className={`hover:text-sea-green transition-colors duration-300 ${
+                  pathname === item.path ? "text-sea-green" : "text-white"
+                }`}
               >
                 {item.name}
               </Link>
