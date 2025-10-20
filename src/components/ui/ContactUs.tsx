@@ -93,9 +93,8 @@ export default function ContactUs() {
         <h1 className="text-3xl font-semibold text-center mb-10">Contact Us</h1>
 
         {/* Contact Section */}
-        <div className="grid md:grid-cols-2 gap-10">
-          {/* Left: Contact Details */}
-          <div>
+        <div className="grid md:grid-cols-2 gap-10 ">
+          <div className="text-center justify-center">
             <h2 className="text-2xl font-semibold mb-4">Contact details</h2>
             <p className="mb-2">
               Travel Nation, No 92/01/03, 1st Floor, Old Galle Rd, Panadura
@@ -109,10 +108,10 @@ export default function ContactUs() {
                 info@travelnation.vip
               </a>
             </p>
-            <p className="mb-6">+9474 011 0489</p>
+            <p className="mb-6">+94 74 011 0489</p>
 
             {/* Social Icons */}
-            <div className="flex space-x-4">
+            <div className="flex justify-center space-x-4">
               <a href="#" className="hover:text-teal-700">
                 <i className="fab fa-facebook-f"></i>
               </a>
@@ -127,7 +126,6 @@ export default function ContactUs() {
               </a>
             </div>
           </div>
-
           {/* Right: Contact Form */}
           {/* <form className="bg-gray-50 shadow-md rounded-xl p-6 space-y-4">
             <div className="grid md:grid-cols-2 gap-4">
@@ -177,7 +175,7 @@ export default function ContactUs() {
             </button>
           </form> */}
 
-          <div className="flex justify-center items-center min-h-screen bg-gray-50">
+          <div className="flex justify-center  ">
             <div className="w-full max-w-3xl bg-white rounded-xl shadow-md p-8">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
