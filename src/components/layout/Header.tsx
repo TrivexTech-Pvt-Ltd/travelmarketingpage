@@ -17,8 +17,8 @@ const Header = () => {
   const menuItems = [
     { name: "Home", path: "/" },
     { name: "Destination", path: "#destination" },
-    { name: "About Us", path: "#about" },
-    { name: "Contact Us", path: "#contact" },
+    { name: "About Us", path: "/about" },
+    { name: "Contact Us", path: "/contact" },
   ];
 
   // Sticky navbar on scroll

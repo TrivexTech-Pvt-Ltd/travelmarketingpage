@@ -1,4 +1,3 @@
-
 import Destinations from "@/components/home/Destinations";
 import Hero from "@/components/home/Hero";
 import Intro from "@/components/home/Intro";
@@ -17,7 +16,6 @@ export default function Home() {
       <Destinations />
       <Services />
       <TourPackages />
-      <ContactUs />
       <Quotation />
       <ReviewForm />
       <Testimonials />

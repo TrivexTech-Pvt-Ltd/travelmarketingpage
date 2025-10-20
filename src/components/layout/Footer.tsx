@@ -10,7 +10,7 @@ import Image from "next/image";
 import { Logo } from "@/lib/utils/staticImages";
 export default function Footer() {
   return (
-    <footer className="bg-sea-green text-gray-300 py-10 relative">
+    <footer className="bg-sea-green text-gray-300 py-10 relative md:px-28 px-8">
       <div className="container mx-auto px-6 grid md:grid-cols-3 gap-8">
         {/* Left Section */}
         <div>
@@ -96,7 +96,10 @@ export default function Footer() {
           <ul className="space-y-3 text-base">
             <li className="flex items-start gap-2">
               <HiLocationMarker className="text-sea-green mt-1" />
-              <span>Parana para Gorakana, panadura, Sri Lanka</span>
+              <span>
+                Travel Nation, No 92/01/03, 1st Floor, Old Galle Rd, Panadura
+                12500
+              </span>
             </li>
             <li className="flex items-center gap-2">
               <HiPhone className="text-sea-green" />
@@ -113,7 +116,7 @@ export default function Footer() {
                 href="mailto:info@sadaruwan.com"
                 className="hover:text-sea-green transition"
               >
-                info@sadaruwan.com
+                info@travelnation.vip
               </a>
             </li>
           </ul>
@@ -122,7 +125,7 @@ export default function Footer() {
 
       {/* Divider */}
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-base">
-        © Copyright TrivexTech Pvt Ltd All Rights Reserved
+        © Copyright Travel Nation All Rights Reserved
       </div>
 
       {/* WhatsApp Floating Button */}
