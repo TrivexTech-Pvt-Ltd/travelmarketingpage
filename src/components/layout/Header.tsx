@@ -18,7 +18,7 @@ const Header = () => {
     { name: "Home", path: "/" },
     { name: "Destination", path: "#destination" },
     { name: "About Us", path: "/about" },
-    { name: "Contact Us", path: "#contact" },
+    { name: "Contact Us", path: "/contact" },
   ];
 
   // Sticky navbar on scroll
@@ -34,12 +34,11 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500
-        ${
-          stickyNavbar
-            ? "bg-soft-beige shadow-md text-black"
-            : isHomePage
-            ? "bg-transparent text-white"
+      className={`fixed top-0 left-0 w-full z-[110] transition-all duration-500
+        ${stickyNavbar
+          ? "bg-white shadow-md text-black"
+          : isHomePage
+            ? "bg-transparent text-gray-700"
             : "bg-soft-beige text-black"
         }`}
     >
@@ -49,27 +48,32 @@ const Header = () => {
           <Image
             src={Logo}
             alt="logo"
-            height={60}
+            height={80}
             width={160}
             className="transition-all duration-300"
           />
         </Link>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex text-lg items-center gap-10 font-medium">
-          {menuItems.map((item, index) => (
-            <li key={index}>
-              <Link
-                href={item.path}
-                className={`hover:text-sea-green transition-colors duration-300 ${
-                  pathname === item.path ? "text-sea-green" : "text-white"
-                }`}
-              >
-                {item.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <div className="flex items-center gap-8">
+          <ul className="hidden md:flex text-lg items-center gap-10 font-medium">
+            {menuItems.map((item, index) => (
+              <li key={index}>
+                <Link
+                  href={item.path}
+                  className={`hover:text-sea-green transition-colors duration-300 ${pathname === item.path ? "text-sea-green" : "text-gray-100"
+                    }`}
+                >
+                  {item.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <button className="text-white bg-sea-green rounded-md py-3 px-6 cursor-pointer uppercase text-sm hover:opacity-90" type="button">inquire</button>
+        </div>
+
+
+
 
         {/* Mobile Toggle Button */}
         <button

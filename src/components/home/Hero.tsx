@@ -14,7 +14,6 @@ const Hero = () => {
     const sliderRef = useRef<Slider>(null);
 
     const settings = {
-        dots: true,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,

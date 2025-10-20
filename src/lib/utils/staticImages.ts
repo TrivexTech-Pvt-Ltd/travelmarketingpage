@@ -19,6 +19,16 @@ import SWHero3 from "../../../public/images/hero/sw/sw-hero-3.webp";
 import SWHero4 from "../../../public/images/hero/sw/sw-hero-4.webp";
 import NooeHero2 from "../../../public/images/hero/nooe/Golf-Event.webp";
 import NooeHero3 from "../../../public/images/hero/nooe/NOOE-Aerial.webp";
+import NHHero2 from "../../../public/images/hero/nh/nh-hero-2.webp";
+import NHHero3 from "../../../public/images/hero/nh/nh-hero-3.webp";
+import NHHero4 from "../../../public/images/hero/nh/nh-hero-4.webp";
+import MVPHero2 from "../../../public/images/hero/kurendhivaru/hero-2.webp";
+import MVPHero3 from "../../../public/images/hero/kurendhivaru/hero-3.webp";
+import MVPHero4 from "../../../public/images/hero/kurendhivaru/hero-4.webp";
+import AlilaHero2 from "../../../public/images/hero/alila/alila-hero-2.webp";
+import AlilaHero3 from "../../../public/images/hero/alila/alila-hero-3.webp";
+import AlilaHero4 from "../../../public/images/hero/alila/alila-hero-4.webp";
+
 
 //Destinations
 import MaldivesHero from "../../../public/images/hero/maldives.webp";
@@ -56,6 +66,8 @@ import SiyamWorldsLogo from "../../../public/images/maldives/Siyam-World-logo.we
 import NooeMaldivesLogo from "../../../public/images/maldives/nooe-maldives-logo.webp";
 import NHKudaRahLogo from "../../../public/images/maldives/nh_kuda_rah_logo.webp";
 import SoLogo from "../../../public/images/maldives/so-maldives-logo.webp";
+import MovenpickLogo from "../../../public/images/maldives/Kuredhivaru_Logo.webp";
+import AlilaLogo from "../../../public/images/maldives/alila-logo.webp";
 
 import Highlights from "../../../public/images/maldives/highlight/highlight.webp";
 import Accommodation1 from "../../../public/images/maldives/accommodation/image-1.webp";
@@ -80,6 +92,16 @@ import SOStay1 from "../../../public/images/maldives/stays/so/LAZULI-LIFESTYLE.w
 import NooeStay1 from "../../../public/images/maldives/stays/nooe/Beach-Villa-Bedroom.webp";
 import NooeStay2 from "../../../public/images/maldives/stays/nooe/Beach-Villa-Exterior.webp";
 import NooeStay3 from "../../../public/images/maldives/stays/nooe/Duplex-Overwater-Villa.webp";
+
+//Movenpick
+import MVPStay1 from "../../../public/images/maldives/stays/kurendhivaru/Kuredhivaru-stay-1.webp";
+import MVPStay2 from "../../../public/images/maldives/stays/kurendhivaru/Kuredhivaru-stay-2.webp";
+import MVPStay3 from "../../../public/images/maldives/stays/kurendhivaru/Kuredhivaru-stay-3.webp";
+
+//Alila
+import AlilaStay1 from "../../../public/images/maldives/stays/alila/stay-1.webp";
+import AlilaStay2 from "../../../public/images/maldives/stays/alila/stay-2.webp";
+import AlilaStay3 from "../../../public/images/maldives/stays/alila/stay-3.webp";
 
 
 
@@ -110,6 +132,15 @@ export {
     SWHero4,
     NooeHero2,
     NooeHero3,
+    NHHero2,
+    NHHero3,
+    NHHero4,
+    MVPHero2,
+    MVPHero3,
+    MVPHero4,
+    AlilaHero2,
+    AlilaHero3,
+    AlilaHero4,
     MaldivesHero,
     ServicesHero,
     HandpickedStays,
@@ -135,6 +166,8 @@ export {
     NooeMaldivesLogo,
     NHKudaRahLogo,
     SoLogo,
+    MovenpickLogo,
+    AlilaLogo,
     Highlights,
     Accommodation1,
     Accommodation2,
@@ -152,6 +185,12 @@ export {
     NooeStay1,
     NooeStay2,
     NooeStay3,
+    MVPStay1,
+    MVPStay2,
+    MVPStay3,
+    AlilaStay1,
+    AlilaStay2,
+    AlilaStay3,
     Galle,
     GalleFort,
     NuwaraEliya,
