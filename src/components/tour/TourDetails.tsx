@@ -8,6 +8,7 @@ import DetailsHeader from './DetailsHeader'
 import InfoListSection from './InfoListSection'
 import Stays from './Stays'
 import TourFeaturesTab from './TourFeaturesTab'
+import FeaturedHotels from './FeaturedHotels'
 
 const TourDetails = ({ slug }: { slug: string }) => {
 
@@ -28,6 +29,7 @@ const TourDetails = ({ slug }: { slug: string }) => {
                 <Stays />
                 <InfoListSection />
                 <TourFeaturesTab />
+                <FeaturedHotels />
             </Container>
         </div>
     )

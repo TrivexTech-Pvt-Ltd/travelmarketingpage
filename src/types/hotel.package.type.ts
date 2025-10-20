@@ -4,7 +4,7 @@ import { StaticImageData } from "next/image";
 export type ResortImage = StaticImageData;
 
 // ---------- Stay ----------
-export interface ResortStay {
+export type ResortStay = {
     name: string;
     threeNightPrice: number;
     fourNightPrice: number;
@@ -12,13 +12,13 @@ export interface ResortStay {
 }
 
 // ---------- Inclusions ----------
-export interface InclusionDetails {
+export type InclusionDetails = {
     description?: string;
     list: string[];
 }
 
 // ---------- Accommodation ----------
-export interface ResortAccommodation {
+export type ResortAccommodation = {
     name: string;
     area: string;
     pax: number;
@@ -27,47 +27,70 @@ export interface ResortAccommodation {
 }
 
 // ---------- Dining ----------
-export interface ResortDining {
+export type ResortDining = {
     name: string;
     description: string;
     images: ResortImage[];
 }
 
 // ---------- Wellness & Spa ----------
-export interface ResortWellnessSpa {
+export type ResortWellnessSpa = {
     title: string;
     description: string;
     image: ResortImage;
 }
 
 // ---------- Activities ----------
-export interface ResortActivity {
+export type ResortActivity = {
     title: string;
     description: string;
     image: ResortImage;
 }
 
 // ---------- Direction ----------
-export interface ResortDirection {
+export type ResortDirection = {
     description: string;
     mapEmbed: string;
 }
 
-// ---------- Main Resort Package ----------
-export interface TourPackage {
+// ---------- Pricing ----------
+export type Pricing = {
+    type: string;
+    price: number;
+};
+
+// ---------- Itinerary ----------
+export type Itinerary = {
+    title: string;
+    description: string;
+    list: string[];
+};
+
+export type RoomCategory = {
+    images: ResortImage[],
+    pricings: Pricing[]
+
+}
+
+// ---------- Base Package ----------
+export interface BaseTourPackage {
     id: string;
     name: string;
     title: string;
-    price: number;
     slug: string;
     description: string;
-    descriptionLong: string;
     location: string;
     nights: number;
-    transfer: string;
+    price: number;
     image: ResortImage;
+    heroImages?: ResortImage[];
+}
+
+// ---------- Maldives Package ----------
+export interface MaldivesTourPackage extends BaseTourPackage {
+    descriptionLong: string;
+    transfer: string;
     logo: ResortImage;
-    heroImages: ResortImage[];
     stays: ResortStay[];
     inclusions: InclusionDetails;
     honeymoonInclusions?: InclusionDetails;
@@ -80,3 +103,13 @@ export interface TourPackage {
     direction: ResortDirection;
     featuredHotels: string[];
 }
+
+// ---------- Sri Lanka Package ----------
+export interface SriLankaTourPackage extends BaseTourPackage {
+    days: number;
+    itinerary: Itinerary;
+    roomCategories: RoomCategory;
+};
+
+// ---------- Union Type ----------
+export type TourPackage = MaldivesTourPackage | SriLankaTourPackage;

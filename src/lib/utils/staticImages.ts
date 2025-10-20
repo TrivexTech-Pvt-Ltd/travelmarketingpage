@@ -46,6 +46,8 @@ import UnparalleledService from "../../../public/images/services/unparalleled-se
 //maldives
 import SiyamWorldsLogo from "../../../public/images/maldives/Siyam-World-logo.webp";
 import NooeMaldivesLogo from "../../../public/images/maldives/nooe-maldives-logo.webp";
+import NHKudaRahLogo from "../../../public/images/maldives/nh_kuda_rah_logo.webp";
+
 import Highlights from "../../../public/images/maldives/highlight/highlight.webp";
 import Accommodation1 from "../../../public/images/maldives/accommodation/image-1.webp";
 import Accommodation2 from "../../../public/images/maldives/accommodation/image-2.webp";
@@ -60,6 +62,15 @@ import ResortActivities from "../../../public/images/maldives/activities/activit
 import SWStay1 from "../../../public/images/maldives/stays/siyam-world/Siyam-World-Cudajet-1-1.webp";
 import SWStay2 from "../../../public/images/maldives/stays/siyam-world/Siyam-World-Wedding-1-2.webp";
 import SWStay3 from "../../../public/images/maldives/stays/siyam-world/Siyam-World-Horse-Riding-5-1.webp";
+
+
+//Sri Lanka
+import Galle from "../../../public/images/srilanka/Galle.webp";
+import NuwaraEliya from "../../../public/images/srilanka/Nuwara-Eliya.webp";
+import GalleFort from "../../../public/images/srilanka/galle-fort.webp";
+import SLBeach from "../../../public/images/srilanka/sl-beach.webp";
+import TempleOfTooth from "../../../public/images/srilanka/temple-sacred-tooth-relic-kandy-sri-lanka.webp";
+import ColomboSL from "../../../public/images/srilanka/colombo-sri-lanka.webp";
 
 
 export {
@@ -95,6 +106,7 @@ export {
     AdventureActivities,
     SiyamWorldsLogo,
     NooeMaldivesLogo,
+    NHKudaRahLogo,
     Highlights,
     Accommodation1,
     Accommodation2,
@@ -107,5 +119,11 @@ export {
     ResortActivities,
     SWStay1,
     SWStay2,
-    SWStay3
+    SWStay3,
+    Galle,
+    GalleFort,
+    NuwaraEliya,
+    SLBeach,
+    TempleOfTooth,
+    ColomboSL
 }

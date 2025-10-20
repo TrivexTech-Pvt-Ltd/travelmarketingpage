@@ -1,20 +1,37 @@
-import { TourPackage } from '@/types/hotel.package.type';
-import { create } from 'zustand'
+import { MaldivesTourPackage,SriLankaTourPackage } from '@/types/hotel.package.type';
+import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
-interface PackageState {
-    tourPackage: TourPackage | null;
-    setPackage: (tourPackage: TourPackage | null) => void
+interface PackageStateMaldives {
+    tourPackage: MaldivesTourPackage | null;
+    setPackage: (tourPackage: MaldivesTourPackage | null) => void
 }
 
-export const useTourPackageStore = create<PackageState>()(
+interface PackageStateSriLanka {
+    tourPackage: SriLankaTourPackage | null;
+    setPackage: (tourPackage: SriLankaTourPackage | null) => void
+}
+
+export const useTourPackageStore = create<PackageStateMaldives>()(
     persist(
         (set) => ({
             tourPackage: null,
             setPackage: (tourPackage) => set({ tourPackage }),
         }),
         {
-            name: 'tour-package-storage',
+            name: 'maldives-tour-package-storage',
+        }
+    )
+)
+
+export const useSLTourPackageStore = create<PackageStateSriLanka>()(
+    persist(
+        (set) => ({
+            tourPackage: null,
+            setPackage: (tourPackage) => set({ tourPackage }),
+        }),
+        {
+            name: 'srilanka-tour-package-storage',
         }
     )
 )
