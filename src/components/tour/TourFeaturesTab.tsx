@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import { useState } from 'react';
 import {
     Star,
     Bed,
@@ -8,10 +8,7 @@ import {
     Activity,
     MapPin
 } from "lucide-react";
-import Image from 'next/image';
 import { useTourPackageStore } from '@/store/TourPackageStore';
-import { Highlights } from '@/lib/utils/staticImages';
-import { LuCircleCheckBig } from 'react-icons/lu';
 import AccommodationTab from './AccommodationTab';
 import DiningTab from './DiningTab';
 import WellnessTab from './WellnessTab';
@@ -56,14 +53,15 @@ export const featuresTabData = [
 const TourFeaturesTab = () => {
     const [tabIndex, setTabIndex] = useState<string>("highlight")
     const data = useTourPackageStore(s => s.tourPackage);
+    if (!data) return null;
     return (
         <div className='max-w-7xl mx-auto my-16'>
-            <div className="grid grid-cols-6 gap-3">
+            <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-3">
                 {featuresTabData.map(({ id, name, icon: Icon }) => (
                     <button
                         type='button'
                         key={id}
-                        className={`px-4 py-3 rounded-sm flex items-center gap-2 transition cursor-pointer ${id === tabIndex ? 'bg-white text-sea-green' : 'bg-sea-green text-white hover:bg-sea-green/85'}`}
+                        className={`px-2 lg:px-4 py-3 text-sm lg:text-base rounded-sm flex items-center gap-2 transition cursor-pointer ${id === tabIndex ? 'bg-white text-sea-green shadow-md' : 'bg-sea-green text-white hover:bg-sea-green/85'}`}
                         onClick={() => setTabIndex(id)}
                     >
                         <Icon size={18} />
@@ -71,16 +69,27 @@ const TourFeaturesTab = () => {
                     </button>
                 ))}
             </div>
-            <div className='my-8'>
-                {
-                    tabIndex === "highlight" ? <HighlightTab highlightedList={data?.resortHighlights}/>
-                     :
-                        tabIndex === "accommodation" ? <AccommodationTab data={data?.accommodation}/> :
-                            tabIndex === "dining" ? <DiningTab dinings={data?.dinings}/> :
-                                tabIndex === "wellness" ? <WellnessTab wellnessSpa={data?.wellnessSpa}/> :
-                                    tabIndex === "activities" ? <ActivitiesTab activities={data?.activities}/> :
-                                        tabIndex === "map" ? <MapTab data={data?.direction}/> : null
-                }
+            <div className="my-8">
+                {"resortHighlights" in data ? (
+                    <>
+                        {tabIndex === "highlight" && (
+                            <HighlightTab highlightedList={data.resortHighlights} />
+                        )}
+                        {tabIndex === "accommodation" && (
+                            <AccommodationTab data={data.accommodation} />
+                        )}
+                        {tabIndex === "dining" && <DiningTab dinings={data.dinings} />}
+                        {tabIndex === "wellness" && (
+                            <WellnessTab wellnessSpa={data.wellnessSpa} />
+                        )}
+                        {tabIndex === "activities" && (
+                            <ActivitiesTab activities={data.activities} />
+                        )}
+                        {tabIndex === "map" && <MapTab data={data.direction} />}
+                    </>
+                ) : (
+                    null
+                )}
             </div>
         </div>
 

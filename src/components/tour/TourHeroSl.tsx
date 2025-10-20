@@ -7,11 +7,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { useTourPackageStore } from '@/store/TourPackageStore';
+import { useSLTourPackageStore, useTourPackageStore } from '@/store/TourPackageStore';
 import Image from 'next/image';
 
-const TourHero = () => {
-    const packageData = useTourPackageStore(s => s.tourPackage);
+const TourHeroSl = () => {
+    const packageData = useSLTourPackageStore(s => s.tourPackage);
     if (!packageData?.heroImages) return null;
     return (
         <div className="relative w-full h-[600px]">
@@ -51,4 +51,4 @@ const TourHero = () => {
     )
 }
 
-export default TourHero
+export default TourHeroSl

@@ -6,7 +6,8 @@ import StayCard from './StayCard'
 
 const Stays = () => {
     const [nightCount, setNightCount] = useState<number>(3)
-    const data = useTourPackageStore(s => s.tourPackage)
+    const data = useTourPackageStore(s => s.tourPackage);
+    if (!data) return null;
     return (
         <div className='max-w-7xl mx-auto my-16'>
             <ul className="grid grid-cols-2">
@@ -17,7 +18,7 @@ const Stays = () => {
                     <span className='flex items-center gap-x-3 text-lg'><RiHotelBedFill />  4 Nights </span>
                 </li>
             </ul>
-            <div className='grid md:grid-cols-3 gap-6 py-8'>
+            <div className='grid lg:grid-cols-3 gap-6 py-8'>
                 {
                     data?.stays.map((item, index) => (
                         <StayCard key={index} name={item.name} image={item.image} threeNightPrice={item.threeNightPrice} fourNightPrice={item.fourNightPrice} nightCount={nightCount} />
