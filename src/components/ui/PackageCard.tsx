@@ -11,7 +11,8 @@ interface TravelCardProps {
     image: StaticImageData;
     title: string;
     slug: string;
-    country: string;
+    country?: string;
+    isFeatured?: boolean
     days?: number
 }
 
@@ -25,7 +26,8 @@ const PackageCard = ({
     transfer,
     slug,
     country,
-    days
+    days,
+    isFeatured = false
 }: TravelCardProps) => {
     return (
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 relative">
@@ -70,11 +72,12 @@ const PackageCard = ({
                 </p>
             </div>
 
-            <Link href={`${country}/${slug}`} className="absolute bottom-0 right-0 bg-gradient-to-r from-sea-green to-emerald-400 text-white px-5 py-2 rounded-tl-xl shadow-lg">
+            <Link href={`/${country}/${slug}`} className="absolute bottom-0 right-0 bg-gradient-to-r from-sea-green to-emerald-400 text-white px-5 py-2 rounded-tl-xl shadow-lg">
                 <div className="flex items-center gap-2">
                     <span className="text-base font-medium">View Details</span>
                 </div>
             </Link>
+
         </div>
 
     );
