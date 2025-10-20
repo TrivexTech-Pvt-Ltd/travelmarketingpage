@@ -25,7 +25,7 @@ const HighlightTab = ({ highlightedList }: HighlightTabProps) => {
                 <h3 className='text-4xl font-medium font-work-sans text-black'>Resort highlights</h3>
                 {
                     highlightedList.map((item, index) => (
-                        <div className='flex items-center gap-x-3 text-gray-500 text-base my-5' key={index}> <LuCircleCheckBig className='text-sea-green' /> <div>{item}</div> </div>
+                        <div className='flex items-center gap-x-4 text-gray-500 text-base my-5' key={index}> <div className='text-lg'><LuCircleCheckBig className='text-sea-green' /> </div> <div>{item}</div> </div>
 
                     ))
                 }

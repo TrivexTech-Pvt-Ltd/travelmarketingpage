@@ -22,12 +22,12 @@ const StayCard = ({ image, name, threeNightPrice, fourNightPrice, nightCount }: 
             />
 
             {/* Dark Overlay */}
-            <div className="absolute inset-0 bg-black/45 group-hover:bg-black/50 transition-colors duration-300" />
+            <div className="absolute inset-0 bg-black/55 group-hover:bg-black/50 transition-colors duration-300" />
 
             {/* Content */}
             <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-6">
                 <p className="text-lg tracking-widest mb-2">{nightCount} NIGHT</p>
-                <h3 className="text-4xl font-medium font-work-sans leading-tight mb-8">
+                <h3 className="text-4xl font-medium font-work-sans leading-tight mb-16">
                     {name.split("\n").map((line: string, i: number) => (
                         <span key={i} className="block">
                             {line}

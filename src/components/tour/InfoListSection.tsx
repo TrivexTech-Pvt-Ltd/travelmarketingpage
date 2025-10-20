@@ -13,7 +13,7 @@ const InfoListSection = () => {
                     <div className='bg-white rounded-md p-6 flex flex-col gap-y-5 '>
                         {
                             data?.inclusions.list.map((item, index) => (
-                                <div className='flex items-center gap-x-3 text-sea-green text-base lg:text-lg' key={index}> <LuCircleCheckBig className='text-sea-green' /> <div>{item}</div> </div>
+                                <div className='flex items-center gap-x-4 text-sea-green text-base lg:text-lg' key={index}> <div className='text-lg'><LuCircleCheckBig className='text-sea-green' /> </div> <div>{item}</div> </div>
 
                             ))
                         }
@@ -29,7 +29,7 @@ const InfoListSection = () => {
                     <div className='bg-white rounded-md p-6 flex flex-col gap-y-5 '>
                         {
                             data?.honeymoonInclusions.list.map((item, index) => (
-                                <div className='flex items-center gap-x-3 text-sea-green text-base lg:text-lg' key={index}> <LuCircleCheckBig className='text-sea-green' /> <div>{item}</div> </div>
+                                <div className='flex items-center gap-x-4 text-sea-green text-base lg:text-lg' key={index}> <div className='text-lg'><LuCircleCheckBig className='text-sea-green' /> </div> <div>{item}</div> </div>
 
                             ))
                         }
@@ -44,7 +44,7 @@ const InfoListSection = () => {
                     <div className='bg-white rounded-md p-6 flex flex-col gap-y-5 '>
                         {
                             data?.bdayAnvInclusions.list.map((item, index) => (
-                                <div className='flex items-center gap-x-3 text-sea-green text-lg' key={index}> <LuCircleCheckBig className='text-sea-green' /> <div>{item}</div> </div>
+                                <div className='flex items-center gap-x-4 text-sea-green text-lg' key={index}> <div className='text-lg'><LuCircleCheckBig className='text-sea-green' /> </div> <div>{item}</div> </div>
 
                             ))
                         }
@@ -54,7 +54,7 @@ const InfoListSection = () => {
                 </div>
             }
 
-            
+
 
         </div>
     )
