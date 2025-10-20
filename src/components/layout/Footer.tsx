@@ -10,7 +10,7 @@ import Image from "next/image";
 import { Logo } from "@/lib/utils/staticImages";
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-10 relative">
+    <footer className="bg-sea-green text-gray-300 py-10 relative">
       <div className="container mx-auto px-6 grid md:grid-cols-3 gap-8">
         {/* Left Section */}
         <div>

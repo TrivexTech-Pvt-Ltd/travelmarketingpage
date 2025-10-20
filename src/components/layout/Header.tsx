@@ -10,13 +10,14 @@ import { Logo } from "@/lib/utils/staticImages";
 
 const Header = () => {
   const pathname = usePathname();
-  const [isOpen, setIsOpen] = useState(false);
-  const [stickyNavbar, setStickyNavbar] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [stickyNavbar, setStickyNavbar] = useState<boolean>(false);
 
+  //Nvabar items
   const menuItems = [
     { name: "Home", path: "/" },
     { name: "Destination", path: "#destination" },
-    { name: "About Us", path: "#about" },
+    { name: "About Us", path: "/about" },
     { name: "Contact Us", path: "#contact" },
   ];
 
@@ -29,13 +30,18 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const isHomePage = pathname === "/";
+
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
-        stickyNavbar
-          ? "bg-white shadow-md text-black"
-          : "bg-transparent text-white"
-      }`}
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500
+        ${
+          stickyNavbar
+            ? "bg-soft-beige shadow-md text-black"
+            : isHomePage
+            ? "bg-transparent text-white"
+            : "bg-soft-beige text-black"
+        }`}
     >
       <div className="flex justify-between items-center md:px-28 px-8 py-4">
         {/* Logo */}
@@ -55,8 +61,8 @@ const Header = () => {
             <li key={index}>
               <Link
                 href={item.path}
-                className={`hover:text-red-500 transition-colors duration-300 ${
-                  pathname === item.path ? "text-red-500" : ""
+                className={`hover:text-sea-green transition-colors duration-300 ${
+                  pathname === item.path ? "text-sea-green" : "text-white"
                 }`}
               >
                 {item.name}

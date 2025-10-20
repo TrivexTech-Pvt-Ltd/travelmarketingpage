@@ -1,15 +1,18 @@
 import Image, { StaticImageData } from "next/image";
 import { MapPin, Calendar1, PlaneIcon, SailboatIcon } from "lucide-react";
+import Link from "next/link";
 
 interface TravelCardProps {
     name: string;
     description: string;
     location: string;
-    nights: string;
-    price: string;
+    nights: number;
     transfer?: string;
     image: StaticImageData;
     title: string;
+    slug: string;
+    country: string;
+    days?: number
 }
 
 const PackageCard = ({
@@ -19,8 +22,10 @@ const PackageCard = ({
     location,
     nights,
     description,
-    price,
-    transfer
+    transfer,
+    slug,
+    country,
+    days
 }: TravelCardProps) => {
     return (
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 relative">
@@ -46,7 +51,7 @@ const PackageCard = ({
                 <div className="flex justify-between py-3">
                     <div className="flex items-center gap-1 mb-2">
                         <Calendar1 className="w-4 h-4 text-emerald-600" />
-                        <span className="text-sm font-medium">{nights}</span>
+                        <span className="text-sm font-medium">{nights} Nights{days ? ` / ${days} Days` : ""}</span>
                     </div>
                     {
                         transfer && <div className="flex items-center gap-1 mb-2">
@@ -65,11 +70,11 @@ const PackageCard = ({
                 </p>
             </div>
 
-            <div className="absolute bottom-0 right-0 bg-gradient-to-r from-sea-green to-emerald-400 text-white px-5 py-2 rounded-tl-xl shadow-lg">
+            <Link href={`${country}/${slug}`} className="absolute bottom-0 right-0 bg-gradient-to-r from-sea-green to-emerald-400 text-white px-5 py-2 rounded-tl-xl shadow-lg">
                 <div className="flex items-center gap-2">
-                    <span className="text-lg font-bold">{price}</span>
+                    <span className="text-base font-medium">View Details</span>
                 </div>
-            </div>
+            </Link>
         </div>
 
     );
