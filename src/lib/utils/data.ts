@@ -1,5 +1,5 @@
 import { StaticImageData } from "next/image";
-import { Accommodation1, Accommodation2, Accommodation3, Accommodation4, AdventureActivities, CustomPackage, DestinationMastery, Dining1, Dining2, Dining3, HandpickedStays, Hero1, Hero2, Hero3, Hero4, Hero5, Hero6, Hero7, Hero8, IconicExperiences, LuxuryHotel, PackageM1, PackageM2, PackageM3, PackageM4, PackageM5, PackageM6, PackageSL1, PackageSL2, PackageSL3, ResortActivities, SafeTravelling, TailoredPerfection, UnparalleledService, WellnessSpa, SiyamWorldsLogo, NooeMaldivesLogo, SWStay1, SWStay2, SWStay3, NHKudaRahLogo, SLBeach, ColomboSL, TempleOfTooth, Galle, NuwaraEliya, SoLogo, SoMaldives3, SoMaldives1, SoMaldives2, SOStay1, SWHero2, SWHero3, SWHero4, NooeStay1, NooeStay2, NooeStay3, NooeHero3, NooeHero2 } from "./staticImages";
+import { Accommodation1, Accommodation2, Accommodation3, Accommodation4, AdventureActivities, CustomPackage, DestinationMastery, Dining1, Dining2, Dining3, HandpickedStays, Hero1, Hero2, Hero3, Hero4, Hero5, Hero6, Hero7, Hero8, IconicExperiences, LuxuryHotel, PackageM1, PackageM2, PackageM3, PackageM4, PackageM5, PackageM6, PackageSL1, PackageSL2, PackageSL3, ResortActivities, SafeTravelling, TailoredPerfection, UnparalleledService, WellnessSpa, SiyamWorldsLogo, NooeMaldivesLogo, SWStay1, SWStay2, SWStay3, NHKudaRahLogo, SLBeach, ColomboSL, TempleOfTooth, Galle, NuwaraEliya, SoLogo, SoMaldives3, SoMaldives1, SoMaldives2, SOStay1, SWHero2, SWHero3, SWHero4, NooeStay1, NooeStay2, NooeStay3, NooeHero3, NooeHero2, NHHero2, NHHero3, NHHero4, MovenpickLogo, MVPHero2, MVPHero3, MVPHero4, MVPStay1, MVPStay2, MVPStay3, AlilaLogo, AlilaHero2, AlilaHero3, AlilaHero4, AlilaStay1, AlilaStay2, AlilaStay3 } from "./staticImages";
 
 //Home Page Hero
 export const slideData = [
@@ -377,7 +377,7 @@ export const MaldivesData = [
         image: PackageM3,
         logo: NHKudaRahLogo,
         heroImages: [
-            Hero4, Hero2, Hero3, Hero4
+            Hero4, NHHero2, NHHero3, NHHero4
         ],
         stays: [
             {
@@ -638,62 +638,55 @@ export const MaldivesData = [
         id: "f2f02ff2-1dd2-405a-a140-726ae84fa8a3",
         name: "MÖVENPICK Resort Kuredhivaru Maldives",
         title: "Luxurious overwater villas, crystal-clear waters, and world-class amenities",
-        slug: "siyam-world-maldives",
+        slug: "movenpick-resort-kuredhivaru-maldives",
         description: "Mövenpick Resort Kuredhivaru Maldives is a luxurious resort located in the pristine Noonu Atoll, offering stunning overwater villas and beachfront bungalows with breathtaking views of turquoise waters.",
-        descriptionLong: "NOOE Maldives Kunaavashi is a luxury island retreat in the Vaavu Atoll, offering overwater and beachfront villas, world-class dining, and stunning marine adventures. With crystal-clear waters, vibrant coral reefs, and a serene ambiance, it’s the perfect escape for relaxation and adventure.",
+        descriptionLong: "Mövenpick Resort Kuredhivaru Maldives is a luxurious resort located in the pristine Noonu Atoll, offering stunning overwater villas and beachfront bungalows with breathtaking views of turquoise waters. This exclusive tropical haven is perfect for a relaxing getaway, featuring world-class dining, spa treatments, and exciting water sports.",
         location: "Noonu Atoll, Maldives",
         nights: 3,
         price: 4459,
         transfer: "Seaplane Transfers",
         image: PackageM5,
-        logo: NooeMaldivesLogo,
+        logo: MovenpickLogo,
         heroImages: [
-            Hero1, Hero2, Hero3, Hero4
+            Hero7, MVPHero2, MVPHero3, MVPHero4
         ],
         stays: [
             {
-                name: "Water Villa with Pool + Slide",
-                threeNightPrice: 3499,
-                fourNightPrice: 3869,
-                image: SWStay1
+                name: "Overwater Pool\nVilla Lagoon",
+                threeNightPrice: 4459,
+                fourNightPrice: 5359,
+                image: MVPStay1
             },
             {
-                name: "Sunset Pool Beach Villa",
-                threeNightPrice: 3499,
-                fourNightPrice: 3869,
-                image: SWStay1
+                name: "Overwater Pool\nVilla Sunris",
+                threeNightPrice: 4619,
+                fourNightPrice: 5569,
+                image: MVPStay2
             },
             {
-                name: "Lagoon Villa with Pool + Slide",
-                threeNightPrice: 3799,
-                fourNightPrice: 4269,
-                image: SWStay1
+                name: "Overwater Pool\nVilla Ocean",
+                threeNightPrice: 4969,
+                fourNightPrice: 6029,
+                image: MVPStay3
             }
         ],
         inclusions: {
-            description: "Additional Inclusions (Minimum 3-Night Stay)",
             list: [
-                "Daily Breakfast & Dinner at the main restaurant",
-                "Access to resort facilities, including the infinity pool & fitness center",
-                "Complimentary snorkeling gear & selected non-motorized water sports",
-                "Round-trip speedboat transfers",
-                "30% discount on spa treatments (excludes retail products)",
-                "Floating breakfast for 2 adults (once per stay, pool villas only)",
-                "Non-motorized water sports activities (Kayak & Paddleboard)",
-                "In-villa espresso machine, tea & coffee facilities",
+                "Daily Half-Board (Breakfast and Dinner dine-around)",
+                "Round-trip seaplane transfers",
+                "Complimentary Floating Breakfast once during your stay",
+                "Complimentary 30-minute massage, once per room, per stay",
+                "Choose from a one-time complimentary Shisha or Mocktail during your stay",
+                "Select one excursion (sunset cruise, dolphin cruise, or sunset fishing) based on availability and schedule",
+                "Enjoy complimentary Chocolate and Ice Cream during the Chocolate Hour, daily from 4:00 pm to 5:00 pm",
+                "Complimentary access to non-motorized watersports and snorkeling equipment",
+                "Enjoy daily group Sunrise and Sunset Yoga or Body Stretching sessions",
+                "Complimentary access to the fitness center, tennis court, football field, basketball court, beach volleyball, and kids club"
             ],
 
         },
-        honeymoonInclusions: {
-            description: "A minimum 3-night stay is required. A marriage certificate/registration dated within the last 12 months must be presented at the time of booking.",
-            list: [
-                "Welcome amenity & romantic bed decoration",
-                "Spa & souvenir shop discount voucher",
-                "Bottle of wine/sparkling juice + dessert selection",
-            ],
-        },
         resortHighlights: [
-            "The stylish collection of 80 villas with private pool",
+            "Where castaway meets runway, the stylish collection of 80 villas with private poo",
             "15-minute speedboat ride from Malé International Airport",
             "Overlooking the Emboodhoo Lagoon home to diverse marine life",
             "Few minutes’ boat ride from CROSSROADS Maldives",
@@ -777,62 +770,54 @@ export const MaldivesData = [
         id: "f540cbb7-0314-4aae-923d-dc9e518998de",
         name: "Alila Kothaifaru Maldives",
         title: "Ultimate Relaxation in Crystal-clear waters",
-        slug: "siyam-world-maldives",
+        slug: "alila-kothaifaru-maldives",
         description: "Alila Kothaifaru Maldives is a luxurious resort nestled in the heart of the Maldives, offering an idyllic escape surrounded by pristine white-sand beaches and crystal-clear waters.",
-        descriptionLong: "NOOE Maldives Kunaavashi is a luxury island retreat in the Vaavu Atoll, offering overwater and beachfront villas, world-class dining, and stunning marine adventures. With crystal-clear waters, vibrant coral reefs, and a serene ambiance, it’s the perfect escape for relaxation and adventure.",
+        descriptionLong: "Alila Kothaifaru Maldives is a luxurious resort nestled in the heart of the Maldives, offering an idyllic escape surrounded by pristine white-sand beaches and crystal-clear waters. Located in the North Raa Atoll, the resort features stunning overwater villas and beachfront suites, all designed to blend modern elegance with natural beauty.",
         location: "North Raa Atoll, Maldives",
         nights: 3,
         price: 5599,
         transfer: "Seaplane Transfers",
         image: PackageM6,
-        logo: NooeMaldivesLogo,
+        logo: AlilaLogo,
         heroImages: [
-            Hero1, Hero2, Hero3, Hero4
+            Hero8, AlilaHero2, , AlilaHero3, AlilaHero4
         ],
         stays: [
             {
-                name: "Water Villa with Pool + Slide",
-                threeNightPrice: 3499,
-                fourNightPrice: 3869,
-                image: SWStay1
+                name: "Beach Pool\nVilla",
+                threeNightPrice: 5599,
+                fourNightPrice: 6999,
+                image: AlilaStay1
             },
             {
-                name: "Sunset Pool Beach Villa",
-                threeNightPrice: 3499,
-                fourNightPrice: 3869,
-                image: SWStay1
+                name: "Lagoon\nOverwater Pool\nVilla",
+                threeNightPrice: 5849,
+                fourNightPrice: 7299,
+                image: AlilaStay2
             },
             {
-                name: "Lagoon Villa with Pool + Slide",
-                threeNightPrice: 3799,
-                fourNightPrice: 4269,
-                image: SWStay1
+                name: "Ocean\nOverwater Pool\nVilla",
+                threeNightPrice: 6099,
+                fourNightPrice: 7639,
+                image: AlilaStay3
             }
         ],
         inclusions: {
-            description: "Additional Inclusions (Minimum 3-Night Stay)",
             list: [
-                "Daily Breakfast & Dinner at the main restaurant",
-                "Access to resort facilities, including the infinity pool & fitness center",
-                "Complimentary snorkeling gear & selected non-motorized water sports",
-                "Round-trip speedboat transfers",
-                "30% discount on spa treatments (excludes retail products)",
-                "Floating breakfast for 2 adults (once per stay, pool villas only)",
-                "Non-motorized water sports activities (Kayak & Paddleboard)",
-                "In-villa espresso machine, tea & coffee facilities",
+                "Daily Half-Board (Breakfast and Dinner)",
+                "Round-trip seaplane transfers",
+                "Complimentary group Dolphin cruise once per stay (subject to availability and weather conditions)",
+                "Complimentary 30-minute photoshoot session with 1 printed picture during your stay",
+                "Complimentary scheduled Alila wellness activities",
+                "Complimentary use of snorkeling equipment",
+                "Complimentary Alila Living bath amenities",
+                "Complimentary access to Play Alila, 24-hour Fitness Centre, and Library",
+                "Villa Host service for a personalized stay"
             ],
 
         },
-        honeymoonInclusions: {
-            description: "A minimum 3-night stay is required. A marriage certificate/registration dated within the last 12 months must be presented at the time of booking.",
-            list: [
-                "Welcome amenity & romantic bed decoration",
-                "Spa & souvenir shop discount voucher",
-                "Bottle of wine/sparkling juice + dessert selection",
-            ],
-        },
         resortHighlights: [
-            "The stylish collection of 80 villas with private pool",
+            "Where castaway meets runway, the stylish collection of 80 villas with private pool",
             "15-minute speedboat ride from Malé International Airport",
             "Overlooking the Emboodhoo Lagoon home to diverse marine life",
             "Few minutes’ boat ride from CROSSROADS Maldives",
@@ -904,7 +889,7 @@ export const MaldivesData = [
         },
         direction: {
             description: "A 15-minute speedboat ride from Malé International Airport whisks you away to a private island in this idyllic archipelago overlooking the Emboodhoo Lagoon. Introducing a new generation of luxury for modern adventurers.",
-            mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.78387728504!2d73.36210477581298!3d3.636736749960175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b40ab277acbc16b%3A0x4969a487361598b4!2sNOOE%20Maldives%20Kunaavashi!5e0!3m2!1sen!2slk!4v1760574930140!5m2!1sen!2slk"
+            mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.280384599352!2d72.84044927581441!3d5.525353333955408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b6b03dd72d62883%3A0xa5d2a1de5fb21c85!2sAlila%20Kothaifaru%20Maldives!5e0!3m2!1sen!2slk!4v1760947768061!5m2!1sen!2slk",
         },
         featuredHotels: [
             "f2f02ff2-1dd2-405a-a140-726ae84fa8a3",
