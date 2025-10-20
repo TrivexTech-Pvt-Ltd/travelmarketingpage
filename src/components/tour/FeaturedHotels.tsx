@@ -15,7 +15,7 @@ const FeaturedHotels = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 p-4">
                 {
                     featuredHotelsData.map((hotel, index) => (
-                        <PackageCard country='maldives' key={index} {...hotel} />
+                        <PackageCard key={index} country='maldives' {...hotel} isFeatured={true} />
                     ))
 
                 }

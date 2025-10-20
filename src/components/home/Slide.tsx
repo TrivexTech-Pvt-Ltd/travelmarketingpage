@@ -12,7 +12,7 @@ interface SliderProps {
 
 const Slide = ({ image, country, text, activeSlide }: SliderProps) => {
     return (
-        <div className='relative min-h-screen flex justify-center items-center'>
+        <div className='relative h-[520px] sm:min-h-screen flex justify-center items-center'>
             <div className="absolute inset-0 bg-black/50 z-10 pointer-events-none" />
             <Image src={image} alt='hero' fill priority />
             <motion.div
@@ -25,7 +25,7 @@ const Slide = ({ image, country, text, activeSlide }: SliderProps) => {
             >
                 <h4 className="text-2xl tracking-wide uppercase">{country}</h4>
 
-                <h1 className="text-5xl md:text-7xl font-work-sans font-medium leading-tight">
+                <h1 className="text-4xl sm:text-5xl md:text-7xl font-work-sans font-medium leading-tight">
                     {text.split("\n").map((line: string, i: number) => (
                         <span key={i} className="block">
                             {line}
