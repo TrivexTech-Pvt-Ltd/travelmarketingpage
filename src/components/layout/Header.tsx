@@ -39,10 +39,10 @@ const Header = () => {
     <header
       className={`fixed top-0 left-0 w-full z-[110] transition-all duration-500
         ${stickyNavbar
-          ? "bg-white shadow-md text-black"
+          ? "bg-white shadow-md !text-black"
           : isHomePage
             ? "bg-transparent text-gray-700"
-            : "bg-soft-beige text-black"
+            : "bg-white text-black"
         }`}
     >
       <div className="flex justify-between items-center md:px-28 px-8 py-4">
@@ -64,7 +64,7 @@ const Header = () => {
               <li key={index}>
                 <Link
                   href={item.path}
-                  className={`hover:text-sea-green transition-colors duration-300 ${pathname === item.path ? "text-sea-green" : "text-gray-100"
+                  className={`hover:text-sea-green transition-colors duration-300 ${pathname === item.path ? "text-emerald-400" : stickyNavbar ? "text-black" : "text-gray-900"
                     }`}
                 >
                   {item.name}
