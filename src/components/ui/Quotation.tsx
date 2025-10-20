@@ -104,7 +104,7 @@ export default function Quotation() {
     };
 
     return <>
-        <div className="max-w-4xl mx-auto p-8 bg-white rounded-2xl shadow-lg my-10">
+        <div className="max-w-7xl mx-auto bg-white">
             <h2 className="text-3xl font-semibold text-center mb-8 text-gray-800">
                 Let&apos;s Plan Your Tour
             </h2>

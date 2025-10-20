@@ -7,11 +7,14 @@ import React, { useState, useEffect } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RiCloseLine } from "react-icons/ri";
 import { Logo } from "@/lib/utils/staticImages";
+import Modal from "../ui/Modal";
+import Quotation from "../ui/Quotation";
 
 const Header = () => {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [stickyNavbar, setStickyNavbar] = useState<boolean>(false);
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
 
   //Nvabar items
   const menuItems = [
@@ -69,7 +72,7 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <button className="text-white bg-sea-green rounded-md py-3 px-6 cursor-pointer uppercase text-sm hover:opacity-90" type="button">inquire</button>
+          <button onClick={() => setIsModalOpen(true)} className="text-white bg-sea-green rounded-md py-3 px-6 cursor-pointer uppercase text-sm hover:opacity-90" type="button">inquire</button>
         </div>
 
 
@@ -104,6 +107,15 @@ const Header = () => {
           </ul>
         </div>
       )}
+
+      <Modal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        title="Hello from Modal"
+      >
+        <Quotation />
+      </Modal>
+
     </header>
   );
 };
