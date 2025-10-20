@@ -19,10 +19,10 @@ export default function AboutPage() {
       ></div>
 
       <section className="py-12 sm:py-16 md:py-20 text-center max-w-3xl mx-auto md:px-14 px-4">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-green-900 mb-6">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-green-900 mb-6 font-work-sans">
           About Travel Nation
         </h1>
-        <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed">
+        <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed font-work-sans">
           At Travel Nation, we believe that travel is more than just visiting a
           new destination – it’s about experiencing the world in a way that
           transforms you. Founded with a passion for exploring the vibrant
@@ -34,10 +34,10 @@ export default function AboutPage() {
 
       <section className="grid md:grid-cols-2 gap-8 items-center bg-[#F9F7F1] py-12 sm:py-16 md:py-20 md:px-28 px-8">
         <div>
-          <h2 className="text-2xl sm:text-3xl font-semibold text-green-900 mb-4">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-green-900 mb-4 font-work-sans">
             Our Story
           </h2>
-          <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
+          <p className="text-gray-700 text-sm sm:text-base leading-relaxed tracking-tight font-work-sans">
             Travel Nation was born out of a simple idea: to create travel
             experiences that leave a lasting impact. What began as a small,
             dedicated team with a shared love for adventure has grown into a
@@ -81,10 +81,10 @@ export default function AboutPage() {
             industry, we aim to create unique, meaningful experiences for every
             traveler.
           </p> */}
-          <h2 className="text-2xl sm:text-3xl font-semibold text-green-900 mb-4">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-green-900 mb-4 font-work-sans">
             Our Mission
           </h2>
-          <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-6">
+          <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-6 font-work-sans tracking-tight">
             Our mission is simple: to craft authentic, personalized travel
             experiences that bring out the very best of the Maldives and Sri
             Lanka. We believe in curating journeys that blend luxury, adventure,
@@ -334,42 +334,55 @@ export default function AboutPage() {
       </section> */}
 
       <section className="py-12 sm:py-16 md:py-20 text-center md:px-28 px-8">
-        <h2 className="text-2xl sm:text-3xl font-semibold text-green-900 mb-10 sm:mb-12">
+        <h2 className="text-2xl sm:text-3xl font-semibold text-green-900 mb-10 sm:mb-12 font-work-sans">
           Our Values
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10">
           <div>
-            <h3 className="text-lg sm:text-xl font-semibold text-green-900 mb-2">
+            <span className="flex items-center  justify-center text-green-900 mb-2">
+              <FaLuggageCart size={48} />
+            </span>
+            <h3 className="text-base font-semibold text-green-900 mb-2 font-work-sans">
               Passion for Exploration
             </h3>
-            <p className="text-gray-600 text-sm sm:text-base">
+            <p className="text-gray-600 text-sm sm:text-base font-work-sans">
               We are travelers at heart, driven by a desire to uncover new
               experiences and share them with you.
             </p>
           </div>
           <div>
-            <h3 className="text-lg sm:text-xl font-semibold text-green-900 mb-2">
+            <span className="flex items-center  justify-center text-green-900 mb-2">
+              <MdRoomService size={48} />
+            </span>
+            <h3 className="text-base font-semibold text-green-900 mb-2 font-work-sans">
               Integrity and Trust
             </h3>
-            <p className="text-gray-600 text-sm sm:text-base">
+            <p className="text-gray-600 text-sm sm:text-base font-work-sans">
               We value honesty and transparency in everything we do, ensuring
               you can always rely on us to deliver what we promise.
             </p>
           </div>
           <div>
-            <h3 className="text-lg sm:text-xl font-semibold text-green-900 mb-2">
+            <span className="flex items-center  justify-center text-green-900 mb-2">
+              <FaUmbrellaBeach size={48} />
+            </span>
+            <h3 className="text-base font-semibold text-green-900 mb-2 font-work-sans">
               Commitment to Quality
             </h3>
-            <p className="text-gray-600 text-sm sm:text-base">
+
+            <p className="text-gray-600 text-sm sm:text-base font-work-sans">
               We carefully select our partners, ensuring every element of your
               journey is of the highest standard.
             </p>
           </div>
           <div>
-            <h3 className="text-lg sm:text-xl font-semibold text-green-900 mb-2">
+            <span className="flex items-center  justify-center text-green-900 mb-2">
+              <IoBedOutline size={48} />
+            </span>
+            <h3 className="text-base font-semibold text-green-900 mb-2 font-work-sans">
               Customer-Centric Approach
             </h3>
-            <p className="text-gray-600 text-sm sm:text-base">
+            <p className="text-gray-600 text-sm sm:text-base font-work-sans">
               Your satisfaction is our top priority. We’re here to make your
               dream trip a reality, with personalized attention every step of
               the way.
