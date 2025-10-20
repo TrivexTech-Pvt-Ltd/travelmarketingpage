@@ -102,18 +102,18 @@ export default function Footer() {
 
         {/* Right Section */}
         <div>
-          <h2 className="text-xl font-semibold text-sea-green mb-4 font-work-sans">
+          <h2 className="text-xl font-semibold text-white mb-4 font-work-sans">
             Contact Info
           </h2>
           <ul className="space-y-3 text-base">
-            <li className="flex items-start gap-2 font-work-sans">
+            <li className=" font-work-sans">
               <HiLocationMarker className="text-sea-green mt-1" />
               <span>
                 Travel Nation, No 92/01/03, 1st Floor, Old Galle Rd, Panadura
                 12500
               </span>
             </li>
-            <li className="flex items-center gap-2 font-work-sans">
+            <li className=" font-work-sans">
               <HiPhone className="text-sea-green" />
               <a
                 href="tel:+94712808020"
@@ -122,7 +122,7 @@ export default function Footer() {
                 +9474 011 0489
               </a>
             </li>
-            <li className="flex items-center gap-2 font-work-sans">
+            <li className=" font-work-sans">
               <HiMail className="text-sea-green" />
               <a
                 href="mailto:info@sadaruwan.com"

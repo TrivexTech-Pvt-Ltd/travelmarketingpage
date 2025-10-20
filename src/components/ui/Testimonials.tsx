@@ -64,25 +64,25 @@ export default function Testimonials() {
             <div className="max-w-4xl w-full bg-white rounded-2xl shadow-xl p-8 relative">
                 {/* Header */}
                 <div className="flex justify-between items-center mb-8">
-                    <h2 className="text-2xl md:text-3xl font-bold text-purple-700">
+                    <h2 className="text-2xl md:text-3xl font-bold text-sea-green">
                         Live Traveler Reviews
                     </h2>
-                    <span className="bg-red-500 text-white text-sm font-semibold px-4 py-1.5 rounded-full">
+                    {/* <span className="bg-red-500 text-white text-sm font-semibold px-4 py-1.5 rounded-full">
                         ● LIVE UPDATES
-                    </span>
+                    </span> */}
                 </div>
 
                 {/* Review Card */}
                 <div className="border border-gray-100 rounded-2xl p-6 transition-all duration-300">
                     <div className="flex items-center gap-4 mb-4">
-                        <div className="w-12 h-12 rounded-full bg-purple-600 text-white flex items-center justify-center text-lg font-semibold">
+                        <div className="w-12 h-12 rounded-full bg-sea-green text-white flex items-center justify-center text-lg font-semibold">
                             {review.name.charAt(0)}
                         </div>
                         <div>
                             <h3 className="text-lg font-bold text-gray-900">
                                 {review.name}
                             </h3>
-                            <div className="flex items-center gap-1 text-blue-600 text-sm">
+                            <div className="flex items-center gap-1 text-text-sea-green text-sm">
                                 <MapPin size={16} />
                                 <span>{review.location}</span>
                             </div>
@@ -115,13 +115,13 @@ export default function Testimonials() {
                 <div className="flex justify-center mt-8 gap-4">
                     <button
                         onClick={prevSlide}
-                        className="bg-purple-600 text-white p-3 rounded-full shadow hover:bg-purple-700 transition"
+                        className="bg-sea-green text-white p-3 rounded-full shadow hover:bg-sea-green transition"
                     >
                         <ChevronLeft />
                     </button>
                     <button
                         onClick={nextSlide}
-                        className="bg-purple-600 text-white p-3 rounded-full shadow hover:bg-purple-700 transition"
+                        className="bg-sea-green text-white p-3 rounded-full shadow hover:bg-sea-green transition"
                     >
                         <ChevronRight />
                     </button>
@@ -133,7 +133,7 @@ export default function Testimonials() {
                         ? reviews.map((_, i) => (
                             <span
                                 key={i}
-                                className={`w-2.5 h-2.5 rounded-full ${i === currentIndex ? 'bg-purple-600' : 'bg-gray-300'}`}
+                                className={`w-2.5 h-2.5 rounded-full ${i === currentIndex ? 'bg-sea-green' : 'bg-gray-300'}`}
                             ></span>
                         ))
                         : null}
