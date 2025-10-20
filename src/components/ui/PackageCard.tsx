@@ -12,6 +12,7 @@ interface TravelCardProps {
     title: string;
     slug: string;
     country: string;
+    days?: number
 }
 
 const PackageCard = ({
@@ -23,7 +24,8 @@ const PackageCard = ({
     description,
     transfer,
     slug,
-    country
+    country,
+    days
 }: TravelCardProps) => {
     return (
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 relative">
@@ -49,7 +51,7 @@ const PackageCard = ({
                 <div className="flex justify-between py-3">
                     <div className="flex items-center gap-1 mb-2">
                         <Calendar1 className="w-4 h-4 text-emerald-600" />
-                        <span className="text-sm font-medium">{nights}</span>
+                        <span className="text-sm font-medium">{nights} Nights{days ? ` / ${days} Days` : ""}</span>
                     </div>
                     {
                         transfer && <div className="flex items-center gap-1 mb-2">
