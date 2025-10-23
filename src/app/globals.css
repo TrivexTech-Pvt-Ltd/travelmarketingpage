@@ -34,3 +34,16 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* Make dots visible & stylish */
+.slick-dots li button:before {
+  font-size: 12px !important;
+  color: #bbb !important;
+  opacity: 0.6 !important;
+}
+
+/* Highlight only the real active dot controlled by Slick */
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  opacity: 1 !important;
+}
