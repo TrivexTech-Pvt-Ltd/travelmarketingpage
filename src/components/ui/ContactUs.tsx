@@ -12,8 +12,17 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 
+interface FormData {
+  name: string;
+  email: string;
+  phone: string;
+  subject: string;
+  message: string;
+  consent: boolean;
+}
+
 export default function ContactUs() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
     phone: "",
@@ -93,7 +102,7 @@ export default function ContactUs() {
           Get in Touch
         </h1>
         <p className="text-gray-600 text-center mb-12">
-          We'd love to hear from you! Fill out the form below or reach us
+          We&apos;d love to hear from you! Fill out the form below or reach us
           directly through our contact details.
         </p>
 
@@ -165,17 +174,20 @@ export default function ContactUs() {
                         field === "email"
                           ? "email"
                           : field === "phone"
-                          ? "tel"
-                          : "text"
+                            ? "tel"
+                            : "text"
                       }
                       name={field}
-                      value={(formData as any)[field]}
+                      value={
+                        typeof formData[field as keyof FormData] === "boolean"
+                          ? String(formData[field as keyof FormData])
+                          : (formData[field as keyof FormData] as string)
+                      }
                       onChange={handleChange}
-                      className={`w-full border rounded-lg p-3 focus:ring-2 focus:ring-teal-600 outline-none ${
-                        errors[field]
-                          ? "border-red-500"
-                          : "border-gray-300 focus:border-teal-600"
-                      }`}
+                      className={`w-full border rounded-lg p-3 focus:ring-2 focus:ring-teal-600 outline-none ${errors[field]
+                        ? "border-red-500"
+                        : "border-gray-300 focus:border-teal-600"
+                        }`}
                     />
                     {errors[field] && (
                       <p className="text-red-500 text-sm mt-1">
@@ -194,11 +206,10 @@ export default function ContactUs() {
                   value={formData.message}
                   onChange={handleChange}
                   rows={4}
-                  className={`w-full border rounded-lg p-3 focus:ring-2 focus:ring-teal-600 outline-none ${
-                    errors.message
-                      ? "border-red-500"
-                      : "border-gray-300 focus:border-teal-600"
-                  }`}
+                  className={`w-full border rounded-lg p-3 focus:ring-2 focus:ring-teal-600 outline-none ${errors.message
+                    ? "border-red-500"
+                    : "border-gray-300 focus:border-teal-600"
+                    }`}
                   placeholder="How can we help you?"
                 />
                 {errors.message && (

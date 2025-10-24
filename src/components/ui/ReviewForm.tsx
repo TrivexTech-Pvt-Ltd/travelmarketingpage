@@ -82,7 +82,7 @@ const ReviewForm = () => {
           🌍 Share Your Travel Experience
         </h2>
         <p className="text-center text-gray-600 mb-10">
-          We'd love to hear about your journey — your feedback helps other travelers
+          We&apos;d love to hear about your journey — your feedback helps other travelers
           and inspires us to create even better adventures!
         </p>
 
@@ -167,11 +167,10 @@ const ReviewForm = () => {
                   onClick={() => setForm({ ...form, rating: star })}
                   onMouseEnter={() => setHover(star)}
                   onMouseLeave={() => setHover(0)}
-                  className={`text-3xl transition-transform duration-200 ${
-                    star <= (hover || form.rating)
+                  className={`text-3xl transition-transform duration-200 ${star <= (hover || form.rating)
                       ? "text-yellow-400 scale-110 drop-shadow-sm"
                       : "text-gray-300"
-                  }`}
+                    }`}
                 >
                   ★
                 </span>
