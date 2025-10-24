@@ -101,6 +101,19 @@ import {
     VaavuAtoll,
     SoMaldives6,
     NooeHero5,
+    NineArch,
+    SLCulture,
+    SLWaterSport,
+    SigiriyaRock,
+    UpcountryDance,
+    DambullaTemple,
+    FireDance,
+    CulturalDance,
+    SlWildLife1,
+    SlWildLife2,
+    SlWildLife3,
+    SlWildLife4,
+    CinnamonBay,
 } from "./staticImages";
 
 //Home Page Hero
@@ -209,6 +222,30 @@ export const maldivesHeroData = [
         text: "Alila Kothaifaru\nMaldives",
         link: "/maldives/alila-kothaifaru-maldives"
     },
+]
+
+export const srilankaHeroData = [
+    {
+        id: 1,
+        image: Hero6,
+        country: "Sri Lanka",
+        text: "Sri Lanka Experience journey",
+        link: "/srilanka/sri-lanka-experience-tour-itinerary"
+    },
+    {
+        id: 2,
+        image: NineArch,
+        country: "Sri Lanka",
+        text: "Sri Lanka Highlights Journey",
+        link: "/srilanka/sri-lanka-highlights-tour"
+    },
+    {
+        id: 3,
+        image: Hero3,
+        country: "Sri Lanka",
+        text: "Swift Escape to Sri Lanka's Hills & Shores",
+        link: "/srilanka/swift-escape-to-sri-lankas-hills-shores"
+    }
 ]
 
 export interface PackageType {
@@ -1360,5 +1397,98 @@ export const destinationImages_6 = [
     {
         id: 5,
         image: NooeHero5,
+    },
+]
+
+//Sri Lanka destinations
+export const slOverview = [
+    {
+        id: 1,
+        image: SLCulture,
+    },
+    {
+        id: 2,
+        image: SLWaterSport,
+    },
+    {
+        id: 3,
+        image: SigiriyaRock,
+    },
+    {
+        id: 4,
+        image: PackageSL2,
+    },
+    {
+        id: 5,
+        image: PackageSL3,
+    },
+]
+
+export const slCulture = [
+    {
+        id: 1,
+        image: UpcountryDance,
+    },
+    {
+        id: 2,
+        image: DambullaTemple,
+    },
+    {
+        id: 3,
+        image: FireDance,
+    },
+    {
+        id: 4,
+        image: CulturalDance,
+    },
+    {
+        id: 5,
+        image: SLCulture,
+    },
+]
+
+export const slWildLife = [
+    {
+        id: 1,
+        image: SlWildLife1,
+    },
+    {
+        id: 2,
+        image: SlWildLife2,
+    },
+    {
+        id: 3,
+        image: SlWildLife3,
+    },
+    {
+        id: 4,
+        image: SlWildLife4,
+    },
+]
+
+export const slJourneys = [
+    {
+        id: 1,
+        image: SlWildLife2,
+    },
+    {
+        id: 2,
+        image: Hero6,
+    },
+    {
+        id: 3,
+        image: NineArch,
+    },
+    {
+        id: 4,
+        image: PackageSL3,
+    },
+     {
+        id: 5,
+        image: CinnamonBay,
+    },
+     {
+        id: 6,
+        image: SLCulture,
     },
 ]

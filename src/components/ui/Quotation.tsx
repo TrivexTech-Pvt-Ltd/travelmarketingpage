@@ -117,7 +117,7 @@ export default function Quotation() {
                         name="destination"
                         value={formData.destination}
                         onChange={handleChange}
-                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
+                        className="border border-gray-300 text-black rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
                     >
                         <option value="">- Select -</option>
                         <option value="srilanka">Sri Lanka</option>
@@ -133,7 +133,7 @@ export default function Quotation() {
                         name="date"
                         value={formData.date}
                         onChange={handleChange}
-                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
+                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green text-black"
                     />
                 </div>
 
@@ -147,7 +147,7 @@ export default function Quotation() {
                         value={formData.firstName}
                         onChange={handleChange}
                         required
-                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
+                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green text-black"
                     />
                 </div>
 
@@ -161,7 +161,7 @@ export default function Quotation() {
                         value={formData.lastName}
                         onChange={handleChange}
                         required
-                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
+                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green text-black"
                     />
                 </div>
 
@@ -175,7 +175,7 @@ export default function Quotation() {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
+                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green text-black"
                     />
                 </div>
 
@@ -185,10 +185,11 @@ export default function Quotation() {
                     <input
                         type="tel"
                         name="phone"
+                        placeholder="+11 22 333 4444"
                         value={phone}
                         onChange={handlePhoneChange}
                         required
-                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
+                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green text-black"
                     />
                 </div>
 
@@ -200,7 +201,7 @@ export default function Quotation() {
                         value={formData.country}
                         onChange={handleChange}
                         required
-                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
+                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green text-black"
                     >
                         <option value="">Select Country</option>
                         {countries.map((c) => (
@@ -219,7 +220,7 @@ export default function Quotation() {
                         value={formData.adults}
                         onChange={handleChange}
                         required
-                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
+                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green text-black"
                     >
                         <option value="">- Select -</option>
                         {Array.from({ length: 10 }, (_, i) => (
@@ -237,7 +238,7 @@ export default function Quotation() {
                         name="children"
                         value={formData.children}
                         onChange={handleChange}
-                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
+                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green text-black"
                         required
                     >
                         <option value="">- Select -</option>
@@ -256,7 +257,7 @@ export default function Quotation() {
                         name="infants"
                         value={formData.infants}
                         onChange={handleChange}
-                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
+                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green text-black"
                         required
                     >
                         <option value="">- Select -</option>
@@ -280,7 +281,7 @@ export default function Quotation() {
                         onChange={handleChange}
                         placeholder="Any special requests or requirements?"
                         required
-                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green"
+                        className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-sea-green text-black"
                     ></textarea>
                 </div>
 

@@ -144,6 +144,20 @@ import AtollLocation2 from "../../../public/images/maldives/Atoll/location-2.web
 import AtollLocation3 from "../../../public/images/maldives/Atoll/location-3.webp";
 import AtollLocation4 from "../../../public/images/maldives/Atoll/location-4.webp";
 
+//Sri Lanka
+import NineArch from "../../../public/images/hero/sl/nine-arch.webp";
+import SLCulture from "../../../public/images/srilanka/Sri-Lanka-Cultural-History.webp";
+import SLWaterSport from "../../../public/images/srilanka/water-sport.webp";
+import SigiriyaRock from "../../../public/images/srilanka/Sigiriya-rock.webp";
+import FireDance from "../../../public/images/srilanka/fire-dance.webp";
+import DambullaTemple from "../../../public/images/srilanka/Dambulla-Cave-Temple.webp";
+import UpcountryDance from "../../../public/images/srilanka/upcountry-dance.webp";
+import CulturalDance from "../../../public/images/srilanka/Cultural-Dance.webp";
+import SlWildLife1 from "../../../public/images/srilanka/wildlife-4.webp";
+import SlWildLife2 from "../../../public/images/srilanka/wildlife-1.webp";
+import SlWildLife3 from "../../../public/images/srilanka/wildlife-2.webp";
+import SlWildLife4 from "../../../public/images/srilanka/wildlife-3.webp";
+import CinnamonBay from "../../../public/images/srilanka/Cinnamon-Bey- Beruwala.webp"
 
 export {
     Logo,
@@ -252,5 +266,18 @@ export {
     NorthMaleAtoll,
     SouthMaleAtoll,
     AriAtoll,
-    VaavuAtoll
+    VaavuAtoll,
+    NineArch,
+    SLCulture,
+    SLWaterSport,
+    SigiriyaRock,
+    CulturalDance,
+    DambullaTemple,
+    FireDance,
+    UpcountryDance,
+    SlWildLife1,
+    SlWildLife2,
+    SlWildLife3,
+    SlWildLife4,
+    CinnamonBay
 }

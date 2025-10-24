@@ -13,7 +13,7 @@ const Destinations = () => {
                     <div className='space-y-6 md:space-y-10 max-xl:mb-5'>
                         <h3 className='text-sea-green text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display'>Luxury Travel in the <br /> Maldives</h3>
                         <p className='text-sm sm:text-base text-gray-500 leading-7'>In the Maldives, we offer exclusive stays at world-renowned resorts, where you can dive into crystal-clear waters, unwind in overwater villas, and indulge in rejuvenating spa treatments against a backdrop of endless ocean views. Whether it&apos;s an idyllic honeymoon or a family getaway, we tailor every moment to your desires.</p>
-                        <Link href="#" className="text-white text-sm bg-sea-green py-3 px-6 sm:py-4 sm:px-8 border border-white transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105 font-medium">
+                        <Link href="/maldives" className="text-white text-sm bg-sea-green py-3 px-6 sm:py-4 sm:px-8 border border-white transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105 font-medium">
                             View Destinations
                         </Link>
                     </div>
@@ -25,7 +25,7 @@ const Destinations = () => {
                     <div className='space-y-6 md:space-y-10 max-xl:mb-5'>
                         <h3 className='text-sea-green text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display'>Discover the Beauty <br /> of Sri Lanka</h3>
                         <p className='text-sm sm:text-base text-gray-500 leading-7'>In Sri Lanka, we introduce you to a land of rich heritage, breathtaking landscapes, and unmatched hospitality. Explore ancient temples, hike through mist-covered mountains, and witness wildlife up close in one of the world&apos;s top safari destinations. With Travel Nation, every journey is a seamless fusion of adventure and relaxation, offering personalized tours that cater to all tastes — from serene wellness retreats to adrenaline-pumping escapades.</p>
-                        <Link href="#" className="text-white text-sm bg-sea-green py-3 px-6 sm:py-4 sm:px-8 border border-white transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105 font-medium">
+                        <Link href="/sri-lanka" className="text-white text-sm bg-sea-green py-3 px-6 sm:py-4 sm:px-8 border border-white transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105 font-medium">
                             View Destinations
                         </Link>
                     </div>
