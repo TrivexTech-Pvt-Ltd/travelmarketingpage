@@ -10,6 +10,7 @@ import RoomCategories from './RoomCategories';
 const TourDetailsSriLanka = ({ slug }: { slug: string }) => {
     const packageData = getSriLankanBySlug(slug);
     const setPackageData = useSLTourPackageStore(s => s.setPackage);
+    console.log("packageData",packageData);
 
     useEffect(() => {
         setPackageData(packageData)
