@@ -8,3 +8,8 @@ export interface HeroType {
     text: string;
     link: string;
 }
+
+export type ImageSliderType = {
+    id: number;
+    image: StaticImageData;
+}

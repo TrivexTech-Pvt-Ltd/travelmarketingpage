@@ -27,7 +27,7 @@ const Slide = ({ image, country, text, activeSlide, height, link }: SliderProps)
             >
                 <h4 className="text-2xl tracking-wide uppercase">{country}</h4>
 
-                <h1 className="text-4xl sm:text-5xl md:text-7xl font-work-sans font-medium leading-tight">
+                <h1 className="text-4xl sm:text-5xl md:text-7xl font-playfair-display font-medium leading-tight">
                     {text.split("\n").map((line: string, i: number) => (
                         <span key={i} className="block">
                             {line}
@@ -37,7 +37,7 @@ const Slide = ({ image, country, text, activeSlide, height, link }: SliderProps)
 
                 <Link
                     href={`${link}`}
-                    className="text-white bg-sea-green py-4 px-8 rounded-4xl border border-white 
+                    className="text-white bg-sea-green py-3 px-8 rounded-md border border-white 
           transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105"
                 >
                     Discover

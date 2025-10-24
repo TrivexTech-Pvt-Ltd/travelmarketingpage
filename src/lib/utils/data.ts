@@ -76,6 +76,31 @@ import {
     AlilaStay1,
     AlilaStay2,
     AlilaStay3,
+    MVPHero5,
+    LhAtollHero,
+    SunBedIcon,
+    FloatIcon,
+    DinnerIcon,
+    HotelBedIcon,
+    NooeHero4,
+    AlilaHero5,
+    AlilaHero6,
+    MVPHero6,
+    MVPHero7,
+    SoMaldives4,
+    SoMaldives5,
+    BaaAtoll,
+    LhaviyaniAtoll,
+    AtollLocation4,
+    AtollLocation2,
+    AtollLocation1,
+    AtollLocation3,
+    NorthMaleAtoll,
+    SouthMaleAtoll,
+    AriAtoll,
+    VaavuAtoll,
+    SoMaldives6,
+    NooeHero5,
 } from "./staticImages";
 
 //Home Page Hero
@@ -1127,3 +1152,213 @@ export const dedicatedServices = [
         title: "Iconic Experiences",
     },
 ];
+
+//Maldives destinations
+export const destination_1 = [
+    {
+        id: 1,
+        image: SWHero2,
+    },
+    {
+        id: 2,
+        image: MVPHero3,
+    },
+    {
+        id: 3,
+        image: SoMaldives1,
+    },
+    {
+        id: 4,
+        image: MVPHero5,
+    },
+    {
+        id: 5,
+        image: LhAtollHero,
+    }
+]
+
+export const destination_2 = [
+    {
+        id: 1,
+        image: AlilaHero3,
+    },
+    {
+        id: 2,
+        image: AlilaHero4,
+    },
+    {
+        id: 3,
+        image: Accommodation1,
+    },
+    {
+        id: 4,
+        image: Accommodation2,
+    },
+    {
+        id: 5,
+        image: Dining2,
+    }
+]
+
+export const destination_3 = [
+    {
+        id: 1,
+        image: SunBedIcon,
+        title: "Luxury Wellness",
+        description: "Rejuvenate with holistic spa treatments in private, overwater pavilions, or join yoga sessions as the sun rises over the horizon."
+    },
+    {
+        id: 2,
+        image: HotelBedIcon,
+        title: "Tailored Excursions",
+        description: "From private yacht trips to sunset cruises, our resorts offer exclusive adventures designed just for you."
+    },
+    {
+        id: 3,
+        image: FloatIcon,
+        title: "Overwater Villas",
+        description: "Wake up to panoramic views of the Indian Ocean and step straight from your room into the warm, turquoise waters."
+    },
+    {
+        id: 4,
+        image: DinnerIcon,
+        title: "Private Dining",
+        description: "Enjoy gourmet meals on secluded sandbanks or under the stars, with world-class chefs preparing exquisite international and Maldivian cuisine."
+    }
+]
+
+export const destinationImages_3 = [
+    {
+        id: 1,
+        image: AlilaHero5,
+    },
+    {
+        id: 2,
+        image: NooeHero4,
+    },
+    {
+        id: 3,
+        image: MVPHero5,
+    },
+    {
+        id: 4,
+        image: AlilaHero6,
+    },
+]
+
+export const destinationImages_4 = [
+    {
+        id: 1,
+        image: MVPHero6,
+    },
+    {
+        id: 2,
+        image: MVPHero7,
+    },
+    {
+        id: 3,
+        image: MVPHero3,
+    },
+    {
+        id: 4,
+        image: Hero7,
+    },
+    {
+        id: 5,
+        image: SoMaldives5,
+    },
+    {
+        id: 6,
+        image: SoMaldives4,
+    },
+]
+
+export const destinationImages_5 = [
+    {
+        id: 1,
+        image: BaaAtoll,
+    },
+    {
+        id: 2,
+        image: LhaviyaniAtoll,
+    },
+    {
+        id: 3,
+        image: AtollLocation4,
+    },
+    {
+        id: 4,
+        image: AtollLocation2,
+    },
+    {
+        id: 5,
+        image: AtollLocation1,
+    },
+    {
+        id: 6,
+        image: AtollLocation3,
+    },
+]
+
+export const atollData = [
+    {
+        id: 1,
+        image: NorthMaleAtoll,
+        title: "North Malé Atoll",
+        description: "As the gateway to the Maldives, North Malé Atoll is home to the capital, Malé, and offers easy access to some of the most luxurious resorts. It’s perfect for those seeking both tranquility and excitement, with luxury resorts like Gili Lankanfushi and Baros Maldives offering world-class service and close proximity to vibrant reefs and surf breaks."
+    },
+    {
+        id: 2,
+        image: SouthMaleAtoll,
+        title: "South Malé Atoll",
+        description: "Known for its quieter islands, South Malé Atoll is ideal for those looking to escape the crowds and enjoy peaceful seclusion. Resorts like Anantara Veli and COMO Cocoa Island offer intimate getaways with overwater bungalows and private beaches, perfect for honeymooners. The diving here is exceptional, with thriving coral gardens and abundant marine life."
+    },
+    {
+        id: 3,
+        image: LhaviyaniAtoll,
+        title: "Lhaviyani Atoll",
+        description: "Known for its deep lagoons and abundant marine life, Lhaviyani Atoll offers a more remote experience. Resorts like Hurawalhi Island Resort and Kudadoo Maldives Private Island redefine luxury with their all-inclusive packages and underwater restaurants. The atoll’s peaceful setting makes it perfect for those who want to disconnect from the world and reconnect with nature."
+    },
+    {
+        id: 4,
+        image: BaaAtoll,
+        title: "Baa Atoll",
+        description: "A UNESCO Biosphere Reserve, Baa Atoll is famous for its biodiversity and offers some of the best eco-friendly luxury resorts, like Soneva Fushi and Amilla Maldives Resort. Beyond its stunning beaches, Baa Atoll is a haven for manta rays, with Hanifaru Bay serving as a top spot for snorkeling and diving with these gentle giants during the migration season."
+    },
+    {
+        id: 5,
+        image: AriAtoll,
+        title: "Ari Atoll",
+        description: "Ari Atoll is a favorite for diving enthusiasts. Its clear waters and spectacular reefs are home to whale sharks, making it a top spot for divers year-round. Resorts like Constance Moofushi and LUX South Ari Atoll* combine luxury with incredible underwater adventures. The wide, sandy beaches and lush tropical vegetation make Ari Atoll a great choice for both relaxation and exploration."
+    },
+    {
+        id: 6,
+        image: VaavuAtoll,
+        title: "Vaavu Atoll",
+        description: "For divers seeking adventure, Vaavu Atoll is a must-visit. Its Fotteyo Kandu dive site is considered one of the best in the Maldives, with its dramatic underwater landscapes and vibrant marine life. Vaavu Atoll’s untouched beauty and smaller, more intimate resorts offer a perfect balance of luxury and authenticity."
+    },
+
+]
+
+export const destinationImages_6 = [
+    {
+        id: 1,
+        image: WellnessSpa,
+    },
+    {
+        id: 2,
+        image: Hero2,
+    },
+    {
+        id: 3,
+        image: SoMaldives6,
+    },
+    {
+        id: 4,
+        image: NooeHero2,
+    },
+    {
+        id: 5,
+        image: NooeHero5,
+    },
+]
