@@ -71,7 +71,7 @@ export default function Testimonials() {
         >
           {reviews.map((review, i) => (
             <SwiperSlide key={i}>
-              <div className="relative bg-white/70 backdrop-blur-md p-6 sm:p-8 rounded-2xl shadow-inner ">
+              <div className="relative bg-white/70 backdrop-blur-md p-6 sm:p-8 rounded-2xl shadow-md ">
                 <Quote
                   size={40}
                   className="absolute top-4 right-4 text-green-800 opacity-70"

@@ -17,6 +17,9 @@
   --color-light-cyan: #F1F9F9;
   --color-light-gray: #f8f8f8;
   --color-shadow-wash: #0C0F26;
+
+  /* breakpoints */
+  --breakpoint-tablet: 56rem;
 }
 
 .slick-dots {
