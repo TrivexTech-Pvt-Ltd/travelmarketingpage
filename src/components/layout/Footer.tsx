@@ -8,13 +8,13 @@ import {
 import { HiLocationMarker, HiPhone, HiMail } from "react-icons/hi";
 import Image from "next/image";
 import { Logo } from "@/lib/utils/staticImages";
+import Link from "next/link";
 export default function Footer() {
   return (
-    <footer className="bg-sea-green text-gray-300 py-10 relative md:px-28 px-8">
+    <footer className="bg-sea-green text-gray-300 py-10 relative px-4 sm:px-10 md:px-16 lg:px-20 xl:px-28">
       <div className="container mx-auto px-6 grid md:grid-cols-3 gap-8">
         {/* Left Section */}
         <div>
-          {/* <h2 className="text-xl font-semibold text-red-500 mb-4">SNT Holidays</h2> */}
           <Image
             src={Logo}
             alt="logo"
@@ -22,79 +22,87 @@ export default function Footer() {
             width={200}
             className="z-30 mb-4"
           />
-          <p className="text-base leading-relaxed font-work-sans">
-            At Travel Nation, we’re not just about crafting holidays; we’re
+          <p className="text-base leading-relaxed">
+            At Travel Nation, we&apos;re not just about crafting holidays; we&apos;re
             about creating unforgettable journeys that immerse you in the heart
-            of two of the world’s most stunning destinations
+            of two of the world&apos;s most stunning destinations
           </p>
 
           {/* Social Icons */}
           <div className="flex items-center gap-4 mt-5">
-            <a
+            <Link
               href="#"
-              className="bg-gray-800 p-3 rounded-full hover:bg-sea-green transition"
+              className="p-3 rounded-full border border-gray-300 transition hover:bg-gray-300 hover:text-sea-green"
             >
               <FaFacebookF />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
-              className="bg-gray-800 p-3 rounded-full hover:bg-sea-green transition"
+              className="p-3 rounded-full border border-gray-300 transition hover:bg-gray-300 hover:text-sea-green"
             >
               <FaInstagram />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
-              className="bg-gray-800 p-3 rounded-full hover:bg-sea-green transition"
+              className="p-3 rounded-full border border-gray-300 transition hover:bg-gray-300 hover:text-sea-green"
             >
               <FaTwitter />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
-              className="bg-gray-800 p-3 rounded-full hover:bg-sea-green transition"
+              className="p-3 rounded-full border border-gray-300 transition hover:bg-gray-300 hover:text-sea-green"
             >
               <FaYoutube />
-            </a>
+            </Link>
           </div>
         </div>
 
         {/* Middle Section */}
         <div className="">
           <div className="w-fit">
-            <h2 className="text-xl font-semibold text-sea-green mb-4 text-center font-work-sans">
+            <h2 className="text-xl font-semibold text-white mb-4 text-center">
               Quick Links
             </h2>
             <ul className="space-y-2 text-base text-left">
               <li>
-                <a
-                  href="#"
-                  className="hover:text-sea-green transition font-work-sans"
+                <Link
+                  href="/"
+                  className="hover:underline transition"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-sea-green transition font-work-sans"
+                <Link
+                  href="/sri-lanka"
+                  className="hover:underline transition"
                 >
-                  Destination
-                </a>
+                  Sri Lanka
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-sea-green transition font-work-sans"
+                <Link
+                  href="/maldives"
+                  className="hover:underline transition"
+                >
+                  Maldives
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/about-us"
+                  className="hover:underline transition"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-sea-green transition font-work-sans"
+                <Link
+                  href="/contact-us"
+                  className="hover:underline transition"
                 >
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -102,41 +110,39 @@ export default function Footer() {
 
         {/* Right Section */}
         <div>
-          <h2 className="text-xl font-semibold text-white mb-4 font-work-sans">
+          <h2 className="text-xl font-semibold text-white mb-4">
             Contact Info
           </h2>
-          <ul className="space-y-3 text-base">
-            <li className=" font-work-sans">
-              <HiLocationMarker className="text-sea-green mt-1" />
+          <ul className="space-y-2 text-base">
+            <li className="flex gap-x-2">
+              <HiLocationMarker className="text-gray-300 mt-1" />
               <span>
-                Travel Nation, No 92/01/04, 1st Floor, Old Galle Rd, Panadura
+                Travel Nation,<br />No 92/01/04, 1st Floor,<br /> Old Galle Rd, Panadura<br />
                 12500
               </span>
             </li>
-            <li className=" font-work-sans">
-              <HiPhone className="text-sea-green" />
-              <a
+            <li className="flex items-center gap-x-2">
+              <HiPhone className="text-gray-300" />
+              <Link
                 href="tel:+94712808020"
-                className="hover:text-sea-green transition"
               >
-                +9474 011 0489
-              </a>
+                +94 740 1104 89
+              </Link>
             </li>
-            <li className=" font-work-sans">
-              <HiMail className="text-sea-green" />
-              <a
+            <li className="flex items-center gap-x-2">
+              <HiMail className="text-gray-300" />
+              <Link
                 href="mailto:info@sadaruwan.com"
-                className="hover:text-sea-green transition"
               >
                 info@travelnation.vip
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
       </div>
 
       {/* Divider */}
-      <div className="border-t border-gray-700 mt-8 pt-4 text-center text-base font-work-sans">
+      <div className="border-t border-white mt-8 pt-4 text-center text-base">
         © Copyright Travel Nation All Rights Reserved
       </div>
 
@@ -145,7 +151,7 @@ export default function Footer() {
         href="https://wa.me/94740110489"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition"
+        className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-50"
       >
         <FaWhatsapp size={24} />
       </a>

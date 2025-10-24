@@ -159,6 +159,10 @@ import SlWildLife3 from "../../../public/images/srilanka/wildlife-2.webp";
 import SlWildLife4 from "../../../public/images/srilanka/wildlife-3.webp";
 import CinnamonBay from "../../../public/images/srilanka/Cinnamon-Bey- Beruwala.webp"
 
+//decos
+import DecoLeft from "../../../public/images/shapes/deco-left.png";
+import DecoRight from "../../../public/images/shapes/deco-right.png";
+
 export {
     Logo,
     Hero1,
@@ -279,5 +283,7 @@ export {
     SlWildLife2,
     SlWildLife3,
     SlWildLife4,
-    CinnamonBay
+    CinnamonBay,
+    DecoLeft,
+    DecoRight
 }
