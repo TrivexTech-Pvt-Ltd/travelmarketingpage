@@ -138,7 +138,7 @@ const Header = () => {
 
         {/* Mobile Toggle Button */}
         <button
-          className={`tablet:hidden text-3xl focus:outline-none ${stickyNavbar ? '!text-black' : 'text-white'} `}
+          className={`tablet:hidden text-3xl focus:outline-none ${stickyNavbar ? '!text-black' : isHomePage ? "text-white" : "text-black"} `}
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <RiCloseLine /> : <RxHamburgerMenu />}

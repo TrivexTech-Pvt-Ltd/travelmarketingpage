@@ -6,7 +6,7 @@ import React from 'react'
 
 const Destinations = () => {
     return (
-        <div className='flex flex-col md:pb-20'>
+        <div className='flex flex-col'>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                 <Image src={MaldivesHero} height={500} width={500} alt='maldives' className='w-full h-full' />
                 <div className='bg-soft-beige p-6 flex justify-center items-center flex-col lg:px-12 xl:px-28'>

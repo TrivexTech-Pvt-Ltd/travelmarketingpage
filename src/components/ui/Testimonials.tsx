@@ -41,15 +41,15 @@ export default function Testimonials() {
   if (!reviews.length) return null;
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center py-10 px-4 sm:px-6 lg:px-8 bg-cover bg-center">
-      <div className="max-w-7xl w-full p-8 md:p-10 relative transition-all duration-300">
+    <section className="relative py-8 md:py-12 flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-cover bg-center bg-soft-beige/50">
+      <div className="max-w-7xl w-full relative transition-all duration-300">
         {/* Header */}
         <div className="text-center mb-8">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-sea-green mb-2">
-            Traveler Testimonials
+          <h2 className="text-3xl md:text-4xl font-extrabold text-sea-green mb-2 font-playfair-display">
+            Stories from Our Journeys
           </h2>
-          <p className="text-gray-500 text-sm md:text-base">
-            Real experiences shared by our happy travelers ✈️
+          <p className="text-gray-500 text-base md:text-lg">
+            Real experiences shared by our happy travelers
           </p>
         </div>
 
