@@ -71,17 +71,12 @@ const ReviewForm = () => {
   };
 
   return (
-    <section className="relative bg-gradient-to-br from-emerald-100 via-green-100 to-cyan-300 py-16 px-8 md:px-28 overflow-hidden">
-      {/* Floating Background Icons */}
-      <FaPlaneDeparture className="absolute text-emerald-300 text-[6rem] top-10 left-8 animate-float opacity-30" />
-      <FaUmbrellaBeach className="absolute text-green-300 text-[5rem] bottom-16 right-10 animate-float-delayed opacity-30" />
-      <FaSuitcaseRolling className="absolute text-emerald-400 text-[4rem] top-1/2 right-1/4 animate-float-slow opacity-25" />
-
-      <div className="relative max-w-7xl mx-auto  p-8 sm:p-12 ">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 text-emerald-800 tracking-tight">
+    <section className="bg-light-cyan py-16 px-4 md:px-28 overflow-hidden">
+      <div className="relative max-w-7xl mx-auto p-4 sm:p-12 ">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 text-sea-green tracking-tight font-playfair-display">
           🌍 Share Your Travel Experience
         </h2>
-        <p className="text-center text-gray-600 mb-10">
+        <p className="text-center text-gray-500 mb-10 text-base">
           We&apos;d love to hear about your journey — your feedback helps other travelers
           and inspires us to create even better adventures!
         </p>
@@ -92,7 +87,7 @@ const ReviewForm = () => {
         >
           {/* Name */}
           <div className="flex flex-col">
-            <label className="text-gray-700 font-medium mb-2">
+            <label className="text-gray-500 font-medium mb-2 text-sm sm:text-base">
               Name <span className="text-red-500">*</span>
             </label>
             <input
@@ -102,13 +97,13 @@ const ReviewForm = () => {
               onChange={handleChange}
               placeholder="Enter your name"
               required
-              className="border border-gray-300 bg-white/60 rounded-xl px-4 py-3 focus:ring-2 focus:ring-emerald-400 focus:outline-none transition-all"
+              className="border border-gray-300 bg-white/60 rounded-xl px-4 py-3 focus:ring-1 ring-sea-green focus:outline-none transition-all"
             />
           </div>
 
           {/* Email */}
           <div className="flex flex-col">
-            <label className="text-gray-700 font-medium mb-2">
+            <label className="text-gray-500 font-medium mb-2 text-sm sm:text-base">
               Email <span className="text-red-500">*</span>
             </label>
             <input
@@ -118,30 +113,30 @@ const ReviewForm = () => {
               onChange={handleChange}
               placeholder="Enter your email"
               required
-              className="border border-gray-300 bg-white/60 rounded-xl px-4 py-3 focus:ring-2 focus:ring-emerald-400 focus:outline-none transition-all"
+              className="border border-gray-300 bg-white/60 rounded-xl px-4 py-3 focus:ring-1 ring-sea-green focus:outline-none transition-all"
             />
           </div>
 
           {/* Location */}
           <div className="flex flex-col">
-            <label className="text-gray-700 font-medium mb-2">Location</label>
+            <label className="text-gray-500 font-medium mb-2 text-sm sm:text-base">Location</label>
             <input
               type="text"
               name="location"
               value={form.location}
               onChange={handleChange}
               placeholder="Enter your location"
-              className="border border-gray-300 bg-white/60 rounded-xl px-4 py-3 focus:ring-2 focus:ring-emerald-400 focus:outline-none transition-all"
+              className="border border-gray-300 bg-white/60 rounded-xl px-4 py-3 focus:ring-1 focus:ring-sea-green focus:outline-none transition-all"
             />
           </div>
 
           {/* Package */}
           <div className="flex flex-col">
-            <label className="text-gray-700 font-medium mb-2">Package</label>
+            <label className="text-gray-500 font-medium mb-2 text-sm sm:text-base">Package</label>
             <select
               value={form.package}
               onChange={(e) => setForm({ ...form, package: e.target.value })}
-              className="border border-gray-300 bg-white/60 rounded-xl px-4 py-3 focus:ring-2 focus:ring-emerald-400 focus:outline-none transition-all"
+              className="border border-gray-300 bg-white/60 rounded-xl px-4 py-3 focus:ring-1 focus:ring-sea-green focus:outline-none transition-all"
             >
               <option value="">Select your trip package</option>
               <option value="CT">Cultural Tour</option>
@@ -157,7 +152,7 @@ const ReviewForm = () => {
 
           {/* Rating */}
           <div className="flex flex-col">
-            <label className="text-gray-700 font-medium mb-2">
+            <label className="text-gray-500 font-medium mb-2 text-sm sm:text-base">
               Your Rating <span className="text-red-500">*</span>
             </label>
             <div className="flex gap-2 cursor-pointer">
@@ -168,8 +163,8 @@ const ReviewForm = () => {
                   onMouseEnter={() => setHover(star)}
                   onMouseLeave={() => setHover(0)}
                   className={`text-3xl transition-transform duration-200 ${star <= (hover || form.rating)
-                      ? "text-yellow-400 scale-110 drop-shadow-sm"
-                      : "text-gray-300"
+                    ? "text-yellow-400 scale-110 drop-shadow-sm"
+                    : "text-gray-300"
                     }`}
                 >
                   ★
@@ -180,7 +175,7 @@ const ReviewForm = () => {
 
           {/* Review */}
           <div className="md:col-span-2 flex flex-col">
-            <label className="text-gray-700 font-medium mb-2">
+            <label className="text-gray-500 font-medium mb-2 text-sm sm:text-base">
               Review <span className="text-red-500">*</span>
             </label>
             <textarea
@@ -190,7 +185,7 @@ const ReviewForm = () => {
               value={form.review}
               onChange={handleChange}
               required
-              className="border border-gray-300 bg-white/60 rounded-xl px-4 py-3 focus:ring-2 focus:ring-emerald-400 focus:outline-none resize-none transition-all"
+              className="border border-gray-300 bg-white/60 rounded-xl px-4 py-3 focus:ring-1 focus:ring-sea-green focus:outline-none resize-none transition-all"
             ></textarea>
           </div>
 
@@ -199,39 +194,13 @@ const ReviewForm = () => {
             <button
               type="submit"
               disabled={loading}
-              className="relative bg-gradient-to-r from-emerald-500 to-green-400 hover:from-emerald-600 hover:to-green-500 text-white font-semibold py-3 px-12 rounded-full shadow-lg hover:shadow-emerald-300/50 transition-all duration-300 disabled:opacity-60"
+              className="text-white text-sm bg-sea-green py-3 px-6 sm:py-4 sm:px-8 cursor-pointer rounded-md transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105 font-medium"
             >
-              {loading ? "Submitting..." : "✨ Submit Review"}
+              {loading ? "Submitting..." : "Submit Review"}
             </button>
           </div>
         </form>
       </div>
-
-      {/* Floating Animations */}
-      <style jsx>{`
-        @keyframes float {
-          0% {
-            transform: translateY(0px);
-          }
-          50% {
-            transform: translateY(-10px);
-          }
-          100% {
-            transform: translateY(0px);
-          }
-        }
-        .animate-float {
-          animation: float 6s ease-in-out infinite;
-        }
-        .animate-float-delayed {
-          animation: float 7s ease-in-out infinite;
-          animation-delay: 2s;
-        }
-        .animate-float-slow {
-          animation: float 9s ease-in-out infinite;
-          animation-delay: 1s;
-        }
-      `}</style>
     </section>
   );
 };

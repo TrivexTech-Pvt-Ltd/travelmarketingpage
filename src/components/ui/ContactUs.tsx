@@ -11,6 +11,8 @@ import {
   FaPhoneAlt,
   FaEnvelope,
 } from "react-icons/fa";
+import Link from "next/link";
+import { LuSend } from "react-icons/lu";
 
 interface FormData {
   name: string;
@@ -85,7 +87,7 @@ export default function ContactUs() {
   return (
     <section className="bg-gray-50">
       {/* Google Map */}
-      <div className="w-full h-[400px] mt-10 rounded-lg overflow-hidden shadow-md">
+      <div className="w-full pt-14 h-[600px] mt-10 rounded-lg overflow-hidden shadow-md">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63309.02025815471!2d79.90217258071775!3d6.769010986776209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2489f9aefb69b%3A0x2e6fae84dc0b9e6e!2sPanadura!5e0!3m2!1sen!2slk!4v1690000000000!5m2!1sen!2slk"
           width="100%"
@@ -98,65 +100,64 @@ export default function ContactUs() {
 
       {/* Content */}
       <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-20 py-16">
-        <h1 className="text-4xl font-bold text-center mb-4 text-teal-700">
+        <h1 className="text-4xl font-bold text-center mb-4 text-sea-green font-playfair-display">
           Get in Touch
         </h1>
-        <p className="text-gray-600 text-center mb-12">
+        <p className="text-gray-500 text-base text-center mb-4 sm:mb-12">
           We&apos;d love to hear from you! Fill out the form below or reach us
           directly through our contact details.
         </p>
 
-        <div className="grid lg:grid-cols-2 gap-10">
+        <div className="grid md:grid-cols-2 gap-5 sm:gap-10">
           {/* Contact Info */}
-          <div className="bg-white shadow-lg rounded-2xl p-8 flex flex-col justify-center text-center">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-6">
-              Contact Information
-            </h2>
-
-            <div className="space-y-4 text-gray-600">
-              <p className="flex items-center justify-center gap-2">
-                <FaMapMarkerAlt className="text-teal-700" /> Travel Nation, No.
-                92/01/03, 1st Floor, Old Galle Rd, Panadura 12500
-              </p>
-              <p className="flex items-center justify-center gap-2">
-                <FaEnvelope className="text-teal-700" />
-                <a
-                  href="mailto:info@travelnation.vip"
-                  className="hover:underline"
+          <div className="flex justify-center items-center h-full">
+            <div className="p-8 flex flex-col items-start">
+              <h2 className="text-2xl font-semibold text-shadow-wash mb-6 text-left">
+                Contact details
+              </h2>
+              <div className="space-y-4 text-gray-500">
+                <p className="text-left">
+                  Travel Nation, No.
+                  92/01/03, 1st Floor, Old <br /> Galle Rd, Panadura 12500
+                </p>
+                <p className="text-left">
+                  <a
+                    href="mailto:info@travelnation.vip"
+                    className="hover:underline"
+                  >
+                    info@travelnation.vip
+                  </a>
+                </p>
+                <p className="text-left">
+                  +94 74 011 0489
+                </p>
+              </div>
+              <div className="flex items-center gap-x-4 mt-8  text-sea-green text-lg text-left">
+                <Link
+                  href="#"
+                  className="hover:text-teal-500 transition-transform transform hover:scale-110 border p-3"
                 >
-                  info@travelnation.vip
-                </a>
-              </p>
-              <p className="flex items-center justify-center gap-2">
-                <FaPhoneAlt className="text-teal-700" /> +94 74 011 0489
-              </p>
-            </div>
-
-            <div className="flex justify-center mt-8 space-x-6 text-teal-700 text-lg">
-              <a
-                href="#"
-                className="hover:text-teal-500 transition-transform transform hover:scale-110"
-              >
-                <FaFacebookF />
-              </a>
-              <a
-                href="#"
-                className="hover:text-teal-500 transition-transform transform hover:scale-110"
-              >
-                <FaInstagram />
-              </a>
-              <a
-                href="#"
-                className="hover:text-teal-500 transition-transform transform hover:scale-110"
-              >
-                <FaTiktok />
-              </a>
-              <a
-                href="#"
-                className="hover:text-teal-500 transition-transform transform hover:scale-110"
-              >
-                <FaLinkedinIn />
-              </a>
+                  <FaFacebookF />
+                </Link>
+                <Link
+                  href="#"
+                  className="hover:text-teal-500 transition-transform transform hover:scale-110 border p-3"
+                >
+                  <FaInstagram />
+                </Link>
+                <Link
+                  href="#"
+                  className="hover:text-teal-500 transition-transform transform hover:scale-110 border p-3"
+                >
+                  <FaTiktok />
+                </Link>
+                <Link
+                  href="#"
+                  className="hover:text-teal-500 transition-transform transform hover:scale-110 border p-3"
+                >
+                  <FaLinkedinIn />
+                </Link>
+              </div>
             </div>
           </div>
 
@@ -166,7 +167,7 @@ export default function ContactUs() {
               <div className="grid md:grid-cols-2 gap-6">
                 {["name", "email", "phone", "subject"].map((field) => (
                   <div key={field}>
-                    <label className="block text-gray-700 mb-1 capitalize">
+                    <label className="block text-gray-500 mb-1 capitalize">
                       {field}
                     </label>
                     <input
@@ -184,9 +185,9 @@ export default function ContactUs() {
                           : (formData[field as keyof FormData] as string)
                       }
                       onChange={handleChange}
-                      className={`w-full border rounded-lg p-3 focus:ring-2 focus:ring-teal-600 outline-none ${errors[field]
+                      className={`w-full border h-10 rounded-lg p-3 focus:ring-1 focus:ring-sea-green outline-none ${errors[field]
                         ? "border-red-500"
-                        : "border-gray-300 focus:border-teal-600"
+                        : "border-gray-300 focus:ring-sea-green"
                         }`}
                     />
                     {errors[field] && (
@@ -206,9 +207,9 @@ export default function ContactUs() {
                   value={formData.message}
                   onChange={handleChange}
                   rows={4}
-                  className={`w-full border rounded-lg p-3 focus:ring-2 focus:ring-teal-600 outline-none ${errors.message
+                  className={`w-full border rounded-lg p-3 focus:ring-1 focus:ring-sea-green outline-none ${errors.message
                     ? "border-red-500"
-                    : "border-gray-300 focus:border-teal-600"
+                    : "border-gray-300 focus:ring-sea-green"
                     }`}
                   placeholder="How can we help you?"
                 />
@@ -224,11 +225,11 @@ export default function ContactUs() {
                   name="consent"
                   checked={formData.consent}
                   onChange={handleChange}
-                  className="h-4 w-4 text-teal-700 border-gray-300 rounded focus:ring-teal-600"
+                  className="h-4 w-4 text-sea-green border-gray-300 rounded focus:ring-sea-green"
                 />
                 <label className="text-sm text-gray-600">
-                  I agree that my data is{" "}
-                  <a href="#" className="text-teal-700 underline">
+                  I agree that my data is
+                  <a href="#" className="text-sea-green underline">
                     collected and stored.
                   </a>
                 </label>
@@ -240,9 +241,10 @@ export default function ContactUs() {
               <div className="text-center">
                 <button
                   type="submit"
-                  className="bg-teal-700 hover:bg-teal-800 text-white font-semibold px-8 py-3 rounded-lg shadow-md transition-all duration-200 hover:shadow-lg"
+                  className="uppercase cursor-pointer flex items-center gap-2 text-sm text-white bg-sea-green py-3 px-8 rounded-md transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105"
                 >
-                  Send Message
+                  <LuSend />
+                  Get in touch
                 </button>
               </div>
             </form>

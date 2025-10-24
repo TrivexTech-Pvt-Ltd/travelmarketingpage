@@ -17,8 +17,8 @@ export default function Home() {
       <Destinations />
       <Services />
       <TourPackages />
-      <ReviewForm />
       <Testimonials />
+      <ReviewForm />
     </>
   );
 }
