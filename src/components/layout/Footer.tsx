@@ -109,7 +109,7 @@ export default function Footer() {
             <li className=" font-work-sans">
               <HiLocationMarker className="text-sea-green mt-1" />
               <span>
-                Travel Nation, No 92/01/03, 1st Floor, Old Galle Rd, Panadura
+                Travel Nation, No 92/01/04, 1st Floor, Old Galle Rd, Panadura
                 12500
               </span>
             </li>
