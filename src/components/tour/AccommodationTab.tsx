@@ -24,7 +24,6 @@ const AccommodationTab = ({ data }: Props) => {
     if (!data) return null;
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto my-16">
-            {/* LEFT — Image Slider */}
             <div className="relative w-full h-[500px] rounded-2xl overflow-hidden">
                 <Swiper
                     modules={[Navigation, Pagination, Autoplay, A11y]}
@@ -48,8 +47,6 @@ const AccommodationTab = ({ data }: Props) => {
                     ))}
                 </Swiper>
             </div>
-
-            {/* RIGHT — Info */}
             <div className="space-y-6">
                 <h2 className="text-4xl font-medium font-work-sans text-black capitalize">{data.name}</h2>
                 <div className="text-gray-600 space-y-2">

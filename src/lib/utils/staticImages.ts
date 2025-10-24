@@ -14,20 +14,30 @@ import ServicesHero from "../../../public/images/hero/services-hero.webp";
 import SoMaldives1 from "../../../public/images/hero/so/Aerial-1_SOMaldives.webp";
 import SoMaldives2 from "../../../public/images/hero/so/Three-Bedroom-Ocean-Water-Pool-Atelier.webp";
 import SoMaldives3 from "../../../public/images/hero/so/WELCOME-RUNWAY-AERIAL.webp";
+import SoMaldives4 from "../../../public/images/hero/so/SPA-Yoga.webp";
+import SoMaldives5 from "../../../public/images/hero/so/outdoor.webp";
+import SoMaldives6 from "../../../public/images/hero/so/Aerial-Family-Beach-Villa.webp";
 import SWHero2 from "../../../public/images/hero/sw/sw-hero-2.webp";
 import SWHero3 from "../../../public/images/hero/sw/sw-hero-3.webp";
 import SWHero4 from "../../../public/images/hero/sw/sw-hero-4.webp";
 import NooeHero2 from "../../../public/images/hero/nooe/Golf-Event.webp";
 import NooeHero3 from "../../../public/images/hero/nooe/NOOE-Aerial.webp";
+import NooeHero4 from "../../../public/images/hero/nooe/NOOE-Full-Island.webp";
+import NooeHero5 from "../../../public/images/hero/nooe/Thari-Spa.webp";
 import NHHero2 from "../../../public/images/hero/nh/nh-hero-2.webp";
 import NHHero3 from "../../../public/images/hero/nh/nh-hero-3.webp";
 import NHHero4 from "../../../public/images/hero/nh/nh-hero-4.webp";
 import MVPHero2 from "../../../public/images/hero/kurendhivaru/hero-2.webp";
 import MVPHero3 from "../../../public/images/hero/kurendhivaru/hero-3.webp";
 import MVPHero4 from "../../../public/images/hero/kurendhivaru/hero-4.webp";
+import MVPHero5 from "../../../public/images/hero/kurendhivaru/hero-5.webp";
+import MVPHero6 from "../../../public/images/hero/kurendhivaru/Sun-Spa-overwater-spa.webp";
+import MVPHero7 from "../../../public/images/hero/kurendhivaru/diving.webp";
 import AlilaHero2 from "../../../public/images/hero/alila/alila-hero-2.webp";
 import AlilaHero3 from "../../../public/images/hero/alila/alila-hero-3.webp";
 import AlilaHero4 from "../../../public/images/hero/alila/alila-hero-4.webp";
+import AlilaHero5 from "../../../public/images/hero/alila/alila-hero-5.webp";
+import AlilaHero6 from "../../../public/images/hero/alila/alila-hero-6.webp";
 
 
 //Destinations
@@ -113,6 +123,27 @@ import SLBeach from "../../../public/images/srilanka/sl-beach.webp";
 import TempleOfTooth from "../../../public/images/srilanka/temple-sacred-tooth-relic-kandy-sri-lanka.webp";
 import ColomboSL from "../../../public/images/srilanka/colombo-sri-lanka.webp";
 
+//Maldives destinations
+import LhAtollHero from "../../../public/images/maldives/lhaviyani-atoll/image-1.webp";
+
+//icons
+import FloatIcon from "../../../public/images/icons/floating.svg";
+import HotelBedIcon from "../../../public/images/icons/bed.svg";
+import SunBedIcon from "../../../public/images/icons/sunbed.svg";
+import DinnerIcon from "../../../public/images/icons/dinner.svg";
+
+//Atoll
+import BaaAtoll from "../../../public/images/maldives/Atoll/baa-atoll.webp";
+import LhaviyaniAtoll from "../../../public/images/maldives/Atoll/Lhaviyani-Atoll.webp";
+import NorthMaleAtoll from "../../../public/images/maldives/Atoll/North-Male-Atoll.webp";
+import SouthMaleAtoll from "../../../public/images/maldives/Atoll/south-atoll.webp";
+import AriAtoll from "../../../public/images/maldives/Atoll/ari-atoll.webp";
+import VaavuAtoll from "../../../public/images/maldives/Atoll/Vaavu-Atoll.webp";
+import AtollLocation1 from "../../../public/images/maldives/Atoll/location-1.webp";
+import AtollLocation2 from "../../../public/images/maldives/Atoll/location-2.webp";
+import AtollLocation3 from "../../../public/images/maldives/Atoll/location-3.webp";
+import AtollLocation4 from "../../../public/images/maldives/Atoll/location-4.webp";
+
 
 export {
     Logo,
@@ -127,20 +158,30 @@ export {
     SoMaldives1,
     SoMaldives2,
     SoMaldives3,
+    SoMaldives4,
+    SoMaldives5,
+    SoMaldives6,
     SWHero2,
     SWHero3,
     SWHero4,
     NooeHero2,
     NooeHero3,
+    NooeHero4,
+    NooeHero5,
     NHHero2,
     NHHero3,
     NHHero4,
     MVPHero2,
     MVPHero3,
     MVPHero4,
+    MVPHero5,
+    MVPHero6,
+    MVPHero7,
     AlilaHero2,
     AlilaHero3,
     AlilaHero4,
+    AlilaHero5,
+    AlilaHero6,
     MaldivesHero,
     ServicesHero,
     HandpickedStays,
@@ -196,5 +237,20 @@ export {
     NuwaraEliya,
     SLBeach,
     TempleOfTooth,
-    ColomboSL
+    ColomboSL,
+    LhAtollHero,
+    FloatIcon,
+    HotelBedIcon,
+    DinnerIcon,
+    SunBedIcon,
+    BaaAtoll,
+    LhaviyaniAtoll,
+    AtollLocation1,
+    AtollLocation2,
+    AtollLocation3,
+    AtollLocation4,
+    NorthMaleAtoll,
+    SouthMaleAtoll,
+    AriAtoll,
+    VaavuAtoll
 }
