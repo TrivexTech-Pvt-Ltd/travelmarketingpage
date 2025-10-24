@@ -1,35 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, DM_Sans, Work_Sans, Playfair_Display, Lato, Poppins,  Raleway ,Open_Sans } from "next/font/google";
+import { Playfair_Display,Open_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",
-  subsets: ["latin"],
-});
-
-const workSans = Work_Sans({
-  variable: "--font-work-sans",
-  subsets: ["latin"],
-});
 
 const PlayfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",
   subsets: ["latin"],
 });
-
-const poppins = Poppins({
-  variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["100","300","400","700","900"]
-});
-
-const raleway = Raleway({
-  variable: "--font-raleway",
-  subsets: ["latin"],
-});
-
 
 const openSans = Open_Sans({
   variable: "--font-openSans",
@@ -49,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${dmSans.variable} ${workSans.variable} ${PlayfairDisplay.variable} ${poppins.variable} ${openSans.variable} antialiased min-h-screen flex flex-col font-openSans`}
+        className={`${PlayfairDisplay.variable} ${openSans.variable} antialiased min-h-screen flex flex-col font-openSans`}
       >
         <Header />
         <main className="flex-1 w-full">

@@ -11,8 +11,6 @@ interface HeroProps {
     height: string;
 }
 
-
-
 const Hero = ({ height, heroData }: HeroProps) => {
 
     const [activeSlide, setActiveSlide] = useState<number>(0);

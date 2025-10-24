@@ -14,7 +14,7 @@ interface ImageSliderProps {
 
 const ImageSlider = ({heroData,height}:ImageSliderProps) => {
   return (
-     <div className={`relative w-full h-96 lg:h-full xl:${height} overflow-hidden`}>
+     <div className={`relative w-full ${height} overflow-hidden`}>
             <Swiper
               modules={[Navigation, Pagination, Autoplay, A11y]}
               slidesPerView={1}

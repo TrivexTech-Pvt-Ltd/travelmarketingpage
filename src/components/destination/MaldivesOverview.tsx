@@ -41,13 +41,11 @@ const MaldivesOverview = ({ setActiveTab }: MaldivesOverviewProps) => {
               </Link>
             </div>
           </div>
-          <ImageSlider heroData={destination_1} height="h-[680px]" />
+          <ImageSlider heroData={destination_1} height="lg:h-[680px]" />
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center max-w-7xl mx-auto my-10 sm:my-20">
-          <div className="order-2 lg:order-1">
-            <ImageSlider heroData={destination_2} height="h-[680px]" />
-          </div>
-          <div className="flex justify-center items-center bg-soft-beige h-full order-1 lg:order-2">
+            <ImageSlider heroData={destination_2} height="lg:h-[680px]" />
+          <div className="flex justify-center items-center bg-soft-beige h-full">
             <div className='p-6 sm:p-12'>
               <h3 className='text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5'>Resorts and Luxury</h3>
               <p className='text-sm sm:text-base md:text-lg text-gray-500 mb-6 sm:mb-8 leading-7'>The Maldives is synonymous with luxury, offering some of the world’s most opulent resorts, each designed to offer the ultimate escape from the everyday. Whether you’re staying in a secluded beachfront villa or an iconic overwater bungalow, every moment here is one of pure relaxation.</p>
@@ -78,13 +76,13 @@ const MaldivesOverview = ({ setActiveTab }: MaldivesOverviewProps) => {
             </div>
           </div>
         </div>
-        <ImageSlider heroData={destinationImages_3} height="h-[680px]" />
+        <ImageSlider heroData={destinationImages_3} height="lg:h-[680px]" />
       </div>
 
       <div className='px-5 md:px-8 xl:px-40'>
         {/* section 5 */}
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center max-w-7xl mx-auto my-10 sm:my-20">
-          <ImageSlider heroData={destinationImages_4} height="h-[680px]" />
+          <ImageSlider heroData={destinationImages_4} height="lg:h-[680px]" />
           <div className="flex justify-center items-center bg-soft-beige h-full">
             <div className='p-6 sm:p-12'>
               <p className='text-shadow-wash text-lg uppercase font-medium'>Beaches</p>
@@ -130,7 +128,7 @@ const MaldivesOverview = ({ setActiveTab }: MaldivesOverviewProps) => {
               </div>
             </div>
           </div>
-          <ImageSlider heroData={destinationImages_5} height="h-[680px]" />
+          <ImageSlider heroData={destinationImages_5} height="lg:h-[680px]" />
         </div>
         {/* section 7 */}
         <div className='py-10'>
@@ -150,7 +148,7 @@ const MaldivesOverview = ({ setActiveTab }: MaldivesOverviewProps) => {
         </div>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center sm:my-20 max-sm:p-4">
-        <ImageSlider heroData={destinationImages_6} height="h-[480px]" />
+        <ImageSlider heroData={destinationImages_6} height="lg:h-[480px]" />
         <div className="h-full max-sm:py-4">
           <div className='flex flex-col justify-between h-full sm:pl-8'>
             <div className='flex flex-col gap-y-2 max-sm:py-3'><p className='text-sea-green text-lg uppercase font-medium'>Maldives</p>

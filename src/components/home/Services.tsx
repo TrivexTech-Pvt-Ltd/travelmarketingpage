@@ -9,7 +9,7 @@ const Services = () => {
       <div className="absolute inset-0 bg-black/65 z-10 pointer-events-none" ></div>
       <div className='flex flex-col items-center gap-y-5 z-50 max-md:p-4'>
         <h4 className='text-xl text-white font-medium uppercase'>We are dedicated to</h4>
-        <h3 className='text-4xl md:text-5xl text-white font-semibold font-work-sans'>Discover the Art of Exceptional Travel</h3>
+        <h3 className='text-4xl md:text-5xl text-white font-semibold font-playfair-display'>Discover the Art of Exceptional Travel</h3>
         <p className='text-base md:text-lg text-white'>Travel Nation offers a seamless mix of discovery and relaxation. Think personalised tours and excursions <br /> that cater to all tastes as well as serene wellness retreats and intriguing escapes.</p>
         <p className='text-base md:text-lg text-white'>Trust us to handle all the details, so you can focus on making memories.</p>
         <div className='grid grid-cols-1 md:grid-cols-5 gap-6 md:gap-16 py-5'>
