@@ -22,8 +22,8 @@ const Header = () => {
   const menuItems = [
     { name: "Home", path: "/" },
     { name: "Destination", path: "#" },
-    { name: "About Us", path: "/about" },
-    { name: "Contact Us", path: "/contact" },
+    { name: "About Us", path: "/about-us" },
+    { name: "Contact Us", path: "/contact-us" },
   ];
 
   // Sticky navbar on scroll
@@ -39,7 +39,7 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-[110] transition-all duration-500 ${stickyNavbar
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${stickyNavbar
         ? "bg-white/30 shadow-sm backdrop-blur-md text-black"
         : isHomePage
           ? "bg-transparent text-white"

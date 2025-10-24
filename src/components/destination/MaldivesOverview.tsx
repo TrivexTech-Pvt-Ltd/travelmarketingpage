@@ -1,6 +1,4 @@
 "use client"
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay, A11y } from "swiper/modules";
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -36,7 +34,7 @@ const MaldivesOverview = ({ setActiveTab }: MaldivesOverviewProps) => {
               <p className='text-sea-green text-lg uppercase font-medium'>The Maldives</p>
               <h3 className='text-sea-green text-3xl sm:text-4xl md:text-6xl font-semibold font-playfair-display my-5'>A Paradise of Luxury<br />and Serenity</h3>
               <p className='text-sm sm:text-base text-gray-500 mb-8 sm:mb-16 leading-7 sm:leading-8'>The Maldives is a tropical paradise like no other, where powdery white sand beaches, crystal-clear waters, and overwater bungalows await those seeking a serene and luxurious escape. With its unique geography, made up of over 1,000 islands spread across 26 atolls, the Maldives offers an unparalleled blend of relaxation and adventure. At Travel Nation, we specialize in curating exclusive experiences across the Maldives, ensuring your journey is defined by indulgence, tranquility, and unforgettable moments.</p>
-              <Link href="/about" className="text-white bg-sea-green py-4 px-8 border border-white transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105 font-medium uppercase text-sm">
+              <Link href="/about-us" className="text-white bg-sea-green py-4 px-8 border border-white transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105 font-medium uppercase text-sm">
                 About Us
               </Link>
             </div>

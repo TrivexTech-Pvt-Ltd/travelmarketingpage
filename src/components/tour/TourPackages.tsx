@@ -28,7 +28,7 @@ const TourPackages = ({ bgColor = 'bg-light-gray', isSrilanka = true, isMaldives
                     <p className='text-base text-gray-500 font-medium text-center mb-4'>Experience the highlights of this emerald island nation on a luxury <br /> 10-day Classic Sri Lanka journey.</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 p-4 relative">
                         {srilankanData.map((card) => (
-                            <PackageCard country='srilanka' key={card.name} {...card} />
+                            <PackageCard country='sri-lanka' key={card.name} {...card} />
                         ))}
                     </div>
                 </div> : null
