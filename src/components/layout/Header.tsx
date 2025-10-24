@@ -39,29 +39,28 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-[110] transition-all duration-500 ${
-        stickyNavbar
-          ? "bg-white shadow-md !text-black"
-          : isHomePage
-          ? "bg-transparent text-gray-700"
-          : "bg-white text-black"
-      }`}
+      className={`fixed top-0 left-0 w-full z-[110] transition-all duration-500 ${stickyNavbar
+        ? "bg-white/30 shadow-sm backdrop-blur-md text-black"
+        : isHomePage
+          ? "bg-transparent text-white"
+          : "bg-white/60 backdrop-blur-md text-black"
+        }`}
     >
-      <div className="flex justify-between items-center md:px-28 px-8 py-4">
+      <div className="flex justify-between items-center px-4 py-4 sm:px-10 md:px-16 lg:px-20 xl:px-28">
         {/* Logo */}
         <Link href="/">
           <Image
             src={Logo}
-            alt="logo"
-            height={80}
-            width={160}
-            className="transition-all duration-300"
+            alt="Travel Nation logo"
+            width={260}
+            height={120}
+            className="h-12 w-40 md:h-14 md:w-44 lg:h-16 lg:w-52 transition-all duration-300"
           />
         </Link>
 
         {/* Desktop Menu */}
         <div className="flex items-center gap-8 relative">
-          <ul className="hidden md:flex text-lg items-center gap-10 font-medium">
+          <ul className="hidden tablet:flex text-base lg:text-lg items-center gap-10 font-medium">
             {menuItems.map((item, index) =>
               item.name === "Destination" ? (
                 <li
@@ -72,31 +71,28 @@ const Header = () => {
                 >
                   <button
                     type="button"
-                    className={`flex items-center gap-1 hover:text-sea-green transition-colors duration-300 ${
-                      pathname.startsWith("/maldives") ||
+                    className={`flex items-center gap-1 hover:text-emerald-400 transition-colors duration-300 ${pathname.startsWith("/maldives") ||
                       pathname.startsWith("/sri-lanka")
-                        ? "text-emerald-400"
-                        : stickyNavbar
+                      ? "text-emerald-400"
+                      : stickyNavbar
                         ? "text-black"
-                        : "text-gray-900"
-                    }`}
+                        : isHomePage ? "text-white" : "text-black"
+                      }`}
                   >
                     {item.name}
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform ${
-                        isDropdownOpen ? "rotate-180" : ""
-                      }`}
+                      className={`w-4 h-4 transition-transform ${isDropdownOpen ? "rotate-180" : ""
+                        }`}
                     />
                   </button>
 
                   {/* Dropdown Menu */}
-                  {/* Dropdown Menu */}
                   {isDropdownOpen && (
-                    <ul className="absolute top-8 left-0 backdrop-blur-md bg-white/30 shadow-lg rounded-lg py-2 w-48 text-gray-800 border border-white/20 transition-all duration-300">
+                    <ul className="absolute top-7 left-0 backdrop-blur-md bg-black/40 shadow-lg rounded-lg py-2 w-48 text-white border border-white/20 transition-all duration-300">
                       <li>
                         <Link
                           href="/maldives"
-                          className="block px-4 py-2 hover:bg-white/20 hover:text-sea-green transition-colors rounded-md"
+                          className="block px-4 py-2 hover:bg-white/20 hover:text-emerald-400 transition-colors rounded-md"
                         >
                           Maldives
                         </Link>
@@ -104,7 +100,7 @@ const Header = () => {
                       <li>
                         <Link
                           href="/sri-lanka"
-                          className="block px-4 py-2 hover:bg-white/20 hover:text-sea-green transition-colors rounded-md"
+                          className="block px-4 py-2 hover:bg-white/20 hover:text-emerald-400 transition-colors rounded-md"
                         >
                           Sri Lanka
                         </Link>
@@ -116,13 +112,12 @@ const Header = () => {
                 <li key={index}>
                   <Link
                     href={item.path}
-                    className={`hover:text-sea-green transition-colors duration-300 ${
-                      pathname === item.path
-                        ? "text-emerald-400"
-                        : stickyNavbar
+                    className={`hover:text-emerald-400 transition-colors duration-300 ${pathname === item.path
+                      ? "text-emerald-400"
+                      : stickyNavbar
                         ? "text-black"
-                        : "text-gray-900"
-                    }`}
+                        : isHomePage ? "text-white" : "text-black"
+                      }`}
                   >
                     {item.name}
                   </Link>
@@ -134,7 +129,7 @@ const Header = () => {
           {/* Desktop Inquire Button */}
           <button
             onClick={() => setIsModalOpen(true)}
-            className="hidden md:block text-white bg-sea-green rounded-md py-3 px-6 cursor-pointer uppercase text-sm hover:opacity-90"
+            className="hidden tablet:block text-white bg-sea-green rounded-md py-3 px-6 cursor-pointer uppercase text-sm hover:opacity-90"
             type="button"
           >
             inquire
@@ -143,7 +138,7 @@ const Header = () => {
 
         {/* Mobile Toggle Button */}
         <button
-          className="md:hidden text-3xl focus:outline-none"
+          className={`tablet:hidden text-3xl focus:outline-none ${stickyNavbar ? '!text-black' : 'text-white'} `}
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <RiCloseLine /> : <RxHamburgerMenu />}
@@ -152,7 +147,7 @@ const Header = () => {
 
       {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-white text-black shadow-md transition-all duration-500">
+        <div className="tablet:hidden absolute top-full left-0 w-full bg-white text-black shadow-md transition-all duration-500">
           <ul className="flex flex-col items-center gap-6 py-6 text-lg font-medium">
             {menuItems.map((item, index) =>
               item.name === "Destination" ? (
@@ -163,9 +158,8 @@ const Header = () => {
                   >
                     {item.name}
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform ${
-                        isDropdownOpen ? "rotate-180" : ""
-                      }`}
+                      className={`w-4 h-4 transition-transform ${isDropdownOpen ? "rotate-180" : ""
+                        }`}
                     />
                   </button>
 

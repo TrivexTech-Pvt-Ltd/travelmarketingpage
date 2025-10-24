@@ -67,7 +67,7 @@ const PackageCard = ({
 
                 </div>
 
-                <p className="text-gray-500 text-base py-2 border-gray-300 border-b border-t pb-4 mb-5">
+                <p className="text-gray-500 text-sm md:text-base py-2 border-gray-300 border-b border-t pb-4 mb-5 leading-6">
                     {description}
                 </p>
             </div>

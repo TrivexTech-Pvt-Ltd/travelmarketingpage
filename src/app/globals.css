@@ -7,11 +7,7 @@
 
 @theme inline {
   /* fonts */
-  --font-sans: var(--font-dm-sans);
-  --font-work-sans: var(--font-work-sans);
   --font-playfair-display: var(--font-playfair-display);
-  --font-poppins: var(--font-poppins);
-  --font-raleway: var(--font-raleway);
   --font-openSans: var(--font-openSans);
 
   /* colors */
@@ -21,6 +17,9 @@
   --color-light-cyan: #F1F9F9;
   --color-light-gray: #f8f8f8;
   --color-shadow-wash: #0C0F26;
+
+  /* breakpoints */
+  --breakpoint-tablet: 56rem;
 }
 
 .slick-dots {
