@@ -45,8 +45,8 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
                     <div className="flex justify-center items-center bg-soft-beige h-full order-1 lg:order-2">
                         <div className='p-6 sm:p-12'>
                             <h3 className='text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5'>Cultural Heritage</h3>
-                            <p className='text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7'>Sri Lanka’s rich cultural heritage spans over 2,500 years, with a legacy of ancient kingdoms, colonial influences, and religious traditions. Explore the country’s UNESCO World Heritage Sites, from the towering rock fortress of Sigiriya to the sacred city of Anuradhapura, where Buddhist relics are revered. Witness traditional Kandyan dance performances, visit centuries-old temples like the Temple of the Tooth Relic in Kandy, and discover hidden gems in ancient cities like Polonnaruwa.</p>
-                            <p className='text-sm sm:text-base text-gray-500 leading-7'>Every corner of Sri Lanka tells a story, and Travel Nation ensures that your journey takes you beyond the surface, allowing you to connect with the island’s history, architecture, and spiritual essence.</p>
+                            <p className='text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7'>Sri Lanka&apos;s rich cultural heritage spans over 2,500 years, with a legacy of ancient kingdoms, colonial influences, and religious traditions. Explore the country&apos;s UNESCO World Heritage Sites, from the towering rock fortress of Sigiriya to the sacred city of Anuradhapura, where Buddhist relics are revered. Witness traditional Kandyan dance performances, visit centuries-old temples like the Temple of the Tooth Relic in Kandy, and discover hidden gems in ancient cities like Polonnaruwa.</p>
+                            <p className='text-sm sm:text-base text-gray-500 leading-7'>Every corner of Sri Lanka tells a story, and Travel Nation ensures that your journey takes you beyond the surface, allowing you to connect with the island&apos;s history, architecture, and spiritual essence.</p>
                         </div>
                     </div>
                 </div>
@@ -57,8 +57,8 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
                     <div className="flex justify-center items-center bg-soft-beige h-full order-1 lg:order-2">
                         <div className='p-6 sm:p-12'>
                             <h3 className='text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5'>Wildlife Sri Lanka</h3>
-                            <p className='text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7'>Sri Lanka is a wildlife lover’s paradise, home to some of the most biodiverse ecosystems in the world. The island boasts an incredible variety of animals, from majestic elephants in Yala National Park to elusive leopards in Wilpattu. Embark on safaris through lush jungles, explore wetlands teeming with birdlife, or set sail for whale-watching excursions off the coast of Mirissa</p>
-                            <p className='text-sm sm:text-base text-gray-500 leading-7'>At Travel Nation, we offer eco-friendly and responsible wildlife experiences, ensuring you can marvel at Sri Lanka’s incredible creatures while supporting conservation efforts. Whether you’re looking to witness an elephant herd gather at the watering hole in Minneriya or spot blue whales in the Indian Ocean, we curate safaris and nature treks that bring you closer to the island’s untamed beauty.</p>
+                            <p className='text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7'>Sri Lanka is a wildlife lover&apos;s paradise, home to some of the most biodiverse ecosystems in the world. The island boasts an incredible variety of animals, from majestic elephants in Yala National Park to elusive leopards in Wilpattu. Embark on safaris through lush jungles, explore wetlands teeming with birdlife, or set sail for whale-watching excursions off the coast of Mirissa</p>
+                            <p className='text-sm sm:text-base text-gray-500 leading-7'>At Travel Nation, we offer eco-friendly and responsible wildlife experiences, ensuring you can marvel at Sri Lanka&apos;s incredible creatures while supporting conservation efforts. Whether you&apos;re looking to witness an elephant herd gather at the watering hole in Minneriya or spot blue whales in the Indian Ocean, we curate safaris and nature treks that bring you closer to the island&apos;s untamed beauty.</p>
                         </div>
                     </div>
                 </div>
@@ -68,6 +68,9 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
             <div className='px-5 md:px-8 xl:px-40'>
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center sm:my-20 max-sm:p-4">
                     <ImageSlider heroData={slJourneys} height="h-96 lg:h-full xl:h-[480px]" />
+
+
+
                     <div className="h-full max-sm:py-4">
                         <div className='flex flex-col justify-between h-full sm:pl-8'>
                             <div className='flex flex-col gap-y-2 max-sm:py-3'><p className='text-sea-green text-lg uppercase font-medium'>Sri Lanka</p>
