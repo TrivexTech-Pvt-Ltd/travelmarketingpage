@@ -9,12 +9,18 @@
   /* fonts */
   --font-sans: var(--font-dm-sans);
   --font-work-sans: var(--font-work-sans);
+  --font-playfair-display: var(--font-playfair-display);
+  --font-poppins: var(--font-poppins);
+  --font-raleway: var(--font-raleway);
+  --font-openSans: var(--font-openSans);
 
   /* colors */
   --color-sea-green: #1F686A;
   --color-soft-beige: #F5F3EC;
   --color-athens-gray: #F7F8FA;
   --color-light-cyan: #F1F9F9;
+  --color-light-gray: #f8f8f8;
+  --color-shadow-wash: #0C0F26;
 }
 
 .slick-dots {
@@ -22,7 +28,8 @@
 }
 
 .slick-dots li button:before {
-  font-size: 10px !important; /* default is 6px, try 12–20px */
+  font-size: 10px !important;
+  /* default is 6px, try 12–20px */
 }
 
 .slick-dots li button:focus {
@@ -33,4 +40,17 @@
   background-image: url("../../public/images/hero/services-hero.webp");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* Make dots visible & stylish */
+.slick-dots li button:before {
+  font-size: 12px !important;
+  color: #bbb !important;
+  opacity: 0.6 !important;
+}
+
+/* Highlight only the real active dot controlled by Slick */
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  opacity: 1 !important;
 }

@@ -7,12 +7,14 @@ interface SliderProps {
     image: StaticImageData;
     country: string;
     text: string;
-    activeSlide: number
+    activeSlide: number;
+    link?: string;
+    height?: string;
 }
 
-const Slide = ({ image, country, text, activeSlide }: SliderProps) => {
+const Slide = ({ image, country, text, activeSlide, height, link }: SliderProps) => {
     return (
-        <div className='relative h-[520px] sm:min-h-screen flex justify-center items-center'>
+        <div className={`relative min-h-[60vh] sm:min-h-[60vh] md:min-h-[70vh] ${height} flex justify-center items-center`}>
             <div className="absolute inset-0 bg-black/50 z-10 pointer-events-none" />
             <Image src={image} alt='hero' fill priority />
             <motion.div
@@ -25,7 +27,7 @@ const Slide = ({ image, country, text, activeSlide }: SliderProps) => {
             >
                 <h4 className="text-2xl tracking-wide uppercase">{country}</h4>
 
-                <h1 className="text-4xl sm:text-5xl md:text-7xl font-work-sans font-medium leading-tight">
+                <h1 className="text-4xl sm:text-5xl md:text-7xl font-playfair-display font-medium leading-tight">
                     {text.split("\n").map((line: string, i: number) => (
                         <span key={i} className="block">
                             {line}
@@ -34,11 +36,11 @@ const Slide = ({ image, country, text, activeSlide }: SliderProps) => {
                 </h1>
 
                 <Link
-                    href="#"
-                    className="text-white bg-sea-green py-4 px-8 rounded-4xl border border-white 
+                    href={`${link}`}
+                    className="text-white bg-sea-green py-3 px-8 rounded-md border border-white 
           transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105"
                 >
-                    Explore Our Tours
+                    Discover
                 </Link>
             </motion.div>
         </div>

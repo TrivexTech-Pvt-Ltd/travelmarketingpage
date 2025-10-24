@@ -4,11 +4,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Slide from './Slide';
-import { slideData } from '@/lib/utils/data';
+import { HeroType } from '@/types/hero.types';
+
+interface HeroProps {
+    heroData: HeroType[];
+    height: string;
+}
 
 
 
-const Hero = () => {
+const Hero = ({ height, heroData }: HeroProps) => {
 
     const [activeSlide, setActiveSlide] = useState<number>(0);
     const sliderRef = useRef<Slider>(null);
@@ -22,6 +27,7 @@ const Hero = () => {
         pauseOnFocus: true,
         autoplaySpeed: 3000,
         accessibility: true,
+        dots: true,
         speed: 2000,
         beforeChange: (next: number) => {
             // Get all slide elements
@@ -62,14 +68,15 @@ const Hero = () => {
             <Slider {...settings} appendDots={(dots) => (
                 <ul onClick={handleDotClick}> {dots} </ul> // add click handler here
             )}>
-                {slideData.map((item) => (
+                {heroData.map((item) => (
                     <Slide
                         key={item.id}
                         image={item.image}
                         country={item.country}
                         text={item.text}
                         activeSlide={activeSlide}
-
+                        link={item.link}
+                        height={height}
                     />
                 ))}
             </Slider>
