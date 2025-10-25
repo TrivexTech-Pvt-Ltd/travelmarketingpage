@@ -5,6 +5,7 @@ import Services from "@/components/home/Services";
 import TourPackages from "@/components/tour/TourPackages";
 import ReviewForm from "@/components/ui/ReviewForm";
 import Testimonials from "@/components/ui/Testimonials";
+import TravelServices from "@/components/ui/TravelServices";
 import { slideData } from "@/utils/data";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Destinations />
       <Services />
       <TourPackages />
+      <TravelServices/>
       <Testimonials />
       <ReviewForm />
     </>

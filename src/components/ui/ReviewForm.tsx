@@ -70,10 +70,10 @@ const ReviewForm = () => {
   };
 
   return (
-    <section className="bg-light-cyan py-16 px-4 md:px-28 overflow-hidden">
+    <section className="py-16 px-4 md:px-28 overflow-hidden">
       <div className="relative max-w-7xl mx-auto p-4 sm:p-12 ">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 text-sea-green tracking-tight font-playfair-display">
-          🌍 Share Your Travel Experience
+        <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold text-center mb-6 text-sea-green tracking-tight font-playfair-display">
+          Share Your Travel Experience
         </h2>
         <p className="text-center text-gray-500 mb-10 text-base">
           We&apos;d love to hear about your journey — your feedback helps other travelers
