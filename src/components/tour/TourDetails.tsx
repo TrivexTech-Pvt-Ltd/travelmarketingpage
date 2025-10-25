@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react'
 import TourHero from './TourHero'
 import Container from '../Container'
-import { getMaldivesHotelBySlug } from '@/lib/utils/hotel'
+import { getMaldivesHotelBySlug } from '@/utils/hotel'
 import { useTourPackageStore } from '@/store/TourPackageStore'
 import DetailsHeader from './DetailsHeader'
 import InfoListSection from './InfoListSection'
@@ -17,7 +17,7 @@ const TourDetails = ({ slug }: { slug: string }) => {
 
     useEffect(() => {
         setPackageData(packageData)
-    }, [slug, setPackageData])
+    }, [packageData, setPackageData])
 
     return (
         <div className='bg-light-cyan'>

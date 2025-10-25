@@ -3,7 +3,6 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { LuPlane, LuRoute } from "react-icons/lu";
 import TourPackages from "../tour/TourPackages";
-import MaldivesOverview from "./MaldivesOverview";
 import SriLankaOverview from "./SriLankaOverview";
 
 const SriLankaDestination = () => {

@@ -35,8 +35,8 @@ const TourItinerary = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-16 max-md:px-4">
                     <div className="my-auto">
                         <p className="tracking-widest text-gray-800 font-medium text-base mb-4">{data.days} Days / {data.nights} Nights</p>
-                        <h2 className="text-4xl md:text-5xl font-semibold font-work-sans text-sea-green mb-6">{data.itinerary.title}</h2>
-                        <p className="text-gray-500 leading-relaxed mb-4 text-base md:text-lg">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display text-sea-green mb-6">{data.itinerary.title}</h2>
+                        <p className="text-gray-500 leading-relaxed mb-4 text-sm sm:text-base md:text-lg">
                             {data.itinerary.description}
                         </p>
                     </div>
@@ -45,7 +45,7 @@ const TourItinerary = () => {
                         <ul className="space-y-5 pl-4">
                             {
                                 data.itinerary.list.map((item, index) => (
-                                    <li key={index} className="flex items-start gap-4 text-gray-500 text-base">
+                                    <li key={index} className="flex items-start gap-4 text-gray-500 text-sm md:text-base">
                                         <span className="text-sea-green mt-1"><FaPaperPlane /></span>
                                         <span className="leading-relaxed">{item}</span>
                                     </li>

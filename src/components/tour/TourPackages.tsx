@@ -1,4 +1,4 @@
-import { MaldivesData, srilankanData } from '@/lib/utils/data';
+import { MaldivesData, srilankanData } from '@/utils/data';
 import PackageCard from '../ui/PackageCard';
 
 interface TourPackagesProps {

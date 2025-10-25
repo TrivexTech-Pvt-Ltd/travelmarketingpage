@@ -1,4 +1,4 @@
-import { Highlights } from '@/lib/utils/staticImages'
+import { Highlights } from '@/utils/staticImages'
 import Image from 'next/image'
 import React from 'react'
 import { LuCircleCheckBig } from 'react-icons/lu'

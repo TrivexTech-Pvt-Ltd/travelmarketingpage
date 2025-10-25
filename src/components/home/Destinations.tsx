@@ -1,5 +1,5 @@
 
-import { Hero6, MaldivesHero } from '@/lib/utils/staticImages'
+import { Hero6, MaldivesHero } from '@/utils/staticImages'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -33,8 +33,6 @@ const Destinations = () => {
                 <div className='lg:order-2 order-1 h-full'>
                     <Image src={Hero6} height={500} width={500} alt='maldives' className='w-full h-full' />
                 </div>
-
-
             </div>
         </div>
     )

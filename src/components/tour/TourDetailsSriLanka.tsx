@@ -1,6 +1,6 @@
 "use client"
 import { useEffect } from 'react';
-import { getSriLankanBySlug } from '@/lib/utils/hotel';
+import { getSriLankanBySlug } from '@/utils/hotel';
 import { useSLTourPackageStore } from '@/store/TourPackageStore';
 import TourHeroSl from './TourHeroSl';
 import Container from '../Container';
@@ -10,11 +10,10 @@ import RoomCategories from './RoomCategories';
 const TourDetailsSriLanka = ({ slug }: { slug: string }) => {
     const packageData = getSriLankanBySlug(slug);
     const setPackageData = useSLTourPackageStore(s => s.setPackage);
-    console.log("packageData",packageData);
 
     useEffect(() => {
         setPackageData(packageData)
-    }, [slug, setPackageData])
+    }, [packageData, setPackageData])
     return (
         <div className='bg-light-cyan'>
             <div className='pt-20'>

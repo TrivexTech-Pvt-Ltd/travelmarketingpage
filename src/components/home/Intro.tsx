@@ -1,4 +1,4 @@
-import { servicesData } from '@/lib/utils/data'
+import { servicesData } from '@/utils/data'
 import Image from 'next/image'
 
 const Intro = () => {

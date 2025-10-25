@@ -1,5 +1,5 @@
 "use client"
-import { thousandSeparator } from '@/lib/helper'
+import { thousandSeparator } from '@/utils/helper'
 import { useTourPackageStore } from '@/store/TourPackageStore'
 import Image from 'next/image'
 import React from 'react'
