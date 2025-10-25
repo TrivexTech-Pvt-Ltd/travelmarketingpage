@@ -7,7 +7,7 @@ import React, { useState, useEffect } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RiCloseLine } from "react-icons/ri";
 import { ChevronDown } from "lucide-react";
-import { Logo } from "@/lib/utils/staticImages";
+import { Logo } from "@/utils/staticImages";
 import Modal from "../ui/Modal";
 import Quotation from "../ui/Quotation";
 

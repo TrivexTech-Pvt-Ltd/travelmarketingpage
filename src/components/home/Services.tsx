@@ -1,7 +1,5 @@
-import { dedicatedServices } from '@/lib/utils/data'
-import { div } from 'framer-motion/client'
+import { dedicatedServices } from '@/utils/data'
 import Image from 'next/image'
-import React from 'react'
 
 const Services = () => {
   return (

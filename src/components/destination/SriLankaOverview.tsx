@@ -1,12 +1,8 @@
 "use client"
-import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { IoCheckmarkDoneSharp } from "react-icons/io5";
-import { atollData, destination_1, destination_2, destination_3, destinationImages_3, destinationImages_4, destinationImages_5, destinationImages_6, slCulture, slJourneys, slOverview, slWildLife } from '@/lib/utils/data';
-import Link from 'next/link';
-import AtollCard from './AtollCard';
+import { slCulture, slJourneys, slOverview, slWildLife } from '@/utils/data';
 import ImageSlider from "../ui/ImageSlider";
 
 interface SriLankaOverviewProps {
@@ -33,7 +29,7 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
                         <div className='pr-2'>
                             <p className='text-sea-green text-lg uppercase font-medium'>OverView</p>
                             <h3 className='text-sea-green text-3xl sm:text-4xl md:text-6xl font-semibold font-playfair-display my-5'>A Journey of Culture, Nature, and Adventure</h3>
-                            <p className='text-sm sm:text-base text-gray-500 mt-4 lg:mt-8 leading-7 sm:leading-8'>Sri Lanka, known as the "Pearl of the Indian Ocean," is a destination where ancient history meets vibrant natural beauty. From golden beaches to lush mountain ranges and from bustling cities to serene temples, Sri Lanka offers something special for every traveler. At Travel Nation, we specialize in creating journeys that allow you to fully experience the diverse cultural heritage, captivating wildlife, and iconic regions of this remarkable island.</p>
+                            <p className='text-sm sm:text-base text-gray-500 mt-4 lg:mt-8 leading-7 sm:leading-8'>Sri Lanka, known as the &quot;Pearl of the Indian Ocean,&quot; is a destination where ancient history meets vibrant natural beauty. From golden beaches to lush mountain ranges and from bustling cities to serene temples, Sri Lanka offers something special for every traveler. At Travel Nation, we specialize in creating journeys that allow you to fully experience the diverse cultural heritage, captivating wildlife, and iconic regions of this remarkable island.</p>
                         </div>
                     </div>
                     <ImageSlider heroData={slOverview} height="h-96 lg:h-full xl:h-[680px]" />

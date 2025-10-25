@@ -1,6 +1,6 @@
 import SriLankaDestination from '@/components/destination/SriLankaDestination'
 import Hero from '@/components/home/Hero'
-import { srilankaHeroData } from '@/lib/utils/data'
+import { srilankaHeroData } from '@/utils/data'
 import React from 'react'
 
 const SriLanka = () => {

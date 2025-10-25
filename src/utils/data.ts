@@ -114,6 +114,14 @@ import {
     SlWildLife3,
     SlWildLife4,
     CinnamonBay,
+    Personalized,
+    Autheticity,
+    EcoLight,
+    Excellence,
+    Explore,
+    Honesty,
+    Quality,
+    CustomerCentric,
 } from "./staticImages";
 
 //Home Page Hero
@@ -1483,12 +1491,86 @@ export const slJourneys = [
         id: 4,
         image: PackageSL3,
     },
-     {
+    {
         id: 5,
         image: CinnamonBay,
     },
-     {
+    {
         id: 6,
         image: SLCulture,
     },
+]
+
+//about us
+export const aboutUsData = [
+    {
+        id: 1,
+        image: Hero5,
+    },
+    {
+        id: 2,
+        image: Hero6,
+    },
+    {
+        id: 3,
+        image: Hero1,
+    },
+    {
+        id: 4,
+        image: Hero4,
+    },
+]
+
+export const ourMissionData = [
+    {
+        id: 1,
+        image: Personalized,
+        title: "Personalized Service",
+        description: "We listen to your travel dreams and tailor each trip to suit your individual preferences, ensuring a bespoke journey like no other."
+    },
+    {
+        id: 2,
+        image: Autheticity,
+        title: "Authenticity",
+        description: "We’re committed to showcasing the true essence of the Maldives and Sri Lanka, from local traditions to off-the-beaten-path destinations."
+    },
+    {
+        id: 3,
+        image: EcoLight,
+        title: "Sustainability",
+        description: "We respect the environments we operate in and work with local communities to promote responsible tourism that preserves these destinations for future generations."
+    },
+    {
+        id: 4,
+        image: Excellence,
+        title: "Excellence",
+        description: "We believe in going the extra mile for our clients, delivering seamless experiences from the moment you contact us to the moment you return home."
+    }
+]
+
+export const ourValuesData = [
+    {
+        id: 1,
+        image: Explore,
+        title: "Passion for Exploration",
+        description: "We are travelers at heart, driven by a desire to uncover new experiences and share them with you."
+    },
+    {
+        id: 2,
+        image: Honesty,
+        title: "Integrity and Trust",
+        description: "We value honesty and transparency in everything we do, ensuring you can always rely on us to deliver what we promise."
+    },
+    {
+        id: 3,
+        image: Quality,
+        title: "Commitment to Quality",
+        description: "We carefully select our partners, from luxury resorts to local guides, ensuring every element of your journey is of the highest standard."
+    },
+    {
+        id: 4,
+        image: CustomerCentric,
+        title: "Customer-Centric Approach",
+        description: "Your satisfaction is our top priority. We’re here to make your dream trip a reality, with personalized attention every step of the way."
+    }
 ]

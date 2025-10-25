@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { IoCheckmarkDoneSharp } from "react-icons/io5";
-import { atollData, destination_1, destination_2, destination_3, destinationImages_3, destinationImages_4, destinationImages_5, destinationImages_6 } from '@/lib/utils/data';
+import { atollData, destination_1, destination_2, destination_3, destinationImages_3, destinationImages_4, destinationImages_5, destinationImages_6 } from '@/utils/data';
 import Link from 'next/link';
 import AtollCard from './AtollCard';
 import ImageSlider from "../ui/ImageSlider";

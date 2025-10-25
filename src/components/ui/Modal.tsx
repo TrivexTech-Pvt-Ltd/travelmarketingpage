@@ -9,7 +9,7 @@ interface ModalProps {
     children: ReactNode;
 }
 
-const Modal = ({ isOpen, onClose, title, children }: ModalProps) => {
+const Modal = ({ isOpen, onClose, children }: ModalProps) => {
 
     if (!isOpen) return null;
     return (

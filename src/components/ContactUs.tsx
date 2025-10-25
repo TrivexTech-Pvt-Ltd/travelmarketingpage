@@ -6,10 +6,7 @@ import {
   FaFacebookF,
   FaInstagram,
   FaTiktok,
-  FaLinkedinIn,
-  FaMapMarkerAlt,
-  FaPhoneAlt,
-  FaEnvelope,
+  FaLinkedinIn
 } from "react-icons/fa";
 import Link from "next/link";
 import { LuSend } from "react-icons/lu";

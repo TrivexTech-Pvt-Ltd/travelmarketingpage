@@ -1,5 +1,5 @@
 "use client"
-import { MaldivesData } from '@/lib/utils/data';
+import { MaldivesData } from '@/utils/data';
 import { useTourPackageStore } from '@/store/TourPackageStore'
 import React from 'react'
 import PackageCard from '../ui/PackageCard';
