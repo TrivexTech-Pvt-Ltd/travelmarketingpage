@@ -39,12 +39,7 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${stickyNavbar
-        ? "bg-white/30 shadow-sm backdrop-blur-md text-black"
-        : isHomePage
-          ? "bg-transparent text-white"
-          : "bg-white/60 backdrop-blur-md text-black"
-        }`}
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-white text-gray-800 shadow-md`}
     >
       <div className="flex justify-between items-center px-4 py-4 sm:px-10 md:px-16 lg:px-20 xl:px-28">
         {/* Logo */}
@@ -71,12 +66,9 @@ const Header = () => {
                 >
                   <button
                     type="button"
-                    className={`flex items-center gap-1 hover:text-emerald-400 transition-colors duration-300 ${pathname.startsWith("/maldives") ||
+                    className={`flex items-center gap-1 hover:text-sea-green transition-colors duration-300 ${pathname.startsWith("/maldives") ||
                       pathname.startsWith("/sri-lanka")
-                      ? "text-emerald-400"
-                      : stickyNavbar
-                        ? "text-black"
-                        : isHomePage ? "text-white" : "text-black"
+                      ? "text-sea-green" : "text-gray-800"
                       }`}
                   >
                     {item.name}
@@ -92,7 +84,7 @@ const Header = () => {
                       <li>
                         <Link
                           href="/maldives"
-                          className="block px-4 py-2 hover:bg-white/20 hover:text-emerald-400 transition-colors rounded-md"
+                          className="block px-4 py-2 hover:bg-white/20 hover:text-sea-green transition-colors rounded-md"
                         >
                           Maldives
                         </Link>
@@ -100,7 +92,7 @@ const Header = () => {
                       <li>
                         <Link
                           href="/sri-lanka"
-                          className="block px-4 py-2 hover:bg-white/20 hover:text-emerald-400 transition-colors rounded-md"
+                          className="block px-4 py-2 hover:bg-white/20 hover:text-sea-green transition-colors rounded-md"
                         >
                           Sri Lanka
                         </Link>
@@ -112,11 +104,8 @@ const Header = () => {
                 <li key={index}>
                   <Link
                     href={item.path}
-                    className={`hover:text-emerald-400 transition-colors duration-300 ${pathname === item.path
-                      ? "text-emerald-400"
-                      : stickyNavbar
-                        ? "text-black"
-                        : isHomePage ? "text-white" : "text-black"
+                    className={`hover:text-sea-green transition-colors duration-300 ${pathname === item.path
+                      ? "text-sea-green" : "text-gray-800"
                       }`}
                   >
                     {item.name}
@@ -138,7 +127,7 @@ const Header = () => {
 
         {/* Mobile Toggle Button */}
         <button
-          className={`tablet:hidden text-3xl focus:outline-none ${stickyNavbar ? '!text-black' : isHomePage ? "text-white" : "text-black"} `}
+          className={`tablet:hidden text-3xl focus:outline-none text-gray-800`}
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <RiCloseLine /> : <RxHamburgerMenu />}
