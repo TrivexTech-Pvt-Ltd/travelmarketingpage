@@ -129,6 +129,9 @@ import FloatIcon from "../../public/images/icons/floating.svg";
 import HotelBedIcon from "../../public/images/icons/bed.svg";
 import SunBedIcon from "../../public/images/icons/sunbed.svg";
 import DinnerIcon from "../../public/images/icons/dinner.svg";
+import TimeIcon from "../../public/images/icons/time.svg";
+import DestinationIcon from "../../public/images/icons/destination.svg";
+import PriceTagIcon from "../../public/images/icons/price-tag.svg";
 
 //Atoll
 import BaaAtoll from "../../public/images/maldives/Atoll/baa-atoll.webp";
@@ -172,6 +175,16 @@ import Honesty from "../../public/images/icons/honesty.svg";
 import Personalized from "../../public/images/icons/personalized.svg";
 import Quality from "../../public/images/icons/quality.svg";
 
+//Sri Lanka hotels
+import GoldiSandsHotel from "../../public/images/srilanka/hotels/goldi-sands-hotel.webp";
+import LyndenHotel from "../../public/images/srilanka/hotels/lynden-grove- hotel.webp";
+import BlueWaterHotel from "../../public/images/srilanka/hotels/blue-water-hotel.webp";
+import CinnamonLakeside from "../../public/images/srilanka/hotels/cinnamon-lakeside.webp";
+import CinnamonLodge from "../../public/images/srilanka/hotels/cinnamon-lodge.webp";
+import TheGrandHotel from "../../public/images/srilanka/hotels/the-grand-hotel.webp";
+import AraliyaHotel from "../../public/images/srilanka/hotels/araliya-green-city.webp";
+import CinnamonBey from "../../public/images/srilanka/hotels/cinnamon-bey.webp";
+import CinnamonCitadel from "../../public/images/srilanka/hotels/cinnamon-citadel.webp";
 
 export {
     Logo,
@@ -304,5 +317,17 @@ export {
     Explore,
     Honesty,
     Personalized,
-    Quality
+    Quality,
+    GoldiSandsHotel,
+    BlueWaterHotel,
+    LyndenHotel,
+    CinnamonLakeside,
+    CinnamonLodge,
+    TheGrandHotel,
+    AraliyaHotel,
+    CinnamonBey,
+    CinnamonCitadel,
+    TimeIcon,
+    DestinationIcon,
+    PriceTagIcon
 }

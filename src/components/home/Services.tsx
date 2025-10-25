@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Services = () => {
   return (
-    <div className='services-bg md:h-[580px] w-full relative flex justify-center items-center'>
+    <div className='services-bg md:h-[580px] w-full relative flex justify-center items-center md:mt-20'>
       <div className="absolute inset-0 bg-black/65 z-10 pointer-events-none" ></div>
       <div className='flex flex-col items-center gap-y-5 z-30 max-md:p-4'>
         <h4 className='text-xl text-white font-medium uppercase'>We are dedicated to</h4>
