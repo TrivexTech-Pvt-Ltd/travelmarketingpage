@@ -6,6 +6,7 @@ import TourHeroSl from './TourHeroSl';
 import Container from '../Container';
 import TourItinerary from './TourItinerary';
 import RoomCategories from './RoomCategories';
+import FeaturedHotelSl from './FeaturedHotelSl';
 
 const TourDetailsSriLanka = ({ slug }: { slug: string }) => {
     const packageData = getSriLankanBySlug(slug);
@@ -22,6 +23,7 @@ const TourDetailsSriLanka = ({ slug }: { slug: string }) => {
             <TourItinerary />
             <Container>
                 <RoomCategories />
+                <FeaturedHotelSl/>
             </Container>
 
         </div>

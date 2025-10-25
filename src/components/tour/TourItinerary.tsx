@@ -1,7 +1,7 @@
-import { FaPaperPlane, FaUmbrellaBeach } from "react-icons/fa";
-import { PiAirplaneTiltFill } from "react-icons/pi";
-import { MdOutlinePriceChange } from "react-icons/md";
+import { FaPaperPlane } from "react-icons/fa";
 import { useSLTourPackageStore } from "@/store/TourPackageStore";
+import Image from "next/image";
+import { DestinationIcon, PriceTagIcon, TimeIcon } from "@/utils/staticImages";
 
 const TourItinerary = () => {
     const data = useSLTourPackageStore(s => s.tourPackage);
@@ -12,21 +12,21 @@ const TourItinerary = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
                     <div>
                         <div className="flex justify-center mb-2 text-6xl text-sea-green">
-                            <PiAirplaneTiltFill />
+                            <Image src={TimeIcon} alt="duration" height={50} width={50} />
                         </div>
                         <h3 className="font-semibold text-xl text-sea-green">Duration</h3>
                         <p className="text-gray-500 text-base">{data.days} Days / {data.nights} Nights</p>
                     </div>
                     <div>
                         <div className="flex justify-center mb-2 text-6xl text-sea-green">
-                            <MdOutlinePriceChange />
+                            <Image src={PriceTagIcon} alt="duration" height={50} width={50} />
                         </div>
                         <h3 className="font-semibold text-lg text-sea-green">Price Per Person</h3>
                         <p className="text-gray-500 text-base">${data.price}</p>
                     </div>
                     <div>
                         <div className="flex justify-center mb-2 text-6xl text-sea-green">
-                            <FaUmbrellaBeach />
+                            <Image src={DestinationIcon} alt="duration" height={50} width={50} />
                         </div>
                         <h3 className="font-semibold text-lg  text-sea-green">Destination</h3>
                         <p className="text-gray-500 text-base">{data.location}</p>
