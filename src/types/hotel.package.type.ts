@@ -84,6 +84,7 @@ export interface BaseTourPackage {
     price: number;
     image: ResortImage;
     heroImages?: ResortImage[];
+    featuredHotels: string[];
 }
 
 // ---------- Maldives Package ----------
@@ -101,7 +102,6 @@ export interface MaldivesTourPackage extends BaseTourPackage {
     wellnessSpa: ResortWellnessSpa;
     activities: ResortActivity;
     direction: ResortDirection;
-    featuredHotels: string[];
 }
 
 // ---------- Sri Lanka Package ----------
@@ -111,7 +111,7 @@ export interface SriLankaTourPackage extends BaseTourPackage {
     roomCategories: RoomCategory;
 };
 
-// ---------- Union Type ----------
+// ----------Tour Union Type ----------
 export type TourPackage = MaldivesTourPackage | SriLankaTourPackage;
 
 

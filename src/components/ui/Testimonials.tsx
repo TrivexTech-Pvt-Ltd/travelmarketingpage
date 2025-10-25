@@ -41,7 +41,7 @@ export default function Testimonials() {
   if (!reviews.length) return null;
 
   return (
-    <section className="relative py-8 md:py-12 flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-cover bg-center bg-soft-beige/50">
+    <section className="relative py-8 md:py-12 flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-cover bg-center bg-soft-beige">
       <div className="max-w-7xl w-full relative transition-all duration-300">
         {/* Header */}
         <div className="text-center mb-8">
