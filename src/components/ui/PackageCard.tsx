@@ -19,7 +19,6 @@ interface TravelCardProps {
 const PackageCard = ({
     image,
     name,
-    title,
     location,
     nights,
     description,
@@ -27,7 +26,6 @@ const PackageCard = ({
     slug,
     country,
     days,
-    isFeatured = false
 }: TravelCardProps) => {
     return (
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 relative">

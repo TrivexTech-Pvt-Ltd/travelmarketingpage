@@ -1,4 +1,4 @@
-import { thousandSeparator } from '@/lib/helper';
+import { thousandSeparator } from '@/utils/helper';
 import Image, { StaticImageData } from 'next/image'
 import React from 'react'
 

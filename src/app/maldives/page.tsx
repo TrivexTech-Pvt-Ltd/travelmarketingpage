@@ -1,6 +1,6 @@
 import MaldivesDestination from '@/components/destination/MaldivesDestination'
 import Hero from '@/components/home/Hero'
-import { maldivesHeroData } from '@/lib/utils/data'
+import { maldivesHeroData } from '@/utils/data'
 
 const Maldives = () => {
     return (

@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 import { HiLocationMarker, HiPhone, HiMail } from "react-icons/hi";
 import Image from "next/image";
-import { Logo } from "@/lib/utils/staticImages";
+import { Logo } from "@/utils/staticImages";
 import Link from "next/link";
 export default function Footer() {
   return (

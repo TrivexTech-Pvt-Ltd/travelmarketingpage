@@ -3,7 +3,6 @@
 import { useState } from "react";
 import React from "react";
 import Swal from "sweetalert2";
-import { FaPlaneDeparture, FaSuitcaseRolling, FaUmbrellaBeach } from "react-icons/fa";
 
 const ReviewForm = () => {
   const [hover, setHover] = useState(0);
