@@ -186,6 +186,20 @@ import AraliyaHotel from "../../public/images/srilanka/hotels/araliya-green-city
 import CinnamonBey from "../../public/images/srilanka/hotels/cinnamon-bey.webp";
 import CinnamonCitadel from "../../public/images/srilanka/hotels/cinnamon-citadel.webp";
 
+//Alila Kothaifaru accommodation
+import AKAccom1 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-watervilla-aerial-exterior.webp";
+import AKAccom2 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-water-villa-interior.webp";
+import AKAccom3 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-lagoon-overwater-pool-villa-bathroom.webp";
+import AKAccom4 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-watervilla-aerial.webp";
+import AKAccom5 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-ocean-overwater-pool-villa-bathroom.webp";
+import AKAccom6 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-sunset-overwater-pool-villa-bedroom.webp";
+import AKAccom7 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-sunset-overwater-pool-villa-bedroom-interior.webp";
+import AKAccom8 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-sunset-overwater-pool-villa-aerial-shot-with-talents.webp";
+import AKAccom9 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-beach-villa-pool-deck.webp";
+import AKAccom10 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-beach-villa-bathroom.webp";
+import AKAccom11 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-sunset-beach-pool-villa-exterior-pool-view.webp";
+import AKAccom12 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-sunset-beach-pool-villa-bathroom-side-view.webp";
+
 export {
     Logo,
     Hero1,
@@ -329,5 +343,18 @@ export {
     CinnamonCitadel,
     TimeIcon,
     DestinationIcon,
-    PriceTagIcon
+    PriceTagIcon,
+    AKAccom1,
+    AKAccom2,
+    AKAccom3,
+    AKAccom4,
+    AKAccom5,
+    AKAccom6,
+    AKAccom7,
+    AKAccom8,
+    AKAccom9,
+    AKAccom10,
+    AKAccom11,
+    AKAccom12
+
 }

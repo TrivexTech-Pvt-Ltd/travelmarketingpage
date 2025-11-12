@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import ImageSlider from './ui/ImageSlider'
-import { aboutUsData, destination_3, ourMissionData, ourValuesData } from '@/utils/data'
-import { Hero3, Hero4, Hero5, Hero6, OurStory } from '@/utils/staticImages'
+import { aboutUsData, ourMissionData, ourValuesData } from '@/utils/data'
+import { Hero6, OurStory } from '@/utils/staticImages'
 import TravelServices from './ui/TravelServices'
 
 const AboutUs = () => {

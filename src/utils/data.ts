@@ -131,7 +131,20 @@ import {
     AraliyaHotel,
     CinnamonBey,
     CinnamonCitadel,
+    AKAccom1,
+    AKAccom2,
+    AKAccom4,
+    AKAccom3,
+    AKAccom5,
+    AKAccom6,
+    AKAccom7,
+    AKAccom8,
+    AKAccom9,
+    AKAccom10,
+    AKAccom11,
+    AKAccom12,
 } from "./staticImages";
+import { MaldivesTourPackage } from "@/types/hotel.package.type";
 
 //Home Page Hero
 export const slideData = [
@@ -265,17 +278,6 @@ export const srilankaHeroData = [
     }
 ]
 
-export interface PackageType {
-    name: string;
-    description: string;
-    title: string;
-    location: string;
-    nights: string;
-    price: string;
-    transfer?: string;
-    image: StaticImageData;
-}
-
 //Maldives tour packages
 export const MaldivesData = [
     {
@@ -353,18 +355,40 @@ export const MaldivesData = [
             "Island Couture",
             "Malé Velana International Airport",
         ],
-        accommodation: {
-            name: "Lagoon water pool villa",
-            area: "120 sqm",
-            pax: 2,
-            features: [
-                "Located over water in the lagoon",
-                "Short swim to the reef",
-                "Glass facade villa",
-                "Infinity pool and private deck",
-            ],
-            images: [Accommodation1, Accommodation2, Accommodation3, Accommodation4],
+        resortMap: {
+            path: "/images/maldives/resort-maps/alila-kothaifaru-maldives-resort-map.webp"
         },
+        highlightContent: {
+            title: "A new way to experience the Maldives",
+            highlights: [
+                "Surrounded by a stunning house reef in the scenic Raa Atoll, Alila Kothaifaru Maldives is a private island retreat set in an awe-inspiring destination embraced by nature’s wonders.",
+                "Home to a few inhabited islands, the peaceful and unspoiled Raa Atoll is a hidden gem offering a large variety and abundance of marine life with wonders to discover throughout the year.",
+                "Alila Kothaifaru Maldives is also close to Vaadhoo Island, one of the best spots to witness the spectacular “Sea of Stars” phenomenon, an extraordinary sight to behold."
+            ]
+        },
+        accommodation: [
+            {
+                name: "Lagoon Overwater Pool Villa",
+                slug: "lagoon-overwater-pool-villa",
+                area: "125 sqm",
+                roomDetails: {
+                    title: "Ultimate romantic escape",
+                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "Deluxe indoor bathroom",
+                    "Floor-to-ceiling windows bedroom and living room",
+                    "Freshwater swimming pool in the villa",
+                    "Private seating space overlooking the swimming pool and ocean",
+                ],
+                images: [AKAccom1, AKAccom2, AKAccom3, AKAccom4],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/alila-kothaifaru/lagoon-overwater-pool-villa.webp"
+                },
+            }
+        ],
         dinings: [
             {
                 name: "Andalucia Resturant",
@@ -476,18 +500,40 @@ export const MaldivesData = [
             "Island Couture",
             "Malé Velana International Airport",
         ],
-        accommodation: {
-            name: "Lagoon water pool villa",
-            area: "120 sqm",
-            pax: 2,
-            features: [
-                "Located over water in the lagoon",
-                "Short swim to the reef",
-                "Glass facade villa",
-                "Infinity pool and private deck",
-            ],
-            images: [Accommodation1, Accommodation2, Accommodation3, Accommodation4],
+        resortMap: {
+            path: "/images/maldives/resort-maps/alila-kothaifaru-maldives-resort-map.webp"
         },
+        highlightContent: {
+            title: "A new way to experience the Maldives",
+            highlights: [
+                "Surrounded by a stunning house reef in the scenic Raa Atoll, Alila Kothaifaru Maldives is a private island retreat set in an awe-inspiring destination embraced by nature’s wonders.",
+                "Home to a few inhabited islands, the peaceful and unspoiled Raa Atoll is a hidden gem offering a large variety and abundance of marine life with wonders to discover throughout the year.",
+                "Alila Kothaifaru Maldives is also close to Vaadhoo Island, one of the best spots to witness the spectacular “Sea of Stars” phenomenon, an extraordinary sight to behold."
+            ]
+        },
+        accommodation: [
+            {
+                name: "Lagoon Overwater Pool Villa",
+                slug: "lagoon-overwater-pool-villa",
+                area: "125 sqm",
+                roomDetails: {
+                    title: "Ultimate romantic escape",
+                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "Deluxe indoor bathroom",
+                    "Floor-to-ceiling windows bedroom and living room",
+                    "Freshwater swimming pool in the villa",
+                    "Private seating space overlooking the swimming pool and ocean",
+                ],
+                images: [AKAccom1, AKAccom2, AKAccom3, AKAccom4],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/alila-kothaifaru/lagoon-overwater-pool-villa.webp"
+                },
+            }
+        ],
         dinings: [
             {
                 name: "Andalucia Resturant",
@@ -597,18 +643,41 @@ export const MaldivesData = [
             "Island Couture",
             "Malé Velana International Airport",
         ],
-        accommodation: {
-            name: "Lagoon water pool villa",
-            area: "120 sqm",
-            pax: 2,
-            features: [
-                "Located over water in the lagoon",
-                "Short swim to the reef",
-                "Glass facade villa",
-                "Infinity pool and private deck",
-            ],
-            images: [Accommodation1, Accommodation2, Accommodation3, Accommodation4],
+        resortMap: {
+            path: "/images/maldives/resort-maps/alila-kothaifaru-maldives-resort-map.webp"
         },
+
+        highlightContent: {
+            title: "A new way to experience the Maldives",
+            highlights: [
+                "Surrounded by a stunning house reef in the scenic Raa Atoll, Alila Kothaifaru Maldives is a private island retreat set in an awe-inspiring destination embraced by nature’s wonders.",
+                "Home to a few inhabited islands, the peaceful and unspoiled Raa Atoll is a hidden gem offering a large variety and abundance of marine life with wonders to discover throughout the year.",
+                "Alila Kothaifaru Maldives is also close to Vaadhoo Island, one of the best spots to witness the spectacular “Sea of Stars” phenomenon, an extraordinary sight to behold."
+            ]
+        },
+        accommodation: [
+            {
+                name: "Lagoon Overwater Pool Villa",
+                slug: "lagoon-overwater-pool-villa",
+                area: "125 sqm",
+                roomDetails: {
+                    title: "Ultimate romantic escape",
+                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "Deluxe indoor bathroom",
+                    "Floor-to-ceiling windows bedroom and living room",
+                    "Freshwater swimming pool in the villa",
+                    "Private seating space overlooking the swimming pool and ocean",
+                ],
+                images: [AKAccom1, AKAccom2, AKAccom3, AKAccom4],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/alila-kothaifaru/lagoon-overwater-pool-villa.webp"
+                },
+            }
+        ],
         dinings: [
             {
                 name: "Andalucia Resturant",
@@ -712,18 +781,40 @@ export const MaldivesData = [
             "Diverse dining, a sophisticated playful beach club, and a serene spa.",
             "Male’ Velana International Airport.",
         ],
-        accommodation: {
-            name: "Lagoon water pool villa",
-            area: "120 sqm",
-            pax: 2,
-            features: [
-                "Located over water in the lagoon",
-                "Short swim to the reef",
-                "Glass facade villa",
-                "Infinity pool and private deck",
-            ],
-            images: [Accommodation1, Accommodation2, Accommodation3, Accommodation4],
+        resortMap: {
+            path: "/images/maldives/resort-maps/alila-kothaifaru-maldives-resort-map.webp"
         },
+        highlightContent: {
+            title: "A new way to experience the Maldives",
+            highlights: [
+                "Surrounded by a stunning house reef in the scenic Raa Atoll, Alila Kothaifaru Maldives is a private island retreat set in an awe-inspiring destination embraced by nature’s wonders.",
+                "Home to a few inhabited islands, the peaceful and unspoiled Raa Atoll is a hidden gem offering a large variety and abundance of marine life with wonders to discover throughout the year.",
+                "Alila Kothaifaru Maldives is also close to Vaadhoo Island, one of the best spots to witness the spectacular “Sea of Stars” phenomenon, an extraordinary sight to behold."
+            ]
+        },
+        accommodation: [
+            {
+                name: "Lagoon Overwater Pool Villa",
+                slug: "lagoon-overwater-pool-villa",
+                area: "125 sqm",
+                roomDetails: {
+                    title: "Ultimate romantic escape",
+                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "Deluxe indoor bathroom",
+                    "Floor-to-ceiling windows bedroom and living room",
+                    "Freshwater swimming pool in the villa",
+                    "Private seating space overlooking the swimming pool and ocean",
+                ],
+                images: [AKAccom1, AKAccom2, AKAccom3, AKAccom4],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/alila-kothaifaru/lagoon-overwater-pool-villa.webp"
+                },
+            }
+        ],
         dinings: [
             {
                 name: "Andalucia Resturant",
@@ -828,18 +919,40 @@ export const MaldivesData = [
             "Island Couture",
             "Malé Velana International Airport",
         ],
-        accommodation: {
-            name: "Lagoon water pool villa",
-            area: "120 sqm",
-            pax: 2,
-            features: [
-                "Located over water in the lagoon",
-                "Short swim to the reef",
-                "Glass facade villa",
-                "Infinity pool and private deck",
-            ],
-            images: [Accommodation1, Accommodation2, Accommodation3, Accommodation4],
+        highlightContent: {
+            title: "A new way to experience the Maldives",
+            highlights: [
+                "Surrounded by a stunning house reef in the scenic Raa Atoll, Alila Kothaifaru Maldives is a private island retreat set in an awe-inspiring destination embraced by nature’s wonders.",
+                "Home to a few inhabited islands, the peaceful and unspoiled Raa Atoll is a hidden gem offering a large variety and abundance of marine life with wonders to discover throughout the year.",
+                "Alila Kothaifaru Maldives is also close to Vaadhoo Island, one of the best spots to witness the spectacular “Sea of Stars” phenomenon, an extraordinary sight to behold."
+            ]
         },
+        resortMap: {
+            path: "/images/maldives/resort-maps/alila-kothaifaru-maldives-resort-map.webp"
+        },
+        accommodation: [
+            {
+                name: "Lagoon Overwater Pool Villa",
+                slug: "lagoon-overwater-pool-villa",
+                area: "125 sqm",
+                roomDetails: {
+                    title: "Ultimate romantic escape",
+                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "Deluxe indoor bathroom",
+                    "Floor-to-ceiling windows bedroom and living room",
+                    "Freshwater swimming pool in the villa",
+                    "Private seating space overlooking the swimming pool and ocean",
+                ],
+                images: [AKAccom1, AKAccom2, AKAccom3, AKAccom4],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/alila-kothaifaru/lagoon-overwater-pool-villa.webp"
+                },
+            }
+        ],
         dinings: [
             {
                 name: "Andalucia Resturant",
@@ -934,26 +1047,132 @@ export const MaldivesData = [
             ],
         },
         resortHighlights: [
-            "Where castaway meets runway, the stylish collection of 80 villas with private pool",
-            "15-minute speedboat ride from Malé International Airport",
-            "Overlooking the Emboodhoo Lagoon home to diverse marine life",
-            "Few minutes’ boat ride from CROSSROADS Maldives",
-            "Diverse dining, a sophisticated playful beach club and serene spa",
-            "Island Couture",
-            "Malé Velana International Airport",
+            "Restorative Retreat Designed at One With Nature (tranquil treetop spa)",
+            "Abundant snorkeling and diving options (one of the deepest atolls of archipelago)",
+            "Stunning house reef and lush greenery",
+            "Each villa comes with a private pool and a sun deck",
+            "A unique resort’s private sandbank, The Shack",
         ],
-        accommodation: {
-            name: "Lagoon water pool villa",
-            area: "120 sqm",
-            pax: 2,
-            features: [
-                "Located over water in the lagoon",
-                "Short swim to the reef",
-                "Glass facade villa",
-                "Infinity pool and private deck",
-            ],
-            images: [Accommodation1, Accommodation2, Accommodation3, Accommodation4],
+        resortMap: {
+            path: "/images/maldives/resort-maps/alila-kothaifaru-maldives-resort-map.webp"
         },
+        highlightContent: {
+            title: "A new way to experience the Maldives",
+            highlights: [
+                "Surrounded by a stunning house reef in the scenic Raa Atoll, Alila Kothaifaru Maldives is a private island retreat set in an awe-inspiring destination embraced by nature’s wonders.",
+                "Home to a few inhabited islands, the peaceful and unspoiled Raa Atoll is a hidden gem offering a large variety and abundance of marine life with wonders to discover throughout the year.",
+                "Alila Kothaifaru Maldives is also close to Vaadhoo Island, one of the best spots to witness the spectacular “Sea of Stars” phenomenon, an extraordinary sight to behold."
+            ]
+        },
+        accommodation: [
+            {
+                name: "Lagoon Overwater Pool Villa",
+                slug: "lagoon-overwater-pool-villa",
+                area: "125 sqm",
+                roomDetails: {
+                    title: "Ultimate romantic escape",
+                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "Deluxe indoor bathroom",
+                    "Floor-to-ceiling windows bedroom and living room",
+                    "Freshwater swimming pool in the villa",
+                    "Private seating space overlooking the swimming pool and ocean",
+                ],
+                images: [AKAccom1, AKAccom2, AKAccom3, AKAccom4],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/alila-kothaifaru/lagoon-overwater-pool-villa.webp"
+                },
+            },
+            {
+                name: "Ocean Overwater Pool Villa",
+                slug: "ocean-overwater-pool-villa",
+                area: "125 sqm",
+                roomDetails: {
+                    title: "Ultimate romantic escape",
+                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "Deluxe indoor bathroom",
+                    "Freshwater swimming pool in the villa",
+                    "Sun deck to catch the sunrise",
+                    "Private seating space overlooking swimming pool and ocean",
+                ],
+                images: [AKAccom8, AKAccom5, AKAccom1],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/alila-kothaifaru/Ocean-Overwater-Pool-Villa.webp"
+                },
+            },
+            {
+                name: "Sunset Overwater Pool Villa",
+                slug: "sunset-overwater-pool-villa",
+                area: "125 sqm",
+                roomDetails: {
+                    title: "Ultimate romantic escape",
+                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "Deluxe indoor bathroom",
+                    "Freshwater swimming pool in the villa",
+                    "Sunset view sun deck",
+                    "Private seating space overlooking swimming pool and ocean",
+                ],
+                images: [AKAccom6, AKAccom7, AKAccom8, AKAccom1, AKAccom4],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/alila-kothaifaru/Sunset-Overwater-Pool-Villa.webp"
+                },
+            },
+            {
+                name: "Beach Pool Villa",
+                slug: "beach-pool-villa",
+                area: "202 sqm",
+                roomDetails: {
+                    title: "Ultimate romantic escape",
+                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                },
+                paxAdult: 2,
+                paxChild: 1,
+                features: [
+                    "Open-air bathroom in the garden environment",
+                    "Private space with a separate bedroom and living room",
+                    "Freshwater swimming pool in the villa",
+                    "Private seating space overlooking the swimming pool",
+                ],
+                images: [AKAccom9, AKAccom10],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/alila-kothaifaru/Beach-Pool-Villa.png"
+                },
+            },
+            {
+                name: "Sunset Beach Pool Villa",
+                slug: "sunset-beach-pool-villa",
+                area: "202 sqm",
+                roomDetails: {
+                    title: "Ultimate romantic escape",
+                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                },
+                paxAdult: 2,
+                paxChild: 1,
+                features: [
+                    "Open-air bathroom in the garden environment",
+                    "Private space with a separate bedroom and living room",
+                    "Freshwater swimming pool in the villa",
+                    "Private seating space overlooking the swimming pool",
+                ],
+                images: [AKAccom11, AKAccom9, AKAccom12],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/alila-kothaifaru/Beach-Pool-Villa.png"
+                },
+            },
+        ],
+
+
         dinings: [
             {
                 name: "Andalucia Resturant",
