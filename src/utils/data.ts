@@ -143,6 +143,57 @@ import {
     AKAccom10,
     AKAccom11,
     AKAccom12,
+    AKSlt1,
+    AKSlt2,
+    AKSlt3,
+    AKSlt4,
+    AKSlt5,
+    AKMB1,
+    AKMB2,
+    AKMB3,
+    AKUM1,
+    AKUM2,
+    AKUM3,
+    AKYKB2,
+    AKYKB3,
+    AKYKB1,
+    AKPSM1,
+    AKPSM2,
+    AKPSM3,
+    AKTS1,
+    AKTS2,
+    AKTS3,
+    AKTS4,
+    AKTS5,
+    AKSPAL1,
+    AKSPAL2,
+    AKSPAL3,
+    AKSPAL4,
+    AKSPAL5,
+    AKFC1,
+    AKFC2,
+    AKFC3,
+    AKWSDA1,
+    AKWSDA2,
+    AKWSDA3,
+    AKWSDA4,
+    AKWSDA5,
+    AKAOC1,
+    AKAOC2,
+    AKAOC3,
+    AKDE5,
+    AKDE4,
+    AKDE3,
+    AKDE2,
+    AKDE1,
+    AKWE1,
+    AKWE2,
+    AKWE3,
+    AKGA4,
+    AKGA3,
+    AKGA2,
+    AKGA1,
+    AKSPG,
 } from "./staticImages";
 import { MaldivesTourPackage } from "@/types/hotel.package.type";
 
@@ -1091,8 +1142,8 @@ export const MaldivesData = [
                 slug: "ocean-overwater-pool-villa",
                 area: "125 sqm",
                 roomDetails: {
-                    title: "Ultimate romantic escape",
-                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                    title: "Captivating Indian Ocean views",
+                    highlights: ["Experience the tranquility of Ocean Overwater Pool Villas, where indoor and outdoor spaces blend harmoniously amidst captivating Indian Ocean views. Take a refreshing swim in a private pool while observing the diverse marine life gracefully navigating the waters below villa. With ample space and serenity, villas offer a peaceful retreat in the Maldives."]
                 },
                 paxAdult: 2,
                 paxChild: 0,
@@ -1112,8 +1163,8 @@ export const MaldivesData = [
                 slug: "sunset-overwater-pool-villa",
                 area: "125 sqm",
                 roomDetails: {
-                    title: "Ultimate romantic escape",
-                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                    title: "Intimate overwater sanctuary",
+                    highlights: ["Stretch out in the sun and dream under the stars in this intimate overwater sanctuary, designed to indulge you in elegant comfort and nature’s immaculate beauty. The villa features an open-concept bedroom and living room connected by floor-to-ceiling sliding glass doors to a private pool and sun deck."]
                 },
                 paxAdult: 2,
                 paxChild: 0,
@@ -1133,8 +1184,8 @@ export const MaldivesData = [
                 slug: "beach-pool-villa",
                 area: "202 sqm",
                 roomDetails: {
-                    title: "Ultimate romantic escape",
-                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                    title: "A slice of paradise",
+                    highlights: ["Enjoy a slice of paradise embraced by nature just steps from the beach. Beach Pool Villas offer an indulgence of private space with a separate bedroom and living room, while floor-to-ceiling sliding glass doors open fully to the fresh ocean air, a private pool and sun deck."]
                 },
                 paxAdult: 2,
                 paxChild: 1,
@@ -1154,8 +1205,8 @@ export const MaldivesData = [
                 slug: "sunset-beach-pool-villa",
                 area: "202 sqm",
                 roomDetails: {
-                    title: "Ultimate romantic escape",
-                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                    title: "Havens of privacy and comfort",
+                    highlights: ["Nestled within lush greenery, steps from sun-kissed sand, these spacious villas are havens of privacy and comfort with a separate bedroom and living room. Floor-to-ceiling sliding glass doors maximize views and open to a private pool and sun deck."]
                 },
                 paxAdult: 2,
                 paxChild: 1,
@@ -1175,39 +1226,131 @@ export const MaldivesData = [
 
         dinings: [
             {
-                name: "Andalucia Resturant",
-                description:
-                    "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                name: "SEASALT",
+                description: [
+                    "houghtfully sourced and carefully served, local fish is the star of the show at Seasalt, caught and delivered daily by neighboring local fishermen. Enjoy the fresh taste of the sea in coastal cuisine that blends Middle Eastern and Mediterranean influences and traditions in dishes that burst with ancient flavors, spices, and colors.",
+                    "Breakfast includes a daily rotation of local and international favorites alongside fresh-baked breads. Lunch includes light and sharing-style dishes complemented by daily specials, while Seasalt’s signature salt-baked fish dishes are a highlight at dinner."
+                ],
+                images: [AKSlt1, AKSlt2, AKSlt3, AKSlt4, AKSlt5],
             },
             {
-                name: "The Citronelle Club",
-                description:
-                    "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                name: "MIRUS BAR",
+                description: [
+                    "Named after the local Dhivehi word for “chili”, Mirus Bar serves a refreshing selection of cocktails inspired by the region’s former Portuguese and Arabic spice trade routes and concocted with ingredients from our own herb garden.",
+                    "Here, you can also enjoy an extensive range of Old and New World wines, including organic and biodynamic varieties. Pair your drink with Spanish tapas and local bites famous in the South Asian region."
+                ],
+                images: [AKMB1, AKMB2, AKMB3],
             },
             {
-                name: "Barrrique Resturant",
+                name: "UMAMI",
+                description: [
+                    "Umami means “essence of deliciousness” in Japanese and is known as the fifth element of taste. It perfectly describes the variety of mouth-watering experiences that await in this relaxing open space cooled by the gentle ocean breeze.",
+                    "Enjoy a wide range of traditional and modern a la carte Japanese dishes, including freshcaught fish grilled over charcoal embers and served with delicate signature sauces, as well as sushi and sashimi featuring Maldivian seafood"
+                ],
+                images: [AKUM1, AKUM2, AKUM3],
+            },
+            {
+                name: "YAKITORI BAR",
+                description: [
+                    'Yakitori Bar is the place to be to indulge in sundowners, including Asian-inspired creative cocktails and mocktails crafted by our team of mixologists alongside fine Japanese sakes and spirits.',
+                    'Delicious smoky aromas from the robata grill permeate the bar and work to whet your appetite.'
+                ],
+                images: [AKYKB1, AKYKB2, AKYKB3],
+            },
+            {
+                name: "Pibati Sul Mare",
+                description: [
+                    'Discover Pibati Sul Mare, a beachside haven where Italy’s timeless flavors meet the beauty of the Maldives. Specializing in artisanal pizzas and handcrafted pastas, our menu showcases authentic classics made with fresh, high-quality ingredients, including herbs grown on the island.',
+                    'Set against breathtaking ocean views, Pibati Sul Mare offers a relaxed, open-air dining experience with warm, natural tones and contemporary coastal charm. Whether enjoying a leisurely lunch with loved ones or a quiet moment by the sea, every visit promises delicious flavors and unforgettable memories.'
+                ],
+                images: [AKPSM1, AKPSM2, AKPSM3],
+            },
+            {
+                name: "THE SHACK",
+                description: [
+                    'Be transported by speedboat to private sandbank, the starting point of a rare culinary journey.',
+                    'A true island escape experience, The Shack is our own private sand cay (giri). Three distinct trips to The Shack are available daily – morning and afternoon trips featuring a picnic-style breakfast or lunch, and an evening trip with a private chef to cook up a sunset BBQ. In addition, curated experiences, ranging from romantic twilight dinners for two to private island rental with a personalised menu crafted just for you, offer unparalleled privacy and unforgettable moments.'
+                ],
+                images: [AKTS1, AKTS2, AKTS3, AKTS4, AKTS5],
+            }
+        ],
+        wellnessSpa: [
+            {
+                title: "Spa Alila",
                 description:
-                    "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                    "Experience inner peace and be pampered in our tranquil treetop spa, cocooned amidst the leafy canopy with the lush surroundings. Spa Alila features four double treatment suites, all with a private bathroom, shower and a floor-to-ceiling window offering views. Treat yourself to rejuvenating treatments and beauty rituals that put a contemporary spin on ancient healing techniques and draw on the benefits of natural ingredients to deliver pure luxurious indulgence.",
+                images: [AKSPAL1, AKSPAL2, AKSPAL3, AKSPAL4, AKSPAL5],
+            },
+            {
+                title: "FITNESS CENTRE",
+                description:
+                    "Work out in our light-filled gym offering the latest Technogym equipment and floor-to-ceiling views of the lush surroundings",
+                images: [AKFC1, AKFC2, AKFC3],
             },
         ],
-        wellnessSpa: {
-            title: "Lagoon Water Pool Villa",
-            description:
-                "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-            image: WellnessSpa,
-        },
-        activities: {
-            title: "Water Adventures & Excursions",
-            description:
-                "An array of paid and complimentary water-based adventures including kayaking, parasailing, snorkeling, jet ski, stand-up paddleboarding, and offsite excursions are available to further enhance travelers’ experience of the island.\nGuests can learn how to scuba dive, or for experienced divers, there is a wide selection of curated dives that can be arranged daily including turtle expeditions, outer reef explorations and traditional Maldivian fishing excursions.",
-            image: ResortActivities,
-        },
+
+        activities: [
+            {
+                title: "ALILA WATER SPORTS & DIVING ACTIVITIES",
+                description: [
+                    "Pepper your relaxation with the thrill of snorkelling, diving, kayaking and other water activities and excursions.",
+                ],
+
+                images: [AKWSDA1, AKWSDA2, AKWSDA3, AKWSDA4, AKWSDA5],
+            },
+            {
+                title: "THE ART OF COCONUT",
+                description: [
+                    "Embark on a unique cultural journey to explore the wonders of the coconut tree, known as the Miracle Tree. The local host will share Maldivian stories, teach coconut art to kids, and demonstrate traditional tree climbing.",
+                    "Learn to cook Maldivian dishes and enhance your mixology skills with coconut-based cocktails. Conclude with a tropical coconut bath and therapeutic massage for total relaxation."
+                ],
+
+                images: [AKAOC1, AKAOC2, AKAOC3],
+            },
+            {
+                title: "DINING EXPERIENCES",
+                description: [
+                    "Escape to paradise at Alila Kothaifaru Maldives and indulge in a culinary journey like no other. The expert culinary team has curated a range of special dining experiences designed to pamper all of your senses.",
+                    "Tailor dining experience to your tastes and preferences, and create unforgettable memories that will last a lifetime."
+                ],
+
+                images: [AKDE1, AKDE2, AKDE3, AKDE4, AKDE5],
+            },
+            {
+                title: "WEDDINGS & EVENTS",
+                description: [
+                    "Experience moments to remember at Alila Kothaifaru Maldives. If you wish to exchange or renew your vows on the beachfront at sunset framed by tropical floral arrangements on our private island, the resort has a range of venues which can be tailored to accomodate your individual tastes and requirements.",
+                ],
+
+                images: [AKWE1, AKWE2, AKWE3],
+            },
+            {
+                title: "GAME AREA",
+                description: [
+                    "Indulge in some fun with a wide variety of games for all ages to choose from:",
+                ],
+                activityList: [
+                    "Beach Volley Ball",
+                    "Pétanque Court",
+                    "Board Games in Library",
+                    "Indoor Billiard Pool Table",
+                    "Outdoor Floor Chess",
+                    "Outdoor Table Tennis",
+                ],
+                images: [AKGA1, AKGA2, AKGA3, AKGA4],
+            },
+            {
+                title: "ALILA SPICE GARDEN",
+                description: [
+                    "Step into a world of culinary delight at The Spice Garden, where guests are invited to be part of the cooking experience.",
+                    "Nestled amidst the pristine beauty of Alila Kothaifaru Maldives, The Spice Garden offers a perfect blend of flavors, sustainability, and wellness."
+                ],
+                images: [AKSPG],
+            },
+        ],
         direction: {
             description:
-                "A 15-minute speedboat ride from Malé International Airport whisks you away to a private island in this idyllic archipelago overlooking the Emboodhoo Lagoon. Introducing a new generation of luxury for modern adventurers.",
+                "This 11.2 hectare private island retreat lies at the northern edge of the Maldives in the Raa Atoll, reached via a scenic 45-minute seaplane journey from Malé.",
             mapEmbed:
                 "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.280384599352!2d72.84044927581441!3d5.525353333955408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b6b03dd72d62883%3A0xa5d2a1de5fb21c85!2sAlila%20Kothaifaru%20Maldives!5e0!3m2!1sen!2slk!4v1760947768061!5m2!1sen!2slk",
         },

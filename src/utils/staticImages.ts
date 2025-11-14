@@ -200,6 +200,89 @@ import AKAccom10 from "../../public/images/maldives/accommodation/alila-kothaifa
 import AKAccom11 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-sunset-beach-pool-villa-exterior-pool-view.webp";
 import AKAccom12 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-sunset-beach-pool-villa-bathroom-side-view.webp";
 
+//Alila Kothaifaru Dining
+//Seasalt
+import AKSlt1 from "../../public/images/maldives/dining/alila-kothaifaru/seasalt/alila-kothaifaru-maldives-seasalt-restaurant.webp";
+import AKSlt2 from "../../public/images/maldives/dining/alila-kothaifaru/seasalt/alila-kothaifaru-maldives-seasalt-dining-corner-ocean.webp";
+import AKSlt3 from "../../public/images/maldives/dining/alila-kothaifaru/seasalt/alila-kothaifaru-maldives-seasalt-outdoor-area.webp";
+import AKSlt4 from "../../public/images/maldives/dining/alila-kothaifaru/seasalt/alila-kothaifaru-maldives-private-dining-area.webp";
+import AKSlt5 from "../../public/images/maldives/dining/alila-kothaifaru/seasalt/alila-kothaifaru-maldives-seasalt-pool-lounge.webp";
+
+//Mirus Bar
+import AKMB1 from "../../public/images/maldives/dining/alila-kothaifaru/mirus-bar/alila-kothaifaru-maldives-mirus-bar-sunset.webp"
+import AKMB2 from "../../public/images/maldives/dining/alila-kothaifaru/mirus-bar/alila-kothaifaru-maldives-mirus-bar-exterior.webp"
+import AKMB3 from "../../public/images/maldives/dining/alila-kothaifaru/mirus-bar/alila-kothaifaru-maldives-mirus-bar-interior.webp"
+
+//UMAMI
+import AKUM1 from "../../public/images/maldives/dining/alila-kothaifaru/umami/alila-kothaifaru-maldives-umami-interior-with-staff.webp"
+import AKUM2 from "../../public/images/maldives/dining/alila-kothaifaru/umami/alila-kothaifaru-maldives-umami-interior-with-staff.webp"
+import AKUM3 from "../../public/images/maldives/dining/alila-kothaifaru/umami/alila-kothaifaru-maldives-umami-teppanyaki.webp"
+
+//YAKITORI BAR
+import AKYKB1 from "../../public/images/maldives/dining/alila-kothaifaru/yakitori-bar/alila-kothaifaru-maldives-yakitori-bar.webp"
+import AKYKB2 from "../../public/images/maldives/dining/alila-kothaifaru/yakitori-bar/alila-kothaifaru-maldives-yakitori-bar-interior.webp"
+import AKYKB3 from "../../public/images/maldives/dining/alila-kothaifaru/yakitori-bar/alila-kothaifaru-maldives-yakitori-bar-entrance.webp"
+
+//Pibati Sul Mare
+import AKPSM1 from "../../public/images/maldives/dining/alila-kothaifaru/pibati-sul-mare/alila-kothaifaru-maldives-pibati-cafe.webp"
+import AKPSM2 from "../../public/images/maldives/dining/alila-kothaifaru/pibati-sul-mare/alila-kothaifaru-maldives-pibati.webp"
+import AKPSM3 from "../../public/images/maldives/dining/alila-kothaifaru/pibati-sul-mare/alila-kothaifaru-maldives-afternoon-refreshments.webp"
+
+//The Shack
+import AKTS1 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-private-island-sunset.webp"
+import AKTS2 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-dining-area.webp"
+import AKTS3 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-facilities.webp"
+import AKTS4 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-lunch.webp"
+import AKTS5 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-private-sandbank.webp"
+
+//Alila Kothaifaru Spa & Wellness
+//Spa alila
+import AKSPAL1 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila-treatment-room-with-staff.webp"
+import AKSPAL2 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila.webp"
+import AKSPAL3 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-reception.webp"
+import AKSPAL4 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila-bathroom.webp"
+import AKSPAL5 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila-reception-with-staff.webp"
+
+//Fitness Centre
+import AKFC1 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/fitness-centre/alila-kothaifaru-maldives-fitness-centre-inside-angle.webp"
+import AKFC2 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/fitness-centre/alila-kothaifaru-maldives-infinity-pool-yoga.webp"
+import AKFC3 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/fitness-centre/alila-kothaifaru-maldives-yoga-by-the-beach.webp"
+
+//Alila Kothaifaru Activities
+//WATER SPORTS & DIVING ACTIVITIES
+import AKWSDA1 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila_diving_site.webp"
+import AKWSDA2 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila_underwater_reefs.webp"
+import AKWSDA3 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila-kothaifaru-maldives-couple-kayaking.webp"
+import AKWSDA4 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila-kothaifaru-maldives-catamaran-sailing.webp"
+import AKWSDA5 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila-kothaifaru-maldives-dolphin-cruise.webp"
+
+//THE ART OF COCONUT
+import AKAOC1 from "../../public/images/maldives/activities/alila-kothaifaru/art-of-coconut/alila-kothaifaru-maldives-the-art-of-coconut.webp"
+import AKAOC2 from "../../public/images/maldives/activities/alila-kothaifaru/art-of-coconut/alila-kothaifaru-maldives-the-art-of-coconut-cultural-learning.webp"
+import AKAOC3 from "../../public/images/maldives/activities/alila-kothaifaru/art-of-coconut/alila-kothaifaru-maldives-the-art-of-coconut-maldivian-lady.webp"
+
+//DINING EXPERIENCES
+import AKDE1 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-kothaifaru-maldives-the-shack-picnic.webp"
+import AKDE2 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-kothaifaru-maldives-group-dinner-set-up.webp"
+import AKDE3 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-kothaifaru-maldives-starlight-cinema-with-staff.webp"
+import AKDE4 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-dining-experiences.webp"
+import AKDE5 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-maldives-dining-experiences.webp"
+
+//WEDDINGS & EVENTS
+import AKWE1 from "../../public/images/maldives/activities/alila-kothaifaru/wedding-events/alila-kothaifaru-maldives-wedding-set-up.webp"
+import AKWE2 from "../../public/images/maldives/activities/alila-kothaifaru/wedding-events/alila-kothaifaru-maldives-wedding-cake-with-pastry-chef.webp"
+import AKWE3 from "../../public/images/maldives/activities/alila-kothaifaru/wedding-events/alila-kothaifaru-maldives-wedding-shot.webp"
+
+//GAME AREA
+import AKGA1 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-padel-tennis-court.jpg"
+import AKGA2 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-outdoor-floor-chess.webp"
+import AKGA3 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-beach-volley-ball.webp"
+import AKGA4 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-petanque-court.jpg"
+
+//SPICE GARDEN
+import AKSPG from "../../public/images/maldives/activities/alila-kothaifaru/spice-garden/spice-garden-and-chef.webp"
+
+
 export {
     Logo,
     Hero1,
@@ -355,6 +438,56 @@ export {
     AKAccom9,
     AKAccom10,
     AKAccom11,
-    AKAccom12
-
+    AKAccom12,
+    AKMB1,
+    AKMB2,
+    AKMB3,
+    AKPSM1,
+    AKPSM2,
+    AKPSM3,
+    AKSlt1,
+    AKSlt2,
+    AKSlt3,
+    AKSlt4,
+    AKSlt5,
+    AKTS1,
+    AKTS2,
+    AKTS3,
+    AKTS4,
+    AKTS5,
+    AKUM1,
+    AKUM2,
+    AKUM3,
+    AKYKB1,
+    AKYKB2,
+    AKYKB3,
+    AKSPAL1,
+    AKSPAL2,
+    AKSPAL3,
+    AKSPAL4,
+    AKSPAL5,
+    AKFC1,
+    AKFC2,
+    AKFC3,
+    AKAOC1,
+    AKAOC2,
+    AKAOC3,
+    AKDE1,
+    AKDE2,
+    AKDE3,
+    AKDE4,
+    AKDE5,
+    AKGA1,
+    AKGA2,
+    AKGA3,
+    AKGA4,
+    AKSPG,
+    AKWE1,
+    AKWE2,
+    AKWE3,
+    AKWSDA1,
+    AKWSDA2,
+    AKWSDA3,
+    AKWSDA4,
+    AKWSDA5,
 }

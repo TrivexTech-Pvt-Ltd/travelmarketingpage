@@ -38,7 +38,7 @@ export type ResortAccommodation = {
 // ---------- Dining ----------
 export type ResortDining = {
     name: string;
-    description: string;
+    description: string[];
     images: ResortImage[];
 }
 
@@ -46,14 +46,16 @@ export type ResortDining = {
 export type ResortWellnessSpa = {
     title: string;
     description: string;
-    image: ResortImage;
+    images: ResortImage[];
 }
 
 // ---------- Activities ----------
 export type ResortActivity = {
     title: string;
-    description: string;
-    image: ResortImage;
+    description: string[];
+    images: ResortImage[];
+    activityList?: string[]
+
 }
 
 // ---------- Direction ----------
@@ -121,8 +123,8 @@ export interface MaldivesTourPackage extends BaseTourPackage {
     resortHighlights: string[];
     accommodation: ResortAccommodation[];
     dinings: ResortDining[];
-    wellnessSpa: ResortWellnessSpa;
-    activities: ResortActivity;
+    wellnessSpa: ResortWellnessSpa[];
+    activities: ResortActivity[];
     direction: ResortDirection;
     resortMap: resortMap;
     highlightContent: highlightContent;

@@ -1,38 +1,46 @@
-import Image, { StaticImageData } from 'next/image';
-import React from 'react'
+"use client"
+import { ResortActivity } from '@/types/hotel.package.type';
+import Image from 'next/image';
+import SliderWithArrows from '../ui/SliderWithArrows';
 
-interface SectionData {
-    title: string;
-    description: string;
-    image: StaticImageData;
-}
 
 interface Props {
-    activities?: SectionData;
+    activities?: ResortActivity[];
 }
 
 const ActivitiesTab = ({ activities }: Props) => {
     if (!activities) return null
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-            <div className="relative w-full h-[450px] rounded-2xl overflow-hidden shadow-md">
-                <Image
-                    src={activities.image}
-                    alt={activities.title}
-                    fill
-                    className="object-cover object-center"
-                    sizes="100vw"
-                />
-                <div className="absolute inset-0 bg-black/20" />
-            </div>
-            <div className="space-y-6 order-2 md:order-1">
-                <h2 className="text-4xl font-semibold text-black font-work-sans">
-                    {activities.title}
-                </h2>
-                <p className="text-gray-500 leading-relaxed whitespace-pre-line text-lg">
-                    {activities.description}
-                </p>
-            </div>
+        <div className="my-8">
+            {
+                activities.map((item, index) => (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center my-10" key={index}>
+                        <SliderWithArrows images={item.images} />
+                        <div className="space-y-4">
+                            <h4 className="text-xl font-medium font-work-sans text-black uppercase">{item.title}</h4>
+                            <hr />
+                            <div className="text-gray-600">
+                                {
+                                    item.description.map((text, index) => (
+                                        <p className="py-4 text-base" key={index}>{text}</p>
+                                    ))
+                                }
+                                {
+                                    item.activityList && <ul className='flex flex-col gap-y-1 list-disc pl-4'>
+                                        {
+                                            item.activityList.map((item, index) => (
+                                                <li key={index}>{item}</li>
+                                            ))
+                                        }
+                                    </ul>
+                                }
+
+
+                            </div>
+                        </div>
+                    </div>
+                ))
+            }
         </div>
     )
 }
