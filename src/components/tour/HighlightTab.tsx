@@ -28,7 +28,7 @@ const HighlightTab = ({ highlightedList, map, highlightContent, isRoomDetails = 
                 </div>
             </div>
 
-            <div className='pl-10 pt-10  border-l-2 border-gray-500'>
+            <div className='md:pl-10 md:pt-10  md:border-l-2 md:border-gray-500'>
                 <h3 className='text-2xl font-medium font-work-sans text-black'>{isRoomDetails ? "Key" : "Resort"} highlights</h3>
                 {
                     highlightedList.map((item, index) => (

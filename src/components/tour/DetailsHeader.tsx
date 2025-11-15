@@ -22,10 +22,9 @@ const DetailsHeader = () => {
             <div className="flex-shrink-0 max-sm:mx-auto">
                 <div className='space-y-3 max-sm:mx-auto'>
                     <p className='text-lg text-gray-500 uppercase'>PER ROOM STARTING</p>
-                    {/* <p className='text-5xl text-sea-green font-medium'>$ {thousandSeparator(data?.price)}</p> */}
                     <button
                         onClick={() => setIsModalOpen(true)}
-                        className="hidden tablet:block text-white bg-sea-green rounded-md py-3 px-6 cursor-pointer uppercase text-sm hover:opacity-90 mx-auto"
+                        className="block text-white bg-sea-green rounded-md py-3 px-6 cursor-pointer uppercase text-sm hover:opacity-90 mx-auto"
                         type="button"
                     >
                         inquire

@@ -50,12 +50,12 @@ const TourFeaturesTab = () => {
     const data = useTourPackageStore(s => s.tourPackage);
     if (!data) return null;
     return (
-        <div className='my-24'>
-            <div className='pb-8'>
+        <div className='my-12 md:my-24'>
+            <div className='pb-4 md:pb-8'>
                 <HighlightTab highlightedList={data.resortHighlights} map={data.resortMap.path} highlightContent={data.highlightContent} />
             </div>
 
-            <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-3">
+            <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-3">
                 {featuresTabData.map(({ id, name, icon: Icon }) => (
                     <button
                         type='button'

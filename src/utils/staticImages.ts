@@ -1,5 +1,6 @@
 // Logo
 import Logo from "../../public/images/logo/Logo.webp";
+import LogoWhite from "../../public/images/logo/logo-white.jpeg";
 
 //Hero
 import Hero1 from "../../public/images/hero/siyam-worlds-hero.webp";
@@ -282,9 +283,85 @@ import AKGA4 from "../../public/images/maldives/activities/alila-kothaifaru/game
 //SPICE GARDEN
 import AKSPG from "../../public/images/maldives/activities/alila-kothaifaru/spice-garden/spice-garden-and-chef.webp"
 
+//SO Maldives
+//Accommodation
+import SMAccom1 from "../../public/images/maldives/accommodation/so-maldives/stay-1/overwater-pool-villa-collection.webp"
+import SMAccom2 from "../../public/images/maldives/accommodation/so-maldives/stay-1/overwater-pool-villa-collection-interior.webp"
+import SMAccom3 from "../../public/images/maldives/accommodation/so-maldives/stay-1/overwater-pool-villa-collection-interior-bed.webp"
+import SMAccom4 from "../../public/images/maldives/accommodation/so-maldives/stay-2/overwater-pool-villa-collection-exterior.webp"
+import SMAccom5 from "../../public/images/maldives/accommodation/so-maldives/stay-2/aerial-so-maldives.webp"
+import SMAccom6 from "../../public/images/maldives/accommodation/so-maldives/stay-2/overwater-pool-villa-collection-bed-view.webp"
+import SMAccom7 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beach-pool-villa-collection-exterior.webp"
+import SMAccom8 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beach-pool-villa-collection-interior.webp"
+import SMAccom9 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beach-pool-villa-collection-interior-1.webp"
+import SMAccom10 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beach-villa-lagoon-indoor-jpg.webp"
+import SMAccom11 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-exterior-terrace.webp"
+import SMAccom12 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-exterior-pool.webp"
+import SMAccom13 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-interior-bedroom.webp"
+import SMAccom14 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-villa-indoor.webp"
+import SMAccom15 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-villa-ocean-outdoor.webp"
+import SMAccom16 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-interior-bed.webp"
+import SMAccom17 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-exterior.webp"
+import SMAccom18 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-bedroom.webp"
+import SMAccom19 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-room-kids-pods.webp"
+import SMAccom20 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-bath.webp"
+import SMAccom21 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-buffet.webp"
+import SMAccom22 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-jpg.webp";
+import SMAccom23 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-terrace-jpg.webp";
+import SMAccom24 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-bathtub-jpg.webp";
+import SMAccom25 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-hammocks-jpg.webp";
+import SMAccom26 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-dining-jpg.webp";
+import SMAccom27 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-bed-view-jpg.webp";
+import SMAccom28 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-living-room-jpg.webp";
+import SMAccom29 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-night-jpg.webp";
+import SMAccom30 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-jpg.webp";
+import SMAccom31 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-deck-jpg.webp";
+import SMAccom32 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-shower-jpg.webp";
+import SMAccom33 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-mirrors-jpg.webp";
+import SMAccom34 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-bed-jpg.webp";
+import SMAccom35 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-dining-jpg.webp";
+import SMAccom36 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-bath-jpg.webp";
+import SMAccom37 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-dining-1-jpg.webp";
+import SMAccom38 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-night-jpg.webp";
+import SMAccom39 from "../../public/images/maldives/accommodation/so-maldives/stay-8/three-bedroom-ocean-water-pool-atelier-exterior-jpg.webp";
+import SMAccom40 from "../../public/images/maldives/accommodation/so-maldives/stay-8/three-bedroom-ocean-water-pool-atelier-bed-jpg.webp";
+import SMAccom41 from "../../public/images/maldives/accommodation/so-maldives/stay-8/three-bedroom-ocean-water-pool-atelier-deck-jpg.webp";
+import SMAccom42 from "../../public/images/maldives/accommodation/so-maldives/stay-8/three-bedroom-ocean-water-pool-atelier-living-jpg.webp";
+import SMAccom43 from "../../public/images/maldives/accommodation/so-maldives/stay-8/three-bedroom-ocean-water-pool-atelier-bedroom-jpg.webp";
+import SMAccom44 from "../../public/images/maldives/accommodation/so-maldives/stay-8/three-bedroom-ocean-water-pool-atelier-night-jpg.webp";
+
+//Dining
+import SMTCC1 from "../../public/images/maldives/dining/so-maldives/citronelle-club/the-citronelle-club-outdoor-area-jpg.webp"
+import SMTCC2 from "../../public/images/maldives/dining/so-maldives/citronelle-club/the-citronelle-bar-jpg.webp"
+import SMTCC3 from "../../public/images/maldives/dining/so-maldives/citronelle-club/the-citronelle-club-indoor-area-jpg.webp"
+
+import SMLB1 from "../../public/images/maldives/dining/so-maldives/lazuli-beach/lazuli-aerial-top-jpg.webp"
+import SMLB2 from "../../public/images/maldives/dining/so-maldives/lazuli-beach/lazuli-beach-club-aerial-photo-jpg.webp"
+import SMLB3 from "../../public/images/maldives/dining/so-maldives/lazuli-beach/lazuli-beach-club-interio-private-space-jpg.webp"
+
+import SMHB1 from "../../public/images/maldives/dining/so-maldives/hadaba/hadaba-jpg.webp"
+import SMHB2 from "../../public/images/maldives/dining/so-maldives/hadaba/hadaba-restaurant-jpg.webp"
+import SMHB3 from "../../public/images/maldives/dining/so-maldives/hadaba/hadaba-so-maldives-jpg.webp"
+import SMHB4 from "../../public/images/maldives/dining/so-maldives/hadaba/hadaba-interior-jpg.webp"
+
+//Wellness & spa
+import SMSpa1 from "../../public/images/maldives/wellness-spa/so-maldives/spa-aerial-1-jpg.webp"
+import SMSpa2 from "../../public/images/maldives/wellness-spa/so-maldives/wellnes-camp-spa-outdoor-jacuzy-top-view-jpg.webp"
+import SMSpa3 from "../../public/images/maldives/wellness-spa/so-maldives/spa-reception-jpg.webp" 
+import SMSpa4 from "../../public/images/maldives/wellness-spa/so-maldives/spa-bed-couple-jpg.webp"
+import SMSpa5 from "../../public/images/maldives/wellness-spa/so-maldives/spa-aerial-jpg.webp"
+import SMSpa6 from "../../public/images/maldives/wellness-spa/so-maldives/gym-fitness-center-jpg.webp"
+
+//Activities
+import SMACT1 from "../../public/images/maldives/activities/so-maldives/watersport-kayak-and-paddle-boat-jpg.webp"
+import SMACT2 from "../../public/images/maldives/activities/so-maldives/jetski-1920x1074.webp"
+import SMACT3 from "../../public/images/maldives/activities/so-maldives/the-zone-watersport-1920x1074.webp"
+import SMACT4 from "../../public/images/maldives/activities/so-maldives/the-link-snorkeling-area-1920x1074.webp"
+
 
 export {
     Logo,
+    LogoWhite,
     Hero1,
     Hero2,
     Hero3,
@@ -490,4 +567,68 @@ export {
     AKWSDA3,
     AKWSDA4,
     AKWSDA5,
+    SMAccom1,
+    SMAccom2,
+    SMAccom3,
+    SMAccom4,
+    SMAccom5,
+    SMAccom6,
+    SMAccom7,
+    SMAccom8,
+    SMAccom9,
+    SMAccom10,
+    SMAccom11,
+    SMAccom12,
+    SMAccom13,
+    SMAccom14,
+    SMAccom15,
+    SMAccom16,
+    SMAccom17,
+    SMAccom18,
+    SMAccom19,
+    SMAccom20,
+    SMAccom21,
+    SMAccom22,
+    SMAccom23,
+    SMAccom24,
+    SMAccom25,
+    SMAccom26,
+    SMAccom27,
+    SMAccom28,
+    SMAccom29,
+    SMAccom30,
+    SMAccom31,
+    SMAccom32,
+    SMAccom33,
+    SMAccom34,
+    SMAccom35,
+    SMAccom36,
+    SMAccom37,
+    SMAccom38,
+    SMAccom39,
+    SMAccom40,
+    SMAccom41,
+    SMAccom42,
+    SMAccom43,
+    SMAccom44,
+    SMHB1,
+    SMHB2,
+    SMHB3,
+    SMHB4,
+    SMTCC1,
+    SMTCC2,
+    SMTCC3,
+    SMLB1,
+    SMLB2,
+    SMLB3,
+    SMSpa1,
+    SMSpa2,
+    SMSpa3,
+    SMSpa4,
+    SMSpa5,
+    SMSpa6,
+    SMACT1,
+    SMACT2,
+    SMACT3,
+    SMACT4
 }

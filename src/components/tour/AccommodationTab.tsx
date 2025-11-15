@@ -25,6 +25,7 @@ const AccommodationTab = ({ data, slug }: Props) => {
                         <SliderWithArrows images={item.images} />
                         <div className="space-y-6">
                             <h2 className="text-xl font-medium font-work-sans text-black uppercase">{item.name}</h2>
+                            <hr/>
                             <div className="text-gray-600 space-y-2">
                                 <p className="text-base font-medium text-sea-green">Total Area {item.area}</p>
                                 <p className="text-base font-medium text-sea-green font-work-sans">Guests:&nbsp;{item.paxChild === 0 ? `${item.paxAdult} adults` : `${item.paxAdult} adults or ${item.paxAdult} adults + ${item.paxChild} child`}</p>
