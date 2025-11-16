@@ -1,38 +1,29 @@
-import React from 'react'
-import Image, { StaticImageData } from "next/image";
-
-interface SectionData {
-    title: string;
-    description: string;
-    image: StaticImageData;
-}
+"use client"
+import { ResortWellnessSpa } from '@/types/hotel.package.type';
+import SliderWithArrows from "../ui/SliderWithArrows";
 
 interface Props {
-    wellnessSpa?: SectionData;
+    wellnessSpa?: ResortWellnessSpa[];
 }
 
 const WellnessTab = ({ wellnessSpa }: Props) => {
     if (!wellnessSpa) return null
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-            <div className="relative w-full h-[450px] rounded-2xl overflow-hidden shadow-md">
-                <Image
-                    src={wellnessSpa.image}
-                    alt={wellnessSpa.title}
-                    fill
-                    className="object-cover object-center"
-                    sizes="100vw"
-                />
-                <div className="absolute inset-0 bg-black/20" />
-            </div>
-            <div className="space-y-6">
-                <h2 className="text-4xl font-semibold text-black">
-                    {wellnessSpa.title}
-                </h2>
-                <p className="text-gray-500 leading-relaxed whitespace-pre-line text-lg">
-                    {wellnessSpa.description}
-                </p>
-            </div>
+        <div className="my-8">
+            {
+                wellnessSpa.map((item, index) => (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center my-10" key={index}>
+                        <SliderWithArrows images={item.images} />
+                        <div className="space-y-4">
+                            <h4 className="text-xl font-medium font-work-sans text-black uppercase">{item.title}</h4>
+                            <hr />
+                            <div className="text-gray-600">
+                                <p className="py-4 text-base">{item.description}</p>
+                            </div>
+                        </div>
+                    </div>
+                ))
+            }
         </div>
     )
 }
