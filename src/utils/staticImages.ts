@@ -1,5 +1,6 @@
 // Logo
 import Logo from "../../public/images/logo/Logo.webp";
+import LogoWhite from "../../public/images/logo/logo-white.jpeg";
 
 //Hero
 import Hero1 from "../../public/images/hero/siyam-worlds-hero.webp";
@@ -186,8 +187,181 @@ import AraliyaHotel from "../../public/images/srilanka/hotels/araliya-green-city
 import CinnamonBey from "../../public/images/srilanka/hotels/cinnamon-bey.webp";
 import CinnamonCitadel from "../../public/images/srilanka/hotels/cinnamon-citadel.webp";
 
+//Alila Kothaifaru accommodation
+import AKAccom1 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-watervilla-aerial-exterior.webp";
+import AKAccom2 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-water-villa-interior.webp";
+import AKAccom3 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-lagoon-overwater-pool-villa-bathroom.webp";
+import AKAccom4 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-watervilla-aerial.webp";
+import AKAccom5 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-ocean-overwater-pool-villa-bathroom.webp";
+import AKAccom6 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-sunset-overwater-pool-villa-bedroom.webp";
+import AKAccom7 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-sunset-overwater-pool-villa-bedroom-interior.webp";
+import AKAccom8 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-sunset-overwater-pool-villa-aerial-shot-with-talents.webp";
+import AKAccom9 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-beach-villa-pool-deck.webp";
+import AKAccom10 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-beach-villa-bathroom.webp";
+import AKAccom11 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-sunset-beach-pool-villa-exterior-pool-view.webp";
+import AKAccom12 from "../../public/images/maldives/accommodation/alila-kothaifaru/alila-kothaifaru-maldives-sunset-beach-pool-villa-bathroom-side-view.webp";
+
+//Alila Kothaifaru Dining
+//Seasalt
+import AKSlt1 from "../../public/images/maldives/dining/alila-kothaifaru/seasalt/alila-kothaifaru-maldives-seasalt-restaurant.webp";
+import AKSlt2 from "../../public/images/maldives/dining/alila-kothaifaru/seasalt/alila-kothaifaru-maldives-seasalt-dining-corner-ocean.webp";
+import AKSlt3 from "../../public/images/maldives/dining/alila-kothaifaru/seasalt/alila-kothaifaru-maldives-seasalt-outdoor-area.webp";
+import AKSlt4 from "../../public/images/maldives/dining/alila-kothaifaru/seasalt/alila-kothaifaru-maldives-private-dining-area.webp";
+import AKSlt5 from "../../public/images/maldives/dining/alila-kothaifaru/seasalt/alila-kothaifaru-maldives-seasalt-pool-lounge.webp";
+
+//Mirus Bar
+import AKMB1 from "../../public/images/maldives/dining/alila-kothaifaru/mirus-bar/alila-kothaifaru-maldives-mirus-bar-sunset.webp"
+import AKMB2 from "../../public/images/maldives/dining/alila-kothaifaru/mirus-bar/alila-kothaifaru-maldives-mirus-bar-exterior.webp"
+import AKMB3 from "../../public/images/maldives/dining/alila-kothaifaru/mirus-bar/alila-kothaifaru-maldives-mirus-bar-interior.webp"
+
+//UMAMI
+import AKUM1 from "../../public/images/maldives/dining/alila-kothaifaru/umami/alila-kothaifaru-maldives-umami-interior-with-staff.webp"
+import AKUM2 from "../../public/images/maldives/dining/alila-kothaifaru/umami/alila-kothaifaru-maldives-umami-interior-with-staff.webp"
+import AKUM3 from "../../public/images/maldives/dining/alila-kothaifaru/umami/alila-kothaifaru-maldives-umami-teppanyaki.webp"
+
+//YAKITORI BAR
+import AKYKB1 from "../../public/images/maldives/dining/alila-kothaifaru/yakitori-bar/alila-kothaifaru-maldives-yakitori-bar.webp"
+import AKYKB2 from "../../public/images/maldives/dining/alila-kothaifaru/yakitori-bar/alila-kothaifaru-maldives-yakitori-bar-interior.webp"
+import AKYKB3 from "../../public/images/maldives/dining/alila-kothaifaru/yakitori-bar/alila-kothaifaru-maldives-yakitori-bar-entrance.webp"
+
+//Pibati Sul Mare
+import AKPSM1 from "../../public/images/maldives/dining/alila-kothaifaru/pibati-sul-mare/alila-kothaifaru-maldives-pibati-cafe.webp"
+import AKPSM2 from "../../public/images/maldives/dining/alila-kothaifaru/pibati-sul-mare/alila-kothaifaru-maldives-pibati.webp"
+import AKPSM3 from "../../public/images/maldives/dining/alila-kothaifaru/pibati-sul-mare/alila-kothaifaru-maldives-afternoon-refreshments.webp"
+
+//The Shack
+import AKTS1 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-private-island-sunset.webp"
+import AKTS2 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-dining-area.webp"
+import AKTS3 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-facilities.webp"
+import AKTS4 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-lunch.webp"
+import AKTS5 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-private-sandbank.webp"
+
+//Alila Kothaifaru Spa & Wellness
+//Spa alila
+import AKSPAL1 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila-treatment-room-with-staff.webp"
+import AKSPAL2 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila.webp"
+import AKSPAL3 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-reception.webp"
+import AKSPAL4 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila-bathroom.webp"
+import AKSPAL5 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila-reception-with-staff.webp"
+
+//Fitness Centre
+import AKFC1 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/fitness-centre/alila-kothaifaru-maldives-fitness-centre-inside-angle.webp"
+import AKFC2 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/fitness-centre/alila-kothaifaru-maldives-infinity-pool-yoga.webp"
+import AKFC3 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/fitness-centre/alila-kothaifaru-maldives-yoga-by-the-beach.webp"
+
+//Alila Kothaifaru Activities
+//WATER SPORTS & DIVING ACTIVITIES
+import AKWSDA1 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila_diving_site.webp"
+import AKWSDA2 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila_underwater_reefs.webp"
+import AKWSDA3 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila-kothaifaru-maldives-couple-kayaking.webp"
+import AKWSDA4 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila-kothaifaru-maldives-catamaran-sailing.webp"
+import AKWSDA5 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila-kothaifaru-maldives-dolphin-cruise.webp"
+
+//THE ART OF COCONUT
+import AKAOC1 from "../../public/images/maldives/activities/alila-kothaifaru/art-of-coconut/alila-kothaifaru-maldives-the-art-of-coconut.webp"
+import AKAOC2 from "../../public/images/maldives/activities/alila-kothaifaru/art-of-coconut/alila-kothaifaru-maldives-the-art-of-coconut-cultural-learning.webp"
+import AKAOC3 from "../../public/images/maldives/activities/alila-kothaifaru/art-of-coconut/alila-kothaifaru-maldives-the-art-of-coconut-maldivian-lady.webp"
+
+//DINING EXPERIENCES
+import AKDE1 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-kothaifaru-maldives-the-shack-picnic.webp"
+import AKDE2 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-kothaifaru-maldives-group-dinner-set-up.webp"
+import AKDE3 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-kothaifaru-maldives-starlight-cinema-with-staff.webp"
+import AKDE4 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-dining-experiences.webp"
+import AKDE5 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-maldives-dining-experiences.webp"
+
+//WEDDINGS & EVENTS
+import AKWE1 from "../../public/images/maldives/activities/alila-kothaifaru/wedding-events/alila-kothaifaru-maldives-wedding-set-up.webp"
+import AKWE2 from "../../public/images/maldives/activities/alila-kothaifaru/wedding-events/alila-kothaifaru-maldives-wedding-cake-with-pastry-chef.webp"
+import AKWE3 from "../../public/images/maldives/activities/alila-kothaifaru/wedding-events/alila-kothaifaru-maldives-wedding-shot.webp"
+
+//GAME AREA
+import AKGA1 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-padel-tennis-court.jpg"
+import AKGA2 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-outdoor-floor-chess.webp"
+import AKGA3 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-beach-volley-ball.webp"
+import AKGA4 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-petanque-court.jpg"
+
+//SPICE GARDEN
+import AKSPG from "../../public/images/maldives/activities/alila-kothaifaru/spice-garden/spice-garden-and-chef.webp"
+
+//SO Maldives
+//Accommodation
+import SMAccom1 from "../../public/images/maldives/accommodation/so-maldives/stay-1/overwater-pool-villa-collection.webp"
+import SMAccom2 from "../../public/images/maldives/accommodation/so-maldives/stay-1/overwater-pool-villa-collection-interior.webp"
+import SMAccom3 from "../../public/images/maldives/accommodation/so-maldives/stay-1/overwater-pool-villa-collection-interior-bed.webp"
+import SMAccom4 from "../../public/images/maldives/accommodation/so-maldives/stay-2/overwater-pool-villa-collection-exterior.webp"
+import SMAccom5 from "../../public/images/maldives/accommodation/so-maldives/stay-2/aerial-so-maldives.webp"
+import SMAccom6 from "../../public/images/maldives/accommodation/so-maldives/stay-2/overwater-pool-villa-collection-bed-view.webp"
+import SMAccom7 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beach-pool-villa-collection-exterior.webp"
+import SMAccom8 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beach-pool-villa-collection-interior.webp"
+import SMAccom9 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beach-pool-villa-collection-interior-1.webp"
+import SMAccom10 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beach-villa-lagoon-indoor-jpg.webp"
+import SMAccom11 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-exterior-terrace.webp"
+import SMAccom12 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-exterior-pool.webp"
+import SMAccom13 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-interior-bedroom.webp"
+import SMAccom14 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-villa-indoor.webp"
+import SMAccom15 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-villa-ocean-outdoor.webp"
+import SMAccom16 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-interior-bed.webp"
+import SMAccom17 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-exterior.webp"
+import SMAccom18 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-bedroom.webp"
+import SMAccom19 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-room-kids-pods.webp"
+import SMAccom20 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-bath.webp"
+import SMAccom21 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-buffet.webp"
+import SMAccom22 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-jpg.webp";
+import SMAccom23 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-terrace-jpg.webp";
+import SMAccom24 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-bathtub-jpg.webp";
+import SMAccom25 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-hammocks-jpg.webp";
+import SMAccom26 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-dining-jpg.webp";
+import SMAccom27 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-bed-view-jpg.webp";
+import SMAccom28 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-living-room-jpg.webp";
+import SMAccom29 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-night-jpg.webp";
+import SMAccom30 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-jpg.webp";
+import SMAccom31 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-deck-jpg.webp";
+import SMAccom32 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-shower-jpg.webp";
+import SMAccom33 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-mirrors-jpg.webp";
+import SMAccom34 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-bed-jpg.webp";
+import SMAccom35 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-dining-jpg.webp";
+import SMAccom36 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-bath-jpg.webp";
+import SMAccom37 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-dining-1-jpg.webp";
+import SMAccom38 from "../../public/images/maldives/accommodation/so-maldives/stay-7/two-bedroom-lagoon-beach-pool-loft-night-jpg.webp";
+import SMAccom39 from "../../public/images/maldives/accommodation/so-maldives/stay-8/three-bedroom-ocean-water-pool-atelier-exterior-jpg.webp";
+import SMAccom40 from "../../public/images/maldives/accommodation/so-maldives/stay-8/three-bedroom-ocean-water-pool-atelier-bed-jpg.webp";
+import SMAccom41 from "../../public/images/maldives/accommodation/so-maldives/stay-8/three-bedroom-ocean-water-pool-atelier-deck-jpg.webp";
+import SMAccom42 from "../../public/images/maldives/accommodation/so-maldives/stay-8/three-bedroom-ocean-water-pool-atelier-living-jpg.webp";
+import SMAccom43 from "../../public/images/maldives/accommodation/so-maldives/stay-8/three-bedroom-ocean-water-pool-atelier-bedroom-jpg.webp";
+import SMAccom44 from "../../public/images/maldives/accommodation/so-maldives/stay-8/three-bedroom-ocean-water-pool-atelier-night-jpg.webp";
+
+//Dining
+import SMTCC1 from "../../public/images/maldives/dining/so-maldives/citronelle-club/the-citronelle-club-outdoor-area-jpg.webp"
+import SMTCC2 from "../../public/images/maldives/dining/so-maldives/citronelle-club/the-citronelle-bar-jpg.webp"
+import SMTCC3 from "../../public/images/maldives/dining/so-maldives/citronelle-club/the-citronelle-club-indoor-area-jpg.webp"
+
+import SMLB1 from "../../public/images/maldives/dining/so-maldives/lazuli-beach/lazuli-aerial-top-jpg.webp"
+import SMLB2 from "../../public/images/maldives/dining/so-maldives/lazuli-beach/lazuli-beach-club-aerial-photo-jpg.webp"
+import SMLB3 from "../../public/images/maldives/dining/so-maldives/lazuli-beach/lazuli-beach-club-interio-private-space-jpg.webp"
+
+import SMHB1 from "../../public/images/maldives/dining/so-maldives/hadaba/hadaba-jpg.webp"
+import SMHB2 from "../../public/images/maldives/dining/so-maldives/hadaba/hadaba-restaurant-jpg.webp"
+import SMHB3 from "../../public/images/maldives/dining/so-maldives/hadaba/hadaba-so-maldives-jpg.webp"
+import SMHB4 from "../../public/images/maldives/dining/so-maldives/hadaba/hadaba-interior-jpg.webp"
+
+//Wellness & spa
+import SMSpa1 from "../../public/images/maldives/wellness-spa/so-maldives/spa-aerial-1-jpg.webp"
+import SMSpa2 from "../../public/images/maldives/wellness-spa/so-maldives/wellnes-camp-spa-outdoor-jacuzy-top-view-jpg.webp"
+import SMSpa3 from "../../public/images/maldives/wellness-spa/so-maldives/spa-reception-jpg.webp" 
+import SMSpa4 from "../../public/images/maldives/wellness-spa/so-maldives/spa-bed-couple-jpg.webp"
+import SMSpa5 from "../../public/images/maldives/wellness-spa/so-maldives/spa-aerial-jpg.webp"
+import SMSpa6 from "../../public/images/maldives/wellness-spa/so-maldives/gym-fitness-center-jpg.webp"
+
+//Activities
+import SMACT1 from "../../public/images/maldives/activities/so-maldives/watersport-kayak-and-paddle-boat-jpg.webp"
+import SMACT2 from "../../public/images/maldives/activities/so-maldives/jetski-1920x1074.webp"
+import SMACT3 from "../../public/images/maldives/activities/so-maldives/the-zone-watersport-1920x1074.webp"
+import SMACT4 from "../../public/images/maldives/activities/so-maldives/the-link-snorkeling-area-1920x1074.webp"
+
+
 export {
     Logo,
+    LogoWhite,
     Hero1,
     Hero2,
     Hero3,
@@ -329,5 +503,132 @@ export {
     CinnamonCitadel,
     TimeIcon,
     DestinationIcon,
-    PriceTagIcon
+    PriceTagIcon,
+    AKAccom1,
+    AKAccom2,
+    AKAccom3,
+    AKAccom4,
+    AKAccom5,
+    AKAccom6,
+    AKAccom7,
+    AKAccom8,
+    AKAccom9,
+    AKAccom10,
+    AKAccom11,
+    AKAccom12,
+    AKMB1,
+    AKMB2,
+    AKMB3,
+    AKPSM1,
+    AKPSM2,
+    AKPSM3,
+    AKSlt1,
+    AKSlt2,
+    AKSlt3,
+    AKSlt4,
+    AKSlt5,
+    AKTS1,
+    AKTS2,
+    AKTS3,
+    AKTS4,
+    AKTS5,
+    AKUM1,
+    AKUM2,
+    AKUM3,
+    AKYKB1,
+    AKYKB2,
+    AKYKB3,
+    AKSPAL1,
+    AKSPAL2,
+    AKSPAL3,
+    AKSPAL4,
+    AKSPAL5,
+    AKFC1,
+    AKFC2,
+    AKFC3,
+    AKAOC1,
+    AKAOC2,
+    AKAOC3,
+    AKDE1,
+    AKDE2,
+    AKDE3,
+    AKDE4,
+    AKDE5,
+    AKGA1,
+    AKGA2,
+    AKGA3,
+    AKGA4,
+    AKSPG,
+    AKWE1,
+    AKWE2,
+    AKWE3,
+    AKWSDA1,
+    AKWSDA2,
+    AKWSDA3,
+    AKWSDA4,
+    AKWSDA5,
+    SMAccom1,
+    SMAccom2,
+    SMAccom3,
+    SMAccom4,
+    SMAccom5,
+    SMAccom6,
+    SMAccom7,
+    SMAccom8,
+    SMAccom9,
+    SMAccom10,
+    SMAccom11,
+    SMAccom12,
+    SMAccom13,
+    SMAccom14,
+    SMAccom15,
+    SMAccom16,
+    SMAccom17,
+    SMAccom18,
+    SMAccom19,
+    SMAccom20,
+    SMAccom21,
+    SMAccom22,
+    SMAccom23,
+    SMAccom24,
+    SMAccom25,
+    SMAccom26,
+    SMAccom27,
+    SMAccom28,
+    SMAccom29,
+    SMAccom30,
+    SMAccom31,
+    SMAccom32,
+    SMAccom33,
+    SMAccom34,
+    SMAccom35,
+    SMAccom36,
+    SMAccom37,
+    SMAccom38,
+    SMAccom39,
+    SMAccom40,
+    SMAccom41,
+    SMAccom42,
+    SMAccom43,
+    SMAccom44,
+    SMHB1,
+    SMHB2,
+    SMHB3,
+    SMHB4,
+    SMTCC1,
+    SMTCC2,
+    SMTCC3,
+    SMLB1,
+    SMLB2,
+    SMLB3,
+    SMSpa1,
+    SMSpa2,
+    SMSpa3,
+    SMSpa4,
+    SMSpa5,
+    SMSpa6,
+    SMACT1,
+    SMACT2,
+    SMACT3,
+    SMACT4
 }

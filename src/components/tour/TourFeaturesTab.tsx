@@ -18,11 +18,6 @@ import MapTab from './MapTab';
 
 export const featuresTabData = [
     {
-        id: "highlight",
-        name: "Highlight",
-        icon: Star,
-    },
-    {
         id: "accommodation",
         name: "Accommodation",
         icon: Bed,
@@ -51,12 +46,16 @@ export const featuresTabData = [
 
 
 const TourFeaturesTab = () => {
-    const [tabIndex, setTabIndex] = useState<string>("highlight")
+    const [tabIndex, setTabIndex] = useState<string>("accommodation")
     const data = useTourPackageStore(s => s.tourPackage);
     if (!data) return null;
     return (
-        <div className='max-w-7xl mx-auto my-16'>
-            <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-3">
+        <div className='my-12 md:my-24'>
+            <div className='pb-4 md:pb-8'>
+                <HighlightTab highlightedList={data.resortHighlights} map={data.resortMap.path} highlightContent={data.highlightContent} />
+            </div>
+
+            <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-3">
                 {featuresTabData.map(({ id, name, icon: Icon }) => (
                     <button
                         type='button'
@@ -72,11 +71,8 @@ const TourFeaturesTab = () => {
             <div className="my-8">
                 {"resortHighlights" in data ? (
                     <>
-                        {tabIndex === "highlight" && (
-                            <HighlightTab highlightedList={data.resortHighlights} />
-                        )}
                         {tabIndex === "accommodation" && (
-                            <AccommodationTab data={data.accommodation} />
+                            <AccommodationTab data={data.accommodation} slug={data.slug}/>
                         )}
                         {tabIndex === "dining" && <DiningTab dinings={data.dinings} />}
                         {tabIndex === "wellness" && (
@@ -92,8 +88,6 @@ const TourFeaturesTab = () => {
                 )}
             </div>
         </div>
-
-
     )
 }
 

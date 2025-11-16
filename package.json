@@ -11,6 +11,7 @@
   "dependencies": {
     "@libsql/client": "^0.15.15",
     "framer-motion": "^12.23.22",
+    "fslightbox-react": "^2.0.0",
     "lucide-react": "^0.545.0",
     "next": "15.5.4",
     "prisma": "^6.17.0",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/fslightbox-react": "^1.8.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
