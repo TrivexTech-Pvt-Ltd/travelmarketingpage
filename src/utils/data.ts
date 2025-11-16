@@ -483,59 +483,216 @@ export const MaldivesData = [
         },
         accommodation: [
             {
-                name: "Lagoon Overwater Pool Villa",
-                slug: "lagoon-overwater-pool-villa",
-                area: "125 sqm",
+                name: "Lagoon Water Pool Villa",
+                slug: "lagoon-water-pool-villa",
+                area: "120 sqm",
                 roomDetails: {
-                    title: "Ultimate romantic escape",
-                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                    title: "Perfect for snorkelling",
+                    highlights: ["Suspended over water in the turquoise waters of our lagoon, you are a short swim to the reef that is perfect for snorkelling. Here the water is your garden, accessible from your striped-design infinity pool and private deck. Inside the glass façade, a freestanding cocoon tub will be the highlight of your laidback luxury – relaxed and elegant with neutral tones punctuated with artisanal pops of colour"]
                 },
                 paxAdult: 2,
                 paxChild: 0,
                 features: [
-                    "Deluxe indoor bathroom",
-                    "Floor-to-ceiling windows bedroom and living room",
-                    "Freshwater swimming pool in the villa",
-                    "Private seating space overlooking the swimming pool and ocean",
+                    "Located over water in the lagoon",
+                    "Short swim to the reef",
+                    "Glass facade Villa",
+                    "Infinity pool and private deck",
                 ],
-                images: [AKAccom1, AKAccom2, AKAccom3, AKAccom4],
+                images: [SMAccom1, SMAccom2, SMAccom3],
                 floorPlan: {
-                    path: "/images/maldives/accommodation/alila-kothaifaru/lagoon-overwater-pool-villa.webp"
+                    path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf"
+                },
+            },
+            {
+                name: "Ocean Water Pool Villa",
+                slug: "ocean-water-pool-villa",
+                area: "120 sqm",
+                roomDetails: {
+                    title: "Your own private ocean sanctuary",
+                    highlights: ["Your own private ocean sanctuary, our Pool Water Villas offer uninterrupted sea views and elegant open-plan living. Step directly into the turquoise waters from your striped-design private pool or enjoy the tranquility from your soothing light-flooded space featuring freestanding cocoon tub, wraparound windows and nature-inspired palette with colourful design touches."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "Uninterrupted sea views",
+                    "Open-planned living",
+                    "Glass facade Villa",
+                    "infinity pool and private deck",
+                ],
+                images: [SMAccom4, SMAccom5, SMAccom1, SMAccom3, SMAccom6],
+                floorPlan: {
+                    path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf"
+                },
+            },
+            {
+                name: "Lagoon Beach Pool Villa",
+                slug: "lagoon-beach-pool-villa",
+                area: "228 sqm",
+                roomDetails: {
+                    title: "You are steps away from the turquoise reef",
+                    highlights: ["On the pristine white sands of the lagoon, you are steps away from the turquoise reef that is perfect for snorkelling. You may prefer to chill in the lush private garden next to the striped pool and contemplate the blue landscape. Inside the glass façade, it’s all about laidback luxury – think curved lines, a soothing open-plan space with plush, elegant décor and a neutral palette punctuated with artisanal pops of colour."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "On the white sands of the lagoon",
+                    "Steps away from the reef",
+                    "Glass facade Villa",
+                    "Private garden and pool",
+                ],
+                images: [SMAccom7, SMAccom8, SMAccom9, SMAccom10],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf"
+                },
+            },
+            {
+                name: "Ocean Beach Pool Villa",
+                slug: "ocean-beach-pool-villa",
+                area: "228 sqm",
+                roomDetails: {
+                    title: "Lush tropical foliage",
+                    highlights: ["With lush tropical foliage and a private terrace on the white sandy beach, you are moments from the ocean. You may prefer to chill in your striped design private pool and take in the idyllic view of the ocean and beyond. Inside the glass façade, it’s all about laidback luxury – think curved lines, a calming open-plan space with a natural palette punctuated with artisanal pops of colour."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "On the white sands of the lagoon",
+                    "Steps away from the reef",
+                    "Glass facade Villa",
+                    "Private pool and terrace",
+                ],
+                images: [SMAccom11, SMAccom12, SMAccom13, SMAccom14, SMAccom15, SMAccom16],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf"
+                },
+            },
+            {
+                name: "Family Beach Pool Villa with Capsule",
+                slug: "family-beach-pool-villa-with-capsule",
+                area: "238 sqm",
+                roomDetails: {
+                    title: "Ultimate private escape imbued with relaxed luxury",
+                    highlights: ["Castaway in this dream Family Villa for the ultimate private escape imbued with relaxed luxury. Secluded in a lush tropical beach enclave, this modern organic-style villa has everything a family needs to escape – space to play, relax and entertain in an elegantly-styled bedroom with an attached hip bunk capsule for the kids to add to the sense of adventure. Indulge in a private pool, tropical garden and access to your own private beach. It’s also just a few steps away from The Nest and The Zone."]
+                },
+                paxAdult: 4,
+                paxChild: 0,
+                features: [
+                    "Two bedrooms, including a hip bunk capsule for the kids",
+                    "Secluded in a lush tropical beach enclave",
+                    "Access to your own private beach",
+                    "Private pool",
+                ],
+                images: [SMAccom17, SMAccom18, SMAccom19, SMAccom20, SMAccom21],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_family-beach-pool-villa-with-capsule.pdf"
+                },
+            },
+            {
+                name: "Two-Bedroom Ocean Water Pool Atelier",
+                slug: "two-bedroom-ocean-water-pool-atelier",
+                area: "240 sqm",
+                roomDetails: {
+                    title: "Luxury residence in paradise with private pool",
+                    highlights: ["Set over two spacious levels, escape to your luxury residence in paradise with private pool, wraparound decks and endless ocean views. With an indoor-outdoor feel, this relaxed yet elegant space features a spacious master bedroom on the first floor along with separate living and dining space with plush furnishings, sculptural detailing and artisanal touches. With expansive terraces on both floors, step directly into the turquoise waters from the sleek glass villa or perhaps you’d prefer to enjoy the view from the sanctuary of your statement bathroom with freestanding cocoon tub."]
+                },
+                paxAdult: 4,
+                paxChild: 0,
+                features: [
+                    "Two separate bedrooms",
+                    "Living & dining spaces",
+                    "Private pool and deck",
+                    "Expansive terraces on both floors",
+                ],
+                images: [SMAccom22, SMAccom23, SMAccom24, SMAccom25, SMAccom26, SMAccom27, SMAccom28, SMAccom29],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_two-bedroom-ocean-water-pool-atelier.pdf"
+                },
+            },
+            {
+                name: "Two-Bedroom Lagoon Beach Pool Loft",
+                slug: "two-bedroom-lagoon-beach-pool-loft",
+                area: "322 sqm",
+                roomDetails: {
+                    title: "Set over two breathtaking levels",
+                    highlights: ["Set over two breathtaking levels, castaway in this spacious two-bedroom Beach Loft to step directly onto the white powdery sand of the turquoise lagoon. Enjoy indoor-outdoor living with your own private pool, lush tropical terrace and stunning views to the lagoon and beyond. The vibe is laidback luxury – plush, elegant and relaxed with a separate living and dining space to host, cocoon tub-with-a-view and sculptural design touches."]
+                },
+                paxAdult: 4,
+                paxChild: 0,
+                features: [
+                    "Two levels",
+                    "Two bedrooms, separate living & dining spaces",
+                    "Direct beach access",
+                    "Private pool & lush tropical terrace",
+                ],
+                images: [SMAccom30, SMAccom31, SMAccom32, SMAccom33, SMAccom34, SMAccom35, SMAccom36, SMAccom37, SMAccom38],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_two-bedroom-lagoon-beach-pool-loft.pdf"
+                },
+            },
+            {
+                name: "Three-Bedroom Ocean Water Pool Atelier",
+                slug: "three-bedroom-ocean-water-pool-atelier",
+                area: "410 sqm",
+                roomDetails: {
+                    title: "Your ultimate ocean escape",
+                    highlights: ["Your ultimate ocean escape, our vast two-storey Water Atelier is designed for maximum luxury and privacy with three bedrooms and spacious living and dining area with wraparound deck on both floors. With an indoor-outdoor feel, this modernist villa features the statement-making master bedroom and panoramic deck. On the first floor, there are two further bedrooms along with the stylish living and dining space to relax or entertain. Plush, elegant décor in neutral tones gives way to endless blue from all directions with artisanal design touches to elevate the space. Step from the giant curved tub onto your private deck, swim in the turquoise waters from your private pool or simply contemplate that endless blue landscape."]
+                },
+                paxAdult: 6,
+                paxChild: 0,
+                features: [
+                    "Three bedrooms",
+                    "Two-storey water atelier",
+                    "Living and dining area",
+                    "Private pool",
+                ],
+                images: [SMAccom39, SMAccom40, SMAccom41, SMAccom42, SMAccom43, SMAccom44],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_three-bedroom-ocean-water-pool-atelier.pdf"
                 },
             }
         ],
         dinings: [
             {
-                name: "Andalucia Resturant",
-                description:
+                name: "THE CITRONELLE CLUB",
+                description: [
                     "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                ],
+                images: [SMTCC1, SMTCC2, SMTCC3],
             },
             {
-                name: "The Citronelle Club",
-                description:
-                    "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                name: "LAZULI BEACH CLUB",
+                description: [
+                    "Lazuli is a versitile space oozing Cote D’Azur charm and elegance. A centralised bar connects the areas and, as the guests journey away from the Bar and Lounge, the experience becomes more informal, more lively and more interactive. Lazuli has multiple terraces, decks and bars as well sun beds both in and out of water.",
+                ],
+                images: [SMLB1, SMLB2, SMLB3],
             },
             {
-                name: "Barrrique Resturant",
-                description:
-                    "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                name: "HADABA",
+                description: [
+                    "A feast of the Middle East unlike any other. Where old and new friends can come together to break bread, share a drink, and trade stories; where the familiarity of the cuisine is elevated by the unexpected. Hadaba takes its name from the Egyptian neighborhood – Hadaba, one of the regions across the Levant the restaurant draws its flavour and inspiration.",
+                ],
+                images: [SMHB1, SMHB2, SMHB3, SMHB4],
             },
         ],
-        wellnessSpa: {
-            title: "Lagoon Water Pool Villa",
-            description:
-                "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-            image: WellnessSpa,
-        },
-        activities: {
-            title: "Water Adventures & Excursions",
-            description:
-                "An array of paid and complimentary water-based adventures including kayaking, parasailing, snorkeling, jet ski, stand-up paddleboarding, and offsite excursions are available to further enhance travelers’ experience of the island.\nGuests can learn how to scuba dive, or for experienced divers, there is a wide selection of curated dives that can be arranged daily including turtle expeditions, outer reef explorations and traditional Maldivian fishing excursions.",
-            image: ResortActivities,
-        },
+        wellnessSpa: [
+            {
+                title: "WELLNESS CAMP",
+                description:
+                    "Whether your preferred mode is active or relaxed, retreat to our serene wellness camp, featuring a Bespoke Vichy rainforest shower, steam and sauna, modern organic treatment rooms and state-of-the-art fitness sphere with ocean views.",
+                images: [SMSpa1, SMSpa2, SMSpa3, SMSpa4, SMSpa5, SMSpa6],
+            },
+        ],
+        activities: [
+            {
+                title: "WATER ADVENTURES & EXCURSIONS",
+                description: [
+                    "An array of paid and complimentary water-based adventures including kayaking, parasailing, snorkeling, jet ski, stand-up paddleboarding, and offsite excursions are available to further enhance travelers’ experience of the island.",
+                    "Guests can learn how to scuba dive, or for experienced divers, there is a wide selection of curated dives that can be arranged daily including turtle expeditions, outer reef explorations and traditional Maldivian fishing excursions."
+                ],
+
+                images: [SMACT1, SMACT2, SMACT3, SMACT4],
+            },
+        ],
         direction: {
             description:
                 "A 15-minute speedboat ride from Malé International Airport whisks you away to a private island in this idyllic archipelago overlooking the Emboodhoo Lagoon. Introducing a new generation of luxury for modern adventurers.",
@@ -628,59 +785,216 @@ export const MaldivesData = [
         },
         accommodation: [
             {
-                name: "Lagoon Overwater Pool Villa",
-                slug: "lagoon-overwater-pool-villa",
-                area: "125 sqm",
+                name: "Lagoon Water Pool Villa",
+                slug: "lagoon-water-pool-villa",
+                area: "120 sqm",
                 roomDetails: {
-                    title: "Ultimate romantic escape",
-                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                    title: "Perfect for snorkelling",
+                    highlights: ["Suspended over water in the turquoise waters of our lagoon, you are a short swim to the reef that is perfect for snorkelling. Here the water is your garden, accessible from your striped-design infinity pool and private deck. Inside the glass façade, a freestanding cocoon tub will be the highlight of your laidback luxury – relaxed and elegant with neutral tones punctuated with artisanal pops of colour"]
                 },
                 paxAdult: 2,
                 paxChild: 0,
                 features: [
-                    "Deluxe indoor bathroom",
-                    "Floor-to-ceiling windows bedroom and living room",
-                    "Freshwater swimming pool in the villa",
-                    "Private seating space overlooking the swimming pool and ocean",
+                    "Located over water in the lagoon",
+                    "Short swim to the reef",
+                    "Glass facade Villa",
+                    "Infinity pool and private deck",
                 ],
-                images: [AKAccom1, AKAccom2, AKAccom3, AKAccom4],
+                images: [SMAccom1, SMAccom2, SMAccom3],
                 floorPlan: {
-                    path: "/images/maldives/accommodation/alila-kothaifaru/lagoon-overwater-pool-villa.webp"
+                    path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf"
+                },
+            },
+            {
+                name: "Ocean Water Pool Villa",
+                slug: "ocean-water-pool-villa",
+                area: "120 sqm",
+                roomDetails: {
+                    title: "Your own private ocean sanctuary",
+                    highlights: ["Your own private ocean sanctuary, our Pool Water Villas offer uninterrupted sea views and elegant open-plan living. Step directly into the turquoise waters from your striped-design private pool or enjoy the tranquility from your soothing light-flooded space featuring freestanding cocoon tub, wraparound windows and nature-inspired palette with colourful design touches."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "Uninterrupted sea views",
+                    "Open-planned living",
+                    "Glass facade Villa",
+                    "infinity pool and private deck",
+                ],
+                images: [SMAccom4, SMAccom5, SMAccom1, SMAccom3, SMAccom6],
+                floorPlan: {
+                    path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf"
+                },
+            },
+            {
+                name: "Lagoon Beach Pool Villa",
+                slug: "lagoon-beach-pool-villa",
+                area: "228 sqm",
+                roomDetails: {
+                    title: "You are steps away from the turquoise reef",
+                    highlights: ["On the pristine white sands of the lagoon, you are steps away from the turquoise reef that is perfect for snorkelling. You may prefer to chill in the lush private garden next to the striped pool and contemplate the blue landscape. Inside the glass façade, it’s all about laidback luxury – think curved lines, a soothing open-plan space with plush, elegant décor and a neutral palette punctuated with artisanal pops of colour."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "On the white sands of the lagoon",
+                    "Steps away from the reef",
+                    "Glass facade Villa",
+                    "Private garden and pool",
+                ],
+                images: [SMAccom7, SMAccom8, SMAccom9, SMAccom10],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf"
+                },
+            },
+            {
+                name: "Ocean Beach Pool Villa",
+                slug: "ocean-beach-pool-villa",
+                area: "228 sqm",
+                roomDetails: {
+                    title: "Lush tropical foliage",
+                    highlights: ["With lush tropical foliage and a private terrace on the white sandy beach, you are moments from the ocean. You may prefer to chill in your striped design private pool and take in the idyllic view of the ocean and beyond. Inside the glass façade, it’s all about laidback luxury – think curved lines, a calming open-plan space with a natural palette punctuated with artisanal pops of colour."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "On the white sands of the lagoon",
+                    "Steps away from the reef",
+                    "Glass facade Villa",
+                    "Private pool and terrace",
+                ],
+                images: [SMAccom11, SMAccom12, SMAccom13, SMAccom14, SMAccom15, SMAccom16],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf"
+                },
+            },
+            {
+                name: "Family Beach Pool Villa with Capsule",
+                slug: "family-beach-pool-villa-with-capsule",
+                area: "238 sqm",
+                roomDetails: {
+                    title: "Ultimate private escape imbued with relaxed luxury",
+                    highlights: ["Castaway in this dream Family Villa for the ultimate private escape imbued with relaxed luxury. Secluded in a lush tropical beach enclave, this modern organic-style villa has everything a family needs to escape – space to play, relax and entertain in an elegantly-styled bedroom with an attached hip bunk capsule for the kids to add to the sense of adventure. Indulge in a private pool, tropical garden and access to your own private beach. It’s also just a few steps away from The Nest and The Zone."]
+                },
+                paxAdult: 4,
+                paxChild: 0,
+                features: [
+                    "Two bedrooms, including a hip bunk capsule for the kids",
+                    "Secluded in a lush tropical beach enclave",
+                    "Access to your own private beach",
+                    "Private pool",
+                ],
+                images: [SMAccom17, SMAccom18, SMAccom19, SMAccom20, SMAccom21],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_family-beach-pool-villa-with-capsule.pdf"
+                },
+            },
+            {
+                name: "Two-Bedroom Ocean Water Pool Atelier",
+                slug: "two-bedroom-ocean-water-pool-atelier",
+                area: "240 sqm",
+                roomDetails: {
+                    title: "Luxury residence in paradise with private pool",
+                    highlights: ["Set over two spacious levels, escape to your luxury residence in paradise with private pool, wraparound decks and endless ocean views. With an indoor-outdoor feel, this relaxed yet elegant space features a spacious master bedroom on the first floor along with separate living and dining space with plush furnishings, sculptural detailing and artisanal touches. With expansive terraces on both floors, step directly into the turquoise waters from the sleek glass villa or perhaps you’d prefer to enjoy the view from the sanctuary of your statement bathroom with freestanding cocoon tub."]
+                },
+                paxAdult: 4,
+                paxChild: 0,
+                features: [
+                    "Two separate bedrooms",
+                    "Living & dining spaces",
+                    "Private pool and deck",
+                    "Expansive terraces on both floors",
+                ],
+                images: [SMAccom22, SMAccom23, SMAccom24, SMAccom25, SMAccom26, SMAccom27, SMAccom28, SMAccom29],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_two-bedroom-ocean-water-pool-atelier.pdf"
+                },
+            },
+            {
+                name: "Two-Bedroom Lagoon Beach Pool Loft",
+                slug: "two-bedroom-lagoon-beach-pool-loft",
+                area: "322 sqm",
+                roomDetails: {
+                    title: "Set over two breathtaking levels",
+                    highlights: ["Set over two breathtaking levels, castaway in this spacious two-bedroom Beach Loft to step directly onto the white powdery sand of the turquoise lagoon. Enjoy indoor-outdoor living with your own private pool, lush tropical terrace and stunning views to the lagoon and beyond. The vibe is laidback luxury – plush, elegant and relaxed with a separate living and dining space to host, cocoon tub-with-a-view and sculptural design touches."]
+                },
+                paxAdult: 4,
+                paxChild: 0,
+                features: [
+                    "Two levels",
+                    "Two bedrooms, separate living & dining spaces",
+                    "Direct beach access",
+                    "Private pool & lush tropical terrace",
+                ],
+                images: [SMAccom30, SMAccom31, SMAccom32, SMAccom33, SMAccom34, SMAccom35, SMAccom36, SMAccom37, SMAccom38],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_two-bedroom-lagoon-beach-pool-loft.pdf"
+                },
+            },
+            {
+                name: "Three-Bedroom Ocean Water Pool Atelier",
+                slug: "three-bedroom-ocean-water-pool-atelier",
+                area: "410 sqm",
+                roomDetails: {
+                    title: "Your ultimate ocean escape",
+                    highlights: ["Your ultimate ocean escape, our vast two-storey Water Atelier is designed for maximum luxury and privacy with three bedrooms and spacious living and dining area with wraparound deck on both floors. With an indoor-outdoor feel, this modernist villa features the statement-making master bedroom and panoramic deck. On the first floor, there are two further bedrooms along with the stylish living and dining space to relax or entertain. Plush, elegant décor in neutral tones gives way to endless blue from all directions with artisanal design touches to elevate the space. Step from the giant curved tub onto your private deck, swim in the turquoise waters from your private pool or simply contemplate that endless blue landscape."]
+                },
+                paxAdult: 6,
+                paxChild: 0,
+                features: [
+                    "Three bedrooms",
+                    "Two-storey water atelier",
+                    "Living and dining area",
+                    "Private pool",
+                ],
+                images: [SMAccom39, SMAccom40, SMAccom41, SMAccom42, SMAccom43, SMAccom44],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_three-bedroom-ocean-water-pool-atelier.pdf"
                 },
             }
         ],
         dinings: [
             {
-                name: "Andalucia Resturant",
-                description:
+                name: "THE CITRONELLE CLUB",
+                description: [
                     "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                ],
+                images: [SMTCC1, SMTCC2, SMTCC3],
             },
             {
-                name: "The Citronelle Club",
-                description:
-                    "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                name: "LAZULI BEACH CLUB",
+                description: [
+                    "Lazuli is a versitile space oozing Cote D’Azur charm and elegance. A centralised bar connects the areas and, as the guests journey away from the Bar and Lounge, the experience becomes more informal, more lively and more interactive. Lazuli has multiple terraces, decks and bars as well sun beds both in and out of water.",
+                ],
+                images: [SMLB1, SMLB2, SMLB3],
             },
             {
-                name: "Barrrique Resturant",
-                description:
-                    "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                name: "HADABA",
+                description: [
+                    "A feast of the Middle East unlike any other. Where old and new friends can come together to break bread, share a drink, and trade stories; where the familiarity of the cuisine is elevated by the unexpected. Hadaba takes its name from the Egyptian neighborhood – Hadaba, one of the regions across the Levant the restaurant draws its flavour and inspiration.",
+                ],
+                images: [SMHB1, SMHB2, SMHB3, SMHB4],
             },
         ],
-        wellnessSpa: {
-            title: "Lagoon Water Pool Villa",
-            description:
-                "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-            image: WellnessSpa,
-        },
-        activities: {
-            title: "Water Adventures & Excursions",
-            description:
-                "An array of paid and complimentary water-based adventures including kayaking, parasailing, snorkeling, jet ski, stand-up paddleboarding, and offsite excursions are available to further enhance travelers’ experience of the island.\nGuests can learn how to scuba dive, or for experienced divers, there is a wide selection of curated dives that can be arranged daily including turtle expeditions, outer reef explorations and traditional Maldivian fishing excursions.",
-            image: ResortActivities,
-        },
+        wellnessSpa: [
+            {
+                title: "WELLNESS CAMP",
+                description:
+                    "Whether your preferred mode is active or relaxed, retreat to our serene wellness camp, featuring a Bespoke Vichy rainforest shower, steam and sauna, modern organic treatment rooms and state-of-the-art fitness sphere with ocean views.",
+                images: [SMSpa1, SMSpa2, SMSpa3, SMSpa4, SMSpa5, SMSpa6],
+            },
+        ],
+        activities: [
+            {
+                title: "WATER ADVENTURES & EXCURSIONS",
+                description: [
+                    "An array of paid and complimentary water-based adventures including kayaking, parasailing, snorkeling, jet ski, stand-up paddleboarding, and offsite excursions are available to further enhance travelers’ experience of the island.",
+                    "Guests can learn how to scuba dive, or for experienced divers, there is a wide selection of curated dives that can be arranged daily including turtle expeditions, outer reef explorations and traditional Maldivian fishing excursions."
+                ],
+
+                images: [SMACT1, SMACT2, SMACT3, SMACT4],
+            },
+        ],
         direction: {
             description:
                 "A 15-minute speedboat ride from Malé International Airport whisks you away to a private island in this idyllic archipelago overlooking the Emboodhoo Lagoon. Introducing a new generation of luxury for modern adventurers.",
@@ -772,59 +1086,216 @@ export const MaldivesData = [
         },
         accommodation: [
             {
-                name: "Lagoon Overwater Pool Villa",
-                slug: "lagoon-overwater-pool-villa",
-                area: "125 sqm",
+                name: "Lagoon Water Pool Villa",
+                slug: "lagoon-water-pool-villa",
+                area: "120 sqm",
                 roomDetails: {
-                    title: "Ultimate romantic escape",
-                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                    title: "Perfect for snorkelling",
+                    highlights: ["Suspended over water in the turquoise waters of our lagoon, you are a short swim to the reef that is perfect for snorkelling. Here the water is your garden, accessible from your striped-design infinity pool and private deck. Inside the glass façade, a freestanding cocoon tub will be the highlight of your laidback luxury – relaxed and elegant with neutral tones punctuated with artisanal pops of colour"]
                 },
                 paxAdult: 2,
                 paxChild: 0,
                 features: [
-                    "Deluxe indoor bathroom",
-                    "Floor-to-ceiling windows bedroom and living room",
-                    "Freshwater swimming pool in the villa",
-                    "Private seating space overlooking the swimming pool and ocean",
+                    "Located over water in the lagoon",
+                    "Short swim to the reef",
+                    "Glass facade Villa",
+                    "Infinity pool and private deck",
                 ],
-                images: [AKAccom1, AKAccom2, AKAccom3, AKAccom4],
+                images: [SMAccom1, SMAccom2, SMAccom3],
                 floorPlan: {
-                    path: "/images/maldives/accommodation/alila-kothaifaru/lagoon-overwater-pool-villa.webp"
+                    path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf"
+                },
+            },
+            {
+                name: "Ocean Water Pool Villa",
+                slug: "ocean-water-pool-villa",
+                area: "120 sqm",
+                roomDetails: {
+                    title: "Your own private ocean sanctuary",
+                    highlights: ["Your own private ocean sanctuary, our Pool Water Villas offer uninterrupted sea views and elegant open-plan living. Step directly into the turquoise waters from your striped-design private pool or enjoy the tranquility from your soothing light-flooded space featuring freestanding cocoon tub, wraparound windows and nature-inspired palette with colourful design touches."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "Uninterrupted sea views",
+                    "Open-planned living",
+                    "Glass facade Villa",
+                    "infinity pool and private deck",
+                ],
+                images: [SMAccom4, SMAccom5, SMAccom1, SMAccom3, SMAccom6],
+                floorPlan: {
+                    path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf"
+                },
+            },
+            {
+                name: "Lagoon Beach Pool Villa",
+                slug: "lagoon-beach-pool-villa",
+                area: "228 sqm",
+                roomDetails: {
+                    title: "You are steps away from the turquoise reef",
+                    highlights: ["On the pristine white sands of the lagoon, you are steps away from the turquoise reef that is perfect for snorkelling. You may prefer to chill in the lush private garden next to the striped pool and contemplate the blue landscape. Inside the glass façade, it’s all about laidback luxury – think curved lines, a soothing open-plan space with plush, elegant décor and a neutral palette punctuated with artisanal pops of colour."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "On the white sands of the lagoon",
+                    "Steps away from the reef",
+                    "Glass facade Villa",
+                    "Private garden and pool",
+                ],
+                images: [SMAccom7, SMAccom8, SMAccom9, SMAccom10],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf"
+                },
+            },
+            {
+                name: "Ocean Beach Pool Villa",
+                slug: "ocean-beach-pool-villa",
+                area: "228 sqm",
+                roomDetails: {
+                    title: "Lush tropical foliage",
+                    highlights: ["With lush tropical foliage and a private terrace on the white sandy beach, you are moments from the ocean. You may prefer to chill in your striped design private pool and take in the idyllic view of the ocean and beyond. Inside the glass façade, it’s all about laidback luxury – think curved lines, a calming open-plan space with a natural palette punctuated with artisanal pops of colour."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "On the white sands of the lagoon",
+                    "Steps away from the reef",
+                    "Glass facade Villa",
+                    "Private pool and terrace",
+                ],
+                images: [SMAccom11, SMAccom12, SMAccom13, SMAccom14, SMAccom15, SMAccom16],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf"
+                },
+            },
+            {
+                name: "Family Beach Pool Villa with Capsule",
+                slug: "family-beach-pool-villa-with-capsule",
+                area: "238 sqm",
+                roomDetails: {
+                    title: "Ultimate private escape imbued with relaxed luxury",
+                    highlights: ["Castaway in this dream Family Villa for the ultimate private escape imbued with relaxed luxury. Secluded in a lush tropical beach enclave, this modern organic-style villa has everything a family needs to escape – space to play, relax and entertain in an elegantly-styled bedroom with an attached hip bunk capsule for the kids to add to the sense of adventure. Indulge in a private pool, tropical garden and access to your own private beach. It’s also just a few steps away from The Nest and The Zone."]
+                },
+                paxAdult: 4,
+                paxChild: 0,
+                features: [
+                    "Two bedrooms, including a hip bunk capsule for the kids",
+                    "Secluded in a lush tropical beach enclave",
+                    "Access to your own private beach",
+                    "Private pool",
+                ],
+                images: [SMAccom17, SMAccom18, SMAccom19, SMAccom20, SMAccom21],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_family-beach-pool-villa-with-capsule.pdf"
+                },
+            },
+            {
+                name: "Two-Bedroom Ocean Water Pool Atelier",
+                slug: "two-bedroom-ocean-water-pool-atelier",
+                area: "240 sqm",
+                roomDetails: {
+                    title: "Luxury residence in paradise with private pool",
+                    highlights: ["Set over two spacious levels, escape to your luxury residence in paradise with private pool, wraparound decks and endless ocean views. With an indoor-outdoor feel, this relaxed yet elegant space features a spacious master bedroom on the first floor along with separate living and dining space with plush furnishings, sculptural detailing and artisanal touches. With expansive terraces on both floors, step directly into the turquoise waters from the sleek glass villa or perhaps you’d prefer to enjoy the view from the sanctuary of your statement bathroom with freestanding cocoon tub."]
+                },
+                paxAdult: 4,
+                paxChild: 0,
+                features: [
+                    "Two separate bedrooms",
+                    "Living & dining spaces",
+                    "Private pool and deck",
+                    "Expansive terraces on both floors",
+                ],
+                images: [SMAccom22, SMAccom23, SMAccom24, SMAccom25, SMAccom26, SMAccom27, SMAccom28, SMAccom29],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_two-bedroom-ocean-water-pool-atelier.pdf"
+                },
+            },
+            {
+                name: "Two-Bedroom Lagoon Beach Pool Loft",
+                slug: "two-bedroom-lagoon-beach-pool-loft",
+                area: "322 sqm",
+                roomDetails: {
+                    title: "Set over two breathtaking levels",
+                    highlights: ["Set over two breathtaking levels, castaway in this spacious two-bedroom Beach Loft to step directly onto the white powdery sand of the turquoise lagoon. Enjoy indoor-outdoor living with your own private pool, lush tropical terrace and stunning views to the lagoon and beyond. The vibe is laidback luxury – plush, elegant and relaxed with a separate living and dining space to host, cocoon tub-with-a-view and sculptural design touches."]
+                },
+                paxAdult: 4,
+                paxChild: 0,
+                features: [
+                    "Two levels",
+                    "Two bedrooms, separate living & dining spaces",
+                    "Direct beach access",
+                    "Private pool & lush tropical terrace",
+                ],
+                images: [SMAccom30, SMAccom31, SMAccom32, SMAccom33, SMAccom34, SMAccom35, SMAccom36, SMAccom37, SMAccom38],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_two-bedroom-lagoon-beach-pool-loft.pdf"
+                },
+            },
+            {
+                name: "Three-Bedroom Ocean Water Pool Atelier",
+                slug: "three-bedroom-ocean-water-pool-atelier",
+                area: "410 sqm",
+                roomDetails: {
+                    title: "Your ultimate ocean escape",
+                    highlights: ["Your ultimate ocean escape, our vast two-storey Water Atelier is designed for maximum luxury and privacy with three bedrooms and spacious living and dining area with wraparound deck on both floors. With an indoor-outdoor feel, this modernist villa features the statement-making master bedroom and panoramic deck. On the first floor, there are two further bedrooms along with the stylish living and dining space to relax or entertain. Plush, elegant décor in neutral tones gives way to endless blue from all directions with artisanal design touches to elevate the space. Step from the giant curved tub onto your private deck, swim in the turquoise waters from your private pool or simply contemplate that endless blue landscape."]
+                },
+                paxAdult: 6,
+                paxChild: 0,
+                features: [
+                    "Three bedrooms",
+                    "Two-storey water atelier",
+                    "Living and dining area",
+                    "Private pool",
+                ],
+                images: [SMAccom39, SMAccom40, SMAccom41, SMAccom42, SMAccom43, SMAccom44],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_three-bedroom-ocean-water-pool-atelier.pdf"
                 },
             }
         ],
         dinings: [
             {
-                name: "Andalucia Resturant",
-                description:
+                name: "THE CITRONELLE CLUB",
+                description: [
                     "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                ],
+                images: [SMTCC1, SMTCC2, SMTCC3],
             },
             {
-                name: "The Citronelle Club",
-                description:
-                    "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                name: "LAZULI BEACH CLUB",
+                description: [
+                    "Lazuli is a versitile space oozing Cote D’Azur charm and elegance. A centralised bar connects the areas and, as the guests journey away from the Bar and Lounge, the experience becomes more informal, more lively and more interactive. Lazuli has multiple terraces, decks and bars as well sun beds both in and out of water.",
+                ],
+                images: [SMLB1, SMLB2, SMLB3],
             },
             {
-                name: "Barrrique Resturant",
-                description:
-                    "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                name: "HADABA",
+                description: [
+                    "A feast of the Middle East unlike any other. Where old and new friends can come together to break bread, share a drink, and trade stories; where the familiarity of the cuisine is elevated by the unexpected. Hadaba takes its name from the Egyptian neighborhood – Hadaba, one of the regions across the Levant the restaurant draws its flavour and inspiration.",
+                ],
+                images: [SMHB1, SMHB2, SMHB3, SMHB4],
             },
         ],
-        wellnessSpa: {
-            title: "Lagoon Water Pool Villa",
-            description:
-                "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-            image: WellnessSpa,
-        },
-        activities: {
-            title: "Water Adventures & Excursions",
-            description:
-                "An array of paid and complimentary water-based adventures including kayaking, parasailing, snorkeling, jet ski, stand-up paddleboarding, and offsite excursions are available to further enhance travelers’ experience of the island.\nGuests can learn how to scuba dive, or for experienced divers, there is a wide selection of curated dives that can be arranged daily including turtle expeditions, outer reef explorations and traditional Maldivian fishing excursions.",
-            image: ResortActivities,
-        },
+        wellnessSpa: [
+            {
+                title: "WELLNESS CAMP",
+                description:
+                    "Whether your preferred mode is active or relaxed, retreat to our serene wellness camp, featuring a Bespoke Vichy rainforest shower, steam and sauna, modern organic treatment rooms and state-of-the-art fitness sphere with ocean views.",
+                images: [SMSpa1, SMSpa2, SMSpa3, SMSpa4, SMSpa5, SMSpa6],
+            },
+        ],
+        activities: [
+            {
+                title: "WATER ADVENTURES & EXCURSIONS",
+                description: [
+                    "An array of paid and complimentary water-based adventures including kayaking, parasailing, snorkeling, jet ski, stand-up paddleboarding, and offsite excursions are available to further enhance travelers’ experience of the island.",
+                    "Guests can learn how to scuba dive, or for experienced divers, there is a wide selection of curated dives that can be arranged daily including turtle expeditions, outer reef explorations and traditional Maldivian fishing excursions."
+                ],
+
+                images: [SMACT1, SMACT2, SMACT3, SMACT4],
+            },
+        ],
         direction: {
             description:
                 "A 15-minute speedboat ride from Malé International Airport whisks you away to a private island in this idyllic archipelago overlooking the Emboodhoo Lagoon. Introducing a new generation of luxury for modern adventurers.",
@@ -1203,59 +1674,216 @@ export const MaldivesData = [
         },
         accommodation: [
             {
-                name: "Lagoon Overwater Pool Villa",
-                slug: "lagoon-overwater-pool-villa",
-                area: "125 sqm",
+                name: "Lagoon Water Pool Villa",
+                slug: "lagoon-water-pool-villa",
+                area: "120 sqm",
                 roomDetails: {
-                    title: "Ultimate romantic escape",
-                    highlights: ["Treat yourself to the ultimate romantic escape in a villa perched over the lagoon. Unwind in the comfort of an open-concept bedroom and living room seamlessly flowing to a private pool and sun deck. Feel all your worries drift away on the breeze as the gentle lap of the lagoon waters lulls you into peaceful relaxation."]
+                    title: "Perfect for snorkelling",
+                    highlights: ["Suspended over water in the turquoise waters of our lagoon, you are a short swim to the reef that is perfect for snorkelling. Here the water is your garden, accessible from your striped-design infinity pool and private deck. Inside the glass façade, a freestanding cocoon tub will be the highlight of your laidback luxury – relaxed and elegant with neutral tones punctuated with artisanal pops of colour"]
                 },
                 paxAdult: 2,
                 paxChild: 0,
                 features: [
-                    "Deluxe indoor bathroom",
-                    "Floor-to-ceiling windows bedroom and living room",
-                    "Freshwater swimming pool in the villa",
-                    "Private seating space overlooking the swimming pool and ocean",
+                    "Located over water in the lagoon",
+                    "Short swim to the reef",
+                    "Glass facade Villa",
+                    "Infinity pool and private deck",
                 ],
-                images: [AKAccom1, AKAccom2, AKAccom3, AKAccom4],
+                images: [SMAccom1, SMAccom2, SMAccom3],
                 floorPlan: {
-                    path: "/images/maldives/accommodation/alila-kothaifaru/lagoon-overwater-pool-villa.webp"
+                    path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf"
+                },
+            },
+            {
+                name: "Ocean Water Pool Villa",
+                slug: "ocean-water-pool-villa",
+                area: "120 sqm",
+                roomDetails: {
+                    title: "Your own private ocean sanctuary",
+                    highlights: ["Your own private ocean sanctuary, our Pool Water Villas offer uninterrupted sea views and elegant open-plan living. Step directly into the turquoise waters from your striped-design private pool or enjoy the tranquility from your soothing light-flooded space featuring freestanding cocoon tub, wraparound windows and nature-inspired palette with colourful design touches."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "Uninterrupted sea views",
+                    "Open-planned living",
+                    "Glass facade Villa",
+                    "infinity pool and private deck",
+                ],
+                images: [SMAccom4, SMAccom5, SMAccom1, SMAccom3, SMAccom6],
+                floorPlan: {
+                    path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf"
+                },
+            },
+            {
+                name: "Lagoon Beach Pool Villa",
+                slug: "lagoon-beach-pool-villa",
+                area: "228 sqm",
+                roomDetails: {
+                    title: "You are steps away from the turquoise reef",
+                    highlights: ["On the pristine white sands of the lagoon, you are steps away from the turquoise reef that is perfect for snorkelling. You may prefer to chill in the lush private garden next to the striped pool and contemplate the blue landscape. Inside the glass façade, it’s all about laidback luxury – think curved lines, a soothing open-plan space with plush, elegant décor and a neutral palette punctuated with artisanal pops of colour."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "On the white sands of the lagoon",
+                    "Steps away from the reef",
+                    "Glass facade Villa",
+                    "Private garden and pool",
+                ],
+                images: [SMAccom7, SMAccom8, SMAccom9, SMAccom10],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf"
+                },
+            },
+            {
+                name: "Ocean Beach Pool Villa",
+                slug: "ocean-beach-pool-villa",
+                area: "228 sqm",
+                roomDetails: {
+                    title: "Lush tropical foliage",
+                    highlights: ["With lush tropical foliage and a private terrace on the white sandy beach, you are moments from the ocean. You may prefer to chill in your striped design private pool and take in the idyllic view of the ocean and beyond. Inside the glass façade, it’s all about laidback luxury – think curved lines, a calming open-plan space with a natural palette punctuated with artisanal pops of colour."]
+                },
+                paxAdult: 2,
+                paxChild: 0,
+                features: [
+                    "On the white sands of the lagoon",
+                    "Steps away from the reef",
+                    "Glass facade Villa",
+                    "Private pool and terrace",
+                ],
+                images: [SMAccom11, SMAccom12, SMAccom13, SMAccom14, SMAccom15, SMAccom16],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf"
+                },
+            },
+            {
+                name: "Family Beach Pool Villa with Capsule",
+                slug: "family-beach-pool-villa-with-capsule",
+                area: "238 sqm",
+                roomDetails: {
+                    title: "Ultimate private escape imbued with relaxed luxury",
+                    highlights: ["Castaway in this dream Family Villa for the ultimate private escape imbued with relaxed luxury. Secluded in a lush tropical beach enclave, this modern organic-style villa has everything a family needs to escape – space to play, relax and entertain in an elegantly-styled bedroom with an attached hip bunk capsule for the kids to add to the sense of adventure. Indulge in a private pool, tropical garden and access to your own private beach. It’s also just a few steps away from The Nest and The Zone."]
+                },
+                paxAdult: 4,
+                paxChild: 0,
+                features: [
+                    "Two bedrooms, including a hip bunk capsule for the kids",
+                    "Secluded in a lush tropical beach enclave",
+                    "Access to your own private beach",
+                    "Private pool",
+                ],
+                images: [SMAccom17, SMAccom18, SMAccom19, SMAccom20, SMAccom21],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_family-beach-pool-villa-with-capsule.pdf"
+                },
+            },
+            {
+                name: "Two-Bedroom Ocean Water Pool Atelier",
+                slug: "two-bedroom-ocean-water-pool-atelier",
+                area: "240 sqm",
+                roomDetails: {
+                    title: "Luxury residence in paradise with private pool",
+                    highlights: ["Set over two spacious levels, escape to your luxury residence in paradise with private pool, wraparound decks and endless ocean views. With an indoor-outdoor feel, this relaxed yet elegant space features a spacious master bedroom on the first floor along with separate living and dining space with plush furnishings, sculptural detailing and artisanal touches. With expansive terraces on both floors, step directly into the turquoise waters from the sleek glass villa or perhaps you’d prefer to enjoy the view from the sanctuary of your statement bathroom with freestanding cocoon tub."]
+                },
+                paxAdult: 4,
+                paxChild: 0,
+                features: [
+                    "Two separate bedrooms",
+                    "Living & dining spaces",
+                    "Private pool and deck",
+                    "Expansive terraces on both floors",
+                ],
+                images: [SMAccom22, SMAccom23, SMAccom24, SMAccom25, SMAccom26, SMAccom27, SMAccom28, SMAccom29],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_two-bedroom-ocean-water-pool-atelier.pdf"
+                },
+            },
+            {
+                name: "Two-Bedroom Lagoon Beach Pool Loft",
+                slug: "two-bedroom-lagoon-beach-pool-loft",
+                area: "322 sqm",
+                roomDetails: {
+                    title: "Set over two breathtaking levels",
+                    highlights: ["Set over two breathtaking levels, castaway in this spacious two-bedroom Beach Loft to step directly onto the white powdery sand of the turquoise lagoon. Enjoy indoor-outdoor living with your own private pool, lush tropical terrace and stunning views to the lagoon and beyond. The vibe is laidback luxury – plush, elegant and relaxed with a separate living and dining space to host, cocoon tub-with-a-view and sculptural design touches."]
+                },
+                paxAdult: 4,
+                paxChild: 0,
+                features: [
+                    "Two levels",
+                    "Two bedrooms, separate living & dining spaces",
+                    "Direct beach access",
+                    "Private pool & lush tropical terrace",
+                ],
+                images: [SMAccom30, SMAccom31, SMAccom32, SMAccom33, SMAccom34, SMAccom35, SMAccom36, SMAccom37, SMAccom38],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_two-bedroom-lagoon-beach-pool-loft.pdf"
+                },
+            },
+            {
+                name: "Three-Bedroom Ocean Water Pool Atelier",
+                slug: "three-bedroom-ocean-water-pool-atelier",
+                area: "410 sqm",
+                roomDetails: {
+                    title: "Your ultimate ocean escape",
+                    highlights: ["Your ultimate ocean escape, our vast two-storey Water Atelier is designed for maximum luxury and privacy with three bedrooms and spacious living and dining area with wraparound deck on both floors. With an indoor-outdoor feel, this modernist villa features the statement-making master bedroom and panoramic deck. On the first floor, there are two further bedrooms along with the stylish living and dining space to relax or entertain. Plush, elegant décor in neutral tones gives way to endless blue from all directions with artisanal design touches to elevate the space. Step from the giant curved tub onto your private deck, swim in the turquoise waters from your private pool or simply contemplate that endless blue landscape."]
+                },
+                paxAdult: 6,
+                paxChild: 0,
+                features: [
+                    "Three bedrooms",
+                    "Two-storey water atelier",
+                    "Living and dining area",
+                    "Private pool",
+                ],
+                images: [SMAccom39, SMAccom40, SMAccom41, SMAccom42, SMAccom43, SMAccom44],
+                floorPlan: {
+                    path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_three-bedroom-ocean-water-pool-atelier.pdf"
                 },
             }
         ],
         dinings: [
             {
-                name: "Andalucia Resturant",
-                description:
+                name: "THE CITRONELLE CLUB",
+                description: [
                     "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                ],
+                images: [SMTCC1, SMTCC2, SMTCC3],
             },
             {
-                name: "The Citronelle Club",
-                description:
-                    "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                name: "LAZULI BEACH CLUB",
+                description: [
+                    "Lazuli is a versitile space oozing Cote D’Azur charm and elegance. A centralised bar connects the areas and, as the guests journey away from the Bar and Lounge, the experience becomes more informal, more lively and more interactive. Lazuli has multiple terraces, decks and bars as well sun beds both in and out of water.",
+                ],
+                images: [SMLB1, SMLB2, SMLB3],
             },
             {
-                name: "Barrrique Resturant",
-                description:
-                    "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-                images: [Dining1, Dining2, Dining3],
+                name: "HADABA",
+                description: [
+                    "A feast of the Middle East unlike any other. Where old and new friends can come together to break bread, share a drink, and trade stories; where the familiarity of the cuisine is elevated by the unexpected. Hadaba takes its name from the Egyptian neighborhood – Hadaba, one of the regions across the Levant the restaurant draws its flavour and inspiration.",
+                ],
+                images: [SMHB1, SMHB2, SMHB3, SMHB4],
             },
         ],
-        wellnessSpa: {
-            title: "Lagoon Water Pool Villa",
-            description:
-                "The Citronelle Club is a welcoming restaurant inspired by the flavours of Asia, the guest profile here being foodies that love full-flavoured dishes to share in large parties. The kitchens are the main event and the finishes used are to be rustic Asian-inspired bricks, tiles and timber panelling.",
-            image: WellnessSpa,
-        },
-        activities: {
-            title: "Water Adventures & Excursions",
-            description:
-                "An array of paid and complimentary water-based adventures including kayaking, parasailing, snorkeling, jet ski, stand-up paddleboarding, and offsite excursions are available to further enhance travelers’ experience of the island.\nGuests can learn how to scuba dive, or for experienced divers, there is a wide selection of curated dives that can be arranged daily including turtle expeditions, outer reef explorations and traditional Maldivian fishing excursions.",
-            image: ResortActivities,
-        },
+        wellnessSpa: [
+            {
+                title: "WELLNESS CAMP",
+                description:
+                    "Whether your preferred mode is active or relaxed, retreat to our serene wellness camp, featuring a Bespoke Vichy rainforest shower, steam and sauna, modern organic treatment rooms and state-of-the-art fitness sphere with ocean views.",
+                images: [SMSpa1, SMSpa2, SMSpa3, SMSpa4, SMSpa5, SMSpa6],
+            },
+        ],
+        activities: [
+            {
+                title: "WATER ADVENTURES & EXCURSIONS",
+                description: [
+                    "An array of paid and complimentary water-based adventures including kayaking, parasailing, snorkeling, jet ski, stand-up paddleboarding, and offsite excursions are available to further enhance travelers’ experience of the island.",
+                    "Guests can learn how to scuba dive, or for experienced divers, there is a wide selection of curated dives that can be arranged daily including turtle expeditions, outer reef explorations and traditional Maldivian fishing excursions."
+                ],
+
+                images: [SMACT1, SMACT2, SMACT3, SMACT4],
+            },
+        ],
         direction: {
             description:
                 "A 15-minute speedboat ride from Malé International Airport whisks you away to a private island in this idyllic archipelago overlooking the Emboodhoo Lagoon. Introducing a new generation of luxury for modern adventurers.",
