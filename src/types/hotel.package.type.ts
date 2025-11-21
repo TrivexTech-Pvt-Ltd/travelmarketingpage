@@ -1,3 +1,4 @@
+
 import { StaticImageData } from "next/image";
 
 // ---------- Base Image Type ----------
@@ -20,6 +21,10 @@ export type roomHighligts = {
   title: string;
   description: string;
 };
+export type roomHighligts = {
+    title: string;
+    description: string
+}
 
 // ---------- Accommodation ----------
 export type ResortAccommodation = {
@@ -129,6 +134,8 @@ export interface MaldivesTourPackage extends BaseTourPackage {
   direction: ResortDirection;
   resortMap: resortMap;
   highlightContent: highlightContent;
+    resortMap: resortMap;
+    highlightContent: highlightContent;
 }
 
 // ---------- Sri Lanka Package ----------
