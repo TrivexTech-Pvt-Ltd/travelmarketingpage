@@ -40,7 +40,6 @@ import AlilaHero4 from "../../public/images/hero/alila/alila-hero-4.webp";
 import AlilaHero5 from "../../public/images/hero/alila/alila-hero-5.webp";
 import AlilaHero6 from "../../public/images/hero/alila/alila-hero-6.webp";
 
-
 //Destinations
 import MaldivesHero from "../../public/images/hero/maldives.webp";
 
@@ -66,11 +65,11 @@ import SafeTravelling from "../../public/images/intro/safe-travel.svg";
 import AdventureActivities from "../../public/images/intro/adventure.svg";
 
 //Dedicated services
-import HandpickedStays from "../../public/images/services/handpicked-stays.webp"
-import TailoredPerfection from "../../public/images/services/tailored-perfection.webp"
-import DestinationMastery from "../../public/images/services/destination-mastery.webp"
-import IconicExperiences from "../../public/images/services/iconic-experiences.webp"
-import UnparalleledService from "../../public/images/services/unparalleled-services.webp"
+import HandpickedStays from "../../public/images/services/handpicked-stays.webp";
+import TailoredPerfection from "../../public/images/services/tailored-perfection.webp";
+import DestinationMastery from "../../public/images/services/destination-mastery.webp";
+import IconicExperiences from "../../public/images/services/iconic-experiences.webp";
+import UnparalleledService from "../../public/images/services/unparalleled-services.webp";
 
 //Maldives
 import SiyamWorldsLogo from "../../public/images/maldives/Siyam-World-logo.webp";
@@ -210,102 +209,102 @@ import AKSlt4 from "../../public/images/maldives/dining/alila-kothaifaru/seasalt
 import AKSlt5 from "../../public/images/maldives/dining/alila-kothaifaru/seasalt/alila-kothaifaru-maldives-seasalt-pool-lounge.webp";
 
 //Mirus Bar
-import AKMB1 from "../../public/images/maldives/dining/alila-kothaifaru/mirus-bar/alila-kothaifaru-maldives-mirus-bar-sunset.webp"
-import AKMB2 from "../../public/images/maldives/dining/alila-kothaifaru/mirus-bar/alila-kothaifaru-maldives-mirus-bar-exterior.webp"
-import AKMB3 from "../../public/images/maldives/dining/alila-kothaifaru/mirus-bar/alila-kothaifaru-maldives-mirus-bar-interior.webp"
+import AKMB1 from "../../public/images/maldives/dining/alila-kothaifaru/mirus-bar/alila-kothaifaru-maldives-mirus-bar-sunset.webp";
+import AKMB2 from "../../public/images/maldives/dining/alila-kothaifaru/mirus-bar/alila-kothaifaru-maldives-mirus-bar-exterior.webp";
+import AKMB3 from "../../public/images/maldives/dining/alila-kothaifaru/mirus-bar/alila-kothaifaru-maldives-mirus-bar-interior.webp";
 
 //UMAMI
-import AKUM1 from "../../public/images/maldives/dining/alila-kothaifaru/umami/alila-kothaifaru-maldives-umami-interior-with-staff.webp"
-import AKUM2 from "../../public/images/maldives/dining/alila-kothaifaru/umami/alila-kothaifaru-maldives-umami-interior-with-staff.webp"
-import AKUM3 from "../../public/images/maldives/dining/alila-kothaifaru/umami/alila-kothaifaru-maldives-umami-teppanyaki.webp"
+import AKUM1 from "../../public/images/maldives/dining/alila-kothaifaru/umami/alila-kothaifaru-maldives-umami-interior-with-staff.webp";
+import AKUM2 from "../../public/images/maldives/dining/alila-kothaifaru/umami/alila-kothaifaru-maldives-umami-interior-with-staff.webp";
+import AKUM3 from "../../public/images/maldives/dining/alila-kothaifaru/umami/alila-kothaifaru-maldives-umami-teppanyaki.webp";
 
 //YAKITORI BAR
-import AKYKB1 from "../../public/images/maldives/dining/alila-kothaifaru/yakitori-bar/alila-kothaifaru-maldives-yakitori-bar.webp"
-import AKYKB2 from "../../public/images/maldives/dining/alila-kothaifaru/yakitori-bar/alila-kothaifaru-maldives-yakitori-bar-interior.webp"
-import AKYKB3 from "../../public/images/maldives/dining/alila-kothaifaru/yakitori-bar/alila-kothaifaru-maldives-yakitori-bar-entrance.webp"
+import AKYKB1 from "../../public/images/maldives/dining/alila-kothaifaru/yakitori-bar/alila-kothaifaru-maldives-yakitori-bar.webp";
+import AKYKB2 from "../../public/images/maldives/dining/alila-kothaifaru/yakitori-bar/alila-kothaifaru-maldives-yakitori-bar-interior.webp";
+import AKYKB3 from "../../public/images/maldives/dining/alila-kothaifaru/yakitori-bar/alila-kothaifaru-maldives-yakitori-bar-entrance.webp";
 
 //Pibati Sul Mare
-import AKPSM1 from "../../public/images/maldives/dining/alila-kothaifaru/pibati-sul-mare/alila-kothaifaru-maldives-pibati-cafe.webp"
-import AKPSM2 from "../../public/images/maldives/dining/alila-kothaifaru/pibati-sul-mare/alila-kothaifaru-maldives-pibati.webp"
-import AKPSM3 from "../../public/images/maldives/dining/alila-kothaifaru/pibati-sul-mare/alila-kothaifaru-maldives-afternoon-refreshments.webp"
+import AKPSM1 from "../../public/images/maldives/dining/alila-kothaifaru/pibati-sul-mare/alila-kothaifaru-maldives-pibati-cafe.webp";
+import AKPSM2 from "../../public/images/maldives/dining/alila-kothaifaru/pibati-sul-mare/alila-kothaifaru-maldives-pibati.webp";
+import AKPSM3 from "../../public/images/maldives/dining/alila-kothaifaru/pibati-sul-mare/alila-kothaifaru-maldives-afternoon-refreshments.webp";
 
 //The Shack
-import AKTS1 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-private-island-sunset.webp"
-import AKTS2 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-dining-area.webp"
-import AKTS3 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-facilities.webp"
-import AKTS4 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-lunch.webp"
-import AKTS5 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-private-sandbank.webp"
+import AKTS1 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-private-island-sunset.webp";
+import AKTS2 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-dining-area.webp";
+import AKTS3 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-facilities.webp";
+import AKTS4 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-lunch.webp";
+import AKTS5 from "../../public/images/maldives/dining/alila-kothaifaru/shack/alila-kothaifaru-maldives-the-shack-private-sandbank.webp";
 
 //Alila Kothaifaru Spa & Wellness
 //Spa alila
-import AKSPAL1 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila-treatment-room-with-staff.webp"
-import AKSPAL2 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila.webp"
-import AKSPAL3 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-reception.webp"
-import AKSPAL4 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila-bathroom.webp"
-import AKSPAL5 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila-reception-with-staff.webp"
+import AKSPAL1 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila-treatment-room-with-staff.webp";
+import AKSPAL2 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila.webp";
+import AKSPAL3 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-reception.webp";
+import AKSPAL4 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila-bathroom.webp";
+import AKSPAL5 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/spa-alila/alila-kothaifaru-maldives-spa-alila-reception-with-staff.webp";
 
 //Fitness Centre
-import AKFC1 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/fitness-centre/alila-kothaifaru-maldives-fitness-centre-inside-angle.webp"
-import AKFC2 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/fitness-centre/alila-kothaifaru-maldives-infinity-pool-yoga.webp"
-import AKFC3 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/fitness-centre/alila-kothaifaru-maldives-yoga-by-the-beach.webp"
+import AKFC1 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/fitness-centre/alila-kothaifaru-maldives-fitness-centre-inside-angle.webp";
+import AKFC2 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/fitness-centre/alila-kothaifaru-maldives-infinity-pool-yoga.webp";
+import AKFC3 from "../../public/images/maldives/wellness-spa/alila-kothaifaru/fitness-centre/alila-kothaifaru-maldives-yoga-by-the-beach.webp";
 
 //Alila Kothaifaru Activities
 //WATER SPORTS & DIVING ACTIVITIES
-import AKWSDA1 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila_diving_site.webp"
-import AKWSDA2 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila_underwater_reefs.webp"
-import AKWSDA3 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila-kothaifaru-maldives-couple-kayaking.webp"
-import AKWSDA4 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila-kothaifaru-maldives-catamaran-sailing.webp"
-import AKWSDA5 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila-kothaifaru-maldives-dolphin-cruise.webp"
+import AKWSDA1 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila_diving_site.webp";
+import AKWSDA2 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila_underwater_reefs.webp";
+import AKWSDA3 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila-kothaifaru-maldives-couple-kayaking.webp";
+import AKWSDA4 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila-kothaifaru-maldives-catamaran-sailing.webp";
+import AKWSDA5 from "../../public/images/maldives/activities/alila-kothaifaru/water-sport/alila-kothaifaru-maldives-dolphin-cruise.webp";
 
 //THE ART OF COCONUT
-import AKAOC1 from "../../public/images/maldives/activities/alila-kothaifaru/art-of-coconut/alila-kothaifaru-maldives-the-art-of-coconut.webp"
-import AKAOC2 from "../../public/images/maldives/activities/alila-kothaifaru/art-of-coconut/alila-kothaifaru-maldives-the-art-of-coconut-cultural-learning.webp"
-import AKAOC3 from "../../public/images/maldives/activities/alila-kothaifaru/art-of-coconut/alila-kothaifaru-maldives-the-art-of-coconut-maldivian-lady.webp"
+import AKAOC1 from "../../public/images/maldives/activities/alila-kothaifaru/art-of-coconut/alila-kothaifaru-maldives-the-art-of-coconut.webp";
+import AKAOC2 from "../../public/images/maldives/activities/alila-kothaifaru/art-of-coconut/alila-kothaifaru-maldives-the-art-of-coconut-cultural-learning.webp";
+import AKAOC3 from "../../public/images/maldives/activities/alila-kothaifaru/art-of-coconut/alila-kothaifaru-maldives-the-art-of-coconut-maldivian-lady.webp";
 
 //DINING EXPERIENCES
-import AKDE1 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-kothaifaru-maldives-the-shack-picnic.webp"
-import AKDE2 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-kothaifaru-maldives-group-dinner-set-up.webp"
-import AKDE3 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-kothaifaru-maldives-starlight-cinema-with-staff.webp"
-import AKDE4 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-dining-experiences.webp"
-import AKDE5 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-maldives-dining-experiences.webp"
+import AKDE1 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-kothaifaru-maldives-the-shack-picnic.webp";
+import AKDE2 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-kothaifaru-maldives-group-dinner-set-up.webp";
+import AKDE3 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-kothaifaru-maldives-starlight-cinema-with-staff.webp";
+import AKDE4 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-dining-experiences.webp";
+import AKDE5 from "../../public/images/maldives/activities/alila-kothaifaru/dining/alila-maldives-dining-experiences.webp";
 
 //WEDDINGS & EVENTS
-import AKWE1 from "../../public/images/maldives/activities/alila-kothaifaru/wedding-events/alila-kothaifaru-maldives-wedding-set-up.webp"
-import AKWE2 from "../../public/images/maldives/activities/alila-kothaifaru/wedding-events/alila-kothaifaru-maldives-wedding-cake-with-pastry-chef.webp"
-import AKWE3 from "../../public/images/maldives/activities/alila-kothaifaru/wedding-events/alila-kothaifaru-maldives-wedding-shot.webp"
+import AKWE1 from "../../public/images/maldives/activities/alila-kothaifaru/wedding-events/alila-kothaifaru-maldives-wedding-set-up.webp";
+import AKWE2 from "../../public/images/maldives/activities/alila-kothaifaru/wedding-events/alila-kothaifaru-maldives-wedding-cake-with-pastry-chef.webp";
+import AKWE3 from "../../public/images/maldives/activities/alila-kothaifaru/wedding-events/alila-kothaifaru-maldives-wedding-shot.webp";
 
 //GAME AREA
-import AKGA1 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-padel-tennis-court.jpg"
-import AKGA2 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-outdoor-floor-chess.webp"
-import AKGA3 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-beach-volley-ball.webp"
-import AKGA4 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-petanque-court.jpg"
+import AKGA1 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-padel-tennis-court.jpg";
+import AKGA2 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-outdoor-floor-chess.webp";
+import AKGA3 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-beach-volley-ball.webp";
+import AKGA4 from "../../public/images/maldives/activities/alila-kothaifaru/game-area/alila-kothaifaru-maldives-petanque-court.jpg";
 
 //SPICE GARDEN
-import AKSPG from "../../public/images/maldives/activities/alila-kothaifaru/spice-garden/spice-garden-and-chef.webp"
+import AKSPG from "../../public/images/maldives/activities/alila-kothaifaru/spice-garden/spice-garden-and-chef.webp";
 
 //SO Maldives
 //Accommodation
-import SMAccom1 from "../../public/images/maldives/accommodation/so-maldives/stay-1/overwater-pool-villa-collection.webp"
-import SMAccom2 from "../../public/images/maldives/accommodation/so-maldives/stay-1/overwater-pool-villa-collection-interior.webp"
-import SMAccom3 from "../../public/images/maldives/accommodation/so-maldives/stay-1/overwater-pool-villa-collection-interior-bed.webp"
-import SMAccom4 from "../../public/images/maldives/accommodation/so-maldives/stay-2/overwater-pool-villa-collection-exterior.webp"
-import SMAccom5 from "../../public/images/maldives/accommodation/so-maldives/stay-2/aerial-so-maldives.webp"
-import SMAccom6 from "../../public/images/maldives/accommodation/so-maldives/stay-2/overwater-pool-villa-collection-bed-view.webp"
-import SMAccom7 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beach-pool-villa-collection-exterior.webp"
-import SMAccom8 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beach-pool-villa-collection-interior.webp"
-import SMAccom9 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beach-pool-villa-collection-interior-1.webp"
-import SMAccom10 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beach-villa-lagoon-indoor-jpg.webp"
-import SMAccom11 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-exterior-terrace.webp"
-import SMAccom12 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-exterior-pool.webp"
-import SMAccom13 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-interior-bedroom.webp"
-import SMAccom14 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-villa-indoor.webp"
-import SMAccom15 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-villa-ocean-outdoor.webp"
-import SMAccom16 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-interior-bed.webp"
-import SMAccom17 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-exterior.webp"
-import SMAccom18 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-bedroom.webp"
-import SMAccom19 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-room-kids-pods.webp"
-import SMAccom20 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-bath.webp"
-import SMAccom21 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-buffet.webp"
+import SMAccom1 from "../../public/images/maldives/accommodation/so-maldives/stay-1/private-1.jpg";
+import SMAccom2 from "../../public/images/maldives/accommodation/so-maldives/stay-1/Beach Villa With Private Pool-2.jpg";
+import SMAccom3 from "../../public/images/maldives/accommodation/so-maldives/stay-1/overwater-pool-villa-collection-interior-bed.webp";
+import SMAccom4 from "../../public/images/maldives/accommodation/so-maldives/stay-2/overwater-1.jpg";
+import SMAccom5 from "../../public/images/maldives/accommodation/so-maldives/stay-2/overwater-2.jpg";
+import SMAccom6 from "../../public/images/maldives/accommodation/so-maldives/stay-2/overwater-3.jpg";
+import SMAccom7 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beachpool-1.jpg";
+import SMAccom8 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beachpool-2.jpg";
+import SMAccom9 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beach-pool-villa-collection-interior-1.webp";
+import SMAccom10 from "../../public/images/maldives/accommodation/so-maldives/stay-3/beach-villa-lagoon-indoor-jpg.webp";
+import SMAccom11 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-exterior-terrace.webp";
+import SMAccom12 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-exterior-pool.webp";
+import SMAccom13 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-1.jpg";
+import SMAccom14 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-2.jpg";
+import SMAccom15 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-villa-ocean-outdoor.webp";
+import SMAccom16 from "../../public/images/maldives/accommodation/so-maldives/stay-4/beach-pool-villa-collection-interior-bed.webp";
+import SMAccom17 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-exterior.webp";
+import SMAccom18 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-bedroom.webp";
+import SMAccom19 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-room-kids-pods.webp";
+import SMAccom20 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-bath.webp";
+import SMAccom21 from "../../public/images/maldives/accommodation/so-maldives/stay-5/family-beach-villa-buffet.webp";
 import SMAccom22 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-jpg.webp";
 import SMAccom23 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-terrace-jpg.webp";
 import SMAccom24 from "../../public/images/maldives/accommodation/so-maldives/stay-6/two-bedroom-ocean-water-pool-atelier-bathtub-jpg.webp";
@@ -331,304 +330,315 @@ import SMAccom43 from "../../public/images/maldives/accommodation/so-maldives/st
 import SMAccom44 from "../../public/images/maldives/accommodation/so-maldives/stay-8/three-bedroom-ocean-water-pool-atelier-night-jpg.webp";
 
 //Dining
-import SMTCC1 from "../../public/images/maldives/dining/so-maldives/citronelle-club/the-citronelle-club-outdoor-area-jpg.webp"
-import SMTCC2 from "../../public/images/maldives/dining/so-maldives/citronelle-club/the-citronelle-bar-jpg.webp"
-import SMTCC3 from "../../public/images/maldives/dining/so-maldives/citronelle-club/the-citronelle-club-indoor-area-jpg.webp"
+import SMTCC1 from "../../public/images/maldives/dining/so-maldives/citronelle-club/dinings-1.jpg";
+import SMTCC2 from "../../public/images/maldives/dining/so-maldives/citronelle-club/dinings-2.jpg";
+import SMTCC3 from "../../public/images/maldives/dining/so-maldives/citronelle-club/dinings-3.jpg";
+import SMTCC4 from "../../public/images/maldives/dining/so-maldives/citronelle-club/dinings-4.jpg";
 
-import SMLB1 from "../../public/images/maldives/dining/so-maldives/lazuli-beach/lazuli-aerial-top-jpg.webp"
-import SMLB2 from "../../public/images/maldives/dining/so-maldives/lazuli-beach/lazuli-beach-club-aerial-photo-jpg.webp"
-import SMLB3 from "../../public/images/maldives/dining/so-maldives/lazuli-beach/lazuli-beach-club-interio-private-space-jpg.webp"
+import SMLB1 from "../../public/images/maldives/dining/so-maldives/lazuli-beach/lazuli-aerial-1.jpg";
+import SMLB2 from "../../public/images/maldives/dining/so-maldives/lazuli-beach/lazuli-aerial-2.jpg";
+import SMLB3 from "../../public/images/maldives/dining/so-maldives/lazuli-beach/lazuli-aerial-3.jpg";
 
-import SMHB1 from "../../public/images/maldives/dining/so-maldives/hadaba/hadaba-jpg.webp"
-import SMHB2 from "../../public/images/maldives/dining/so-maldives/hadaba/hadaba-restaurant-jpg.webp"
-import SMHB3 from "../../public/images/maldives/dining/so-maldives/hadaba/hadaba-so-maldives-jpg.webp"
-import SMHB4 from "../../public/images/maldives/dining/so-maldives/hadaba/hadaba-interior-jpg.webp"
+import SMHB1 from "../../public/images/maldives/dining/so-maldives/hadaba/lazuli-aerial-4.jpg";
+import SMHB2 from "../../public/images/maldives/dining/so-maldives/hadaba/lazuli-aerial-5.jpg";
+import SMHB3 from "../../public/images/maldives/dining/so-maldives/hadaba/lazuli-aerial-6.jpg";
+import SMHB4 from "../../public/images/maldives/dining/so-maldives/hadaba/lazuli-aerial-7.jpg";
 
 //Wellness & spa
-import SMSpa1 from "../../public/images/maldives/wellness-spa/so-maldives/spa-aerial-1-jpg.webp"
-import SMSpa2 from "../../public/images/maldives/wellness-spa/so-maldives/wellnes-camp-spa-outdoor-jacuzy-top-view-jpg.webp"
-import SMSpa3 from "../../public/images/maldives/wellness-spa/so-maldives/spa-reception-jpg.webp" 
-import SMSpa4 from "../../public/images/maldives/wellness-spa/so-maldives/spa-bed-couple-jpg.webp"
-import SMSpa5 from "../../public/images/maldives/wellness-spa/so-maldives/spa-aerial-jpg.webp"
-import SMSpa6 from "../../public/images/maldives/wellness-spa/so-maldives/gym-fitness-center-jpg.webp"
+import SMSpa from "../../public/images/maldives/wellness-spa/so-maldives/spa-aerial.jpg";
+import SMSpa1 from "../../public/images/maldives/wellness-spa/so-maldives/spa-aerial-1.jpg";
+import SMSpa2 from "../../public/images/maldives/wellness-spa/so-maldives/spa-aerial-2.jpg";
+import SMSpa3 from "../../public/images/maldives/wellness-spa/so-maldives/spa-aerial-3.jpg";
+import SMSpa4 from "../../public/images/maldives/wellness-spa/so-maldives/spa-aerial-4.jpg";
+import SMSpa5 from "../../public/images/maldives/wellness-spa/so-maldives/spa-aerial-jpg.webp";
+import SMSpa6 from "../../public/images/maldives/wellness-spa/so-maldives/gym-fitness-center-jpg.webp";
 
 //Activities
-import SMACT1 from "../../public/images/maldives/activities/so-maldives/watersport-kayak-and-paddle-boat-jpg.webp"
-import SMACT2 from "../../public/images/maldives/activities/so-maldives/jetski-1920x1074.webp"
-import SMACT3 from "../../public/images/maldives/activities/so-maldives/the-zone-watersport-1920x1074.webp"
-import SMACT4 from "../../public/images/maldives/activities/so-maldives/the-link-snorkeling-area-1920x1074.webp"
-
+import SMACT1 from "../../public/images/maldives/activities/so-maldives/activities-1.jpg";
+import SMACT2 from "../../public/images/maldives/activities/so-maldives/activities-2.jpg";
+import SMACT3 from "../../public/images/maldives/activities/so-maldives/activities-3.jpg";
+import SMACT4 from "../../public/images/maldives/activities/so-maldives/activities-4.jpg";
+import SMACT5 from "../../public/images/maldives/activities/so-maldives/activities-5.jpg";
+import SMACT6 from "../../public/images/maldives/activities/so-maldives/activities-6.jpg";
+import SMACT7 from "../../public/images/maldives/activities/so-maldives/activities-9.jpg";
+import SMACT8 from "../../public/images/maldives/activities/so-maldives/Picture8.jpg";
 
 export {
-    Logo,
-    LogoWhite,
-    Hero1,
-    Hero2,
-    Hero3,
-    Hero4,
-    Hero5,
-    Hero6,
-    Hero7,
-    Hero8,
-    SoMaldives1,
-    SoMaldives2,
-    SoMaldives3,
-    SoMaldives4,
-    SoMaldives5,
-    SoMaldives6,
-    SWHero2,
-    SWHero3,
-    SWHero4,
-    NooeHero2,
-    NooeHero3,
-    NooeHero4,
-    NooeHero5,
-    NHHero2,
-    NHHero3,
-    NHHero4,
-    MVPHero2,
-    MVPHero3,
-    MVPHero4,
-    MVPHero5,
-    MVPHero6,
-    MVPHero7,
-    AlilaHero2,
-    AlilaHero3,
-    AlilaHero4,
-    AlilaHero5,
-    AlilaHero6,
-    MaldivesHero,
-    ServicesHero,
-    HandpickedStays,
-    TailoredPerfection,
-    DestinationMastery,
-    IconicExperiences,
-    UnparalleledService,
-    PackageM1,
-    PackageM2,
-    PackageM3,
-    PackageM4,
-    PackageM5,
-    PackageM6,
-    PlaneShape,
-    PackageSL1,
-    PackageSL2,
-    PackageSL3,
-    CustomPackage,
-    LuxuryHotel,
-    SafeTravelling,
-    AdventureActivities,
-    SiyamWorldsLogo,
-    NooeMaldivesLogo,
-    NHKudaRahLogo,
-    SoLogo,
-    MovenpickLogo,
-    AlilaLogo,
-    Highlights,
-    Accommodation1,
-    Accommodation2,
-    Accommodation3,
-    Accommodation4,
-    Dining1,
-    Dining2,
-    Dining3,
-    WellnessSpa,
-    ResortActivities,
-    SWStay1,
-    SWStay2,
-    SWStay3,
-    SOStay1,
-    NooeStay1,
-    NooeStay2,
-    NooeStay3,
-    MVPStay1,
-    MVPStay2,
-    MVPStay3,
-    AlilaStay1,
-    AlilaStay2,
-    AlilaStay3,
-    Galle,
-    GalleFort,
-    NuwaraEliya,
-    SLBeach,
-    TempleOfTooth,
-    ColomboSL,
-    LhAtollHero,
-    FloatIcon,
-    HotelBedIcon,
-    DinnerIcon,
-    SunBedIcon,
-    BaaAtoll,
-    LhaviyaniAtoll,
-    AtollLocation1,
-    AtollLocation2,
-    AtollLocation3,
-    AtollLocation4,
-    NorthMaleAtoll,
-    SouthMaleAtoll,
-    AriAtoll,
-    VaavuAtoll,
-    NineArch,
-    SLCulture,
-    SLWaterSport,
-    SigiriyaRock,
-    CulturalDance,
-    DambullaTemple,
-    FireDance,
-    UpcountryDance,
-    SlWildLife1,
-    SlWildLife2,
-    SlWildLife3,
-    SlWildLife4,
-    CinnamonBay,
-    DecoLeft,
-    DecoRight,
-    OurStory,
-    Autheticity,
-    CustomerCentric,
-    EcoLight,
-    Excellence,
-    Explore,
-    Honesty,
-    Personalized,
-    Quality,
-    GoldiSandsHotel,
-    BlueWaterHotel,
-    LyndenHotel,
-    CinnamonLakeside,
-    CinnamonLodge,
-    TheGrandHotel,
-    AraliyaHotel,
-    CinnamonBey,
-    CinnamonCitadel,
-    TimeIcon,
-    DestinationIcon,
-    PriceTagIcon,
-    AKAccom1,
-    AKAccom2,
-    AKAccom3,
-    AKAccom4,
-    AKAccom5,
-    AKAccom6,
-    AKAccom7,
-    AKAccom8,
-    AKAccom9,
-    AKAccom10,
-    AKAccom11,
-    AKAccom12,
-    AKMB1,
-    AKMB2,
-    AKMB3,
-    AKPSM1,
-    AKPSM2,
-    AKPSM3,
-    AKSlt1,
-    AKSlt2,
-    AKSlt3,
-    AKSlt4,
-    AKSlt5,
-    AKTS1,
-    AKTS2,
-    AKTS3,
-    AKTS4,
-    AKTS5,
-    AKUM1,
-    AKUM2,
-    AKUM3,
-    AKYKB1,
-    AKYKB2,
-    AKYKB3,
-    AKSPAL1,
-    AKSPAL2,
-    AKSPAL3,
-    AKSPAL4,
-    AKSPAL5,
-    AKFC1,
-    AKFC2,
-    AKFC3,
-    AKAOC1,
-    AKAOC2,
-    AKAOC3,
-    AKDE1,
-    AKDE2,
-    AKDE3,
-    AKDE4,
-    AKDE5,
-    AKGA1,
-    AKGA2,
-    AKGA3,
-    AKGA4,
-    AKSPG,
-    AKWE1,
-    AKWE2,
-    AKWE3,
-    AKWSDA1,
-    AKWSDA2,
-    AKWSDA3,
-    AKWSDA4,
-    AKWSDA5,
-    SMAccom1,
-    SMAccom2,
-    SMAccom3,
-    SMAccom4,
-    SMAccom5,
-    SMAccom6,
-    SMAccom7,
-    SMAccom8,
-    SMAccom9,
-    SMAccom10,
-    SMAccom11,
-    SMAccom12,
-    SMAccom13,
-    SMAccom14,
-    SMAccom15,
-    SMAccom16,
-    SMAccom17,
-    SMAccom18,
-    SMAccom19,
-    SMAccom20,
-    SMAccom21,
-    SMAccom22,
-    SMAccom23,
-    SMAccom24,
-    SMAccom25,
-    SMAccom26,
-    SMAccom27,
-    SMAccom28,
-    SMAccom29,
-    SMAccom30,
-    SMAccom31,
-    SMAccom32,
-    SMAccom33,
-    SMAccom34,
-    SMAccom35,
-    SMAccom36,
-    SMAccom37,
-    SMAccom38,
-    SMAccom39,
-    SMAccom40,
-    SMAccom41,
-    SMAccom42,
-    SMAccom43,
-    SMAccom44,
-    SMHB1,
-    SMHB2,
-    SMHB3,
-    SMHB4,
-    SMTCC1,
-    SMTCC2,
-    SMTCC3,
-    SMLB1,
-    SMLB2,
-    SMLB3,
-    SMSpa1,
-    SMSpa2,
-    SMSpa3,
-    SMSpa4,
-    SMSpa5,
-    SMSpa6,
-    SMACT1,
-    SMACT2,
-    SMACT3,
-    SMACT4
-}
+  Logo,
+  LogoWhite,
+  Hero1,
+  Hero2,
+  Hero3,
+  Hero4,
+  Hero5,
+  Hero6,
+  Hero7,
+  Hero8,
+  SoMaldives1,
+  SoMaldives2,
+  SoMaldives3,
+  SoMaldives4,
+  SoMaldives5,
+  SoMaldives6,
+  SWHero2,
+  SWHero3,
+  SWHero4,
+  NooeHero2,
+  NooeHero3,
+  NooeHero4,
+  NooeHero5,
+  NHHero2,
+  NHHero3,
+  NHHero4,
+  MVPHero2,
+  MVPHero3,
+  MVPHero4,
+  MVPHero5,
+  MVPHero6,
+  MVPHero7,
+  AlilaHero2,
+  AlilaHero3,
+  AlilaHero4,
+  AlilaHero5,
+  AlilaHero6,
+  MaldivesHero,
+  ServicesHero,
+  HandpickedStays,
+  TailoredPerfection,
+  DestinationMastery,
+  IconicExperiences,
+  UnparalleledService,
+  PackageM1,
+  PackageM2,
+  PackageM3,
+  PackageM4,
+  PackageM5,
+  PackageM6,
+  PlaneShape,
+  PackageSL1,
+  PackageSL2,
+  PackageSL3,
+  CustomPackage,
+  LuxuryHotel,
+  SafeTravelling,
+  AdventureActivities,
+  SiyamWorldsLogo,
+  NooeMaldivesLogo,
+  NHKudaRahLogo,
+  SoLogo,
+  MovenpickLogo,
+  AlilaLogo,
+  Highlights,
+  Accommodation1,
+  Accommodation2,
+  Accommodation3,
+  Accommodation4,
+  Dining1,
+  Dining2,
+  Dining3,
+  WellnessSpa,
+  ResortActivities,
+  SWStay1,
+  SWStay2,
+  SWStay3,
+  SOStay1,
+  NooeStay1,
+  NooeStay2,
+  NooeStay3,
+  MVPStay1,
+  MVPStay2,
+  MVPStay3,
+  AlilaStay1,
+  AlilaStay2,
+  AlilaStay3,
+  Galle,
+  GalleFort,
+  NuwaraEliya,
+  SLBeach,
+  TempleOfTooth,
+  ColomboSL,
+  LhAtollHero,
+  FloatIcon,
+  HotelBedIcon,
+  DinnerIcon,
+  SunBedIcon,
+  BaaAtoll,
+  LhaviyaniAtoll,
+  AtollLocation1,
+  AtollLocation2,
+  AtollLocation3,
+  AtollLocation4,
+  NorthMaleAtoll,
+  SouthMaleAtoll,
+  AriAtoll,
+  VaavuAtoll,
+  NineArch,
+  SLCulture,
+  SLWaterSport,
+  SigiriyaRock,
+  CulturalDance,
+  DambullaTemple,
+  FireDance,
+  UpcountryDance,
+  SlWildLife1,
+  SlWildLife2,
+  SlWildLife3,
+  SlWildLife4,
+  CinnamonBay,
+  DecoLeft,
+  DecoRight,
+  OurStory,
+  Autheticity,
+  CustomerCentric,
+  EcoLight,
+  Excellence,
+  Explore,
+  Honesty,
+  Personalized,
+  Quality,
+  GoldiSandsHotel,
+  BlueWaterHotel,
+  LyndenHotel,
+  CinnamonLakeside,
+  CinnamonLodge,
+  TheGrandHotel,
+  AraliyaHotel,
+  CinnamonBey,
+  CinnamonCitadel,
+  TimeIcon,
+  DestinationIcon,
+  PriceTagIcon,
+  AKAccom1,
+  AKAccom2,
+  AKAccom3,
+  AKAccom4,
+  AKAccom5,
+  AKAccom6,
+  AKAccom7,
+  AKAccom8,
+  AKAccom9,
+  AKAccom10,
+  AKAccom11,
+  AKAccom12,
+  AKMB1,
+  AKMB2,
+  AKMB3,
+  AKPSM1,
+  AKPSM2,
+  AKPSM3,
+  AKSlt1,
+  AKSlt2,
+  AKSlt3,
+  AKSlt4,
+  AKSlt5,
+  AKTS1,
+  AKTS2,
+  AKTS3,
+  AKTS4,
+  AKTS5,
+  AKUM1,
+  AKUM2,
+  AKUM3,
+  AKYKB1,
+  AKYKB2,
+  AKYKB3,
+  AKSPAL1,
+  AKSPAL2,
+  AKSPAL3,
+  AKSPAL4,
+  AKSPAL5,
+  AKFC1,
+  AKFC2,
+  AKFC3,
+  AKAOC1,
+  AKAOC2,
+  AKAOC3,
+  AKDE1,
+  AKDE2,
+  AKDE3,
+  AKDE4,
+  AKDE5,
+  AKGA1,
+  AKGA2,
+  AKGA3,
+  AKGA4,
+  AKSPG,
+  AKWE1,
+  AKWE2,
+  AKWE3,
+  AKWSDA1,
+  AKWSDA2,
+  AKWSDA3,
+  AKWSDA4,
+  AKWSDA5,
+  SMAccom1,
+  SMAccom2,
+  SMAccom3,
+  SMAccom4,
+  SMAccom5,
+  SMAccom6,
+  SMAccom7,
+  SMAccom8,
+  SMAccom9,
+  SMAccom10,
+  SMAccom11,
+  SMAccom12,
+  SMAccom13,
+  SMAccom14,
+  SMAccom15,
+  SMAccom16,
+  SMAccom17,
+  SMAccom18,
+  SMAccom19,
+  SMAccom20,
+  SMAccom21,
+  SMAccom22,
+  SMAccom23,
+  SMAccom24,
+  SMAccom25,
+  SMAccom26,
+  SMAccom27,
+  SMAccom28,
+  SMAccom29,
+  SMAccom30,
+  SMAccom31,
+  SMAccom32,
+  SMAccom33,
+  SMAccom34,
+  SMAccom35,
+  SMAccom36,
+  SMAccom37,
+  SMAccom38,
+  SMAccom39,
+  SMAccom40,
+  SMAccom41,
+  SMAccom42,
+  SMAccom43,
+  SMAccom44,
+  SMHB1,
+  SMHB2,
+  SMHB3,
+  SMHB4,
+  SMTCC1,
+  SMTCC2,
+  SMTCC3,
+  SMTCC4,
+  SMLB1,
+  SMLB2,
+  SMLB3,
+  SMSpa,
+  SMSpa1,
+  SMSpa2,
+  SMSpa3,
+  SMSpa4,
+  SMSpa5,
+  SMSpa6,
+  SMACT1,
+  SMACT2,
+  SMACT3,
+  SMACT4,
+  SMACT5,
+  SMACT6,
+  SMACT7,
+  SMACT8,
+};
