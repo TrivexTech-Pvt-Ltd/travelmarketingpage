@@ -266,67 +266,83 @@ import {
   SMACT8,
 } from "./staticImages";
 import { MaldivesTourPackage } from "@/types/hotel.package.type";
+import { HeroType } from "@/types/hero.types";
 
 //Home Page Hero
-export const slideData = [
-  {
-    id: 1,
-    image: Hero1,
-    country: "Maldives",
-    text: "Siyam Worlds",
-    link: "/maldives/siyam-world-maldives",
-  },
-  {
-    id: 2,
-    image: Hero2,
-    country: "Maldives",
-    text: "NOOE Maldives\nKunaavashi",
-    link: "/maldives/nooe-maldives-kunaavashi",
-  },
 
-  {
-    id: 3,
-    image: Hero3,
-    country: "Sri Lanka",
-    text: "Sri Lanka Experience",
-    link: "/srilanka/sri-lanka-experience-tour-itinerary",
-  },
-  {
-    id: 4,
-    image: Hero4,
-    country: "Maldives",
-    text: "NH Maldives Kuda Rah",
-    link: "/maldives/nh-maldives-kuda-rah",
-  },
-  {
-    id: 5,
-    image: Hero5,
-    country: "Maldives",
-    text: "SO/ Maldives",
-    link: "/maldives/so-maldives",
-  },
-  {
-    id: 6,
-    image: Hero6,
-    country: "Sri Lanka",
-    text: "Sri Lanka Highlights\nJourney",
-    link: "/srilanka/sri-lanka-highlights-tour",
-  },
-  {
-    id: 7,
-    image: Hero7,
-    country: "Maldives",
-    text: "Movenpick Resort\nKurendhivaru",
-    link: "/maldives/movenpick-resort-kuredhivaru-maldives",
-  },
-  {
-    id: 8,
-    image: Hero8,
-    country: "Maldives",
-    text: "Alila Kothaifaru\nMaldives",
-    link: "/maldives/alila-kothaifaru-maldives",
-  },
+export const slideData: HeroType[] = [
+  { id: 1, video: "/videos/elephant.mp4" },
+  { id: 2, video: "/videos/leo.mp4" },
+  { id: 3, video: "/videos/traditional.mp4" },
+  { id: 4, video: "/videos/haputhale.mp4" },
+  { id: 5, video: "/videos/hills.mp4" },
+  { id: 6, video: "/videos/yala.mp4" },
+  { id: 7, video: "/videos/tangalle.mp4" },
+  { id: 8, video: "/videos/stupa.mp4" },
+  { id: 9, video: "/videos/sigiriya.mp4" },
+  { id: 10, video: "/videos/daladamaligawa.mp4" },
+  { id: 11, video: "/videos/mask_dance.mp4" },
 ];
+
+// export const slideData = [
+//   {
+//     id: 1,
+//     image: Hero1,
+//     country: "Maldives",
+//     text: "Siyam Worlds",
+//     link: "/maldives/siyam-world-maldives",
+//   },
+//   {
+//     id: 2,
+//     image: Hero2,
+//     country: "Maldives",
+//     text: "NOOE Maldives\nKunaavashi",
+//     link: "/maldives/nooe-maldives-kunaavashi",
+//   },
+
+//   {
+//     id: 3,
+//     image: Hero3,
+//     country: "Sri Lanka",
+//     text: "Sri Lanka Experience",
+//     link: "/srilanka/sri-lanka-experience-tour-itinerary",
+//   },
+//   {
+//     id: 4,
+//     image: Hero4,
+//     country: "Maldives",
+//     text: "NH Maldives Kuda Rah",
+//     link: "/maldives/nh-maldives-kuda-rah",
+//   },
+//   {
+//     id: 5,
+//     image: Hero5,
+//     country: "Maldives",
+//     text: "SO/ Maldives",
+//     link: "/maldives/so-maldives",
+//   },
+//   {
+//     id: 6,
+//     image: Hero6,
+//     country: "Sri Lanka",
+//     text: "Sri Lanka Highlights\nJourney",
+//     link: "/srilanka/sri-lanka-highlights-tour",
+//   },
+//   {
+//     id: 7,
+//     image: Hero7,
+//     country: "Maldives",
+//     text: "Movenpick Resort\nKurendhivaru",
+//     link: "/maldives/movenpick-resort-kuredhivaru-maldives",
+//   },
+//   {
+//     id: 8,
+//     image: Hero8,
+//     country: "Maldives",
+//     text: "Alila Kothaifaru\nMaldives",
+//     link: "/maldives/alila-kothaifaru-maldives",
+//   },
+// ];
 
 export const maldivesHeroData = [
   {
