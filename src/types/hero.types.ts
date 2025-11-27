@@ -8,9 +8,17 @@ import { StaticImageData } from "next/image";
 //     text: string;
 //     link: string;
 // }
+// export interface HeroType {
+//   id: number;
+//   video: string; // path to mp4
+// }
 export interface HeroType {
   id: number;
-  video: string; // path to mp4
+  image?: StaticImageData | string; // optional
+  video?: string; // optional
+  country?: string;
+  text?: string;
+  link?: string;
 }
 
 export type ImageSliderType = {

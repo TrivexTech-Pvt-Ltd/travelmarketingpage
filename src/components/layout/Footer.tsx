@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 import { HiLocationMarker, HiPhone, HiMail } from "react-icons/hi";
 import Image from "next/image";
-import { Logo } from "@/utils/staticImages";
+import { LogoNew } from "@/utils/staticImages";
 import Link from "next/link";
 export default function Footer() {
   return (
@@ -16,17 +16,17 @@ export default function Footer() {
         {/* Left Section */}
         <div>
           <Image
-            src={Logo}
+            src={LogoNew}
             alt="logo"
             height={100}
             width={200}
             className="z-30 mb-4"
           />
-          <p className="text-base leading-relaxed">
-            At Travel Nation, we&apos;re not just about crafting holidays; we&apos;re
-            about creating unforgettable journeys that immerse you in the heart
-            of two of the world&apos;s most stunning destinations
-          </p>
+          {/* <p className="text-base leading-relaxed">
+            At Travel Nation, we&apos;re not just about crafting holidays;
+            we&apos;re about creating unforgettable journeys that immerse you in
+            the heart of two of the world&apos;s most stunning destinations
+          </p> */}
 
           {/* Social Icons */}
           <div className="flex items-center gap-4 mt-5">
@@ -65,42 +65,27 @@ export default function Footer() {
             </h2>
             <ul className="space-y-2 text-base text-left">
               <li>
-                <Link
-                  href="/"
-                  className="hover:underline transition"
-                >
+                <Link href="/" className="hover:underline transition">
                   Home
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/sri-lanka"
-                  className="hover:underline transition"
-                >
+                <Link href="/sri-lanka" className="hover:underline transition">
                   Sri Lanka
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/maldives"
-                  className="hover:underline transition"
-                >
+                <Link href="/maldives" className="hover:underline transition">
                   Maldives
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/about-us"
-                  className="hover:underline transition"
-                >
+                <Link href="/about-us" className="hover:underline transition">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/contact-us"
-                  className="hover:underline transition"
-                >
+                <Link href="/contact-us" className="hover:underline transition">
                   Contact Us
                 </Link>
               </li>
@@ -117,23 +102,21 @@ export default function Footer() {
             <li className="flex gap-x-2">
               <HiLocationMarker className="text-gray-300 mt-1" />
               <span>
-                Travel Nation,<br />No 92/01/04, 1st Floor,<br /> Old Galle Rd, Panadura<br />
+                Travel Nation,
+                <br />
+                No 92/01/04, 1st Floor,
+                <br /> Old Galle Rd, Panadura
+                <br />
                 12500
               </span>
             </li>
             <li className="flex items-center gap-x-2">
               <HiPhone className="text-gray-300" />
-              <Link
-                href="tel:+94712808020"
-              >
-                +94 740 1104 89
-              </Link>
+              <Link href="tel:+94712808020">+94 740 1104 89</Link>
             </li>
             <li className="flex items-center gap-x-2">
               <HiMail className="text-gray-300" />
-              <Link
-                href="mailto:info@sadaruwan.com"
-              >
+              <Link href="mailto:info@sadaruwan.com">
                 info@travelnation.vip
               </Link>
             </li>

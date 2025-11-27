@@ -4,7 +4,15 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import { slCulture, slJourneys, slOverview, slWildLife } from "@/utils/data";
+import {
+  slCulture,
+  slGastronomy,
+  slOverview,
+  slWildLife,
+  slillCountry,
+  slOcean,
+  slColombo,
+} from "@/utils/data";
 import ImageSlider from "../ui/ImageSlider";
 
 interface SriLankaOverviewProps {
@@ -35,17 +43,17 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
               </p>
 
               <h3 className="text-sea-green text-3xl sm:text-4xl md:text-6xl font-semibold font-playfair-display my-5">
-                A Journey of Culture, Nature, and Adventure
+                Sri Lanka – The Island of Timeless Wonder
               </h3>
 
               <p className="text-sm sm:text-base text-gray-500 mt-4 lg:mt-8 leading-7 sm:leading-8">
-                Sri Lanka, known as the "Pearl of the Indian Ocean," is a
-                destination where ancient history meets vibrant natural beauty.
-                From golden beaches to lush mountain ranges and from bustling
-                cities to serene temples, Sri Lanka offers something special for
-                every traveler. At Travel Nation, we specialize in creating
-                journeys that allow you to fully experience the island's diverse
-                cultural heritage, wildlife, and iconic regions.
+                Golden beaches kissed by the Indian Ocean. Ancient kingdoms
+                rising from the mist. Tea-covered hills stretching endlessly
+                into the clouds.
+                <br /> Sri Lanka is not just a destination, it is an awakening
+                of the senses.
+                <br /> Here, every sunrise brings new colour, and every
+                encounter tells a story steeped in warmth and tradition.
               </p>
             </div>
           </div>
@@ -70,51 +78,110 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
               <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5">
                 Cultural Heritage
               </h3>
-
-              <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
-                Sri Lanka’s cultural heritage spans over 2,500 years, with a
-                legacy of ancient kingdoms, colonial influence, and deep-rooted
-                traditions. Explore UNESCO World Heritage Sites such as
-                Sigiriya, Anuradhapura, and Dambulla. Experience Kandyan dance,
-                visit ancient temples, and uncover stories preserved across
-                millennia.
+              <p className="text-sm sm:text-base text-black-500 mb-6 sm:mb-8 leading-7">
+                Walk through ancient temples and lost kingdoms.
               </p>
 
-              <p className="text-sm sm:text-base text-gray-500 leading-7">
-                Travel Nation ensures your journey connects you with Sri Lanka’s
-                rich architecture, traditions, and spiritual essence.
+              <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
+                Step into the cradle of Sri Lankan civilisation. Discover the
+                awe-inspiring rock fortress of Sigiriya, the sacred city of
+                Anuradhapura, and the cave temples of Dambulla, each whispering
+                stories of kings, monks, and timeless artistry. Cycle through
+                sleepy villages, meet local artisans, and watch the sunrise over
+                ancient stupas, this is history that still breathes.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* WILDLIFE SECTION - FULL WIDTH */}
+      {/*  Hill Country  SECTION - FULL WIDTH */}
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center sm:my-20">
         <div className="flex justify-center items-center bg-soft-beige h-full">
           <div className="p-6 sm:p-12">
             <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5">
-              Wildlife Sri Lanka
+              Hill Country
             </h3>
-
+            <p className="text-sm sm:text-base text-black-500 mb-6 sm:mb-8 leading-7">
+              The Land of Mist and Tea
+            </p>
             <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
-              Sri Lanka is a wildlife lover’s paradise, home to some of the most
-              biodiverse ecosystems in the world. From elephants in Yala to
-              leopards in Wilpattu, the island’s parks offer unmatched natural
-              encounters.
+              Journey into the highlands, where Nuwara Eliya, Ella, and Hatton
+              paint a dreamscape of emerald-green slopes and cascading
+              waterfalls.
             </p>
 
             <p className="text-sm sm:text-base text-gray-500 leading-7">
-              Travel Nation provides eco-friendly wildlife adventures—from
-              elephant gatherings in Minneriya to whale watching in
-              Mirissa—bringing you face-to-face with Sri Lanka’s extraordinary
-              creatures.
+              Sip freshly brewed Ceylon tea as cool mountain air drifts through
+              your window. Walk through colonial towns, cross old stone bridges,
+              and take the world-famous train ride through the hills, one of
+              life’s great scenic journeys.
             </p>
           </div>
         </div>
 
         <ImageSlider
-          heroData={slWildLife}
+          heroData={slillCountry}
+          height="h-80 sm:h-96 lg:h-[500px] xl:h-[650px] 2xl:h-[750px]"
+        />
+      </div>
+
+      <div className="px-5 md:px-8 xl:px-20 2xl:px-28 max-w-screen-2xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center sm:my-20">
+          <ImageSlider
+            heroData={slWildLife}
+            height="h-80 sm:h-96 lg:h-[450px] xl:h-[550px] 2xl:h-[650px]"
+          />
+          <div className="flex justify-center items-center bg-soft-beige h-full">
+            <div className="p-6 sm:p-12">
+              <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5">
+                Wildlife & National Parks
+              </h3>
+              <p className="text-sm sm:text-base text-black-500 mb-6 sm:mb-8 leading-7">
+                Nature’s Living Theatre
+              </p>
+              <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
+                Few places on earth hold such biodiversity in such a small
+                space. From the stealth of a leopard in Yala, to the majesty of
+                elephants in Minneriya, to blue whales off the coast of Mirissa,
+                Sri Lanka is a paradise for wildlife lovers.
+              </p>
+
+              <p className="text-sm sm:text-base text-gray-500 leading-7">
+                Our naturalist-led safaris take you deep into the wilderness,
+                where the thrill of discovery meets the calm of connection.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Ocean, Culture & Timeless Beauty */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center sm:my-20">
+        <div className="flex justify-center items-center bg-soft-beige h-full">
+          <div className="p-6 sm:p-12">
+            <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5">
+              Ocean, Culture & Timeless Beauty
+            </h3>
+
+            <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
+              Along the coast, life carries a gentle rhythm. The warmth of the
+              people, their rituals, and their stories shape every moment.
+              Lanterns glow during festivals, drums echo through village
+              streets, and the scent of fresh spices drifts from open kitchens.
+              <br />
+              Watch the ocean shift from soft blue to deep turquoise as
+              fishermen tend to their craft and children play along the sand.
+            </p>
+
+            <p className="text-sm sm:text-base text-gray-500 leading-7">
+              Stay in elegant villas or small coastal hideaways and feel the
+              calm of the shoreline settle in.
+            </p>
+          </div>
+        </div>
+
+        <ImageSlider
+          heroData={slOcean}
           height="h-80 sm:h-96 lg:h-[500px] xl:h-[650px] 2xl:h-[750px]"
         />
       </div>
@@ -123,41 +190,70 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
       <div className="px-5 md:px-8 xl:px-20 2xl:px-28 max-w-screen-2xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center sm:my-20">
           <ImageSlider
-            heroData={slJourneys}
+            heroData={slGastronomy}
             height="h-80 sm:h-96 lg:h-[450px] xl:h-[550px] 2xl:h-[650px]"
           />
 
-          <div className="h-full py-4 lg:pl-8">
-            <div className="flex flex-col justify-between h-full">
-              <div className="flex flex-col gap-y-2 py-3">
-                <p className="text-sea-green text-lg uppercase font-medium">
-                  Sri Lanka
-                </p>
-
-                <h3 className="text-sea-green text-3xl sm:text-4xl md:text-6xl font-semibold font-playfair-display">
-                  Your Journey with Travel Nation
-                </h3>
-              </div>
-
-              <p className="text-sm sm:text-base text-gray-500 mb-4 leading-7 lg:pr-20">
-                At Travel Nation, we curate personalized itineraries tailored to
-                your interests—whether it’s heritage, wildlife, beaches, or
-                adventure. Let us guide you through Sri Lanka with insider
-                knowledge and expert planning.
+          <div className="flex justify-center items-center bg-soft-beige h-full">
+            <div className="p-6 sm:p-12">
+              <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5">
+                Sri Lanka Gastronomy
+              </h3>
+              <p className="text-sm sm:text-base text-black-500 mb-6 sm:mb-8 leading-7">
+                A Journey Through Taste
+              </p>
+              <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
+                Flavours in Sri Lanka rise from markets that wake with the sun.
+                Spice sellers grind cinnamon and cardamom by hand, while
+                fishermen return with their night’s catch. In the hills,
+                families simmer curries rich with coconut and garden vegetables.
+                Along the coast, fire-grilled seafood meets a squeeze of lime
+                and a handful of fresh herbs.
+                <br />
+                You will taste the island in every dish. Warm hoppers, fragrant
+                rice, sweet festival treats, and strong tea brewed in the
+                highlands. Each plate carries a memory of the people who grew
+                it, cooked it, and shared it.
               </p>
 
-              <button
-                type="button"
-                onClick={handleScrollToGetaways}
-                className="w-fit text-white bg-sea-green py-4 px-8 transition-all duration-300 
-                                hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105 
-                                font-medium uppercase text-sm cursor-pointer"
-              >
-                Journeys
-              </button>
+              <p className="text-sm sm:text-base text-gray-500 leading-7">
+                Sri Lankan food is comfort, colour, and community. A true
+                journey of flavour that stays with you long after you leave
+              </p>
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Colombo */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center sm:my-20">
+        <div className="flex justify-center items-center bg-soft-beige h-full">
+          <div className="p-6 sm:p-12">
+            <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5">
+              Colombo
+            </h3>
+            <p className="text-sm sm:text-base text-black-500 mb-6 sm:mb-8 leading-7">
+              Where Heritage Meets Modernity
+            </p>
+            <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
+              Once a trading port, now a vibrant capital, Colombo blends
+              colonial charm with contemporary style.
+            </p>
+            <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
+              Café-lined streets, galleries, boutique stores, and rooftop bars
+              reflect a city that’s both energetic and elegant.
+            </p>
+
+            <p className="text-sm sm:text-base text-gray-500 leading-7">
+              It is the perfect beginning or end to your island story.
+            </p>
+          </div>
+        </div>
+
+        <ImageSlider
+          heroData={slColombo}
+          height="h-80 sm:h-96 lg:h-[500px] xl:h-[650px] 2xl:h-[750px]"
+        />
       </div>
     </>
   );
