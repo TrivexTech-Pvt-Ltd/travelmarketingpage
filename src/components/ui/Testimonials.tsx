@@ -49,7 +49,8 @@ export default function Testimonials() {
             Stories from Our Journeys
           </h2>
           <p className="text-gray-500 text-base md:text-lg">
-            Real experiences shared by our happy travelers
+            Our guests arrive as travellers and leave as friends — carrying
+            stories, laughter, and memories that last a lifetime.
           </p>
         </div>
 

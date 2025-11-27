@@ -7,7 +7,7 @@ import React, { useState, useEffect } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RiCloseLine } from "react-icons/ri";
 import { ChevronDown } from "lucide-react";
-import { Logo } from "@/utils/staticImages";
+import { LogoNew } from "@/utils/staticImages";
 import Modal from "../ui/Modal";
 import Quotation from "../ui/Quotation";
 
@@ -39,13 +39,13 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-white text-gray-800 shadow-md`}
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-transparent text-white border-none shadow-none`}
     >
       <div className="flex justify-between items-center px-4 py-4 sm:px-10 md:px-16 lg:px-20 xl:px-28">
         {/* Logo */}
         <Link href="/">
           <Image
-            src={Logo}
+            src={LogoNew}
             alt="Travel Nation logo"
             width={260}
             height={120}
@@ -66,15 +66,18 @@ const Header = () => {
                 >
                   <button
                     type="button"
-                    className={`flex items-center gap-1 hover:text-sea-green transition-colors duration-300 ${pathname.startsWith("/maldives") ||
+                    className={`flex items-center gap-1 hover:text-sea-green transition-colors duration-300 ${
+                      pathname.startsWith("/maldives") ||
                       pathname.startsWith("/sri-lanka")
-                      ? "text-sea-green" : "text-gray-800"
-                      }`}
+                        ? "text-sea-green"
+                        : "text-gray-800"
+                    }`}
                   >
                     {item.name}
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform ${isDropdownOpen ? "rotate-180" : ""
-                        }`}
+                      className={`w-4 h-4 transition-transform ${
+                        isDropdownOpen ? "rotate-180" : ""
+                      }`}
                     />
                   </button>
 
@@ -104,9 +107,11 @@ const Header = () => {
                 <li key={index}>
                   <Link
                     href={item.path}
-                    className={`hover:text-sea-green transition-colors duration-300 ${pathname === item.path
-                      ? "text-sea-green" : "text-gray-800"
-                      }`}
+                    className={`hover:text-sea-green transition-colors duration-300 ${
+                      pathname === item.path
+                        ? "text-sea-green"
+                        : "text-gray-800"
+                    }`}
                   >
                     {item.name}
                   </Link>
@@ -147,8 +152,9 @@ const Header = () => {
                   >
                     {item.name}
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform ${isDropdownOpen ? "rotate-180" : ""
-                        }`}
+                      className={`w-4 h-4 transition-transform ${
+                        isDropdownOpen ? "rotate-180" : ""
+                      }`}
                     />
                   </button>
 

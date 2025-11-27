@@ -11,6 +11,45 @@ import {
   Dining2,
   Dining3,
   HandpickedStays,
+  slSliderNew1,
+  slSliderNew2,
+  slSliderNew3,
+  slSliderNew4,
+  slSliderNew5,
+  slSliderNew6,
+  slSliderNew7,
+  HillCountry1,
+  HillCountry2,
+  HillCountry3,
+  HillCountry4,
+  HillCountry5,
+  HillCountry6,
+  WildLife1,
+  WildLife2,
+  WildLife3,
+  WildLife4,
+  WildLife5,
+  slOcean1,
+  slOcean2,
+  slOcean3,
+  slOcean4,
+  slOcean5,
+  slOcean6,
+  slOcean7,
+  slGastronomy1,
+  slGastronomy2,
+  slGastronomy3,
+  slGastronomy4,
+  slGastronomy5,
+  slGastronomy6,
+  slGastronomy7,
+  slColombo1,
+  slColombo2,
+  slColombo3,
+  slColombo4,
+  slColombo5,
+  slColombo6,
+  slColombo7,
   Hero1,
   Hero2,
   Hero3,
@@ -264,6 +303,16 @@ import {
   SMACT6,
   SMACT7,
   SMACT8,
+  SlOutside1,
+  SlOutside2,
+  SlOutside3,
+  SlOutside4,
+  SlOutside5,
+  MalOutside1,
+  MalOutside2,
+  MalOutside3,
+  MalOutside4,
+  MalOutside5,
 } from "./staticImages";
 import { MaldivesTourPackage } from "@/types/hotel.package.type";
 import { HeroType } from "@/types/hero.types";
@@ -391,27 +440,72 @@ export const maldivesHeroData = [
   },
 ];
 
+// export const srilankaHeroData = [
+//   {
+//     id: 1,
+//     image: Hero6,
+//     country: "Sri Lanka",
+//     text: "Sri Lanka Experience journey",
+//     link: "/srilanka/sri-lanka-experience-tour-itinerary",
+//   },
+//   {
+//     id: 2,
+//     image: NineArch,
+//     country: "Sri Lanka",
+//     text: "Sri Lanka Highlights Journey",
+//     link: "/srilanka/sri-lanka-highlights-tour",
+//   },
+//   {
+//     id: 3,
+//     image: Hero3,
+//     country: "Sri Lanka",
+//     text: "Swift Escape to Sri Lanka's Hills & Shores",
+//     link: "/srilanka/swift-escape-to-sri-lankas-hills-shores",
+//   },
+// ];
+
 export const srilankaHeroData = [
   {
     id: 1,
-    image: Hero6,
+    image: slSliderNew1,
     country: "Sri Lanka",
     text: "Sri Lanka Experience journey",
     link: "/srilanka/sri-lanka-experience-tour-itinerary",
   },
   {
     id: 2,
-    image: NineArch,
+    image: slSliderNew2,
     country: "Sri Lanka",
-    text: "Sri Lanka Highlights Journey",
-    link: "/srilanka/sri-lanka-highlights-tour",
+    text: "Swift Escape to Sri Lanka's Hills & Shores",
+    link: "/srilanka/sri-lanka-experience-tour-itinerary",
   },
   {
     id: 3,
-    image: Hero3,
+    image: slSliderNew3,
+    country: "Sri Lanka",
+    text: "Sri Lanka Experience journey",
+    link: "/srilanka/sri-lanka-experience-tour-itinerary",
+  },
+  {
+    id: 4,
+    image: slSliderNew4,
     country: "Sri Lanka",
     text: "Swift Escape to Sri Lanka's Hills & Shores",
-    link: "/srilanka/swift-escape-to-sri-lankas-hills-shores",
+    link: "/srilanka/sri-lanka-experience-tour-itinerary",
+  },
+  {
+    id: 5,
+    image: slSliderNew5,
+    country: "Sri Lanka",
+    text: "Sri Lanka Experience journey",
+    link: "/srilanka/sri-lanka-experience-tour-itinerary",
+  },
+  {
+    id: 6,
+    image: slSliderNew6,
+    country: "Sri Lanka",
+    text: "Swift Escape to Sri Lanka's Hills & Shores",
+    link: "/srilanka/sri-lanka-experience-tour-itinerary",
   },
 ];
 
@@ -3961,7 +4055,50 @@ export const destinationImages_3 = [
     image: AlilaHero6,
   },
 ];
-
+export const slSliderNew = [
+  {
+    id: 1,
+    image: SlOutside1,
+  },
+  {
+    id: 2,
+    image: SlOutside2,
+  },
+  {
+    id: 3,
+    image: SlOutside3,
+  },
+  {
+    id: 4,
+    image: SlOutside4,
+  },
+  {
+    id: 5,
+    image: SlOutside5,
+  },
+];
+export const MalSliderNew = [
+  {
+    id: 1,
+    image: MalOutside1,
+  },
+  {
+    id: 2,
+    image: MalOutside2,
+  },
+  {
+    id: 3,
+    image: MalOutside3,
+  },
+  {
+    id: 4,
+    image: MalOutside4,
+  },
+  {
+    id: 5,
+    image: MalOutside5,
+  },
+];
 export const destinationImages_4 = [
   {
     id: 1,
@@ -4108,74 +4245,237 @@ export const slOverview = [
   },
 ];
 
+// export const slCulture = [
+//   {
+//     id: 1,
+//     image: UpcountryDance,
+//   },
+//   {
+//     id: 2,
+//     image: DambullaTemple,
+//   },
+//   {
+//     id: 3,
+//     image: FireDance,
+//   },
+//   {
+//     id: 4,
+//     image: CulturalDance,
+//   },
+//   {
+//     id: 5,
+//     image: SLCulture,
+//   },
+// ];
 export const slCulture = [
   {
     id: 1,
-    image: UpcountryDance,
+    image: slSliderNew1,
   },
   {
     id: 2,
-    image: DambullaTemple,
+    image: slSliderNew2,
   },
   {
     id: 3,
-    image: FireDance,
+    image: slSliderNew7,
   },
   {
     id: 4,
-    image: CulturalDance,
+    image: slSliderNew4,
   },
   {
     id: 5,
-    image: SLCulture,
-  },
-];
-
-export const slWildLife = [
-  {
-    id: 1,
-    image: SlWildLife1,
-  },
-  {
-    id: 2,
-    image: SlWildLife2,
-  },
-  {
-    id: 3,
-    image: SlWildLife3,
-  },
-  {
-    id: 4,
-    image: SlWildLife4,
-  },
-];
-
-export const slJourneys = [
-  {
-    id: 1,
-    image: SlWildLife2,
-  },
-  {
-    id: 2,
-    image: Hero6,
-  },
-  {
-    id: 3,
-    image: NineArch,
-  },
-  {
-    id: 4,
-    image: PackageSL3,
-  },
-  {
-    id: 5,
-    image: CinnamonBay,
+    image: slSliderNew5,
   },
   {
     id: 6,
-    image: SLCulture,
+    image: slSliderNew6,
   },
 ];
+
+// export const slWildLife = [
+//   {
+//     id: 1,
+//     image: SlWildLife1,
+//   },
+//   {
+//     id: 2,
+//     image: SlWildLife2,
+//   },
+//   {
+//     id: 3,
+//     image: SlWildLife3,
+//   },
+//   {
+//     id: 4,
+//     image: SlWildLife4,
+//   },
+// ];
+export const slillCountry = [
+  {
+    id: 1,
+    image: HillCountry1,
+  },
+  {
+    id: 2,
+    image: HillCountry2,
+  },
+  {
+    id: 3,
+    image: HillCountry3,
+  },
+  {
+    id: 4,
+    image: HillCountry4,
+  },
+  {
+    id: 5,
+    image: HillCountry5,
+  },
+  {
+    id: 6,
+    image: HillCountry6,
+  },
+];
+export const slWildLife = [
+  {
+    id: 1,
+    image: WildLife1,
+  },
+  {
+    id: 2,
+    image: WildLife2,
+  },
+  {
+    id: 3,
+    image: WildLife3,
+  },
+  {
+    id: 4,
+    image: WildLife4,
+  },
+  {
+    id: 5,
+    image: WildLife5,
+  },
+];
+export const slOcean = [
+  {
+    id: 1,
+    image: slOcean1,
+  },
+  {
+    id: 2,
+    image: slOcean2,
+  },
+  {
+    id: 3,
+    image: slOcean3,
+  },
+  {
+    id: 4,
+    image: slOcean4,
+  },
+  {
+    id: 5,
+    image: slOcean5,
+  },
+  {
+    id: 6,
+    image: slOcean6,
+  },
+  {
+    id: 7,
+    image: slOcean7,
+  },
+];
+export const slGastronomy = [
+  {
+    id: 1,
+    image: slGastronomy1,
+  },
+  {
+    id: 2,
+    image: slGastronomy2,
+  },
+  {
+    id: 3,
+    image: slGastronomy3,
+  },
+  {
+    id: 4,
+    image: slGastronomy4,
+  },
+  {
+    id: 5,
+    image: slGastronomy5,
+  },
+  {
+    id: 6,
+    image: slGastronomy6,
+  },
+  {
+    id: 7,
+    image: slGastronomy7,
+  },
+];
+export const slColombo = [
+  {
+    id: 1,
+    image: slColombo1,
+  },
+  {
+    id: 2,
+    image: slColombo2,
+  },
+  {
+    id: 3,
+    image: slColombo3,
+  },
+  {
+    id: 4,
+    image: slColombo4,
+  },
+  {
+    id: 5,
+    image: slColombo5,
+  },
+  {
+    id: 6,
+    image: slColombo6,
+  },
+  {
+    id: 7,
+    image: slColombo7,
+  },
+];
+// export const slJourneys = [
+//   {
+//     id: 1,
+//     image: SlWildLife2,
+//   },
+//   {
+//     id: 2,
+//     image: Hero6,
+//   },
+//   {
+//     id: 3,
+//     image: NineArch,
+//   },
+//   {
+//     id: 4,
+//     image: PackageSL3,
+//   },
+//   {
+//     id: 5,
+//     image: CinnamonBay,
+//   },
+//   {
+//     id: 6,
+//     image: SLCulture,
+//   },
+// ];
 
 //about us
 export const aboutUsData = [

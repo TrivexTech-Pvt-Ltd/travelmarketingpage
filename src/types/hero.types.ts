@@ -8,17 +8,25 @@ import { StaticImageData } from "next/image";
 //     text: string;
 //     link: string;
 // }
+// export interface HeroType {
+//   id: number;
+//   video: string; // path to mp4
+// }
 
 export interface HeroTypeImage {
-    id: number;
-    image: StaticImageData;
-    country:string;
-    title: string;
+  id: number;
+  image: StaticImageData;
+  country: string;
+  title: string;
 }
 
 export interface HeroType {
   id: number;
-  video: string; // path to mp4
+  image?: StaticImageData | string; // optional
+  video?: string; // optional
+  country?: string;
+  text?: string;
+  link?: string;
 }
 
 export type ImageSliderType = {
