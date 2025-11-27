@@ -240,6 +240,12 @@ import Honesty from "../../public/images/icons/honesty.svg";
 import Personalized from "../../public/images/icons/personalized.svg";
 import Quality from "../../public/images/icons/quality.svg";
 
+import About1 from "../../public/images/about/about-1.jpg";
+import About2 from "../../public/images/about/about-2.jpg";
+import About3 from "../../public/images/about/about-3.jpg";
+import About4 from "../../public/images/about/about-4.jpg";
+import About5 from "../../public/images/about/about-5.jpg";
+
 //Sri Lanka hotels
 import GoldiSandsHotel from "../../public/images/srilanka/hotels/goldi-sands-hotel.webp";
 import LyndenHotel from "../../public/images/srilanka/hotels/lynden-grove- hotel.webp";
@@ -601,6 +607,11 @@ export {
   Honesty,
   Personalized,
   Quality,
+  About1,
+  About2,
+  About3,
+  About4,
+  About5,
   GoldiSandsHotel,
   BlueWaterHotel,
   LyndenHotel,
