@@ -12,6 +12,14 @@ import { StaticImageData } from "next/image";
 //   id: number;
 //   video: string; // path to mp4
 // }
+
+export interface HeroTypeImage {
+  id: number;
+  image: StaticImageData;
+  country: string;
+  title: string;
+}
+
 export interface HeroType {
   id: number;
   image?: StaticImageData | string; // optional
