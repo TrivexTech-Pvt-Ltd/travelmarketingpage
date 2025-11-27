@@ -98,11 +98,10 @@ export default function ContactUs() {
       {/* Content */}
       <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-20 py-16">
         <h1 className="text-4xl font-bold text-center mb-4 text-sea-green font-playfair-display">
-          Get in Touch
+          Start Your Journey with Us
         </h1>
         <p className="text-gray-500 text-base text-center mb-4 sm:mb-12">
-          We&apos;d love to hear from you! Fill out the form below or reach us
-          directly through our contact details.
+          Whether you are planning a honeymoon, a family getaway, or a once-in-a-lifetime adventure — our team is ready to craft it for you.
         </p>
 
         <div className="grid md:grid-cols-2 gap-5 sm:gap-10">
@@ -110,12 +109,12 @@ export default function ContactUs() {
           <div className="flex justify-center items-center h-full">
             <div className="p-8 flex flex-col items-start">
               <h2 className="text-2xl font-semibold text-shadow-wash mb-6 text-left">
-                Contact details
+                Contact Us
               </h2>
               <div className="space-y-4 text-gray-500">
                 <p className="text-left">
-                  Travel Nation, No.
-                  92/01/03, 1st Floor, Old <br /> Galle Rd, Panadura 12500
+                  Travel Nation Lanka (Pvt) Ltd<br />
+                  92/01/04,<br /> 1st Floor,<br /> Old Galle Rd,<br />Walana ,<br />Panadura
                 </p>
                 <p className="text-left">
                   <a
@@ -125,32 +124,32 @@ export default function ContactUs() {
                     info@travelnation.vip
                   </a>
                 </p>
-                <p className="text-left">
-                  +94 74 011 0489
-                </p>
+                <a href="tel:+94771774118" className="text-left">
+                  +94 77 177 4118
+                </a>
               </div>
               <div className="flex items-center gap-x-4 mt-8  text-sea-green text-lg text-left">
                 <Link
                   href="#"
-                  className="hover:text-teal-500 transition-transform transform hover:scale-110 border p-3"
+                  className="hover:text-teal-500 transition-transform transform hover:scale-110 border p-3 rounded-md"
                 >
                   <FaFacebookF />
                 </Link>
                 <Link
                   href="#"
-                  className="hover:text-teal-500 transition-transform transform hover:scale-110 border p-3"
+                  className="hover:text-teal-500 transition-transform transform hover:scale-110 border p-3 rounded-md"
                 >
                   <FaInstagram />
                 </Link>
                 <Link
                   href="#"
-                  className="hover:text-teal-500 transition-transform transform hover:scale-110 border p-3"
+                  className="hover:text-teal-500 transition-transform transform hover:scale-110 border p-3 rounded-md"
                 >
                   <FaTiktok />
                 </Link>
                 <Link
                   href="#"
-                  className="hover:text-teal-500 transition-transform transform hover:scale-110 border p-3"
+                  className="hover:text-teal-500 transition-transform transform hover:scale-110 border p-3 rounded-md"
                 >
                   <FaLinkedinIn />
                 </Link>
