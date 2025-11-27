@@ -14,6 +14,7 @@ import {
   slColombo,
 } from "@/utils/data";
 import ImageSlider from "../ui/ImageSlider";
+import FooterNote from "./FooterNote";
 
 interface SriLankaOverviewProps {
   setActiveTab: (value: string) => void;
@@ -255,6 +256,25 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
           height="h-80 sm:h-96 lg:h-[500px] xl:h-[650px] 2xl:h-[750px]"
         />
       </div>
+      <div className="my-16 bg-white/70 backdrop-blur-sm border border-gray-200 p-8 rounded-2xl shadow-md max-w-4xl mx-auto">
+        <p className="text-gray-800 text-center text-sm md:text-lg leading-relaxed">
+          At{" "}
+          <span className="font-semibold text-gray-900">At Travel Nation</span>,
+          we reveal Sri Lanka through experiences that go beyond the guidebooks,
+          a walk through the cobbled streets of Galle Fort as the sun sets over
+          the ramparts, the sound of temple drums in Kandy, a morning safari in
+          Yala where leopards roam free, or a quiet moment by a lake watching
+          elephants bathe in the golden light.
+          <br />
+          <br />
+          <span className="italic text-gray-600">
+            We know the pulse of this island, its rhythm, its flavours, its soul
+            and we invite you to explore it in a way that is deeply personal,
+            luxurious, and authentic.
+          </span>
+        </p>
+      </div>
+      <FooterNote />
     </>
   );
 };
