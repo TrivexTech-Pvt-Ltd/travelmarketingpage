@@ -105,14 +105,14 @@ export default function Footer() {
                 Travel Nation,
                 <br />
                 No 92/01/04, 1st Floor,
-                <br /> Old Galle Rd, Panadura
+                <br /> Old Galle Rd, Walana, Panadura
                 <br />
                 12500
               </span>
             </li>
             <li className="flex items-center gap-x-2">
               <HiPhone className="text-gray-300" />
-              <Link href="tel:+94712808020">+94 740 1104 89</Link>
+              <Link href="tel:+94712808020">+94 771 774 118</Link>
             </li>
             <li className="flex items-center gap-x-2">
               <HiMail className="text-gray-300" />
