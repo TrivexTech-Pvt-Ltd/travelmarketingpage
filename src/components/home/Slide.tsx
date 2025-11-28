@@ -32,7 +32,7 @@ const Slide = ({
           loop
           muted
           playsInline
-          className="w-full object-cover"
+          className="w-full object-cover  inset-0 bg-black/50 z-10"
           style={{ height: height || "620px" }}
         />
       )}
