@@ -113,7 +113,7 @@ const Header = () => {
             )}
           </ul>
 
-          {/* Desktop Inquire Button → White After Scroll */}
+          {/* Desktop Inquire Button ? White After Scroll */}
           <button
             onClick={() => setIsModalOpen(true)}
             className={`hidden tablet:block rounded-md py-3 px-6 uppercase text-sm transition-all duration-300 ${
