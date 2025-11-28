@@ -7,18 +7,17 @@ import React, { useState, useEffect } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RiCloseLine } from "react-icons/ri";
 import { ChevronDown } from "lucide-react";
-import { Logo } from "@/utils/staticImages";
+import { LogoNew } from "@/utils/staticImages";
 import Modal from "../ui/Modal";
 import Quotation from "../ui/Quotation";
 
 const Header = () => {
   const pathname = usePathname();
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [stickyNavbar, setStickyNavbar] = useState<boolean>(false);
-  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const [stickyNavbar, setStickyNavbar] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  // Navbar items
   const menuItems = [
     { name: "Home", path: "/" },
     { name: "Destination", path: "#" },
@@ -26,27 +25,28 @@ const Header = () => {
     { name: "Contact Us", path: "/contact-us" },
   ];
 
-  // Sticky navbar on scroll
   useEffect(() => {
     const handleScroll = () => {
-      setStickyNavbar(window.scrollY >= 128);
+      setStickyNavbar(window.scrollY >= 150);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const isHomePage = pathname === "/";
-
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-white text-gray-800 shadow-md`}
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
+        stickyNavbar
+          ? "bg-[#5cc6bf] text-white shadow-lg"
+          : "bg-transparent text-white"
+      }`}
     >
       <div className="flex justify-between items-center px-4 py-4 sm:px-10 md:px-16 lg:px-20 xl:px-28">
         {/* Logo */}
         <Link href="/">
           <Image
-            src={Logo}
-            alt="Travel Nation logo"
+            src={LogoNew}
+            alt="Travel Nation Logo"
             width={260}
             height={120}
             className="h-12 w-40 md:h-14 md:w-44 lg:h-16 lg:w-52 transition-all duration-300"
@@ -66,25 +66,23 @@ const Header = () => {
                 >
                   <button
                     type="button"
-                    className={`flex items-center gap-1 hover:text-sea-green transition-colors duration-300 ${pathname.startsWith("/maldives") ||
-                      pathname.startsWith("/sri-lanka")
-                      ? "text-sea-green" : "text-gray-800"
-                      }`}
+                    className={`flex items-center gap-1 hover:text-black transition-colors duration-300 text-white`}
                   >
                     {item.name}
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform ${isDropdownOpen ? "rotate-180" : ""
-                        }`}
+                      className={`w-4 h-4 transition-transform ${
+                        isDropdownOpen ? "rotate-180" : ""
+                      }`}
                     />
                   </button>
 
-                  {/* Dropdown Menu */}
+                  {/* Dropdown */}
                   {isDropdownOpen && (
-                    <ul className="absolute top-7 left-0 backdrop-blur-md bg-black/40 shadow-lg rounded-lg py-2 w-48 text-white border border-white/20 transition-all duration-300">
+                    <ul className="absolute top-7 left-0 bg-black/80 text-white shadow-lg rounded-lg py-2 w-48 border border-white/20 transition-all duration-300 backdrop-blur-sm">
                       <li>
                         <Link
                           href="/maldives"
-                          className="block px-4 py-2 hover:bg-white/20 hover:text-sea-green transition-colors rounded-md"
+                          className="block px-4 py-2 hover:bg-white/20 hover:text-sea-green rounded-md"
                         >
                           Maldives
                         </Link>
@@ -92,7 +90,7 @@ const Header = () => {
                       <li>
                         <Link
                           href="/sri-lanka"
-                          className="block px-4 py-2 hover:bg-white/20 hover:text-sea-green transition-colors rounded-md"
+                          className="block px-4 py-2 hover:bg-white/20 hover:text-sea-green rounded-md"
                         >
                           Sri Lanka
                         </Link>
@@ -104,9 +102,9 @@ const Header = () => {
                 <li key={index}>
                   <Link
                     href={item.path}
-                    className={`hover:text-sea-green transition-colors duration-300 ${pathname === item.path
-                      ? "text-sea-green" : "text-gray-800"
-                      }`}
+                    className={`hover:text-black transition-colors duration-300 ${
+                      pathname === item.path ? "text-black" : "text-white"
+                    }`}
                   >
                     {item.name}
                   </Link>
@@ -115,51 +113,54 @@ const Header = () => {
             )}
           </ul>
 
-          {/* Desktop Inquire Button */}
+          {/* Desktop Inquire Button ? White After Scroll */}
           <button
             onClick={() => setIsModalOpen(true)}
-            className="hidden tablet:block text-white bg-sea-green rounded-md py-3 px-6 cursor-pointer uppercase text-sm hover:opacity-90"
-            type="button"
+            className={`hidden tablet:block rounded-md py-3 px-6 uppercase text-sm transition-all duration-300 ${
+              stickyNavbar
+                ? "bg-white text-black hover:opacity-80"
+                : "bg-sea-green text-white hover:opacity-90"
+            }`}
           >
             inquire
           </button>
         </div>
 
-        {/* Mobile Toggle Button */}
+        {/* Mobile Toggle */}
         <button
-          className={`tablet:hidden text-3xl focus:outline-none text-gray-800`}
+          className="tablet:hidden text-3xl focus:outline-none text-white"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <RiCloseLine /> : <RxHamburgerMenu />}
         </button>
       </div>
 
-      {/* Mobile Menu Dropdown */}
+      {/* Mobile Menu */}
       {isOpen && (
-        <div className="tablet:hidden absolute top-full left-0 w-full bg-white text-black shadow-md transition-all duration-500">
+        <div className="tablet:hidden absolute top-full left-0 w-full bg-[#5cc6bf] text-white shadow-lg transition-all duration-500">
           <ul className="flex flex-col items-center gap-6 py-6 text-lg font-medium">
             {menuItems.map((item, index) =>
               item.name === "Destination" ? (
                 <li key={index} className="flex flex-col items-center">
                   <button
                     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                    className="flex items-center gap-1 hover:text-sea-green transition-colors duration-300"
+                    className="flex items-center gap-1 hover:text-black transition-colors duration-300"
                   >
                     {item.name}
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform ${isDropdownOpen ? "rotate-180" : ""
-                        }`}
+                      className={`w-4 h-4 transition-transform ${
+                        isDropdownOpen ? "rotate-180" : ""
+                      }`}
                     />
                   </button>
 
-                  {/* Mobile Dropdown */}
                   {isDropdownOpen && (
                     <ul className="flex flex-col items-center gap-3 mt-2 text-base">
                       <li>
                         <Link
                           href="/maldives"
                           onClick={() => setIsOpen(false)}
-                          className="hover:text-sea-green"
+                          className="hover:text-black"
                         >
                           Maldives
                         </Link>
@@ -168,7 +169,7 @@ const Header = () => {
                         <Link
                           href="/sri-lanka"
                           onClick={() => setIsOpen(false)}
-                          className="hover:text-sea-green"
+                          className="hover:text-black"
                         >
                           Sri Lanka
                         </Link>
@@ -181,7 +182,7 @@ const Header = () => {
                   <Link
                     href={item.path}
                     onClick={() => setIsOpen(false)}
-                    className="hover:text-sea-green transition-colors duration-300"
+                    className="hover:text-black transition-colors duration-300"
                   >
                     {item.name}
                   </Link>
@@ -189,15 +190,18 @@ const Header = () => {
               )
             )}
 
-            {/* Mobile Inquire Button */}
             <li>
+              {/* Mobile Inquire button white after scroll */}
               <button
                 onClick={() => {
                   setIsModalOpen(true);
                   setIsOpen(false);
                 }}
-                className="text-white bg-sea-green rounded-md py-3 px-10 uppercase text-sm hover:opacity-90"
-                type="button"
+                className={`rounded-md py-3 px-10 uppercase text-sm transition-all duration-300 ${
+                  stickyNavbar
+                    ? "bg-white text-black hover:opacity-80"
+                    : "bg-sea-green text-white hover:opacity-90"
+                }`}
               >
                 inquire
               </button>
@@ -206,7 +210,6 @@ const Header = () => {
         </div>
       )}
 
-      {/* Modal */}
       <Modal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}

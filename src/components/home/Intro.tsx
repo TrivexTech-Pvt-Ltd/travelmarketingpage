@@ -53,7 +53,7 @@ const Intro = () => {
     flex items-center justify-center text-base font-medium 
     transition-all duration-300 hover:bg-emerald-400 hover:scale-105"
         >
-          Discover
+          Discover Who We Are
         </Link>
       </div>
     </div>

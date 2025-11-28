@@ -1,9 +1,9 @@
 "use client";
 import React, { useRef, useState } from "react";
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-import VideoSlide from "./Slide";
+import Slide from "./Slide";
 import { HeroType } from "@/types/hero.types";
 
 interface HeroProps {
@@ -11,7 +11,7 @@ interface HeroProps {
   height?: string;
 }
 
-const Hero = ({ heroData }: HeroProps) => {
+const Hero = ({ heroData, height }: HeroProps) => {
   const [activeSlide, setActiveSlide] = useState<number>(0);
   const sliderRef = useRef<Slider>(null);
 
@@ -20,19 +20,28 @@ const Hero = ({ heroData }: HeroProps) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 3500,
     speed: 1500,
     dots: true,
-    pauseOnHover: false,
     arrows: false,
-    beforeChange: (current: number, next: number) => setActiveSlide(next),
+    pauseOnHover: false,
+    beforeChange: (_current: number, next: number) => setActiveSlide(next),
   };
 
   return (
     <div className="overflow-hidden w-full">
       <Slider {...settings} ref={sliderRef}>
         {heroData.map((item) => (
-          <VideoSlide key={item.id} video={item.video} />
+          <Slide
+            key={item.id}
+            image={item.image}
+            video={item.video}
+            text={item.text}
+            country={item.country}
+            link={item.link}
+            height={height}
+            activeSlide={activeSlide}
+          />
         ))}
       </Slider>
     </div>

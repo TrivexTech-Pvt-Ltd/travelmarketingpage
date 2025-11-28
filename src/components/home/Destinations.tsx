@@ -2,6 +2,8 @@ import { Hero6, MaldivesHero } from "@/utils/staticImages";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { slSliderNew, MalSliderNew } from "@/utils/data";
+import ImageSlider from "../ui/ImageSlider";
 
 const Destinations = () => {
   return (
@@ -10,14 +12,14 @@ const Destinations = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2">
         {/* IMAGE LEFT */}
         <div className="h-full">
-          <Image
-            src={Hero6}
-            height={500}
-            width={500}
-            alt="sri-lanka"
-            className="w-full h-full"
+          <ImageSlider
+            heroData={slSliderNew}
+            height="h-96 lg:h-full xl:h-[680px]"
           />
         </div>
+        {/* <div className="order-2 lg:order-1 h-full">
+     
+        </div> */}
 
         {/* TEXT RIGHT */}
         <div className="bg-soft-beige p-6 flex md:justify-center md:items-center flex-col lg:px-12 xl:px-28">
@@ -25,6 +27,9 @@ const Destinations = () => {
             <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display">
               Discover the Beauty <br /> of Sri Lanka
             </h3>
+            <p className="text-sm sm:text-base text-gray-500 leading-7">
+              The island of stories, ancient heritage, and untamed wilderness.
+            </p>
             <p className="text-sm sm:text-base text-gray-500 leading-7">
               In Sri Lanka, we introduce you to a land of rich heritage,
               breathtaking landscapes, and unmatched hospitality. Explore
@@ -51,6 +56,10 @@ const Destinations = () => {
               Luxury Travel in the <br /> Maldives
             </h3>
             <p className="text-sm sm:text-base text-gray-500 leading-7">
+              The epitome of barefoot luxury, where time slows and nature
+              breathes in colour.
+            </p>
+            <p className="text-sm sm:text-base text-gray-500 leading-7">
               In the Maldives, we offer exclusive stays at world-renowned
               resorts—overwater villas, spa escapes, crystal-clear lagoons, and
               unforgettable luxury experiences.
@@ -65,12 +74,16 @@ const Destinations = () => {
         </div>
 
         {/* IMAGE RIGHT */}
-        <Image
+        {/* <Image
           src={MaldivesHero}
           height={500}
           width={500}
           alt="maldives"
           className="w-full h-full"
+        /> */}
+        <ImageSlider
+          heroData={MalSliderNew}
+          height="h-96 lg:h-full xl:h-[680px]"
         />
       </div>
     </div>

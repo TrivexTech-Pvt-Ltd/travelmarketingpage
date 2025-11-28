@@ -11,14 +11,14 @@ import { slideData } from "@/utils/data";
 export default function Home() {
   return (
     <>
-      <Hero heroData={slideData} height="lg:min-h-screen"/>
+      <Hero heroData={slideData} height="lg:min-h-screen" />
       <Intro />
       <Destinations />
       <Services />
       <TourPackages />
-      <TravelServices/>
+      <TravelServices />
       <Testimonials />
-      <ReviewForm />
+      {/* <ReviewForm /> */}
     </>
   );
 }

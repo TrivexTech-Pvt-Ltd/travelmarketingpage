@@ -1,7 +1,58 @@
 // Logo
 import Logo from "../../public/images/logo/Logo.webp";
 import LogoWhite from "../../public/images/logo/logo-white.jpeg";
+import LogoNew from "../../public/images/logo/TN - White Logo - Edited.png";
 
+//slSliderNew
+import slSliderNew1 from "../../public/images/SL - INSIDE/Sigiriya 01.jpg";
+import slSliderNew2 from "../../public/images/SL - INSIDE/Polonnaruwa 01.jpg";
+import slSliderNew3 from "../../public/images/SL - INSIDE/Anuradhapura 01.jpg";
+import slSliderNew4 from "../../public/images/SL - INSIDE/Buddha 02.jpg";
+import slSliderNew5 from "../../public/images/SL - INSIDE/Kandy 03.jpg";
+import slSliderNew6 from "../../public/images/SL - INSIDE/Dambulla - Rock Temple.jpg";
+import slSliderNew7 from "../../public/images/SL - INSIDE/Anuradhapura 02.jpg";
+
+//	HillCountry
+import HillCountry1 from "../../public/images/SL - INSIDE/Mountain 05.jpg";
+import HillCountry2 from "../../public/images/SL - INSIDE/Nuwara Eliya 03.jpg";
+import HillCountry3 from "../../public/images/SL - INSIDE/Nuwara Eliya 02.jpg";
+import HillCountry4 from "../../public/images/SL - INSIDE/Nuwara Eliya 05.jpg";
+import HillCountry5 from "../../public/images/SL - INSIDE/Train Journey 01.jpg";
+import HillCountry6 from "../../public/images/SL - INSIDE/Mountain 04.jpg";
+
+//WildLife
+import WildLife1 from "../../public/images/SL - INSIDE/Leopard 04.jpg";
+import WildLife2 from "../../public/images/SL - INSIDE/Mirissa 12.jpg";
+import WildLife3 from "../../public/images/SL - INSIDE/Elephant 04.jpg";
+import WildLife4 from "../../public/images/SL - INSIDE/Yala National Park 01.jpg";
+import WildLife5 from "../../public/images/SL - INSIDE/Bird 01.jpg";
+
+//WildLife
+import slOcean1 from "../../public/images/SL - INSIDE/Beach 01.jpg";
+import slOcean2 from "../../public/images/SL - INSIDE/Beach 03.jpg";
+import slOcean3 from "../../public/images/SL - INSIDE/Beach 04.jpg";
+import slOcean4 from "../../public/images/SL - INSIDE/Stilt Fishing.jpg";
+import slOcean5 from "../../public/images/SL - INSIDE/Vesak Festival.jpg";
+import slOcean6 from "../../public/images/SL - INSIDE/People 05.jpg";
+import slOcean7 from "../../public/images/SL - INSIDE/Galle 02.jpg";
+
+//slGastronomy
+import slGastronomy1 from "../../public/images/SL - INSIDE/Food 10.jpg";
+import slGastronomy2 from "../../public/images/SL - INSIDE/Food 07.jpg";
+import slGastronomy3 from "../../public/images/SL - INSIDE/Food 09.jpg";
+import slGastronomy4 from "../../public/images/SL - INSIDE/Food 06.jpg";
+import slGastronomy5 from "../../public/images/SL - INSIDE/Food 02.jpg";
+import slGastronomy6 from "../../public/images/SL - INSIDE/Food 01.jpg";
+import slGastronomy7 from "../../public/images/SL - INSIDE/Food 05.jpg";
+
+//slColombo
+import slColombo1 from "../../public/images/SL - INSIDE/Colombo 06 - Galle Face.jpg";
+import slColombo2 from "../../public/images/SL - INSIDE/Colombo 07.jpg";
+import slColombo3 from "../../public/images/SL - INSIDE/Colombo 05 - Jami Ul-Alfar Mosque.jpg";
+import slColombo4 from "../../public/images/SL - INSIDE/Colombo 03.jpg";
+import slColombo5 from "../../public/images/SL - INSIDE/Colombo Pettah 01.jpg";
+import slColombo6 from "../../public/images/SL - INSIDE/Colombo Gangaramaya 01.jpg";
+import slColombo7 from "../../public/images/SL - INSIDE/Colombo 08.jpg";
 //Hero
 import Hero1 from "../../public/images/hero/siyam-worlds-hero.webp";
 import Hero2 from "../../public/images/hero/kunnavashi-hero.webp";
@@ -39,6 +90,20 @@ import AlilaHero3 from "../../public/images/hero/alila/alila-hero-3.webp";
 import AlilaHero4 from "../../public/images/hero/alila/alila-hero-4.webp";
 import AlilaHero5 from "../../public/images/hero/alila/alila-hero-5.webp";
 import AlilaHero6 from "../../public/images/hero/alila/alila-hero-6.webp";
+
+//Sl-outside
+import SlOutside1 from "../../public/images/SL - OUTSIDE/Temple of the Tooth in Kandy, Sri Lanka.jpg";
+import SlOutside2 from "../../public/images/SL - OUTSIDE/Train.jpg";
+import SlOutside3 from "../../public/images/SL - OUTSIDE/Yala - An Elephant Following the Vehicle.jpg";
+import SlOutside4 from "../../public/images/SL - OUTSIDE/Horton Plains - Close-Up Photo Of Sri Lankan Sambar Deer.jpg";
+import SlOutside5 from "../../public/images/SL - OUTSIDE/Aerial View of Avukana Buddha Statue in Sri Lanka.jpg";
+
+//maldives-outside
+import MalOutside1 from "../../public/images/MALDIVES IMAGES/Header Images/Three-Bedroom Ocean Water Pool Atelier.jpg";
+import MalOutside2 from "../../public/images/MALDIVES IMAGES/Header Images/High_resolution_300dpi-Jumeirah Maldives - Sunset Water Villa - Aerial View.jpg";
+import MalOutside3 from "../../public/images/MALDIVES IMAGES/Header Images/F&BSunsetSetup-4.jpg";
+import MalOutside4 from "../../public/images/MALDIVES IMAGES/Header Images/Soneva Soul at Soneva Jani.jpg";
+import MalOutside5 from "../../public/images/MALDIVES IMAGES/Header Images/Conrad Maldives Rangali Island_Rangali Finolhu Island Pool_Justin Nicholas.jpg";
 
 //Destinations
 import MaldivesHero from "../../public/images/hero/maldives.webp";
@@ -174,6 +239,12 @@ import Explore from "../../public/images/icons/explorer.svg";
 import Honesty from "../../public/images/icons/honesty.svg";
 import Personalized from "../../public/images/icons/personalized.svg";
 import Quality from "../../public/images/icons/quality.svg";
+
+import About1 from "../../public/images/about/about-1.jpg";
+import About2 from "../../public/images/about/about-2.jpg";
+import About3 from "../../public/images/about/about-3.jpg";
+import About4 from "../../public/images/about/about-4.jpg";
+import About5 from "../../public/images/about/about-5.jpg";
 
 //Sri Lanka hotels
 import GoldiSandsHotel from "../../public/images/srilanka/hotels/goldi-sands-hotel.webp";
@@ -366,6 +437,46 @@ import SMACT8 from "../../public/images/maldives/activities/so-maldives/Picture8
 export {
   Logo,
   LogoWhite,
+  LogoNew,
+  slSliderNew1,
+  slSliderNew2,
+  slSliderNew3,
+  slSliderNew4,
+  slSliderNew5,
+  slSliderNew6,
+  slSliderNew7,
+  HillCountry1,
+  HillCountry2,
+  HillCountry3,
+  HillCountry4,
+  HillCountry5,
+  HillCountry6,
+  WildLife1,
+  WildLife2,
+  WildLife3,
+  WildLife4,
+  WildLife5,
+  slOcean1,
+  slOcean2,
+  slOcean3,
+  slOcean4,
+  slOcean5,
+  slOcean6,
+  slOcean7,
+  slGastronomy1,
+  slGastronomy2,
+  slGastronomy3,
+  slGastronomy4,
+  slGastronomy5,
+  slGastronomy6,
+  slGastronomy7,
+  slColombo1,
+  slColombo2,
+  slColombo3,
+  slColombo4,
+  slColombo5,
+  slColombo6,
+  slColombo7,
   Hero1,
   Hero2,
   Hero3,
@@ -496,6 +607,11 @@ export {
   Honesty,
   Personalized,
   Quality,
+  About1,
+  About2,
+  About3,
+  About4,
+  About5,
   GoldiSandsHotel,
   BlueWaterHotel,
   LyndenHotel,
@@ -641,4 +757,14 @@ export {
   SMACT6,
   SMACT7,
   SMACT8,
+  SlOutside1,
+  SlOutside2,
+  SlOutside3,
+  SlOutside4,
+  SlOutside5,
+  MalOutside1,
+  MalOutside2,
+  MalOutside3,
+  MalOutside4,
+  MalOutside5,
 };
