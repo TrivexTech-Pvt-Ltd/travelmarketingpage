@@ -33,13 +33,14 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const segmentName = pathname.split('/')[1]
+
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
-        stickyNavbar
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${stickyNavbar
           ? "bg-[#5cc6bf] text-white shadow-lg"
-          : "bg-transparent text-white"
-      }`}
+          : segmentName === "about-us" || segmentName === "contact-us" ? "bg-[#5cc6bf] text-white" : "bg-transparent text-white"
+        }`}
     >
       <div className="flex justify-between items-center px-4 py-4 sm:px-10 md:px-16 lg:px-20 xl:px-28">
         {/* Logo */}
@@ -49,7 +50,7 @@ const Header = () => {
             alt="Travel Nation Logo"
             width={260}
             height={120}
-            className="h-12 w-40 md:h-14 md:w-44 lg:h-16 lg:w-52 transition-all duration-300"
+            className="h-12 w-40 md:h-auto md:w-56 transition-all duration-300"
           />
         </Link>
 
@@ -70,9 +71,8 @@ const Header = () => {
                   >
                     {item.name}
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform ${
-                        isDropdownOpen ? "rotate-180" : ""
-                      }`}
+                      className={`w-4 h-4 transition-transform ${isDropdownOpen ? "rotate-180" : ""
+                        }`}
                     />
                   </button>
 
@@ -102,9 +102,8 @@ const Header = () => {
                 <li key={index}>
                   <Link
                     href={item.path}
-                    className={`hover:text-black transition-colors duration-300 ${
-                      pathname === item.path ? "text-black" : "text-white"
-                    }`}
+                    className={`hover:text-black transition-colors duration-300 ${pathname === item.path ? "text-black" : "text-white"
+                      }`}
                   >
                     {item.name}
                   </Link>
@@ -116,11 +115,10 @@ const Header = () => {
           {/* Desktop Inquire Button ? White After Scroll */}
           <button
             onClick={() => setIsModalOpen(true)}
-            className={`hidden tablet:block rounded-md py-3 px-6 uppercase text-sm transition-all duration-300 ${
-              stickyNavbar
-                ? "bg-white text-black hover:opacity-80"
+            className={`hidden tablet:block rounded-md py-3 px-6 uppercase text-sm transition-all duration-300 ${segmentName === "about-us" || segmentName === "contact-us" ? 'bg-white !text-black hover:opacity-80' : ''} ${stickyNavbar
+                ?  "bg-white text-black hover:opacity-80"
                 : "bg-sea-green text-white hover:opacity-90"
-            }`}
+              }`}
           >
             inquire
           </button>
@@ -148,9 +146,8 @@ const Header = () => {
                   >
                     {item.name}
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform ${
-                        isDropdownOpen ? "rotate-180" : ""
-                      }`}
+                      className={`w-4 h-4 transition-transform ${isDropdownOpen ? "rotate-180" : ""
+                        }`}
                     />
                   </button>
 
@@ -197,11 +194,10 @@ const Header = () => {
                   setIsModalOpen(true);
                   setIsOpen(false);
                 }}
-                className={`rounded-md py-3 px-10 uppercase text-sm transition-all duration-300 ${
-                  stickyNavbar
+                className={`rounded-md py-3 px-10 uppercase text-sm transition-all duration-300 ${stickyNavbar
                     ? "bg-white text-black hover:opacity-80"
                     : "bg-sea-green text-white hover:opacity-90"
-                }`}
+                  }`}
               >
                 inquire
               </button>

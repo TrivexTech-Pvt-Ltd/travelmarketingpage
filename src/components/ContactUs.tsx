@@ -84,7 +84,7 @@ export default function ContactUs() {
   return (
     <section className="bg-gray-50">
       {/* Google Map */}
-      <div className="w-full pt-14 h-[600px] mt-10 rounded-lg overflow-hidden shadow-md">
+      <div className="w-full pt-[49px] h-[600px] mt-10 rounded-lg overflow-hidden shadow-md">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63309.02025815471!2d79.90217258071775!3d6.769010986776209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2489f9aefb69b%3A0x2e6fae84dc0b9e6e!2sPanadura!5e0!3m2!1sen!2slk!4v1690000000000!5m2!1sen!2slk"
           width="100%"
