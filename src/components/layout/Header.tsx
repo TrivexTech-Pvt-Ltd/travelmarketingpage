@@ -39,7 +39,7 @@ const Header = () => {
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${stickyNavbar
           ? "bg-[#5cc6bf] text-white shadow-lg"
-          : segmentName === "about-us" || segmentName === "contact-us" ? "bg-[#5cc6bf] text-white" : "bg-transparent text-white"
+          : segmentName === "about-us" || segmentName === "contact-us" ||  segmentName === "sri-lanka" ||  segmentName === "maldives" ? "bg-[#5cc6bf] text-white" : "bg-transparent text-white"
         }`}
     >
       <div className="flex justify-between items-center px-4 py-4 sm:px-10 md:px-16 lg:px-20 xl:px-28">
