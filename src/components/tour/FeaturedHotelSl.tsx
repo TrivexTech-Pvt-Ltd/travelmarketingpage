@@ -6,7 +6,6 @@ import FeaturedHotelSlCard from './FeaturedHotelSlCard';
 const FeaturedHotelSl = () => {
     const data = useSLTourPackageStore(s => s.tourPackage);
     const featuredHotelsData = slFeaturedHotels.filter(x => data?.featuredHotels?.includes(x.id));
-    console.log("featuredHotelsData", featuredHotelsData)
     if (!data) return null
     return (
         <div className='max-w-7xl mx-auto py-5 sm:py-14'>
