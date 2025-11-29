@@ -35,13 +35,11 @@ const Header = () => {
 
   const segmentName = pathname.split('/')[1]
 
-  console.log("segmentName", segmentName)
-
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${stickyNavbar
-        ? "bg-[#5cc6bf] text-white shadow-lg"
-        : segmentName === "about-us" || segmentName === "contact-us" || segmentName === "sri-lanka" || segmentName === "maldives" ? "bg-[#5cc6bf] text-white" : "bg-transparent text-white"
+          ? "bg-[#5cc6bf] text-white shadow-lg"
+          : segmentName === "about-us" || segmentName === "contact-us" ? "bg-[#5cc6bf] text-white" : "bg-transparent text-white"
         }`}
     >
       <div className="flex justify-between items-center px-4 py-4 sm:px-10 md:px-16 lg:px-20 xl:px-28">
@@ -118,8 +116,8 @@ const Header = () => {
           <button
             onClick={() => setIsModalOpen(true)}
             className={`hidden tablet:block rounded-md py-3 px-6 uppercase text-sm transition-all duration-300 ${segmentName === "about-us" || segmentName === "contact-us" ? 'bg-white !text-black hover:opacity-80' : ''} ${stickyNavbar
-              ? "bg-white text-black hover:opacity-80"
-              : "bg-sea-green text-white hover:opacity-90"
+                ?  "bg-white text-black hover:opacity-80"
+                : "bg-sea-green text-white hover:opacity-90"
               }`}
           >
             inquire
@@ -197,8 +195,8 @@ const Header = () => {
                   setIsOpen(false);
                 }}
                 className={`rounded-md py-3 px-10 uppercase text-sm transition-all duration-300 ${stickyNavbar
-                  ? "bg-white text-black hover:opacity-80"
-                  : "bg-sea-green text-white hover:opacity-90"
+                    ? "bg-white text-black hover:opacity-80"
+                    : "bg-sea-green text-white hover:opacity-90"
                   }`}
               >
                 inquire
