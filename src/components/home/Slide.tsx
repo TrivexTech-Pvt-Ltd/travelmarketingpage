@@ -26,15 +26,20 @@ const Slide = ({
     <div className="relative w-full">
       {/* VIDEO SLIDE */}
       {video && (
-        <video
-          src={video}
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full object-cover  inset-0 bg-black/50 z-10"
-          style={{ height: height || "620px" }}
-        />
+        <div className="relative w-full">
+          <video
+            src={video}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full object-cover z-10"
+            style={{ height: height || "620px" }}
+          />
+          <div className="absolute inset-0 bg-black/50" />
+        </div>
+
+
       )}
 
       {/* IMAGE SLIDE */}
@@ -44,7 +49,7 @@ const Slide = ({
           style={{ height: height || "620px" }}
         >
           {/* Dark Overlay */}
-          <div className="absolute inset-0 bg-black/50 z-10 pointer-events-none" />
+          <div className="absolute inset-0 bg-black/50" />
 
           {/* Image */}
           <Image

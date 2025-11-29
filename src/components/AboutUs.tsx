@@ -15,7 +15,7 @@ import TravelServices from "./ui/TravelServices";
 const AboutUs = () => {
   return (
     <>
-      <div className="pt-24">
+      <div className="pt-[89px]">
         <ImageSlider heroData={aboutUsData} height="h-96 md:h-[420px]" />
       </div>
       <div className="flex flex-col justify-center items-center max-w-7xl mx-auto max-sm:px-4 py-4 sm:py-10">

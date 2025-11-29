@@ -12,15 +12,15 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-sea-green text-gray-300 py-10 relative px-4 sm:px-10 md:px-16 lg:px-20 xl:px-28">
-      <div className="container mx-auto px-6 grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3 gap-8">
         {/* Left Section */}
-        <div>
+        <div className="flex flex-col items-start">
           <Image
             src={LogoNew}
             alt="logo"
             height={100}
             width={200}
-            className="z-30 mb-4"
+            className="z-30 h-auto w-56"
           />
           {/* <p className="text-base leading-relaxed">
             At Travel Nation, we&apos;re not just about crafting holidays;
