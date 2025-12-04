@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import { slSliderNew, MalSliderNew } from "@/utils/data";
 import ImageSlider from "../ui/ImageSlider";
+import { FiArrowDownRight, FiArrowRight } from "react-icons/fi";
 
 const Destinations = () => {
   return (
@@ -32,9 +33,9 @@ const Destinations = () => {
             </p>
             <Link
               href="/sri-lanka"
-              className="text-white text-sm bg-sea-green py-3 px-6 sm:py-4 sm:px-8 border border-white transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105 font-medium"
+              className="text-white w-fit flex items-center gap-x-2 text-sm bg-sea-green py-3 px-6 sm:py-4 sm:px-8 border border-white transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105 font-medium"
             >
-              View Destinations
+              View Destinations <FiArrowRight size={16}/>
             </Link>
           </div>
         </div>
@@ -54,9 +55,9 @@ const Destinations = () => {
             </p>
             <Link
               href="/maldives"
-              className="text-white text-sm bg-sea-green py-3 px-6 sm:py-4 sm:px-8 border border-white transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105 font-medium"
+              className="text-white text-sm w-fit flex items-center gap-x-2 bg-sea-green py-3 px-6 sm:py-4 sm:px-8 border border-white transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105 font-medium"
             >
-              View Destinations
+              View Destinations <FiArrowRight size={16}/>
             </Link>
           </div>
         </div>
@@ -65,6 +66,8 @@ const Destinations = () => {
           height="h-96 lg:h-full xl:h-[680px]"
         />
       </div>
+
+
     </div>
   );
 };

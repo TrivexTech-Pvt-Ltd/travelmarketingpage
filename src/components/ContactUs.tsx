@@ -90,7 +90,7 @@ export default function ContactUs() {
           Start Your Journey with Us
         </h1>
         <p className="text-gray-500 text-base text-center mb-4 sm:mb-12">
-          Whether you are planning a honeymoon, a family getaway, or a once-in-a-lifetime adventure <br/> our team is ready to craft it for you.
+          Whether you are planning a honeymoon, a family getaway, or a once-in-a-lifetime adventure <br /> our team is ready to craft it for you.
         </p>
 
         <div className="grid md:grid-cols-2 gap-5 sm:gap-10">
@@ -102,7 +102,7 @@ export default function ContactUs() {
               </h2>
               <div className="space-y-4 text-gray-500">
                 <div className="flex gap-x-2">
-                  <FiMapPin className="mt-1"/>
+                  <FiMapPin className="mt-1" />
                   <p className="text-left">
                     Travel Nation Lanka (Pvt) Ltd<br />
                     92/01/04,<br /> 1st Floor,<br /> Old Galle Rd,<br />Walana ,<br />Panadura
@@ -244,16 +244,45 @@ export default function ContactUs() {
             </form>
           </div>
         </div>
-        <div className="w-full pt-[49px] h-[520px] mt-10 overflow-hidden">
+
+        <div className="relative w-full h-[500px] overflow-hidden rounded-lg my-4">
+          {/* Google Map */}
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63309.02025815471!2d79.90217258071775!3d6.769010986776209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2489f9aefb69b%3A0x2e6fae84dc0b9e6e!2sPanadura!5e0!3m2!1sen!2slk!4v1690000000000!5m2!1sen!2slk"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63309.02025815471!2d79.90217258071775!3d6.769010986776209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f17!3m3!1m2!1s0x3ae2489f9aefb69b%3A0x2e6fae84dc0b9e6e!2sPanadura!5e0!3m2!1sen!2slk!4v1690000000000!5m2!1sen!2slk"
             width="100%"
             height="100%"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
           ></iframe>
+
+          {/* Label Box */}
+          <div className="absolute left-1/2 top-1/2 -translate-x-[75px] -translate-y-[140px]">
+            <div className="bg-sea-green text-white px-5 py-2 rounded-md shadow-lg whitespace-nowrap text-sm font-semibold">
+              TravelNation
+            </div>
+          </div>
+
+          {/* Connecting Line */}
+          <div
+            className="
+      absolute left-1/2 top-[43%] 
+      -translate-x-1/2 -translate-y-[70px]
+      w-[2px] h-[96px] 
+      bg-sea-green
+    "
+          ></div>
+
+          {/* Pin + Ripple */}
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+            {/* Pin center */}
+            <div className="relative w-6 h-6 rounded-full bg-white flex items-center justify-center shadow-md border border-black">
+              <div className="w-3 h-3 bg-black rounded-full"></div>
+            </div>
+          </div>
         </div>
+
+
       </div>
     </section>
   );

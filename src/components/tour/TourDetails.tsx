@@ -19,9 +19,7 @@ const TourDetails = ({ slug }: { slug: string }) => {
 
     return (
         <div className='bg-light-cyan'>
-            <div className='pt-20'>
                 <TourHero />
-            </div>
             <Container>
                 <DetailsHeader />
                 <TourFeaturesTab />

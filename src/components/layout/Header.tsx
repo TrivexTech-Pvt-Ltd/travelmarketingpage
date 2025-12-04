@@ -115,7 +115,7 @@ const Header = () => {
           {/* Desktop Inquire Button ? White After Scroll */}
           <button
             onClick={() => setIsModalOpen(true)}
-            className={`hidden tablet:block py-3 px-6 uppercase text-sm transition-all duration-300 ${segmentName === "about-us" || segmentName === "contact-us" ? 'bg-white !text-black hover:opacity-80' : ''} ${stickyNavbar
+            className={`hidden tablet:block py-3 px-6 uppercase text-sm transition-all duration-300 ${segmentName === "contact-us" ? 'bg-white !text-black hover:opacity-80' : ''} ${stickyNavbar
               ? "bg-white text-black hover:opacity-80"
               : "bg-sea-green text-white hover:opacity-90"
               }`}
@@ -155,20 +155,20 @@ const Header = () => {
                     <ul className="flex flex-col items-center gap-3 mt-2 text-base">
                       <li>
                         <Link
-                          href="/maldives"
-                          onClick={() => setIsOpen(false)}
-                          className="hover:text-black"
-                        >
-                          Maldives
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
                           href="/sri-lanka"
                           onClick={() => setIsOpen(false)}
                           className="hover:text-black"
                         >
                           Sri Lanka
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="/maldives"
+                          onClick={() => setIsOpen(false)}
+                          className="hover:text-black"
+                        >
+                          Maldives
                         </Link>
                       </li>
                     </ul>
@@ -199,7 +199,7 @@ const Header = () => {
                   : "bg-sea-green text-white hover:opacity-90"
                   }`}
               >
-                inquire
+                Lets Go Places
               </button>
             </li>
           </ul>
