@@ -11,7 +11,7 @@ import { LogoNew } from "@/utils/staticImages";
 import Link from "next/link";
 export default function Footer() {
   return (
-    <footer className="bg-sea-green text-gray-300 py-10 relative px-4 sm:px-10 md:px-16 lg:px-20 xl:px-28">
+    <footer className="bg-sea-green text-white py-10 relative px-4 sm:px-10 md:px-16 lg:px-20 xl:px-28">
       <div className="grid md:grid-cols-3 gap-8">
         {/* Left Section */}
         <div className="flex flex-col items-start">
@@ -32,25 +32,25 @@ export default function Footer() {
           <div className="flex items-center gap-4 mt-5">
             <Link
               href="#"
-              className="p-3 rounded-full border border-gray-300 transition hover:bg-gray-300 hover:text-sea-green"
+              className="p-3 rounded-full border border-white transition hover:bg-gray-300 hover:text-sea-green"
             >
               <FaFacebookF />
             </Link>
             <Link
               href="#"
-              className="p-3 rounded-full border border-gray-300 transition hover:bg-gray-300 hover:text-sea-green"
+              className="p-3 rounded-full border border-white transition hover:bg-gray-300 hover:text-sea-green"
             >
               <FaInstagram />
             </Link>
             <Link
               href="#"
-              className="p-3 rounded-full border border-gray-300 transition hover:bg-gray-300 hover:text-sea-green"
+              className="p-3 rounded-full border border-white transition hover:bg-gray-300 hover:text-sea-green"
             >
               <FaTwitter />
             </Link>
             <Link
               href="#"
-              className="p-3 rounded-full border border-gray-300 transition hover:bg-gray-300 hover:text-sea-green"
+              className="p-3 rounded-full border border-white transition hover:bg-gray-300 hover:text-sea-green"
             >
               <FaYoutube />
             </Link>
@@ -100,7 +100,7 @@ export default function Footer() {
           </h2>
           <ul className="space-y-2 text-base">
             <li className="flex gap-x-2">
-              <HiLocationMarker className="text-gray-300 mt-1" />
+              <HiLocationMarker className="text-white mt-1" />
               <span>
                 Travel Nation,
                 <br />
@@ -111,11 +111,11 @@ export default function Footer() {
               </span>
             </li>
             <li className="flex items-center gap-x-2">
-              <HiPhone className="text-gray-300" />
+              <HiPhone className="text-white" />
               <Link href="tel:+94712808020">+94 771 774 118</Link>
             </li>
             <li className="flex items-center gap-x-2">
-              <HiMail className="text-gray-300" />
+              <HiMail className="text-white" />
               <Link href="mailto:info@sadaruwan.com">
                 info@travelnation.vip
               </Link>

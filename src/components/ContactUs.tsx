@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import Link from "next/link";
 import { LuSend } from "react-icons/lu";
+import { FiMail, FiMap, FiMapPin, FiPhone } from "react-icons/fi";
 
 interface FormData {
   name: string;
@@ -82,26 +83,14 @@ export default function ContactUs() {
   };
 
   return (
-    <section className="bg-gray-50">
-      {/* Google Map */}
-      <div className="w-full pt-[49px] h-[600px] mt-10 rounded-lg overflow-hidden shadow-md">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63309.02025815471!2d79.90217258071775!3d6.769010986776209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2489f9aefb69b%3A0x2e6fae84dc0b9e6e!2sPanadura!5e0!3m2!1sen!2slk!4v1690000000000!5m2!1sen!2slk"
-          width="100%"
-          height="100%"
-          style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
-        ></iframe>
-      </div>
-
+    <section className="pt-36 bg-gray-50">
       {/* Content */}
       <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-20 py-16">
         <h1 className="text-4xl font-bold text-center mb-4 text-sea-green font-playfair-display">
           Start Your Journey with Us
         </h1>
         <p className="text-gray-500 text-base text-center mb-4 sm:mb-12">
-          Whether you are planning a honeymoon, a family getaway, or a once-in-a-lifetime adventure — our team is ready to craft it for you.
+          Whether you are planning a honeymoon, a family getaway, or a once-in-a-lifetime adventure <br/> our team is ready to craft it for you.
         </p>
 
         <div className="grid md:grid-cols-2 gap-5 sm:gap-10">
@@ -112,11 +101,16 @@ export default function ContactUs() {
                 Contact Us
               </h2>
               <div className="space-y-4 text-gray-500">
-                <p className="text-left">
-                  Travel Nation Lanka (Pvt) Ltd<br />
-                  92/01/04,<br /> 1st Floor,<br /> Old Galle Rd,<br />Walana ,<br />Panadura
-                </p>
-                <p className="text-left">
+                <div className="flex gap-x-2">
+                  <FiMapPin className="mt-1"/>
+                  <p className="text-left">
+                    Travel Nation Lanka (Pvt) Ltd<br />
+                    92/01/04,<br /> 1st Floor,<br /> Old Galle Rd,<br />Walana ,<br />Panadura
+                  </p>
+                </div>
+
+                <p className="text-left flex items-center gap-x-2">
+                  <FiMail />
                   <a
                     href="mailto:info@travelnation.vip"
                     className="hover:underline"
@@ -124,9 +118,13 @@ export default function ContactUs() {
                     info@travelnation.vip
                   </a>
                 </p>
-                <a href="tel:+94771774118" className="text-left">
-                  +94 77 177 4118
-                </a>
+                <div className="flex items-center gap-x-2">
+                  <FiPhone />
+                  <a href="tel:+94771774118" className="text-left">
+                    +94 77 177 4118
+                  </a>
+                </div>
+
               </div>
               <div className="flex items-center gap-x-4 mt-8  text-sea-green text-lg text-left">
                 <Link
@@ -245,6 +243,16 @@ export default function ContactUs() {
               </div>
             </form>
           </div>
+        </div>
+        <div className="w-full pt-[49px] h-[520px] mt-10 overflow-hidden">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63309.02025815471!2d79.90217258071775!3d6.769010986776209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2489f9aefb69b%3A0x2e6fae84dc0b9e6e!2sPanadura!5e0!3m2!1sen!2slk!4v1690000000000!5m2!1sen!2slk"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+          ></iframe>
         </div>
       </div>
     </section>

@@ -21,7 +21,7 @@ const Header = () => {
   const menuItems = [
     { name: "Home", path: "/" },
     { name: "Destination", path: "#" },
-    { name: "About Us", path: "/about-us" },
+    { name: "Our Core", path: "/our-core" },
     { name: "Contact Us", path: "/contact-us" },
   ];
 
@@ -38,8 +38,8 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${stickyNavbar
-          ? "bg-[#5cc6bf] text-white shadow-lg"
-          : segmentName === "about-us" || segmentName === "contact-us" ||  segmentName === "sri-lanka" ||  segmentName === "maldives" ? "bg-[#5cc6bf] text-white" : "bg-transparent text-white"
+        ? "bg-[#5cc6bf] text-white shadow-lg"
+        : segmentName === "contact-us" ? "bg-[#5cc6bf] text-white" : "bg-transparent text-white"
         }`}
     >
       <div className="flex justify-between items-center px-4 py-4 sm:px-10 md:px-16 lg:px-20 xl:px-28">
@@ -81,18 +81,18 @@ const Header = () => {
                     <ul className="absolute top-7 left-0 bg-black/80 text-white shadow-lg rounded-lg py-2 w-48 border border-white/20 transition-all duration-300 backdrop-blur-sm">
                       <li>
                         <Link
-                          href="/maldives"
-                          className="block px-4 py-2 hover:bg-white/20 hover:text-sea-green rounded-md"
-                        >
-                          Maldives
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
                           href="/sri-lanka"
                           className="block px-4 py-2 hover:bg-white/20 hover:text-sea-green rounded-md"
                         >
                           Sri Lanka
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="/maldives"
+                          className="block px-4 py-2 hover:bg-white/20 hover:text-sea-green rounded-md"
+                        >
+                          Maldives
                         </Link>
                       </li>
                     </ul>
@@ -115,12 +115,12 @@ const Header = () => {
           {/* Desktop Inquire Button ? White After Scroll */}
           <button
             onClick={() => setIsModalOpen(true)}
-            className={`hidden tablet:block rounded-md py-3 px-6 uppercase text-sm transition-all duration-300 ${segmentName === "about-us" || segmentName === "contact-us" ? 'bg-white !text-black hover:opacity-80' : ''} ${stickyNavbar
-                ?  "bg-white text-black hover:opacity-80"
-                : "bg-sea-green text-white hover:opacity-90"
+            className={`hidden tablet:block py-3 px-6 uppercase text-sm transition-all duration-300 ${segmentName === "about-us" || segmentName === "contact-us" ? 'bg-white !text-black hover:opacity-80' : ''} ${stickyNavbar
+              ? "bg-white text-black hover:opacity-80"
+              : "bg-sea-green text-white hover:opacity-90"
               }`}
           >
-            inquire
+            Lets Go Places
           </button>
         </div>
 
@@ -195,8 +195,8 @@ const Header = () => {
                   setIsOpen(false);
                 }}
                 className={`rounded-md py-3 px-10 uppercase text-sm transition-all duration-300 ${stickyNavbar
-                    ? "bg-white text-black hover:opacity-80"
-                    : "bg-sea-green text-white hover:opacity-90"
+                  ? "bg-white text-black hover:opacity-80"
+                  : "bg-sea-green text-white hover:opacity-90"
                   }`}
               >
                 inquire

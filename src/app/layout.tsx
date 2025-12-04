@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Open_Sans, Montserrat } from "next/font/google";
+import { Playfair_Display, Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -13,10 +13,7 @@ const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
 });
-// const openSans = Open_Sans({
-//   variable: "--font-openSans",
-//   subsets: ["latin"],
-// });
+
 
 export const metadata: Metadata = {
   title: "TravelNation - Your Gateway to the Maldives & Sri Lanka!",
@@ -35,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${PlayfairDisplay.variable} ${montserrat.variable} antialiased min-h-screen flex flex-col font-montserrat`}
+        className={`${PlayfairDisplay.variable} ${montserrat.variable} antialiased min-h-screen flex flex-col font-montserrat bg-azwhite`}
       >
         <Header />
         <main className="flex-1 w-full">{children}</main>

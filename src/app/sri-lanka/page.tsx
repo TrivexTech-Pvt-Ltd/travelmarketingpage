@@ -7,7 +7,6 @@ const SriLanka = () => {
   return (
     <>
       <Hero heroData={srilankaHeroData} height="lg:min-h-[80vh]" />
-
       <SriLankaDestination />
     </>
   );
