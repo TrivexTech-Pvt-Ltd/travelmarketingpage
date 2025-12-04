@@ -34,6 +34,7 @@ import MdRH6 from "../../public/images/maldives/honeymoon/Three Bedroom COMO Sun
 //Atolls & Islands
 import MdAI1 from "../../public/images/maldives/islands/Atolls.jpg"
 import MdAI2 from "../../public/images/maldives/islands/pexels-asadphoto-12858514.jpg"
+import { PackageSL1 } from "./staticImages";
 
 export {
     MdHeader1,
@@ -208,3 +209,4 @@ export const islandsAtolls = [
         image: MdAI2
     }
 ]
+

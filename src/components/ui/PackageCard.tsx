@@ -1,81 +1,62 @@
 import Image, { StaticImageData } from "next/image";
 import { MapPin, Calendar1, PlaneIcon, SailboatIcon } from "lucide-react";
 import Link from "next/link";
+import { FiMapPin } from "react-icons/fi";
 
 interface TravelCardProps {
     name: string;
-    description: string;
     location: string;
-    nights: number;
-    transfer?: string;
     image: StaticImageData;
     title: string;
     slug: string;
     country?: string;
-    isFeatured?: boolean
-    days?: number
 }
 
 const PackageCard = ({
     image,
     name,
     location,
-    nights,
-    description,
-    transfer,
     slug,
     country,
-    days,
+    title
 }: TravelCardProps) => {
     return (
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 relative">
-            <div className="relative">
+        <div className="relative w-full max-w-md mx-auto overflow-hidden group">
+            {/* Background Image */}
+            <div className="relative h-[500px] w-full">
                 <Image
                     src={image}
-                    alt={name}
-                    width={400}
-                    height={260}
-                    className="object-cover w-full h-60"
+                    alt={title}
+                    fill
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    priority
                 />
-                <div className="relative w-fit shadow-md px-4 py-2 flex justify-between items-center gap-4 text-sm text-gray-700 ml-4 -mt-5 bg-gradient-to-r from-sea-green to-emerald-400">
-                    <div className="flex items-center text-white text-sm">
-                        <MapPin className="w-4 h-4 mr-1" />
-                        <span>{location}</span>
-                    </div>
-                </div>
             </div>
 
-            <div className="p-6 pb-16">
-                <h2 className="text-xl font-semibold text-gray-900 mb-2">{name}</h2>
+            {/* Overlay */}
+            <div
+                className="absolute inset-0 bg-black/40 transition-opacity duration-500 
+                   group-hover:bg-black/20 pointer-events-none"
+            />
 
-                <div className="flex justify-between py-3">
-                    <div className="flex items-center gap-1 mb-2">
-                        <Calendar1 className="w-4 h-4 text-emerald-600" />
-                        <span className="text-sm font-medium">{nights} Nights{days ? ` / ${days} Days` : ""}</span>
-                    </div>
-                    {
-                        transfer && <div className="flex items-center gap-1 mb-2">
-                            {
-                                transfer === "Seaplane Transfers" ? <PlaneIcon className="w-4 h-4 text-emerald-600" /> : <SailboatIcon className="w-4 h-4 text-emerald-600" />
-                            }
-
-                            <span className="text-sm font-medium">{transfer}</span>
-                        </div>
-                    }
-
+            {/* Content */}
+            <div className="absolute bottom-10 left-0 right-0 px-6 text-white text-center">
+                <div className="flex justify-center items-center">
+                    <p className="text-sm opacity-90 flex items-center gap-x-2 mx-auto"> <FiMapPin /> {location}</p>
                 </div>
 
-                <p className="text-gray-500 text-sm md:text-base py-2 border-gray-300 border-b border-t pb-4 mb-5 leading-6">
-                    {description}
-                </p>
+
+                <h2 className="mt-2 text-2xl font-playfair-display font-medium">
+                    {title}
+                </h2>
+                <Link href={`/${country}/${slug}`}
+                    className="mt-6 inline-block rounded-full border border-white/60 px-6 py-2 
+                     text-sm font-medium hover:bg-white hover:text-black 
+                     transition-all duration-300"
+                >
+                    More info
+                </Link>
             </div>
-
-            <Link href={`/${country}/${slug}`} className="absolute bottom-0 right-0 bg-gradient-to-r from-sea-green to-emerald-400 text-white px-5 py-2 rounded-tl-xl shadow-lg">
-                <div className="flex items-center gap-2">
-                    <span className="text-base font-medium">View Details</span>
-                </div>
-            </Link>
-
         </div>
 
     );

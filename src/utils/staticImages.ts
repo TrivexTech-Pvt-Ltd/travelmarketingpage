@@ -53,6 +53,7 @@ import slColombo4 from "../../public/images/SL - INSIDE/Colombo 03.jpg";
 import slColombo5 from "../../public/images/SL - INSIDE/Colombo Pettah 01.jpg";
 import slColombo6 from "../../public/images/SL - INSIDE/Colombo Gangaramaya 01.jpg";
 import slColombo7 from "../../public/images/SL - INSIDE/Colombo 08.jpg";
+
 //Hero
 import Hero1 from "../../public/images/hero/siyam-worlds-hero.webp";
 import Hero2 from "../../public/images/hero/kunnavashi-hero.webp";

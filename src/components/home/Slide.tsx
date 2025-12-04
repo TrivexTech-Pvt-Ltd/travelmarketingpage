@@ -57,7 +57,7 @@ const Slide = ({
             alt="hero image"
             width={1920}
             height={1080}
-            className="w-full h-200 object-cover "
+            className="w-full h-200 object-fill "
             style={{ height: height || "620px" }}
           />
 
@@ -70,24 +70,6 @@ const Slide = ({
             transition={{ duration: 1.6, ease: "easeOut" }}
             key={activeSlide}
           >
-            <h4 className="text-white text-2xl tracking-wide uppercase">
-              {country}
-            </h4>
-            <h1 className="text-4xl sm:text-5xl md:text-7xl font-playfair-display font-medium leading-tight">
-              {text.split("\n").map((line: string, i: number) => (
-                <span key={i} className="block">
-                  {line}
-                </span>
-              ))}
-            </h1>
-
-            <Link
-              href={link}
-              className="text-white bg-sea-green py-3 px-8 rounded-md border border-white
-              transition-all duration-300 hover:bg-gradient-to-r hover:from-sea-green hover:to-emerald-400 hover:scale-105"
-            >
-              Discover
-            </Link>
           </motion.div>
         </div>
       )}

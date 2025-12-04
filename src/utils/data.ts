@@ -333,6 +333,12 @@ export const slideData: HeroType[] = [
   { id: 11, video: "/videos/mask_dance.mp4" },
 ];
 
+const packagesCardData = [
+  {
+
+  }
+]
+
 // export const slideData = [
 //   {
 //     id: 1,
@@ -3902,6 +3908,92 @@ export const srilankanData = [
     ],
   },
 ];
+
+export const tourPackagesCardData = [
+  {
+    id: "ff41ffd5-d723-4be9-9bab-e465e12671e1",
+    name: "Sri Lanka Experience",
+    title: "Sri Lanka Experience",
+    slug: "sri-lanka-experience-tour-itinerary",
+    country: "sri-lanka",
+    location: "Sri Lanka",
+    image: PackageSL1
+  },
+  {
+    id: "eb8801d0-d377-4721-8ae5-c09f8ec4c45c",
+    name: "Siyam World Maldives",
+    title: "A Luxurious all-Inclusive getaway",
+    slug: "siyam-world-maldives",
+    country: "maldives",
+    location: "Maddives",
+    image: PackageM1,
+  },
+  {
+    id: "e1616998-2161-41cd-906f-fe6f24fb375c",
+    name: "Sri Lanka Highlights",
+    title: "Sri Lanka Highlights",
+    slug: "sri-lanka-highlights-tour",
+    country: "sri-lanka",
+    location: "Sri Lanka",
+    image: PackageSL2,
+  },
+  {
+    id: "d0e3f36a-e4bb-4312-aba6-aa5292f7b026",
+    name: "NOOE Maldives Kunaavashi",
+    title: "Pure Luxury & Serenity",
+    slug: "nooe-maldives-kunaavashi",
+    country: "maldives",
+    location: "Maddives",
+    image: PackageM2,
+  },
+  {
+    id: "4be7e0f0-d1ca-4e8c-a830-d1a827319c69",
+    name: "Swift Escape to Sri Lanka's Hills & Shores",
+    title: "Swift Escape to Sri Lanka's Hills & Shores",
+    slug: "swift-escape-to-sri-lankas-hills-shores",
+    country: "sri-lanka",
+    location: "Sri Lanka",
+    image: PackageSL3,
+  },
+  {
+    id: "ec37735e-8b69-451c-871d-e5da508c5f9e",
+    name: "NH Maldives Kuda Rah",
+    title: "Your Maldivian Island Paradise",
+    slug: "nh-maldives-kuda-rah",
+    country: "maldives",
+    location: "Maddives",
+    image: PackageM3,
+  },
+  {
+    id: "9345f679-21be-4067-a1f7-c00b67d2d4e3",
+    name: "SO/ Maldives",
+    title: "A Luxurious escape to exclusive beachfront villas",
+    slug: "so-maldives",
+    country: "maldives",
+    location: "Maddives",
+    image: PackageM4
+  },
+  {
+    id: "f2f02ff2-1dd2-405a-a140-726ae84fa8a3",
+    name: "MÖVENPICK Resort Kuredhivaru Maldives",
+    title: "A timeless tropical island resort at Kuredhivaru, Maldives",
+    slug: "movenpick-resort-kuredhivaru-maldives",
+    country: "maldives",
+    location: "Maddives",
+    image: PackageM5,
+  },
+  {
+    id: "f540cbb7-0314-4aae-923d-dc9e518998de",
+    name: "Alila Kothaifaru Maldives",
+    title: "Ultimate Relaxation in Crystal-clear waters",
+    slug: "alila-kothaifaru-maldives",
+    country: "maldives",
+    location: "Maddives",
+    image: PackageM6,
+  },
+
+
+]
 
 //intro
 export const servicesData = [

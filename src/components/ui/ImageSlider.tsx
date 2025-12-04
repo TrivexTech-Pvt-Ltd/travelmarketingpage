@@ -32,7 +32,7 @@ const ImageSlider = ({heroData,height}:ImageSliderProps) => {
                     className="object-cover object-center"
                     sizes="100vw"
                   />
-                  <div className="absolute inset-0 bg-black/10" />
+                  <div className="absolute inset-0 bg-black/40" />
                 </SwiperSlide>
               ))}
             </Swiper>
