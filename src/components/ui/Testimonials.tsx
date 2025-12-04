@@ -6,132 +6,107 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules"; // removed Navigation
 import "swiper/css";
 import "swiper/css/pagination";
+import ImageSlider from "./ImageSlider";
+import { slSliderNew } from "@/utils/data";
+import Link from "next/link";
+import { FiArrowRight } from "react-icons/fi";
+import Image from "next/image";
+import { About1, Hero4 } from "@/utils/staticImages";
+import { motion, AnimatePresence } from "framer-motion";
+import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
-interface Review {
-  name: string;
-  email: string;
-  location: string;
-  package: string;
-  review: string;
-  rating: number;
+interface Testimonial {
+  text: string;
+  author: string;
 }
 
-const initialReviews: Review[] = [];
+const testimonials: Testimonial[] = [
+  {
+    text: `We spent 13 days on a Bawa tour with wonderful driver and 
+    guide Manjula, including Kandalama Heritance, The Kandy House, 
+    The Last House, Jetwing Yala, Jetwing Lighthouse and Club Villa hotels. 
+    We are 3 friends, one of them in the wheelchair. Dulmini Ekanayake 
+    from Red Dot Tours was very helpful and very patient and found 
+    solutions to all our special demands.`,
+    author: "Rene (March 2025) United Kingdom",
+  },
+  {
+    text: `Our Sri Lanka trip was an unforgettable experience! The team planned 
+    everything perfectly — from the hotels to the excursions. Our guide was 
+    knowledgeable and incredibly friendly. The wildlife safari and cultural visits 
+    made our holiday magical.`,
+    author: "Anna (February 2024) • Germany",
+  },
+  // Add more items here…
+];
 
 export default function Testimonials() {
-  const [reviews, setReviews] = useState<Review[]>(initialReviews);
 
-  useEffect(() => {
-    const fetchReviews = async () => {
-      try {
-        const res = await fetch("/api/review");
-        const data = await res.json();
-        if (data.success && data.reviews?.length > 0) {
-          setReviews(data.reviews);
-        } else {
-          console.warn("No API reviews found or fetch failed.");
-        }
-      } catch (error) {
-        console.error("Error fetching reviews:", error);
-      }
-    };
-    fetchReviews();
-  }, []);
+  const [index, setIndex] = useState(0);
 
-  if (!reviews.length) return null;
+  const next = () => {
+    setIndex((prev) => (prev + 1) % testimonials.length);
+  };
+
+  const prev = () => {
+    setIndex((prev) =>
+      prev === 0 ? testimonials.length - 1 : prev - 1
+    );
+  };
 
   return (
-    <section className="relative py-8 md:py-12 flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-cover bg-center bg-soft-beige">
-      <div className="max-w-7xl w-full relative transition-all duration-300">
-        {/* Header */}
-        <div className="text-center mb-8">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-sea-green mb-2 font-playfair-display">
-            Stories from Our Journeys
-          </h2>
-          <p className="text-gray-500 text-base md:text-lg">
-            Our guests arrive as travellers and leave as friends — carrying
-            stories, laughter, and memories that last a lifetime.
-          </p>
+    <div className="grid grid-cols-1 lg:grid-cols-2 items-center my-10">
+      <div className="bg-soft-beige p-6 flex justify-center items-center flex-col lg:px-12 h-full">
+        <div className="max-w-5xl">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.5 }}
+              className="space-y-6"
+            >
+              {/* Testimonial Text */}
+              <p className="text-base md:text-lg leading-relaxed text-gray-500">
+                {testimonials[index].text}
+              </p>
+
+              {/* Author */}
+              <p className="text-sm md:text-base font-semibold opacity-70">
+                {testimonials[index].author}
+              </p>
+            </motion.div>
+          </AnimatePresence>
+
+          {/* Navigation Buttons */}
+          <div className="flex gap-4 mt-10">
+            <button
+              type="button"
+              onClick={prev}
+              className="h-12 w-12 rounded-full flex items-center justify-center hover:bg-white transition cursor-pointer"
+            >
+              <MdArrowBack size={22} />
+            </button>
+
+            <button
+              type="button"
+              onClick={next}
+              className="h-12 w-12 rounded-full flex items-center justify-center hover:bg-white transition cursor-pointer"
+            >
+              <MdArrowForward size={22} />
+            </button>
+          </div>
         </div>
 
-        {/* Swiper Section (navigation disabled) */}
-        <Swiper
-          modules={[Pagination, Autoplay]} // do not include Navigation here
-          spaceBetween={30}
-          slidesPerView={1}
-          autoplay={{ delay: 4000, disableOnInteraction: false }}
-          loop={true}
-          pagination={{
-            clickable: true,
-            bulletClass:
-              "swiper-pagination-bullet bg-gray-300 w-3 h-3 rounded-full mx-1",
-            bulletActiveClass: "swiper-pagination-bullet-active bg-sea-green",
-          }}
-          // navigation prop removed / not provided
-          className="!pb-10"
-        >
-          {reviews.map((review, i) => (
-            <SwiperSlide key={i}>
-              <div className="relative bg-white/70 backdrop-blur-md p-6 sm:p-8 rounded-2xl shadow-md ">
-                <Quote
-                  size={40}
-                  className="absolute top-4 right-4 text-green-800 opacity-70"
-                />
-
-                {/* Reviewer Info */}
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="w-14 h-14 rounded-full bg-sea-green text-white flex items-center justify-center text-lg font-semibold shadow-md">
-                    {review.name.charAt(0)}
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold text-gray-900">
-                      {review.name}
-                    </h3>
-                    <div className="flex items-center gap-1 text-sea-green text-sm">
-                      <MapPin size={16} />
-                      <span>{review.location}</span>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Rating */}
-                <div className="flex gap-1 mb-3">
-                  {[...Array(review.rating)].map((_, i) => (
-                    <Star
-                      key={i}
-                      size={18}
-                      className="text-yellow-400 fill-yellow-400"
-                    />
-                  ))}
-                </div>
-
-                {/* Review Text */}
-                <p className="text-gray-700 text-base leading-relaxed mb-6 italic">
-                  “{review.review}”
-                </p>
-
-                {/* Package Info */}
-                <div className="px-4 py-3 bg-gray-50 rounded-lg">
-                  <p className="text-sm text-gray-700">
-                    <span className="font-semibold text-gray-900">
-                      Trip Package:
-                    </span>{" "}
-                    {review.package}
-                  </p>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
       </div>
-
-      {/* Fallback CSS: hide nav buttons in case they appear from other code */}
-      <style jsx global>{`
-        .swiper-button-next,
-        .swiper-button-prev {
-          display: none !important;
-        }
-      `}</style>
-    </section>
+      <Image
+        src={Hero4}
+        height={500}
+        width={500}
+        alt="maldives"
+        className="w-full h-96 lg:h-full xl:h-[680px]"
+      />
+    </div>
   );
 }

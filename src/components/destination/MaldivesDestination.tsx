@@ -8,7 +8,7 @@ import { tourPackagesCardData } from "@/utils/data";
 
 const MaldivesDestination = () => {
     const [activeTab, setActiveTab] = useState<string>("overview");
-    const MaldivesPackages = tourPackagesCardData.filter(x => x.country === "maldives");
+    const maldivesPackages = tourPackagesCardData.filter(x => x.country === "maldives");
 
     return (
         <div className="py-5 sm:py-10" id="getaways-section">
@@ -74,7 +74,7 @@ const MaldivesDestination = () => {
                         >
                             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 p-4 relative sm:mx-10">
                                 {
-                                    MaldivesPackages.map((data) => (
+                                    maldivesPackages.map((data) => (
                                         <PackageCard key={data.id} {...data} />
                                     ))
                                 }

@@ -18,9 +18,7 @@ const TourDetailsSriLanka = ({ slug }: { slug: string }) => {
   }, [packageData, setPackageData]);
   return (
     <div className="bg-light-cyan">
-      <div className="pt-20">
-        <TourHeroSl />
-      </div>
+      <TourHeroSl />
       <TourItinerary />
       <TourSliderSl data={packageData?.slItineryDetails} />
       <Container>
