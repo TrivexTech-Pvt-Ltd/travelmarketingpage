@@ -27,7 +27,7 @@ const TourPackages = () => {
 
     return (
         <div className='px-5 md:px-8 xl:px-20 2xl:px-40 py-5 sm:py-12'>
-            <h3 className='text-3xl md:text-4xl lg:text-5xl text-center pt-10 font-playfair-display text-sea-green font-semibold mb-4'>Be moved by the journey</h3>
+            <h3 className='text-3xl md:text-4xl lg:text-5xl text-center pt-10 font-playfair-display text-sea-green font-semibold mb-4 uppercase'>Be moved by the journey</h3>
             <p className='text-base text-gray-500 font-medium text-center mb-4'>Travel becomes memorable when it feels personal. With Travel Nation, <br /> your itinerary is curated from local insight and thoughtful care. <br /> You will step into places that travellers rarely see and gather stories <br /> that stay with you long after the bags are unpacked.</p>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 p-4 relative">
                 {visibleTrips.map((tour, index) => {

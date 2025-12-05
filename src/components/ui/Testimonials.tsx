@@ -11,7 +11,7 @@ import { slSliderNew } from "@/utils/data";
 import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
 import Image from "next/image";
-import { About1, Hero4 } from "@/utils/staticImages";
+import { About1, About5 } from "@/utils/staticImages";
 import { motion, AnimatePresence } from "framer-motion";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
@@ -22,22 +22,40 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    text: `We spent 13 days on a Bawa tour with wonderful driver and 
-    guide Manjula, including Kandalama Heritance, The Kandy House, 
-    The Last House, Jetwing Yala, Jetwing Lighthouse and Club Villa hotels. 
-    We are 3 friends, one of them in the wheelchair. Dulmini Ekanayake 
-    from Red Dot Tours was very helpful and very patient and found 
-    solutions to all our special demands.`,
-    author: "Rene (March 2025) United Kingdom",
-  },
-  {
     text: `Our Sri Lanka trip was an unforgettable experience! The team planned 
     everything perfectly — from the hotels to the excursions. Our guide was 
     knowledgeable and incredibly friendly. The wildlife safari and cultural visits 
     made our holiday magical.`,
     author: "Anna (February 2024) • Germany",
   },
-  // Add more items here…
+
+  {
+    text: `A well-organized vacation from start to finish. The team at Red Dot 
+    Tours ensured we were always comfortable and informed. The selection of 
+    boutique hotels and the personal touches made this trip unique.`,
+    author: "Jonathan (January 2024) • Australia",
+  },
+
+  {
+    text: `We traveled as a family with two kids and everything was perfectly 
+    planned. Safe drivers, great food recommendations, and memorable sightseeing 
+    experiences. Sri Lanka is beautiful and Red Dot made it even better.`,
+    author: "Melissa (December 2023) • USA",
+  },
+
+  {
+    text: `Amazing service! Our guide went above and beyond to ensure we saw the 
+    best places at the right times. The itinerary was flexible and well-thought-out. 
+    We especially loved the tea plantations and the coastal sunsets.`,
+    author: "Sofia (August 2024) • Italy",
+  },
+
+  {
+    text: `This was our honeymoon trip and it exceeded our expectations. 
+    Beautiful hotels, romantic experiences, and seamless logistics. Thank you 
+    for making our special trip truly unforgettable.`,
+    author: "David & Sara (April 2024) • Canada",
+  },
 ];
 
 export default function Testimonials() {
@@ -54,26 +72,55 @@ export default function Testimonials() {
     );
   };
 
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((prev) => (prev + 1) % testimonials.length);
+    }, 10000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  const handleSwipe = (event: any, info: any) => {
+    const offset = info.offset.x;
+    const velocity = info.velocity.x;
+
+    // Swipe Right → Previous
+    if (offset > 80 || velocity > 300) {
+      prev();
+    }
+    // Swipe Left → Next
+    else if (offset < -80 || velocity < -300) {
+      next();
+    }
+  };
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 items-center my-10">
       <div className="bg-soft-beige p-6 flex justify-center items-center flex-col lg:px-12 h-full">
         <div className="max-w-5xl">
+          <h3 className="text-black text-3xl sm:text-4xl md:text-5xl uppercase font-semibold font-playfair-display py-3">
+            STORIES FROM OUR JOURNEYS
+          </h3>
+          <p className="text-base sm:text-lg text-gray-500 leading-7 py-3">
+            Our guests arrive as travellers and leave as friends <br /> carrying stories, laughter, and memories that last a lifetime
+          </p>
           <AnimatePresence mode="wait">
             <motion.div
               key={index}
+              drag="x"
+              dragConstraints={{ left: 0, right: 0 }}
+              onDragEnd={handleSwipe}
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
               transition={{ duration: 0.5 }}
-              className="space-y-6"
+              className="space-y-6 cursor-grab active:cursor-grabbing"
             >
-              {/* Testimonial Text */}
-              <p className="text-base md:text-lg leading-relaxed text-gray-500">
+              <p className="text-base md:text-lg leading-relaxed font-serif text-shadow-wash mt-4">
                 {testimonials[index].text}
               </p>
 
-              {/* Author */}
-              <p className="text-sm md:text-base font-semibold opacity-70">
+              <p className="text-sm md:text-base text-gray-500 font-semibold">
                 {testimonials[index].author}
               </p>
             </motion.div>
@@ -101,7 +148,7 @@ export default function Testimonials() {
 
       </div>
       <Image
-        src={Hero4}
+        src={About5}
         height={500}
         width={500}
         alt="maldives"

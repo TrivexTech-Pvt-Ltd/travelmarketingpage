@@ -27,10 +27,10 @@ const Intro = () => {
       </p>
       <div className="flex justify-center">
         <Link
-          href="/about-us"
+          href="/our-core"
           className="text-white bg-sea-green py-3 px-6 sm:py-4 sm:px-8 
-    flex items-center justify-center text-base font-medium 
-    transition-all duration-300 hover:bg-emerald-400 hover:scale-105"
+                    flex items-center justify-center text-base font-medium 
+                    transition-all duration-300 hover:bg-emerald-400 hover:scale-105"
         >
           Discover Who We Are
         </Link>

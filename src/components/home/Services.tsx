@@ -1,8 +1,6 @@
-import { dedicatedServices, MalSliderNew } from "@/utils/data";
 import Image from "next/image";
 import Link from "next/link";
-import ImageSlider from "../ui/ImageSlider";
-import { Hero7, Hero8 } from "@/utils/staticImages";
+import { Hero8 } from "@/utils/staticImages";
 
 const Services = () => {
   return (

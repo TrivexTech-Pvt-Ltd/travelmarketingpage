@@ -1,16 +1,8 @@
-import { StaticImageData } from "next/image";
 import {
   Accommodation1,
-  Accommodation2,
-  Accommodation3,
-  Accommodation4,
-  AdventureActivities,
+  Accommodation2, AdventureActivities,
   CustomPackage,
-  DestinationMastery,
-  Dining1,
-  Dining2,
-  Dining3,
-  HandpickedStays,
+  DestinationMastery, Dining2, HandpickedStays,
   slSliderNew1,
   slSliderNew2,
   slSliderNew3,
@@ -51,9 +43,7 @@ import {
   slColombo6,
   slColombo7,
   Hero1,
-  Hero2,
-  Hero3,
-  Hero4,
+  Hero2, Hero4,
   Hero5,
   Hero6,
   Hero7,
@@ -68,9 +58,7 @@ import {
   PackageM6,
   PackageSL1,
   PackageSL2,
-  PackageSL3,
-  ResortActivities,
-  SafeTravelling,
+  PackageSL3, SafeTravelling,
   TailoredPerfection,
   UnparalleledService,
   WellnessSpa,
@@ -139,21 +127,9 @@ import {
   AriAtoll,
   VaavuAtoll,
   SoMaldives6,
-  NooeHero5,
-  NineArch,
-  SLCulture,
+  NooeHero5, SLCulture,
   SLWaterSport,
-  SigiriyaRock,
-  UpcountryDance,
-  DambullaTemple,
-  FireDance,
-  CulturalDance,
-  SlWildLife1,
-  SlWildLife2,
-  SlWildLife3,
-  SlWildLife4,
-  CinnamonBay,
-  Personalized,
+  SigiriyaRock, Personalized,
   Autheticity,
   EcoLight,
   Excellence,
@@ -312,32 +288,15 @@ import {
   MalOutside2,
   MalOutside3,
   MalOutside4,
-  MalOutside5,
+  MalOutside5
 } from "./staticImages";
-import { MaldivesTourPackage } from "@/types/hotel.package.type";
 import { HeroType } from "@/types/hero.types";
 
 //Home Page Hero
 
 export const slideData: HeroType[] = [
-  { id: 1, video: "/videos/elephant.mp4" },
-  { id: 2, video: "/videos/leo.mp4" },
-  { id: 3, video: "/videos/traditional.mp4" },
-  { id: 4, video: "/videos/haputhale.mp4" },
-  { id: 5, video: "/videos/hills.mp4" },
-  { id: 6, video: "/videos/yala.mp4" },
-  { id: 7, video: "/videos/tangalle.mp4" },
-  { id: 8, video: "/videos/stupa.mp4" },
-  { id: 9, video: "/videos/sigiriya.mp4" },
-  { id: 10, video: "/videos/daladamaligawa.mp4" },
-  { id: 11, video: "/videos/mask_dance.mp4" },
+  { id: 1, video: "/videos/intro-video.mp4" },
 ];
-
-const packagesCardData = [
-  {
-
-  }
-]
 
 // export const slideData = [
 //   {

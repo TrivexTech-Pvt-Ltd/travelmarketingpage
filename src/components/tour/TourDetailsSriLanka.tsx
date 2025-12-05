@@ -23,7 +23,6 @@ const TourDetailsSriLanka = ({ slug }: { slug: string }) => {
       <TourSliderSl data={packageData?.slItineryDetails} />
       <Container>
         <RoomCategories />
-        <FeaturedHotelSl />
       </Container>
     </div>
   );
