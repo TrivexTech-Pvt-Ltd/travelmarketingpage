@@ -81,7 +81,7 @@ export const blogData = [
     <p class="mb-4">A visit to a local tea factory helps guests understand how much care goes into each stage of production. The guided walk through the machinery, followed by a tasting session, adds depth to what is often only seen from a distance. It also gives travellers a chance to appreciate the roots of one of the country’s most important industries.</p>
 
     <div class="ml-images grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 mb-8">
-      <img class="w-full rounded h-96" src="/images/SL - INSIDE/Nuwara Eliya 01.jpg" />
+      <img class="w-full rounded h-96" src="/images/blog/sl/NuwaraEliya-01.jpg" />
       <img class="w-full rounded h-96" src="/images/SL - INSIDE/Nuwara Eliya 09.jpg" />
       <img class="w-full rounded h-96" src="/images/SL - INSIDE/Mountain 10 - Riverston.jpg" />
       <img class="w-full rounded h-96" src="/images/SL - INSIDE/Mountain 05.jpg" />
@@ -177,7 +177,7 @@ export const blogData = [
   <p class="mb-4">Yala is known internationally for having one of the highest densities of leopards in Asia. Sightings are never guaranteed, but the chances here are better than in many parts of the region. Visitors often see leopards resting on warm rocks or moving quietly between trees. The experience is memorable because the animals are usually seen in natural behaviour rather than staged settings.</p>
 
   <div class="grid sm:grid-cols-2 gap-4 my-6">
-    <img class="w-full h-96" src="/images/SL - INSIDE/Leopard 02.jpg" />
+    <img class="w-full h-96" src="/images/blog/sl/Leopard-02.jpg" />
     <img class="w-full h-96" src="/images/SL - INSIDE/Leopard 04.jpg" />
   </div>
 
