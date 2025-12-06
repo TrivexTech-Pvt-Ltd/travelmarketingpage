@@ -54,7 +54,7 @@ const TourPackages = () => {
                 {!showAll && tourPackagesCardData.length > 6 && (
                     <button
                         onClick={handleSeeMore}
-                        className="text-white cursor-pointer text-sm bg-sea-green py-3 px-6 sm:py-4 mx-auto sm:px-8 transition-all duration-300 border hover:bg-white hover:border-sea-green hover:text-sea-green hover:scale-105 font-medium"
+                        className="text-white cursor-pointer text-sm bg-sea-green py-3 px-6 sm:py-4 mx-auto sm:px-8 transition-all duration-300 rounded-md border hover:bg-transparent border-sea-green hover:text-sea-green hover:scale-105 font-medium"
                     >
                         View all Itineraries
                     </button>
@@ -63,7 +63,7 @@ const TourPackages = () => {
                 {showAll && (
                     <button
                         onClick={handleSeeLess}
-                        className="text-white cursor-pointer text-sm bg-sea-green py-3 px-6 sm:py-4 mx-auto sm:px-8 transition-all duration-300 border hover:bg-white hover:border-sea-green hover:text-sea-green hover:scale-105 font-medium"
+                        className="text-white cursor-pointer text-sm bg-sea-green py-3 px-6 sm:py-4 mx-auto sm:px-8 transition-all duration-300 rounded-md border hover:bg-transparent border-sea-green hover:text-sea-green hover:scale-105 font-medium"
                     >
                         View Less
                     </button>

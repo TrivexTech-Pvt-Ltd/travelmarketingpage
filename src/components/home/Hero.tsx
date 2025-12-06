@@ -22,7 +22,7 @@ const Hero = ({ heroData, height }: HeroProps) => {
     autoplay: true,
     autoplaySpeed: 3500,
     speed: 1500,
-    dots: true,
+    dots: false,
     arrows: false,
     pauseOnHover: false,
     beforeChange: (_current: number, next: number) => setActiveSlide(next),

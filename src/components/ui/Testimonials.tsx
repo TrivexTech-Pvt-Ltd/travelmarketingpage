@@ -144,20 +144,20 @@ export default function Testimonials() {
               <MdArrowForward size={22} />
             </button>
           </div>
-          <div className="w-fit px-5 bg-gray-900">
+          <div className="w-fit px-5 rounded-sm py-1 bg-gray-900 mt-6">
             <Link
                 href="https://www.trustpilot.com/review/travelnationsl.com?utm_medium=trustbox&utm_source=TrustBoxReviewCollector"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center space-x-4 group"
+                className="flex items-center gap-x-3 group"
             >
-                <span className="text-white text-lg py-2 font-semibold tracking-wide transition-opacity">
+                <span className="text-white text-base py-2 font-medium tracking-wide transition-opacity">
                     View us on
                 </span>
                 <img
                     src="https://cdn.trustpilot.net/brand-assets/4.3.0/logo-white.svg"
                     alt="Trustpilot Logo"
-                    className="h-10 w-auto transition-transform group-hover:scale-105"
+                    className="h-6 w-auto transition-transform group-hover:scale-105"
                 />
 
             </Link>

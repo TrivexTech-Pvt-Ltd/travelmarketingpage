@@ -30,7 +30,7 @@ const Destinations = () => {
             </p>
             <Link
               href="/sri-lanka"
-              className="text-white w-fit flex items-center gap-x-2 text-sm bg-sea-green py-3 px-6 sm:py-4 sm:px-8 border border-white transition-all duration-300 hover:bg-white hover:border-sea-green hover:text-sea-green hover:scale-105 font-medium"
+              className="text-white w-fit flex items-center gap-x-2 text-sm rounded-md bg-sea-green py-3 px-6 sm:py-4 sm:px-8 border transition-all duration-300 hover:bg-transparent border-sea-green hover:text-sea-green hover:scale-105 font-medium"
             >
               View Destinations <FiArrowRight size={16} />
             </Link>
@@ -52,7 +52,7 @@ const Destinations = () => {
             </p>
             <Link
               href="/maldives"
-              className="text-white text-sm w-fit flex items-center gap-x-2 bg-sea-green py-3 px-6 sm:py-4 sm:px-8 border border-white transition-all duration-300 hover:bg-white hover:border-sea-green hover:text-sea-green hover:scale-105 font-medium"
+              className="text-white text-sm w-fit flex items-center gap-x-2 rounded-md bg-sea-green py-3 px-6 sm:py-4 sm:px-8 border transition-all duration-300 hover:bg-transparent border-sea-green hover:text-sea-green hover:scale-105 font-medium"
             >
               View Destinations <FiArrowRight size={16} />
             </Link>

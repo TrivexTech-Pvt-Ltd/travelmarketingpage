@@ -20,7 +20,7 @@ const Header = () => {
 
   const menuItems = [
     { name: "Home", path: "/" },
-    { name: "Destination", path: "#" },
+    { name: "Destinations", path: "#" },
     { name: "Our Core", path: "/our-core" },
     { name: "Contact Us", path: "/contact-us" },
   ];
@@ -58,7 +58,7 @@ const Header = () => {
         <div className="flex items-center gap-8 relative">
           <ul className="hidden tablet:flex text-base lg:text-lg items-center gap-10 font-medium">
             {menuItems.map((item, index) =>
-              item.name === "Destination" ? (
+              item.name === "Destinations" ? (
                 <li
                   key={index}
                   className="relative group"
@@ -78,11 +78,11 @@ const Header = () => {
 
                   {/* Dropdown */}
                   {isDropdownOpen && (
-                    <ul className="absolute top-7 left-0 bg-black/80 text-white shadow-lg rounded-lg py-2 w-48 border border-white/20 transition-all duration-300 backdrop-blur-sm">
+                    <ul className="absolute top-7 left-0 bg-sea-green text-white shadow-lg rounded-lg py-2 w-48 border border-white/20 transition-all duration-300 backdrop-blur-sm">
                       <li>
                         <Link
                           href="/sri-lanka"
-                          className="block px-4 py-2 hover:bg-white/20 hover:text-sea-green rounded-md"
+                          className="block px-4 py-2 hover:bg-white/20 hover:white rounded-md"
                         >
                           Sri Lanka
                         </Link>
@@ -90,7 +90,7 @@ const Header = () => {
                       <li>
                         <Link
                           href="/maldives"
-                          className="block px-4 py-2 hover:bg-white/20 hover:text-sea-green rounded-md"
+                          className="block px-4 py-2 hover:bg-white/20 hover:white rounded-md"
                         >
                           Maldives
                         </Link>
@@ -115,12 +115,12 @@ const Header = () => {
           {/* Desktop Inquire Button ? White After Scroll */}
           <button
             onClick={() => setIsModalOpen(true)}
-            className={`hidden tablet:block py-3 px-6 uppercase text-sm transition-all duration-300 ${segmentName === "contact-us" ? 'bg-white !text-black hover:opacity-80' : ''} ${stickyNavbar
-              ? "bg-white text-black hover:opacity-80"
-              : "bg-sea-green text-white hover:opacity-90"
+            className={`hidden cursor-pointer tablet:block py-3 px-6 rounded-md text-sm transition-all duration-300 hover:scale-105 ${segmentName === "contact-us" ? 'bg-white !text-black hover:opacity-80' : ''} ${stickyNavbar
+              ? "bg-white border text-sea-green hover:border-white hover:text-white hover:bg-transparent"
+              : "bg-sea-green text-white border border-sea-green hover:text-sea-green hover:bg-transparent"
               }`}
           >
-            Lets Go Places
+            Lets go Places
           </button>
         </div>
 

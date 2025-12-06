@@ -4327,6 +4327,7 @@ export const tourPackagesCardData = [
     country: "sri-lanka",
     location: "Sri Lanka",
     image: PackageSL1,
+    nights:"10 Days / 9 Nights"
   },
   {
     id: "eb8801d0-d377-4721-8ae5-c09f8ec4c45c",
@@ -4334,8 +4335,9 @@ export const tourPackagesCardData = [
     title: "A Luxurious all-Inclusive getaway",
     slug: "siyam-world-maldives",
     country: "maldives",
-    location: "Maddives",
+    location: "Maldives",
     image: PackageM1,
+    nights:"10 Days / 9 Nights"
   },
   {
     id: "e1616998-2161-41cd-906f-fe6f24fb375c",
@@ -4345,6 +4347,7 @@ export const tourPackagesCardData = [
     country: "sri-lanka",
     location: "Sri Lanka",
     image: PackageSL2,
+    nights:"6 Days / 5 Nights"
   },
   {
     id: "d0e3f36a-e4bb-4312-aba6-aa5292f7b026",
@@ -4352,8 +4355,9 @@ export const tourPackagesCardData = [
     title: "Pure Luxury & Serenity",
     slug: "nooe-maldives-kunaavashi",
     country: "maldives",
-    location: "Maddives",
+    location: "Maldives",
     image: PackageM2,
+    nights:"4 Days / 3 Nights"
   },
   {
     id: "4be7e0f0-d1ca-4e8c-a830-d1a827319c69",
@@ -4363,6 +4367,7 @@ export const tourPackagesCardData = [
     country: "sri-lanka",
     location: "Sri Lanka",
     image: PackageSL3,
+    nights:"4 Days / 3 Nights"
   },
   {
     id: "ec37735e-8b69-451c-871d-e5da508c5f9e",
@@ -4370,8 +4375,9 @@ export const tourPackagesCardData = [
     title: "Your Maldivian Island Paradise",
     slug: "nh-maldives-kuda-rah",
     country: "maldives",
-    location: "Maddives",
+    location: "Maldives",
     image: PackageM3,
+    nights:"4 Days / 3 Nights"
   },
 
   {
@@ -4382,6 +4388,7 @@ export const tourPackagesCardData = [
     country: "sri-lanka",
     location: "Sri Lanka",
     image: PackageSL4,
+    nights:"9 Days / 8 Nights"
   },
 
   {
@@ -4390,8 +4397,9 @@ export const tourPackagesCardData = [
     title: "A Luxurious escape to exclusive beachfront villas",
     slug: "so-maldives",
     country: "maldives",
-    location: "Maddives",
+    location: "Maldives",
     image: PackageM4,
+    nights:"4 Days / 3 Nights"
   },
 
   {
@@ -4402,6 +4410,7 @@ export const tourPackagesCardData = [
     country: "sri-lanka",
     location: "Sri Lanka",
     image: PackageSL5,
+    nights:"10 Days / 9 Nights"
   },
 
   {
@@ -4410,8 +4419,9 @@ export const tourPackagesCardData = [
     title: "A timeless tropical island resort at Kuredhivaru, Maldives",
     slug: "movenpick-resort-kuredhivaru-maldives",
     country: "maldives",
-    location: "Maddives",
+    location: "Maldives",
     image: PackageM5,
+    nights:"4 Days / 3 Nights"
   },
 
   {
@@ -4422,6 +4432,7 @@ export const tourPackagesCardData = [
     country: "sri-lanka",
     location: "Sri Lanka",
     image: PackageSL6,
+    nights:"11 Days / 10 Nights"
   },
 
   {
@@ -4430,8 +4441,9 @@ export const tourPackagesCardData = [
     title: "Ultimate Relaxation in Crystal-clear waters",
     slug: "alila-kothaifaru-maldives",
     country: "maldives",
-    location: "Maddives",
+    location: "Maldives",
     image: PackageM6,
+    nights:"4 Days / 3 Nights"
   },
 ];
 

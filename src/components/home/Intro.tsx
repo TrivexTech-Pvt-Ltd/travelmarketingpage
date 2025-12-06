@@ -3,7 +3,7 @@ const Intro = () => {
   return (
     <div className="flex flex-col px-5 md:px-20 xl:px-40 my-12 max-sm:mb-0 md:my-24 gap-y-4">
       <h2 className="text-3xl sm:text-4xl md:text-5xl text-sea-green font-normal text-center uppercase font-playfair-display">
-        Crafting Journeys Beyond the Ordinary Across <br/> Sri Lanka <span className="font-montserrat">&</span> the Maldives
+        Crafting Journeys Beyond the Ordinary Across <br/> Sri Lanka <span className="font-libreBaskerville">&</span> the Maldives
       </h2>
       <p className="text-base lg:text-lg text-gray-500 text-center py-6">
         At Travel Nation, we design journeys that stir the soul , blending the
@@ -30,7 +30,7 @@ const Intro = () => {
           href="/our-core"
           className="text-white bg-sea-green py-3 px-6 sm:py-4 sm:px-8 
                     flex items-center justify-center text-sm font-medium 
-                    transition-all duration-300 hover:bg-white border hover:border-sea-green hover:text-sea-green hover:scale-105"
+                    transition-all rounded-md duration-300 hover:bg-transparent border hover:border-sea-green hover:text-sea-green hover:scale-105"
         >
           Discover Who We Are
         </Link>

@@ -19,20 +19,20 @@ interface SriLankaOverviewProps {
 }
 
 const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
- 
+
   return (
     <>
       <div className="flex flex-col justify-center items-center max-w-7xl mx-auto max-sm:px-4 py-4 sm:py-10 mb-5">
-        <h1 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-5">
+        <h1 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display my-5">
           The Island of Timeless Wonder
         </h1>
-        <p className="text-sm sm:text-lg text-gray-500 leading-7 text-center py-1">
+        <p className="text-sm lg:text-lg text-gray-500 leading-7 text-center py-1">
           Golden beaches kissed by the Indian Ocean. Ancient kingdoms rising from the mist. Tea-covered hills stretching endlessly into the clouds.
         </p>
-        <p className="text-sm sm:text-lg text-gray-500 leading-7 text-center py-1">
+        <p className="text-sm lg:text-lg text-gray-500 leading-7 text-center py-1">
           Sri Lanka is not just a destination, it is an awakening of the senses.
         </p>
-        <p className="text-sm sm:text-lg text-gray-500 leading-7 text-center py-1">
+        <p className="text-sm lg:text-lg text-gray-500 leading-7 text-center py-1">
           Here, every sunrise brings new colour, and every encounter tells a story steeped in warmth and tradition.
         </p>
       </div>
@@ -48,14 +48,14 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
 
         <div className="flex justify-center items-center bg-soft-beige h-full order-1 lg:order-2">
           <div className="p-6 sm:p-12">
-            <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5">
+            <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display my-3 sm:my-5">
               Cultural Heritage
             </h3>
-            <p className="text-sm sm:text-base text-black-500 mb-6 sm:mb-8 leading-7">
+            <p className="text-base lg:text-xl text-shadow-wash  mb-6 sm:mb-8 leading-7">
               Walk through ancient temples and lost kingdoms.
             </p>
 
-            <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 mb-6 sm:mb-8 leading-7">
               Step into the cradle of Sri Lankan civilisation. Discover the
               awe-inspiring rock fortress of Sigiriya, the sacred city of
               Anuradhapura, and the cave temples of Dambulla, each whispering
@@ -72,19 +72,19 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
         <div className="flex justify-center items-center bg-soft-beige h-full">
           <div className="p-6 sm:p-12">
-            <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5">
+            <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display my-3 sm:my-5">
               Hill Country
             </h3>
-            <p className="text-sm sm:text-base text-black-500 mb-6 sm:mb-8 leading-7">
+            <p className="text-base lg:text-xl text-shadow-wash mb-6 sm:mb-8 leading-7">
               The Land of Mist and Tea
             </p>
-            <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 mb-6 sm:mb-8 leading-7">
               Journey into the highlands, where Nuwara Eliya, Ella, and Hatton
               paint a dreamscape of emerald-green slopes and cascading
               waterfalls.
             </p>
 
-            <p className="text-sm sm:text-base text-gray-500 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 leading-7">
               Sip freshly brewed Ceylon tea as cool mountain air drifts through
               your window. Walk through colonial towns, cross old stone bridges,
               and take the world-famous train ride through the hills, one of
@@ -106,20 +106,20 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
         />
         <div className="flex justify-center items-center bg-soft-beige h-full">
           <div className="p-6 sm:p-12">
-            <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5">
-              Wildlife & National Parks
+            <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display my-3 sm:my-5">
+              Wildlife <span className="font-libreBaskerville">&</span> National Parks
             </h3>
-            <p className="text-sm sm:text-base text-black-500 mb-6 sm:mb-8 leading-7">
+            <p className="text-base lg:text-xl text-shadow-wash mb-6 sm:mb-8 leading-7">
               Nature&apos;s Living Theatre
             </p>
-            <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 mb-6 sm:mb-8 leading-7">
               Few places on earth hold such biodiversity in such a small
               space. From the stealth of a leopard in Yala, to the majesty of
               elephants in Minneriya, to blue whales off the coast of Mirissa,
               Sri Lanka is a paradise for wildlife lovers.
             </p>
 
-            <p className="text-sm sm:text-base text-gray-500 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 leading-7">
               Our naturalist-led safaris take you deep into the wilderness,
               where the thrill of discovery meets the calm of connection.
             </p>
@@ -131,11 +131,11 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
         <div className="flex justify-center items-center bg-soft-beige h-full">
           <div className="p-6 sm:p-12">
-            <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5">
-              Ocean, Culture & Timeless Beauty
+            <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display my-3 sm:my-5">
+              Ocean, Culture <span className="font-libreBaskerville">&</span> Timeless Beauty
             </h3>
 
-            <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 mb-6 sm:mb-8 leading-7">
               Along the coast, life carries a gentle rhythm. The warmth of the
               people, their rituals, and their stories shape every moment.
               Lanterns glow during festivals, drums echo through village
@@ -145,7 +145,7 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
               fishermen tend to their craft and children play along the sand.
             </p>
 
-            <p className="text-sm sm:text-base text-gray-500 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 leading-7">
               Stay in elegant villas or small coastal hideaways and feel the
               calm of the shoreline settle in.
             </p>
@@ -167,13 +167,13 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
 
         <div className="flex justify-center items-center bg-soft-beige h-full">
           <div className="p-6 sm:p-12">
-            <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5">
+            <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display my-3 sm:my-5">
               Sri Lanka Gastronomy
             </h3>
-            <p className="text-sm sm:text-base text-black-500 mb-6 sm:mb-8 leading-7">
+            <p className="text-base sm:text-xl text-shadow-wash mb-6 sm:mb-8 leading-7">
               A Journey Through Taste
             </p>
-            <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 mb-6 sm:mb-8 leading-7">
               Flavours in Sri Lanka rise from markets that wake with the sun.
               Spice sellers grind cinnamon and cardamom by hand, while
               fishermen return with their night&apos;s catch. In the hills,
@@ -187,7 +187,7 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
               it, cooked it, and shared it.
             </p>
 
-            <p className="text-sm sm:text-base text-gray-500 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 leading-7">
               Sri Lankan food is comfort, colour, and community. A true
               journey of flavour that stays with you long after you leave
             </p>
@@ -200,22 +200,22 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
         <div className="flex justify-center items-center bg-soft-beige h-full">
           <div className="p-6 sm:p-12">
-            <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-3 sm:my-5">
+            <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display my-3 sm:my-5">
               Colombo
             </h3>
-            <p className="text-sm sm:text-base text-black-500 mb-6 sm:mb-8 leading-7">
+            <p className="text-base lg:text-xl text-shadow-wash mb-6 sm:mb-8 leading-7">
               Where Heritage Meets Modernity
             </p>
-            <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 mb-6 sm:mb-8 leading-7">
               Once a trading port, now a vibrant capital, Colombo blends
               colonial charm with contemporary style.
             </p>
-            <p className="text-sm sm:text-base text-gray-500 mb-6 sm:mb-8 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 mb-6 sm:mb-8 leading-7">
               Café-lined streets, galleries, boutique stores, and rooftop bars
               reflect a city that&apos;s both energetic and elegant.
             </p>
 
-            <p className="text-sm sm:text-base text-gray-500 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 leading-7">
               It is the perfect beginning or end to your island story.
             </p>
           </div>
@@ -226,9 +226,9 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
           height="h-80 sm:h-96 lg:h-[500px] xl:h-[650px] 2xl:h-[750px]"
         />
       </div>
-      <div className="my-16 px-5 lg:px-20">
-        <h4 className="font-semibold text-xl my-2">Sri Lanka is where every journey becomes a story.</h4>
-        <p className="text-gray-800 text-sm md:text-lg leading-7 py-3">
+      <div className="my-16 px-5 lg:px-56">
+        <h4 className="font-semibold text-shadow-wash uppercase text-xl my-2">Sri Lanka is where every journey becomes a story.</h4>
+        <p className="text-gray-800 text-sm md:text-lg leading-7 py-3 italic">
           At Travel Nation, we reveal Sri Lanka through experiences that go beyond the guidebooks, a walk through the cobbled streets of Galle Fort as the sun sets over the ramparts, the sound of temple drums in Kandy, a morning safari in Yala where leopards roam free, or a quiet moment by a lake watching elephants bathe in the golden light.
           We know the pulse of this island, its rhythm, its flavours, its soul and we invite you to explore it in a way that is deeply personal, luxurious, and authentic.
         </p>
