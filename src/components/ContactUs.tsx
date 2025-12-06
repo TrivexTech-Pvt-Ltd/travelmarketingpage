@@ -86,10 +86,10 @@ export default function ContactUs() {
     <section className="pt-36 bg-gray-50">
       {/* Content */}
       <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-20 py-16">
-        <h1 className="text-4xl font-bold text-center mb-4 text-sea-green font-playfair-display">
+        <h1 className="text-sea-green text-3xl sm:text-4xl md:text-5xl uppercase font-normal font-playfair-display text-center py-3">
           Start Your Journey with Us
         </h1>
-        <p className="text-gray-500 text-base text-center mb-4 sm:mb-12">
+        <p className="text-gray-500 text-base lg:text-lg text-center mb-4 sm:mb-12">
           Whether you are planning a honeymoon, a family getaway, or a once-in-a-lifetime adventure <br /> our team is ready to craft it for you.
         </p>
 

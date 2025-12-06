@@ -42,19 +42,19 @@ const PackageCard = ({
             {/* Content */}
             <div className="absolute bottom-10 left-0 right-0 px-6 text-white text-center">
                 <div className="flex justify-center items-center">
-                    <p className="text-sm opacity-90 flex items-center gap-x-2 mx-auto"> <FiMapPin /> {location}</p>
+                    <p className="text-sm opacity-90 flex items-center gap-x-2 mx-auto capitalize"> <FiMapPin /> {location}</p>
                 </div>
 
 
                 <h2 className="mt-2 text-2xl font-playfair-display font-medium">
-                    {title}
+                    {name}
                 </h2>
                 <Link href={`/${country}/${slug}`}
-                    className="mt-6 inline-block rounded-full border border-white/60 px-6 py-2 
-                     text-sm font-medium hover:bg-white hover:text-black 
+                    className="mt-6 inline-block border bg-sea-green text-white border-sea-green px-6 py-2 
+                     text-sm font-medium hover:bg-white hover:border-white hover:text-black 
                      transition-all duration-300"
                 >
-                    More info
+                    More Info
                 </Link>
             </div>
         </div>

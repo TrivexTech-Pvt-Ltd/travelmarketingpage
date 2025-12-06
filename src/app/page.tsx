@@ -18,7 +18,6 @@ export default function Home() {
       <Destinations />
       <Services />
       <TourPackages />
-      <TrustBox />
       <Testimonials />
       <Blogs />
     </>

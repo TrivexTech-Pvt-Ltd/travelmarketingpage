@@ -23,7 +23,7 @@ const BlogCard = ({ image, title, slug }: BlogCardProps) => {
         />
       </div>
 
-      <h2 className="mt-2 text-lg font-semibold group-hover:text-gray-800 transition">
+      <h2 className="mt-2 text-lg text-gray-500 font-medium group-hover:text-gray-800 transition">
         {title}
       </h2>
 
