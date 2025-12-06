@@ -80,8 +80,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about-us" className="hover:underline transition">
-                  About Us
+                <Link href="/our-core" className="hover:underline transition">
+                  Our Core
+                </Link>
+              </li>
+              <li>
+                <Link href="#blogs" className="hover:underline transition">
+                  Blogs
                 </Link>
               </li>
               <li>

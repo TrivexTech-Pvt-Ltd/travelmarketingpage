@@ -120,6 +120,9 @@ import PackageM6 from "../../public/images/packages/maldives/pk-m6.webp";
 import PackageSL1 from "../../public/images/packages/srilanka/pk-sl1.webp";
 import PackageSL2 from "../../public/images/packages/srilanka/pk-sl2.webp";
 import PackageSL3 from "../../public/images/packages/srilanka/pk-sl3.webp";
+import PackageSL4 from "../../public/images/packages/srilanka/pk-sl4.webp";
+import PackageSL5 from "../../public/images/packages/srilanka/pk-sl5.webp";
+import PackageSL6 from "../../public/images/packages/srilanka/pk-sl6.webp";
 
 //shapes
 import PlaneShape from "../../public/images/shapes/about-shape.png";
@@ -186,6 +189,20 @@ import GalleFort from "../../public/images/srilanka/galle-fort.webp";
 import SLBeach from "../../public/images/srilanka/sl-beach.webp";
 import TempleOfTooth from "../../public/images/srilanka/temple-sacred-tooth-relic-kandy-sri-lanka.webp";
 import ColomboSL from "../../public/images/srilanka/colombo-sri-lanka.webp";
+
+//NORTH-EAST TOUR
+// import North_Ease1 from "../../public/images/srilanka/tourSlider/North_East/Beach 06.webp";
+// import North_Ease2 from "../../public/images/srilanka/tourSlider/North_East/Wilpattu National Park - 02.webp";
+// import North_Ease3 from "../../public/images/srilanka/tourSlider/North_East/Wilpattu National Park - 05.webp";
+// import North_Ease4 from "../../public/images/srilanka/tourSlider/North_East/Jaffna 05.webp";
+// import North_Ease5 from "../../public/images/srilanka/tourSlider/North_East/Jaffna 01.webp";
+// import North_Ease6 from "../../public/images/srilanka/tourSlider/North_East/Jaffna 10 - Nallur Kandaswamy Temple.webp";
+// import North_Ease7 from "../../public/images/srilanka/tourSlider/North_East/Trinco 02.webp";
+// import North_Ease8 from "../../public/images/srilanka/tourSlider/North_East/Trinco 01.webp";
+// import North_Ease9 from "../../public/images/srilanka/tourSlider/North_East/Polonnaruwa 03.webp";
+// import North_Ease10 from "../../public/images/srilanka/tourSlider/North_East/Polonnaruwa 01.jpg";
+// import North_Ease11 from "../../public/images/srilanka/tourSlider/North_East/Sigiriya 04.webp";
+// import North_Ease12 from "../../public/images/srilanka/tourSlider/North_East/Village 01.webp";
 
 //Maldives destinations
 import LhAtollHero from "../../public/images/maldives/lhaviyani-atoll/image-1.webp";
@@ -530,6 +547,9 @@ export {
   PackageSL1,
   PackageSL2,
   PackageSL3,
+  PackageSL4,
+  PackageSL5,
+  PackageSL6,
   CustomPackage,
   LuxuryHotel,
   SafeTravelling,
@@ -569,6 +589,18 @@ export {
   SLBeach,
   TempleOfTooth,
   ColomboSL,
+  // North_Ease1,
+  // North_Ease2,
+  // North_Ease3,
+  // North_Ease4,
+  // North_Ease5,
+  // North_Ease6,
+  // North_Ease7,
+  // North_Ease8,
+  // North_Ease9,
+  // North_Ease10,
+  // North_Ease11,
+  // North_Ease12,
   LhAtollHero,
   FloatIcon,
   HotelBedIcon,

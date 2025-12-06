@@ -1,8 +1,11 @@
 import {
   Accommodation1,
-  Accommodation2, AdventureActivities,
+  Accommodation2,
+  AdventureActivities,
   CustomPackage,
-  DestinationMastery, Dining2, HandpickedStays,
+  DestinationMastery,
+  Dining2,
+  HandpickedStays,
   slSliderNew1,
   slSliderNew2,
   slSliderNew3,
@@ -43,7 +46,8 @@ import {
   slColombo6,
   slColombo7,
   Hero1,
-  Hero2, Hero4,
+  Hero2,
+  Hero4,
   Hero5,
   Hero6,
   Hero7,
@@ -58,7 +62,8 @@ import {
   PackageM6,
   PackageSL1,
   PackageSL2,
-  PackageSL3, SafeTravelling,
+  PackageSL3,
+  SafeTravelling,
   TailoredPerfection,
   UnparalleledService,
   WellnessSpa,
@@ -127,9 +132,11 @@ import {
   AriAtoll,
   VaavuAtoll,
   SoMaldives6,
-  NooeHero5, SLCulture,
+  NooeHero5,
+  SLCulture,
   SLWaterSport,
-  SigiriyaRock, Personalized,
+  SigiriyaRock,
+  Personalized,
   Autheticity,
   EcoLight,
   Excellence,
@@ -288,7 +295,10 @@ import {
   MalOutside2,
   MalOutside3,
   MalOutside4,
-  MalOutside5
+  MalOutside5,
+  PackageSL4,
+  PackageSL5,
+  PackageSL6,
 } from "./staticImages";
 import { HeroType } from "@/types/hero.types";
 
@@ -1367,8 +1377,9 @@ export const MaldivesData = [
     wellnessSpa: [
       {
         title: "WELLNESS VEYO",
-        description:
+        description: [
           "Veyo is inspired by the lush tropical vegetation surrounding the Spa. Vine indicates the symbolism of connection and eternity and translates to “vine” in Dhivehi. Veyo is a sanctuary inspired by the natural and peaceful surroundings.",
+        ],
 
         highlights: [
           " Spa located inland, within lush tropical vegetation.",
@@ -1868,14 +1879,16 @@ export const MaldivesData = [
     wellnessSpa: [
       {
         title: "Th·āri Spa by Mandara",
-        description:
+        description: [
           "Discover tranquility at our Spa & Wellness sanctuary, where nature-inspired treatments bring balance to your mind, body, and spirit. Indulge in soothing massages, organic facials, and restorative rituals, all designed to leave you feeling refreshed and rejuvenated.",
+        ],
         images: [SMSpa3, SMSpa2, SMSpa1, SMSpa4, SMSpa5, SMSpa6],
       },
       {
         title: "Han'dhu - GYM",
-        description:
+        description: [
           "Our gym offers a modern and fully equipped space to maintain your fitness routine during your stay. With a range of cardio machines, free weights, and strength training equipment, guests can work out while enjoying stunning views of the island. Personal training sessions are also available for those seeking guided fitness experiences.",
+        ],
         images: [SMSpa1, SMSpa2, SMSpa4, SMSpa5, SMSpa6],
       },
     ],
@@ -2260,8 +2273,9 @@ export const MaldivesData = [
     wellnessSpa: [
       {
         title: "WELLNESS CAMP",
-        description:
+        description: [
           "The Spa at NH Maldives Kuda Rah Resort offers an extensive list of therapies and rituals aiming for the perfect balance of body, mind and soul. Each fuses rich local ingredients and centuries-old healing traditions, inspiring relaxation and rejuvenation.",
+        ],
         highlights: [
           "Three treatment suites",
           "Sauna, steam room and experience showers",
@@ -2673,8 +2687,9 @@ export const MaldivesData = [
     wellnessSpa: [
       {
         title: "WELLNESS CAMP",
-        description:
+        description: [
           "Whether your preferred mode is active or relaxed, retreat to our serene wellness camp, featuring a Bespoke Vichy rainforest shower, steam and sauna, modern organic treatment rooms and state-of-the-art fitness sphere with ocean views.",
+        ],
         images: [SMSpa1, SMSpa2, SMSpa3, SMSpa4, SMSpa5, SMSpa6],
       },
     ],
@@ -3077,8 +3092,9 @@ export const MaldivesData = [
     wellnessSpa: [
       {
         title: "WELLNESS CAMP",
-        description:
+        description: [
           "Whether your preferred mode is active or relaxed, retreat to our serene wellness camp, featuring a Bespoke Vichy rainforest shower, steam and sauna, modern organic treatment rooms and state-of-the-art fitness sphere with ocean views.",
+        ],
         images: [SMSpa1, SMSpa2, SMSpa3, SMSpa4, SMSpa5, SMSpa6],
       },
       {
@@ -3401,14 +3417,16 @@ export const MaldivesData = [
     wellnessSpa: [
       {
         title: "Spa Alila",
-        description:
+        description: [
           "Experience inner peace and be pampered in our tranquil treetop spa, cocooned amidst the leafy canopy with the lush surroundings. Spa Alila features four double treatment suites, all with a private bathroom, shower and a floor-to-ceiling window offering views. Treat yourself to rejuvenating treatments and beauty rituals that put a contemporary spin on ancient healing techniques and draw on the benefits of natural ingredients to deliver pure luxurious indulgence.",
+        ],
         images: [AKSPAL1, AKSPAL2, AKSPAL3, AKSPAL4, AKSPAL5],
       },
       {
         title: "FITNESS CENTRE",
-        description:
+        description: [
           "Work out in our light-filled gym offering the latest Technogym equipment and floor-to-ceiling views of the lush surroundings",
+        ],
         images: [AKFC1, AKFC2, AKFC3],
       },
     ],
@@ -3866,6 +3884,438 @@ export const srilankanData = [
       "d707f117-6276-4c26-b25d-73eb8c2226da",
     ],
   },
+
+  {
+    id: "720deb55-a52c-4811-8d3c-1a4c9d8b6835",
+    name: "Sri Lanka North-East Tour",
+    title: "North-East Journey",
+    slug: "north-east-sri-lanka-tour",
+    description:
+      "A cultural and scenic adventure through Sri Lanka’s untouched northern and eastern regions.",
+    location: "Sri Lanka",
+    nights: 8,
+    days: 9,
+    price: 1399,
+    image: PackageSL4,
+    heroImages: [Hero6, SLBeach],
+
+    itinerary: {
+      title: "Sri Lanka North-East Tour Itinerary",
+      description:
+        "A rare and rewarding route through Sri Lanka’s north and east—featuring heritage cities, scenic beaches, and vibrant northern culture.",
+      list: [
+        "Arrive in Negombo and relax.",
+        "Safari in Wilpattu National Park; overnight in Anuradhapura.",
+        "Train to Jaffna and evening at leisure.",
+        "Full Jaffna city tour.",
+        "Travel to Nilaveli for beach relaxation.",
+        "Leisure day or optional visit to Pigeon Island.",
+        "Visit Polonnaruwa and head to Sigiriya.",
+        "Climb Sigiriya & village experience, return to Negombo.",
+        "Departure.",
+      ],
+    },
+
+    slItineryDetails: [
+      {
+        id: 1,
+        day: 1,
+        location: "Negombo",
+        travelTime: "—",
+        // image: "/images/srilanka/tourSlider/Experience/Beach 06.jpg",
+        image: "/images/srilanka/tourSlider/North_East/Beach6.jpg",
+        highlights: ["Arrive in Sri Lanka and rest in Negombo."],
+      },
+      {
+        id: 2,
+        day: 2,
+        location: "Wilpattu / Anuradhapura",
+        travelTime: "—",
+        image:
+          "/images/srilanka/tourSlider/North_East/WilpattuNationalPark02.jpg",
+        highlights: [
+          "Safari in Wilpattu National Park.",
+          "Travel to Anuradhapura.",
+        ],
+      },
+      {
+        id: 3,
+        day: 3,
+        location: "Jaffna",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/North_East/Jaffna05.jpg",
+        highlights: ["Train to Jaffna.", "Evening at leisure."],
+      },
+      {
+        id: 4,
+        day: 4,
+        location: "Jaffna City Tour",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/North_East/Jaffna01.jpg",
+        highlights: [
+          "Explore Jaffna Fort, Library, Market.",
+          "Visit Nallur Kandaswamy Kovil.",
+        ],
+      },
+      {
+        id: 5,
+        day: 5,
+        location: "Nilaveli",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/North_East/Trinco02.jpg",
+        highlights: ["Travel to Nilaveli for beach time."],
+      },
+      {
+        id: 6,
+        day: 6,
+        location: "Nilaveli – Leisure",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/North_East/Trinco01.jpg",
+        highlights: ["Leisure day or visit Pigeon Island."],
+      },
+      {
+        id: 7,
+        day: 7,
+        location: "Polonnaruwa / Sigiriya",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/North_East/Polonnaruwa03.jpg",
+        highlights: ["Visit Polonnaruwa.", "Head to Sigiriya."],
+      },
+      {
+        id: 8,
+        day: 8,
+        location: "Sigiriya / Negombo",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/North_East/Sigiriya04.jpg",
+        highlights: ["Climb Sigiriya rock fortress.", "Village experience."],
+      },
+      {
+        id: 9,
+        day: 9,
+        location: "Departure",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/Swift_Escape/departure.jpg",
+        highlights: ["Depart from Sri Lanka."],
+      },
+    ],
+
+    roomCategories: {
+      images: [Galle, NuwaraEliya, PackageSL1, PackageSL2, PackageSL3],
+      pricings: [
+        { type: "Standard", price: 1399 },
+        { type: "Superior", price: 1599 },
+        { type: "Deluxe", price: 1799 },
+      ],
+    },
+
+    featuredHotels: [
+      "b4d2e0a2-55d0-41f8-ba2c-b863d548425a",
+      "bd5dd5e7-dd04-4101-bf67-c20ae93c53b6",
+      "d707f117-6276-4c26-b25d-73eb8c2226da",
+    ],
+  },
+  {
+    id: "1f1f7b03-d39f-4328-93bc-5506d620b762",
+    name: "Sri Lanka Wellness & Leisure",
+    title: "Wellness & Leisure Tour",
+    slug: "sri-lanka-wellness-leisure",
+    description:
+      "A peaceful wellness-focused journey combining ancient heritage with rejuvenating spa retreats and calm southern beaches.",
+    location: "Sri Lanka",
+    nights: 9,
+    days: 10,
+    price: 1699,
+    image: PackageSL5,
+    heroImages: [Hero6, SLBeach],
+
+    itinerary: {
+      title: "Sri Lanka Wellness & Leisure Itinerary",
+      description:
+        "A balanced journey through Sigiriya, Santani Wellness, and Kosgoda beaches — designed for rest, healing, and mindful exploration.",
+      list: [
+        "Arrive and travel to Sigiriya.",
+        "Visit Anuradhapura and Ayurveda centre in Habarana.",
+        "Climb Sigiriya and enjoy village tour.",
+        "Visit Dambulla Temple & Spice Garden; continue to Santani Wellness.",
+        "Full wellness day at Santani.",
+        "Another full wellness retreat day.",
+        "Travel to Kosgoda for beach relaxation.",
+        "Visit Galle Fort & Turtle Conservation Centre.",
+        "Beach leisure day.",
+        "Departure.",
+      ],
+    },
+
+    slItineryDetails: [
+      {
+        id: 1,
+        day: 1,
+        location: "Sigiriya",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/Wellness/CountrySide01.jpg",
+        highlights: ["Travel to Sigiriya.", "Dinner & overnight stay."],
+      },
+      {
+        id: 2,
+        day: 2,
+        location: "Anuradhapura / Habarana",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/Wellness/Anuradhapura03.jpg",
+        highlights: [
+          "Explore Anuradhapura.",
+          "Visit Ayurvedic treatment centre.",
+          "Return to Sigiriya.",
+        ],
+      },
+      {
+        id: 3,
+        day: 3,
+        location: "Sigiriya",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/Wellness/Village03.jpg",
+        highlights: ["Climb Sigiriya Fortress.", "Village tour & canoe ride."],
+      },
+      {
+        id: 4,
+        day: 4,
+        location: "Kandy / Werapitiya",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/Wellness/DambullaRockTemple.jpg",
+        highlights: [
+          "Visit Dambulla Temple.",
+          "Explore Spice Garden in Matale.",
+          "Travel to Santani Wellness.",
+        ],
+      },
+      {
+        id: 5,
+        day: 5,
+        location: "Santani Wellness",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/Wellness/HotelSantani02.jpg",
+        highlights: ["Full wellness day.", "Yoga, treatments, relaxation."],
+      },
+      {
+        id: 6,
+        day: 6,
+        location: "Santani Wellness",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/Wellness/HotelSantani03.jpg",
+        highlights: ["Another full wellness day."],
+      },
+      {
+        id: 7,
+        day: 7,
+        location: "Kosgoda",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/Wellness/Beach13.jpg",
+        highlights: ["Travel to Kosgoda.", "Beach relaxation."],
+      },
+      {
+        id: 8,
+        day: 8,
+        location: "Galle / Kosgoda",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/Wellness/Galle09.jpg",
+        highlights: ["Visit Galle Fort.", "Visit Turtle Conservation Centre."],
+      },
+      {
+        id: 9,
+        day: 9,
+        location: "Kosgoda – Leisure",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/Wellness/Beach05.jpg",
+        highlights: ["Full leisure day at the beach."],
+      },
+      {
+        id: 10,
+        day: 10,
+        location: "Departure",
+        travelTime: "—",
+        image: "/images/srilanka/tourSlider/Swift_Escape/departure.jpg",
+        highlights: ["Airport transfer and departure."],
+      },
+    ],
+
+    roomCategories: {
+      images: [Galle, NuwaraEliya, PackageSL1, PackageSL2, PackageSL3],
+      pricings: [
+        { type: "Standard", price: 1699 },
+        { type: "Superior", price: 1899 },
+        { type: "Deluxe", price: 2199 },
+      ],
+    },
+
+    featuredHotels: [
+      "b4d2e0a2-55d0-41f8-ba2c-b863d548425a",
+      "bd5dd5e7-dd04-4101-bf67-c20ae93c53b6",
+      "d707f117-6276-4c26-b25d-73eb8c2226da",
+    ],
+  },
+  {
+    id: "fb928d65-1500-4779-8ceb-bd610939e486",
+    name: "Sri Lanka Culture, Cuisine & Wildlife",
+    title: "Culture, Cuisine and Wildlife",
+    slug: "sri-lanka-culture-cuisine-wildlife",
+    description:
+      "A beautifully curated 11-day journey through Sri Lanka’s culture, food, wildlife and scenic landscapes.",
+    location: "Sri Lanka",
+    nights: 10,
+    days: 11,
+    price: 1899,
+
+    image: PackageSL6,
+    heroImages: [Hero6, SLBeach, ColomboSL, TempleOfTooth],
+
+    itinerary: {
+      title: "Sri Lanka Culture, Cuisine & Wildlife Tour",
+      description:
+        "A journey through heritage cities, warm communities, spice-filled kitchens, misty highlands, wildlife encounters and serene southern beaches.",
+      list: [
+        "Arrival in Negombo and leisure time.",
+        "Visit Negombo Fish Market, Dambulla Cave Temple, continue to Sigiriya.",
+        "Climb Sigiriya Fortress and enjoy a village cookery experience.",
+        "Visit Matale Spice Garden and Temple of the Tooth in Kandy.",
+        "Sri Lankan cooking class and Kandy city walk.",
+        "Scenic train ride to Bandarawela.",
+        "Tea plantation experience in the highlands.",
+        "Explore Ella, visit Elephant Transit Camp, continue to Mirissa.",
+        "Leisure day in Mirissa.",
+        "Visit Galle Fort and Colombo highlights.",
+        "Departure from Sri Lanka.",
+      ],
+    },
+
+    slItineryDetails: [
+      {
+        id: 1,
+        day: 1,
+        location: "Negombo",
+        travelTime: "",
+        image: "/images/srilanka/tourSlider/Culture/Negombo05.jpg",
+        highlights: ["Arrival and transfer to Negombo.", "Leisure evening."],
+      },
+      {
+        id: 2,
+        day: 2,
+        location: "Negombo → Dambulla → Sigiriya",
+        travelTime: "",
+        image: "/images/srilanka/tourSlider/Culture/Dambulla02.jpg",
+        highlights: [
+          "Early visit to Negombo Fish Market.",
+          "Visit Dambulla Cave Temple.",
+          "Continue to Sigiriya.",
+        ],
+      },
+      {
+        id: 3,
+        day: 3,
+        location: "Sigiriya",
+        travelTime: "",
+        image: "/images/srilanka/tourSlider/Culture/Sigiriya03.jpg",
+        highlights: [
+          "Climb Sigiriya Rock Fortress.",
+          "Village trail with cookery demonstration and local lunch.",
+        ],
+      },
+      {
+        id: 4,
+        day: 4,
+        location: "Matale → Kandy",
+        travelTime: "",
+        image: "/images/srilanka/tourSlider/Culture/SpiceGarden05.jpg",
+        highlights: [
+          "Visit a spice garden in Matale.",
+          "Arrive in Kandy.",
+          "Evening visit to Temple of the Tooth.",
+        ],
+      },
+      {
+        id: 5,
+        day: 5,
+        location: "Kandy",
+        travelTime: "",
+        image: "/images/srilanka/tourSlider/Culture/Kandy06.jpg",
+        highlights: [
+          "Participate in a hands-on Sri Lankan cooking class.",
+          "Guided Kandy city & market walk.",
+        ],
+      },
+      {
+        id: 6,
+        day: 6,
+        location: "Kandy → Bandarawela",
+        travelTime: "",
+        image: "/images/srilanka/tourSlider/Culture/TrainJourney01.jpg",
+        highlights: [
+          "Scenic train journey through Sri Lanka’s highlands.",
+          "Evening at leisure in Bandarawela.",
+        ],
+      },
+      {
+        id: 7,
+        day: 7,
+        location: "Bandarawela",
+        travelTime: "",
+        image: "/images/srilanka/tourSlider/Culture/NuwaraEliya03.jpg",
+        highlights: [
+          "Tea plucking and processing experience.",
+          "Enjoy free time in the highlands.",
+        ],
+      },
+      {
+        id: 8,
+        day: 8,
+        location: "Ella → Udawalawe → Mirissa",
+        travelTime: "",
+        image: "/images/srilanka/tourSlider/Culture/ElephantTransitHome.jpg",
+        highlights: [
+          "Explore Ella’s scenic viewpoints.",
+          "Visit Elephant Transit Camp.",
+          "Continue to Mirissa.",
+        ],
+      },
+      {
+        id: 9,
+        day: 9,
+        location: "Mirissa",
+        travelTime: "",
+        image: "/images/srilanka/tourSlider/Culture/Mirissa05.jpg",
+        highlights: ["Relax on the beach.", "Optional water activities."],
+      },
+      {
+        id: 10,
+        day: 10,
+        location: "Galle → Colombo",
+        travelTime: "",
+        image: "/images/srilanka/tourSlider/Culture/Galle14.jpg",
+        highlights: ["Explore Galle Fort.", "Colombo city highlights tour."],
+      },
+      {
+        id: 11,
+        day: 11,
+        location: "Departure",
+        travelTime: "",
+        image: "/images/srilanka/tourSlider/Swift_Escape/departure.jpg",
+        highlights: ["Transfer to the airport."],
+      },
+    ],
+
+    roomCategories: {
+      images: [Galle, NuwaraEliya, PackageSL1, PackageSL2, PackageSL3],
+      pricings: [
+        { type: "Standard", price: 1899 },
+        { type: "Superior", price: 2099 },
+        { type: "Deluxe", price: 2399 },
+      ],
+    },
+
+    featuredHotels: [
+      "b4d2e0a2-55d0-41f8-ba2c-b863d548425a",
+      "bd5dd5e7-dd04-4101-bf67-c20ae93c53b6",
+      "d707f117-6276-4c26-b25d-73eb8c2226da",
+    ],
+  },
 ];
 
 export const tourPackagesCardData = [
@@ -3876,7 +4326,7 @@ export const tourPackagesCardData = [
     slug: "sri-lanka-experience-tour-itinerary",
     country: "sri-lanka",
     location: "Sri Lanka",
-    image: PackageSL1
+    image: PackageSL1,
   },
   {
     id: "eb8801d0-d377-4721-8ae5-c09f8ec4c45c",
@@ -3923,6 +4373,17 @@ export const tourPackagesCardData = [
     location: "Maddives",
     image: PackageM3,
   },
+
+  {
+    id: "720deb55-a52c-4811-8d3c-1a4c9d8b6835",
+    name: "Sri Lanka North-East Tour",
+    title: "North-East Journey",
+    slug: "north-east-sri-lanka-tour",
+    country: "sri-lanka",
+    location: "Sri Lanka",
+    image: PackageSL4,
+  },
+
   {
     id: "9345f679-21be-4067-a1f7-c00b67d2d4e3",
     name: "SO/ Maldives",
@@ -3930,8 +4391,19 @@ export const tourPackagesCardData = [
     slug: "so-maldives",
     country: "maldives",
     location: "Maddives",
-    image: PackageM4
+    image: PackageM4,
   },
+
+  {
+    id: "1f1f7b03-d39f-4328-93bc-5506d620b762",
+    name: "Sri Lanka Wellness & Leisure",
+    title: "Wellness & Leisure Tour",
+    slug: "sri-lanka-wellness-leisure",
+    country: "sri-lanka",
+    location: "Sri Lanka",
+    image: PackageSL5,
+  },
+
   {
     id: "f2f02ff2-1dd2-405a-a140-726ae84fa8a3",
     name: "MÖVENPICK Resort Kuredhivaru Maldives",
@@ -3941,6 +4413,17 @@ export const tourPackagesCardData = [
     location: "Maddives",
     image: PackageM5,
   },
+
+  {
+    id: "fb928d65-1500-4779-8ceb-bd610939e486",
+    name: "Sri Lanka Culture, Cuisine & Wildlife",
+    title: "Culture, Cuisine and Wildlife",
+    slug: "sri-lanka-culture-cuisine-wildlife",
+    country: "sri-lanka",
+    location: "Sri Lanka",
+    image: PackageSL6,
+  },
+
   {
     id: "f540cbb7-0314-4aae-923d-dc9e518998de",
     name: "Alila Kothaifaru Maldives",
@@ -3950,9 +4433,7 @@ export const tourPackagesCardData = [
     location: "Maddives",
     image: PackageM6,
   },
-
-
-]
+];
 
 //intro
 export const servicesData = [
