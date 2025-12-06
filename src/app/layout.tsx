@@ -53,6 +53,10 @@ export default function RootLayout({
       <body
         className={`${PlayfairDisplay.variable} ${montserrat.variable} antialiased min-h-screen flex flex-col font-montserrat bg-azwhite`}
       >
+        <Script
+          src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+          strategy="afterInteractive"
+        />
         <noscript>
           <img height="1" width="1" style={{ display: "none" }}
             src="https://www.facebook.com/tr?id=1332591208616921&ev=PageView&noscript=1"
