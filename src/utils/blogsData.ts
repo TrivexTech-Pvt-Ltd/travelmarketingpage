@@ -19,7 +19,7 @@ export const blogData = [
     Sri Lanka and the Maldives may sit close together on a map, but each island offers its own rhythm, its own 
     sense of place, and a style of travel that continues to draw visitors from around the world.
   </p>
-  <h3 class="text-2xl font-semibold mt-8 mb-4 font-playfair-display">Sri Lanka - A Small Island with a Wide Horizon</h3>
+  <h3 class="text-2xl font-semibold mt-8 mb-4">Sri Lanka - A Small Island with a Wide Horizon</h3>
   <p class="mb-4">
     Sri Lanka stands out for its diversity. You can move from ancient royal cities to misty mountains, then down 
     to quiet rural villages and wildlife-rich plains within a single journey. The island’s charm lies in how 
@@ -37,7 +37,7 @@ export const blogData = [
     <img src="/images/SL - INSIDE/People 18.jpg" alt="Sri Lanka Image 03" class="w-full rounded h-96" />
     <img src="/images/SL - INSIDE/Yala National Park 01.jpg" alt="Sri Lanka Image 04" class="w-full rounded h-96" />
   </div>
-  <h3 class="text-2xl font-semibold mt-8 mb-4 font-playfair-display">The Maldives - A Different Shape of Paradise</h3>
+  <h3 class="text-2xl font-semibold mt-8 mb-4">The Maldives - A Different Shape of Paradise</h3>
   <p class="mb-4">
     A short hop from Sri Lanka, the Maldives offers a different kind of escape. Its beauty rests in clear lagoons, 
     soft sands, and a pace that encourages guests to slow down. Each island has its own character, from wellness 
