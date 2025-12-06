@@ -42,7 +42,7 @@ const Services = () => {
           <div className="flex justify-center items-center w-full">
             <Link
               href="/maldives"
-              className="text-white text-sm bg-sea-green py-3 px-6 sm:py-4 mx-auto sm:px-8 border border-white transition-all duration-300 hover:bg-white hover:border-sea-green hover:text-sea-green hover:scale-105 font-medium"
+              className="text-white text-sm bg-sea-green py-3 px-6 sm:py-4 mx-auto sm:px-8 rounded-md border transition-all duration-300 hover:bg-transparent border-sea-green hover:text-sea-green hover:scale-105 font-medium"
             >
               Lets go Places
             </Link>

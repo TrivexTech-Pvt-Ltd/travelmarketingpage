@@ -10,6 +10,7 @@ interface TravelCardProps {
     title: string;
     slug: string;
     country?: string;
+    nights: string;
 }
 
 const PackageCard = ({
@@ -18,7 +19,8 @@ const PackageCard = ({
     location,
     slug,
     country,
-    title
+    title,
+    nights
 }: TravelCardProps) => {
     return (
         <div className="relative w-full max-w-md mx-auto overflow-hidden group">
@@ -49,9 +51,16 @@ const PackageCard = ({
                 <h2 className="mt-2 text-2xl font-playfair-display font-medium">
                     {name}
                 </h2>
+                {
+                    country === 'sri-lanka' ? <div className="flex justify-center items-center pt-3">
+                        <p className="text-sm opacity-90 flex items-center gap-x-2 mx-auto capitalize text-center">{nights}</p>
+                    </div> : null
+                }
+
+
                 <Link href={`/${country}/${slug}`}
-                    className="mt-6 inline-block border bg-sea-green text-white border-sea-green px-6 py-2 
-                     text-sm font-medium hover:bg-white hover:border-white hover:text-black 
+                    className="mt-6 inline-block border rounded-4xl bg-sea-green text-white border-sea-green px-6 py-2 
+                     text-sm font-medium hover:bg-white hover:border-sea-green hover:text-sea-green hover:scale-105  
                      transition-all duration-300"
                 >
                     More Info
