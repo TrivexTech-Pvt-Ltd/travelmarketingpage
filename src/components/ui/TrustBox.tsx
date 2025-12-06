@@ -1,33 +1,28 @@
-"use client"
-import React, { useEffect } from 'react'
+
+import Link from 'next/link'
+import React from 'react'
 
 const TrustBox = () => {
 
-    useEffect(() => {
-        if (typeof window !== "undefined" && window.Trustpilot) {
-            const el = document.getElementById("tp-widget");
-            window.Trustpilot.loadFromElement(el);
-        }
-    }, []);
     return (
-        <div
-            id="tp-widget"
-            className="trustpilot-widget"
-            data-locale="en-US"
-            data-template-id="56278e9abfbbba0bdcd568bc"
-            data-businessunit-id="69328c6af444175f8898d9d8"
-            data-style-height="52px"
-            data-style-width="100%"
-            data-token="0d48b70c-9095-4745-8498-ebab1dba7072"
-        >
-            <a
-                href="https://www.trustpilot.com/review/travelnationsl.com"
+        <section className="w-full bg-gray-900 py-12 flex items-center justify-center max-w-7xl mx-auto rounded-lg">
+            <Link
+                href="https://www.trustpilot.com/review/travelnationsl.com?utm_medium=trustbox&utm_source=TrustBoxReviewCollector"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-4 group"
             >
-                Trustpilot
-            </a>
-        </div>
+                <span className="text-white text-2xl font-semibold tracking-wide transition-opacity">
+                    View us on
+                </span>
+                <img
+                    src="https://cdn.trustpilot.net/brand-assets/4.3.0/logo-white.svg"
+                    alt="Trustpilot Logo"
+                    className="h-10 w-auto transition-transform group-hover:scale-105"
+                />
+
+            </Link>
+        </section>
     )
 }
 
