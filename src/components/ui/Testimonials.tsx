@@ -98,10 +98,10 @@ export default function Testimonials() {
     <div className="grid grid-cols-1 lg:grid-cols-2 items-center my-10">
       <div className="bg-soft-beige p-6 flex justify-center items-center flex-col lg:px-12 h-full">
         <div className="max-w-5xl">
-          <h3 className="text-black text-3xl sm:text-4xl md:text-5xl uppercase font-semibold font-playfair-display py-3">
+          <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl uppercase font-normal font-playfair-display py-3">
             STORIES FROM OUR JOURNEYS
           </h3>
-          <p className="text-base sm:text-lg text-gray-500 leading-7 py-3">
+          <p className="text-base lg:text-lg italic text-gray-500 leading-7 py-3">
             Our guests arrive as travellers and leave as friends <br /> carrying stories, laughter, and memories that last a lifetime
           </p>
           <AnimatePresence mode="wait">
@@ -116,7 +116,7 @@ export default function Testimonials() {
               transition={{ duration: 0.5 }}
               className="space-y-6 cursor-grab active:cursor-grabbing"
             >
-              <p className="text-base md:text-lg leading-relaxed font-serif text-shadow-wash mt-4">
+              <p className="text-base md:text-lg leading-relaxed text-shadow-wash mt-4">
                 {testimonials[index].text}
               </p>
 
@@ -144,6 +144,24 @@ export default function Testimonials() {
               <MdArrowForward size={22} />
             </button>
           </div>
+          <div className="w-fit px-5 bg-gray-900">
+            <Link
+                href="https://www.trustpilot.com/review/travelnationsl.com?utm_medium=trustbox&utm_source=TrustBoxReviewCollector"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-4 group"
+            >
+                <span className="text-white text-lg py-2 font-semibold tracking-wide transition-opacity">
+                    View us on
+                </span>
+                <img
+                    src="https://cdn.trustpilot.net/brand-assets/4.3.0/logo-white.svg"
+                    alt="Trustpilot Logo"
+                    className="h-10 w-auto transition-transform group-hover:scale-105"
+                />
+
+            </Link>
+        </div>
         </div>
 
       </div>

@@ -14,10 +14,10 @@ const AboutUs = () => {
     <>
         <ImageSlider heroData={aboutUsData} height="h-96 md:h-[420px]" />
       <div className="flex flex-col justify-center items-center max-w-7xl mx-auto max-sm:px-4 py-4 sm:py-10">
-        <h1 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display my-5">
+        <h1 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display my-5">
           Where Passion Meets Discovery
         </h1>
-        <p className="text-sm sm:text-base text-gray-500 leading-7 text-center">
+        <p className="text-sm lg:text-lg text-gray-500 leading-7 text-center">
           At Travel Nation, we believe that travel is more than just visiting a
           new destination – it&apos;s about experiencing the world in a way that
           transforms you. Founded with a passion for exploring the vibrant
@@ -37,10 +37,10 @@ const AboutUs = () => {
         />
         <div className="bg-soft-beige p-6 flex justify-center items-center flex-col lg:px-12 h-full">
           <div className="space-y-6 md:space-y-10 max-xl:mb-5">
-            <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display">
+            <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display">
               Our Philosophy
             </h3>
-            <p className="text-sm sm:text-base text-gray-500 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 leading-7">
               At Travel Nation, we believe that travel should transform, not
               merely take you from place to place. Our passion for Sri Lanka
               and the Maldives inspired the creation of journeys where every
@@ -50,7 +50,7 @@ const AboutUs = () => {
               discovered, from mist-wreathed tea hills and ancient temples to
               turquoise lagoons and vibrant coral reefs.
             </p>
-            <p className="text-sm sm:text-base text-gray-500 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 leading-7">
               But our journeys are about more than exploration. We are
               committed to giving back to the communities we engage with,
               supporting local community initiatives that make a meaningful
@@ -59,7 +59,7 @@ const AboutUs = () => {
               these places remain as vibrant and beautiful for generations to
               come.
             </p>
-            <p className="text-sm sm:text-base text-gray-500 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 leading-7">
               Every itinerary is designed with respect for the diverse
               cultures we encounter, honouring local customs and traditions
               while connecting travellers in a way that is both authentic and
@@ -74,10 +74,10 @@ const AboutUs = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
         <div className="bg-soft-beige p-6 flex justify-center items-center flex-col lg:px-12 h-full">
           <div className="space-y-6 md:space-y-10 max-xl:mb-5">
-            <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display">
+            <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display">
               What We Bring to Your Journey
             </h3>
-            <p className="text-sm sm:text-base text-gray-500 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 leading-7">
               With decades of collective experience in destination planning,
               hospitality, and guest relations, our team brings unmatched
               local knowledge and insight into every journey. We know these
@@ -108,10 +108,10 @@ const AboutUs = () => {
         />
         <div className="bg-soft-beige p-6 flex justify-center items-center flex-col lg:px-12 h-full">
           <div className="space-y-6 md:space-y-10 max-xl:mb-5">
-            <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display">
+            <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display">
               Distinctive Journeys
             </h3>
-            <p className="text-sm sm:text-base text-gray-500 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 leading-7">
               We do not simply arrange itineraries; we craft journeys that
               connect you with the heartbeat of a place. Every trip is built
               to immerse you in local traditions, the rhythms of everyday
@@ -127,10 +127,10 @@ const AboutUs = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
         <div className="bg-soft-beige p-6 flex justify-center items-center flex-col lg:px-12 h-full">
           <div className="space-y-6 md:space-y-10 max-xl:mb-5">
-            <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display">
+            <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display">
               Our Way of Doing Things
             </h3>
-            <p className="text-sm sm:text-base text-gray-500 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 leading-7">
               Travel Nation is guided by a simple philosophy: listen first,
               personalise every detail, and deliver more than expected. From
               the moment you arrive to your final departure, each element of
@@ -160,10 +160,10 @@ const AboutUs = () => {
         />
         <div className="bg-soft-beige p-6 flex justify-center items-center flex-col lg:px-12 h-full">
           <div className="space-y-6 md:space-y-10 max-xl:mb-5">
-            <h3 className="text-shadow-wash text-3xl sm:text-4xl md:text-5xl font-semibold font-playfair-display">
+            <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display">
               Your Journey, Our Care
             </h3>
-            <p className="text-sm sm:text-base text-gray-500 leading-7">
+            <p className="text-sm lg:text-lg text-gray-500 leading-7">
               Choosing Travel Nation means travelling with clarity,
               confidence, and care. Our deep-rooted local connections,
               knowledge, and intuition reveal the hidden layers of Sri Lanka

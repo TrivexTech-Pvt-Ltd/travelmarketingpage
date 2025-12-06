@@ -51,7 +51,7 @@ export default function RootLayout({
 
       </Head>
       <body
-        className={`${PlayfairDisplay.variable} ${montserrat.variable} antialiased min-h-screen flex flex-col font-montserrat bg-azwhite`}
+        className={`${PlayfairDisplay.variable} ${montserrat.variable} antialiased min-h-screen flex flex-col font-montserrat bg-light-cyan`}
       >
         <Script
           src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
