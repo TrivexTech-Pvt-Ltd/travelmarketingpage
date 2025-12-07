@@ -1,8 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  images: {
-    domains: ["example.com"],
+    images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn.trustpilot.net",
+        pathname: "/brand-assets/**",
+      },
+    ],
   },
    typescript: {
     ignoreBuildErrors: true, // ❗ Ignore TS errors during build
