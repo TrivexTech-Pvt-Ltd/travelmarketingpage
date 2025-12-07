@@ -13,7 +13,7 @@
     "framer-motion": "^12.23.22",
     "fslightbox-react": "^2.0.0",
     "lucide-react": "^0.545.0",
-    "next": "15.5.4",
+    "next": "16.0.7",
     "prisma": "^6.17.0",
     "react-icons": "^5.5.0",
     "react-modern-drawer": "^1.4.0",
@@ -24,19 +24,25 @@
     "sweetalert2": "^11.26.1",
     "swiper": "^12.0.2",
     "tsparticles": "^3.9.1",
-    "zustand": "^5.0.8"
+    "zustand": "^5.0.8",
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/fslightbox-react": "^1.8.0",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
     "@types/react-slick": "^0.23.13",
     "eslint": "^9",
-    "eslint-config-next": "15.5.4",
+    "eslint-config-next": "16.0.7",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "overrides": {
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3"
   }
 }
