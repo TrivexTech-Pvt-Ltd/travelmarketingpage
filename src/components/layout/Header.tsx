@@ -138,7 +138,7 @@ const Header = () => {
         <div className="tablet:hidden absolute top-full left-0 w-full bg-[#5cc6bf] text-white shadow-lg transition-all duration-500">
           <ul className="flex flex-col items-center gap-6 py-6 text-lg font-medium">
             {menuItems.map((item, index) =>
-              item.name === "Destination" ? (
+              item.name === "Destinations" ? (
                 <li key={index} className="flex flex-col items-center">
                   <button
                     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
