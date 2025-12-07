@@ -5168,3 +5168,63 @@ export const slFeaturedHotels = [
     image: CinnamonCitadel,
   },
 ];
+
+export const testimonials = [
+  {
+    text: "Our family holiday to Sri Lanka was absolutely perfect from start to finish. The hotels, activities, and food recommendations were all spot-on. Everything ran so smoothly, and we never had to worry about a thing.",
+    author: "Melissa & Family (August 2025) – Canada",
+  },
+  {
+    text: "An unforgettable experience at Conrad Maldives Rangali Island. The staff went above and beyond, and the underwater restaurant was simply breathtaking. Huge thanks to Travel Nation for recommending the perfect resort for our anniversary trip.",
+    author: "Farah & Ahmed (July 2025) – UAE",
+  },
+  {
+    text: "We had an incredible experience exploring Sri Lanka with Jehan as our chauffeur-guide. His knowledge, warmth, and professionalism made our journey extra special. Every detail was well thought out.",
+    author: "Jonathan (July 2025) – United Kingdom",
+  },
+  {
+    text: "Our honeymoon was magical! Beautifully selected hotels, romantic experiences, and unforgettable sunsets. Thank you for curating such a seamless trip, it truly felt like a once-in-a-lifetime experience.",
+    author: "Amelia & Ryan (August 2025) – Australia",
+  },
+  {
+    text: "Our first Maldives trip was magical! We stayed at Centara Ras Fushi, and it was ideal for couples. Peaceful, romantic, and beautifully maintained. Everything from the transfers to excursions was perfectly planned.",
+    author: "Leah & Daniel (June 2025) – UAE",
+  },
+  {
+    text: "An amazing trip across Sri Lanka! Roshan made sure we experienced both the famous sights and the lesser-known hidden gems. The flexibility of the itinerary was a huge plus — we could relax and enjoy every moment.",
+    author: "Sofia (July 2025) – Spain",
+  },
+  {
+    text: "Our romantic getaway at JOALI Maldives was beyond expectations. The private villa, floating breakfast, and spa experience were pure indulgence. The team at Travel Nation truly understands luxury travel.",
+    author: "Amira (September 2025) – Saudi Arabia",
+  },
+  {
+    text: "From cultural cities to serene beaches, the wildlife safari and the tea plantations were definite highlights. Exceptional service and attention to detail throughout.",
+    author: "Andreas (September 2025) – Germany",
+  },
+  {
+    text: "Travel Nation created the ideal family itinerary for us — safe drivers, clean hotels, and excellent planning on a short trip. Our kids still talk about the elephant safari and the train ride through the hills!",
+    author: "Rebecca (August 2025) – UAE",
+  },
+  {
+    text: "A big thanks for the seamless arrangements. Our villa was just steps from the ocean, and the staff were incredibly kind. We had a wonderful stay at Sun Siyam Olhuveli.",
+    author: "Dinesh & Kavya (October 2025) – India",
+  },
+  {
+    text: "Sri Lanka exceeded all our expectations. The mix of culture, nature, and hospitality was wonderful. Dodwell, our guide, was professional, knowledgeable, and became more like a friend by the end of the trip.",
+    author: "Isabelle (September 2025) – France",
+  },
+  {
+    text: "Spacious villas, great food options, and an amazing kids’ club. The snorkeling trips were unforgettable! Our family vacation at Kuramathi Maldives was everything we hoped for.",
+    author: "Amaani & Family (August 2025) – UAE",
+  },
+  {
+    text: "A beautifully organized vacation that ran smoothly from start to finish. We loved every destination, especially the coastal sunsets and mountain views. A heartfelt thank-you for making our holiday unforgettable.",
+    author: "Priya & Arjun (October 2025) – India",
+  },
+  {
+    text: "An unforgettable experience at Conrad Maldives Rangali Island. The staff went above and beyond, and the underwater restaurant was simply breathtaking. Huge thanks to Travel Nation for recommending the perfect resort for our anniversary trip.",
+    author: "Farah & Ahmed (June 2025) – UAE",
+  },
+];
+
