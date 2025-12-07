@@ -7,56 +7,13 @@ import { Pagination, Autoplay } from "swiper/modules"; // removed Navigation
 import "swiper/css";
 import "swiper/css/pagination";
 import ImageSlider from "./ImageSlider";
-import { slSliderNew } from "@/utils/data";
+import { slSliderNew, testimonials } from "@/utils/data";
 import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
 import Image from "next/image";
 import { About1, About5 } from "@/utils/staticImages";
 import { motion, AnimatePresence } from "framer-motion";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
-
-interface Testimonial {
-  text: string;
-  author: string;
-}
-
-const testimonials: Testimonial[] = [
-  {
-    text: `Our Sri Lanka trip was an unforgettable experience! The team planned 
-    everything perfectly — from the hotels to the excursions. Our guide was 
-    knowledgeable and incredibly friendly. The wildlife safari and cultural visits 
-    made our holiday magical.`,
-    author: "Anna (February 2024) • Germany",
-  },
-
-  {
-    text: `A well-organized vacation from start to finish. The team at Red Dot 
-    Tours ensured we were always comfortable and informed. The selection of 
-    boutique hotels and the personal touches made this trip unique.`,
-    author: "Jonathan (January 2024) • Australia",
-  },
-
-  {
-    text: `We traveled as a family with two kids and everything was perfectly 
-    planned. Safe drivers, great food recommendations, and memorable sightseeing 
-    experiences. Sri Lanka is beautiful and Red Dot made it even better.`,
-    author: "Melissa (December 2023) • USA",
-  },
-
-  {
-    text: `Amazing service! Our guide went above and beyond to ensure we saw the 
-    best places at the right times. The itinerary was flexible and well-thought-out. 
-    We especially loved the tea plantations and the coastal sunsets.`,
-    author: "Sofia (August 2024) • Italy",
-  },
-
-  {
-    text: `This was our honeymoon trip and it exceeded our expectations. 
-    Beautiful hotels, romantic experiences, and seamless logistics. Thank you 
-    for making our special trip truly unforgettable.`,
-    author: "David & Sara (April 2024) • Canada",
-  },
-];
 
 export default function Testimonials() {
 
