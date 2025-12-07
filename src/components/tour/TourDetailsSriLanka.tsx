@@ -5,6 +5,8 @@ import { useSLTourPackageStore } from "@/store/TourPackageStore";
 import TourHeroSl from "./TourHeroSl";
 import TourItinerary from "./TourItinerary";
 import TourSliderSl from "./TourSliderSl";
+import FooterNote from "../destination/FooterNote";
+import Testimonials from "../ui/Testimonials";
 
 const TourDetailsSriLanka = ({ slug }: { slug: string }) => {
   const packageData = getSriLankanBySlug(slug);
@@ -14,11 +16,13 @@ const TourDetailsSriLanka = ({ slug }: { slug: string }) => {
     setPackageData(packageData);
   }, [packageData, setPackageData]);
   return (
-    <div className="bg-light-cyan">
+    <>
       <TourHeroSl />
       <TourItinerary />
       <TourSliderSl data={packageData?.slItineryDetails} />
-    </div>
+      <FooterNote />
+      <Testimonials />
+    </>
   );
 };
 
