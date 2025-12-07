@@ -56,7 +56,7 @@ const Header = () => {
 
         {/* Desktop Menu */}
         <div className="flex items-center gap-8 relative">
-          <ul className="hidden tablet:flex text-base lg:text-lg items-center gap-10 font-medium">
+          <ul className="hidden tablet:flex text-base items-center gap-10 font-medium uppercase">
             {menuItems.map((item, index) =>
               item.name === "Destinations" ? (
                 <li
@@ -67,7 +67,7 @@ const Header = () => {
                 >
                   <button
                     type="button"
-                    className={`flex items-center gap-1 hover:text-black transition-colors duration-300 text-white`}
+                    className={`flex items-center gap-1 hover:text-black transition-colors duration-300 text-white uppercase`}
                   >
                     {item.name}
                     <ChevronDown
@@ -115,7 +115,7 @@ const Header = () => {
           {/* Desktop Inquire Button ? White After Scroll */}
           <button
             onClick={() => setIsModalOpen(true)}
-            className={`hidden cursor-pointer tablet:block py-3 px-6 rounded-md text-sm transition-all duration-300 hover:scale-105 ${segmentName === "contact-us" ? 'bg-white !text-black hover:opacity-80' : ''} ${stickyNavbar
+            className={`hidden cursor-pointer font-medium uppercase tablet:block py-3 px-6 rounded-md text-sm transition-all duration-300 hover:scale-105 ${segmentName === "contact-us" ? 'bg-white !text-black hover:opacity-80' : ''} ${stickyNavbar
               ? "bg-white border text-sea-green hover:border-white hover:text-white hover:bg-transparent"
               : "bg-sea-green text-white border border-sea-green hover:text-sea-green hover:bg-transparent"
               }`}

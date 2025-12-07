@@ -91,6 +91,7 @@ import AlilaHero3 from "../../public/images/hero/alila/alila-hero-3.webp";
 import AlilaHero4 from "../../public/images/hero/alila/alila-hero-4.webp";
 import AlilaHero5 from "../../public/images/hero/alila/alila-hero-5.webp";
 import AlilaHero6 from "../../public/images/hero/alila/alila-hero-6.webp";
+import YourJourney from "../../public/images/hero/your-journey.webp" 
 
 //Sl-outside
 import SlOutside1 from "../../public/images/SL - OUTSIDE/Temple of the Tooth in Kandy, Sri Lanka.jpg";
@@ -800,4 +801,5 @@ export {
   MalOutside3,
   MalOutside4,
   MalOutside5,
+  YourJourney
 };

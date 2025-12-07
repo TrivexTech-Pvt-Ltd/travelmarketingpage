@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <>
-      <Hero heroData={slideData} height="lg:min-h-screen" />
+      <Hero heroData={slideData} height="lg:h-screen" />
       <Intro />
       <Destinations />
       <Services />

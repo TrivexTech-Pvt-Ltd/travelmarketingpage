@@ -13,7 +13,7 @@ const MaldivesDestination = () => {
     return (
         <div className="py-5 sm:py-10" id="getaways-section">
             <div className="flex justify-center">
-                <div className="relative flex bg-white rounded-full py-2 gap-3">
+                <div className="relative flex bg-white shadow-sm rounded-full py-2 gap-3">
 
                     {/* Moving highlight */}
                     <div
