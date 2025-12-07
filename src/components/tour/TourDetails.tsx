@@ -7,6 +7,8 @@ import { useTourPackageStore } from '@/store/TourPackageStore'
 import DetailsHeader from './DetailsHeader'
 import TourFeaturesTab from './TourFeaturesTab'
 import FeaturedHotels from './FeaturedHotels'
+import FooterNote from '../destination/FooterNote'
+import Testimonials from '../ui/Testimonials'
 
 const TourDetails = ({ slug }: { slug: string }) => {
 
@@ -18,14 +20,16 @@ const TourDetails = ({ slug }: { slug: string }) => {
     }, [packageData, setPackageData])
 
     return (
-        <div className='bg-light-cyan'>
-                <TourHero />
+        <>
+            <TourHero />
             <Container>
                 <DetailsHeader />
                 <TourFeaturesTab />
+                <FooterNote />
+                <Testimonials />
                 <FeaturedHotels />
             </Container>
-        </div>
+        </>
     )
 }
 
