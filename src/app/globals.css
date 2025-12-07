@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --azwhite:#DBE9F4;
+  --azwhite: #dbe9f4;
 }
 
 @theme inline {
@@ -20,7 +20,7 @@
   --color-light-cyan: #f1f9f9;
   --color-light-gray: #f8f8f8;
   --color-shadow-wash: #0c0f26;
-  --color-azwhite:#DBE9F4;
+  --color-azwhite: #dbe9f4;
 
   /* breakpoints */
   --breakpoint-tablet: 56rem;
@@ -56,6 +56,15 @@
 .slick-dots li.slick-active button:before {
   color: white !important;
   opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
+.swiper-pagination-bullet {
+  background-color: theme(
+    "colors.white"
+  ); /* optional if using Tailwind config */
 }
 
 /* --- Swiper Navigation Hover Style --- */
@@ -160,15 +169,26 @@
   }
 }
 
-
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(15px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeOut {
-  from { opacity: 1; transform: translateY(0); }
-  to { opacity: 0; transform: translateY(15px); }
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(15px);
+  }
 }
 
 .fade-in {
@@ -178,3 +198,6 @@
 .fade-out {
   animation: fadeOut 0.4s ease forwards;
 }
+/* .swiper li span {
+  color: white !important;
+} */
