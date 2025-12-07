@@ -42,12 +42,6 @@ const TourHeroSl = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
-            <div className="absolute inset-0 flex flex-col justify-center items-center text-white px-4 text-center pointer-events-none z-20">
-                <h1 className="text-5xl md:text-7xl font-playfair-display font-medium leading-tight">
-                    {packageData?.name}
-                </h1>
-                <p className="mt-2 md:text-2xl uppercase">{packageData?.title}</p>
-            </div>
         </div>
     )
 }

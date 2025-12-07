@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Montserrat } from "next/font/google";
+import { Playfair_Display, Montserrat, Libre_Baskerville } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -16,6 +16,11 @@ const montserrat = Montserrat({
   subsets: ["latin"],
 });
 
+const libreBaskerville = Libre_Baskerville({
+  variable: "--font-libreBaskerville",
+  weight: ["400", "700"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "TravelNation - Your Gateway to the Maldives & Sri Lanka!",
@@ -51,7 +56,7 @@ export default function RootLayout({
 
       </Head>
       <body
-        className={`${PlayfairDisplay.variable} ${montserrat.variable} antialiased min-h-screen flex flex-col font-montserrat bg-azwhite`}
+        className={`${PlayfairDisplay.variable} ${montserrat.variable} ${libreBaskerville.variable} antialiased min-h-screen flex flex-col font-montserrat bg-light-cyan`}
       >
         <Script
           src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"

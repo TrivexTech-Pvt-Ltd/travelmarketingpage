@@ -10,6 +10,7 @@ interface TravelCardProps {
     title: string;
     slug: string;
     country?: string;
+    nights: string;
 }
 
 const PackageCard = ({
@@ -18,7 +19,8 @@ const PackageCard = ({
     location,
     slug,
     country,
-    title
+    title,
+    nights
 }: TravelCardProps) => {
     return (
         <div className="relative w-full max-w-md mx-auto overflow-hidden group">
@@ -42,19 +44,26 @@ const PackageCard = ({
             {/* Content */}
             <div className="absolute bottom-10 left-0 right-0 px-6 text-white text-center">
                 <div className="flex justify-center items-center">
-                    <p className="text-sm opacity-90 flex items-center gap-x-2 mx-auto"> <FiMapPin /> {location}</p>
+                    <p className="text-sm opacity-90 flex items-center gap-x-2 mx-auto capitalize"> <FiMapPin /> {location}</p>
                 </div>
 
 
                 <h2 className="mt-2 text-2xl font-playfair-display font-medium">
-                    {title}
+                    {name}
                 </h2>
+                {
+                    country === 'sri-lanka' ? <div className="flex justify-center items-center pt-3">
+                        <p className="text-sm opacity-90 flex items-center gap-x-2 mx-auto capitalize text-center">{nights}</p>
+                    </div> : null
+                }
+
+
                 <Link href={`/${country}/${slug}`}
-                    className="mt-6 inline-block rounded-full border border-white/60 px-6 py-2 
-                     text-sm font-medium hover:bg-white hover:text-black 
+                    className="mt-6 inline-block border shadow-md border-sea-green rounded-4xl bg-transparent text-sea-green px-6 py-2 
+                     text-sm font-medium hover:bg-sea-green hover:text-white hover:scale-105  
                      transition-all duration-300"
                 >
-                    More info
+                    More Info
                 </Link>
             </div>
         </div>
