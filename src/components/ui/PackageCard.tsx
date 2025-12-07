@@ -59,8 +59,8 @@ const PackageCard = ({
 
 
                 <Link href={`/${country}/${slug}`}
-                    className="mt-6 inline-block border rounded-4xl bg-sea-green text-white border-sea-green px-6 py-2 
-                     text-sm font-medium hover:bg-white hover:border-sea-green hover:text-sea-green hover:scale-105  
+                    className="mt-6 inline-block border shadow-md border-sea-green rounded-4xl bg-transparent text-sea-green px-6 py-2 
+                     text-sm font-medium hover:bg-sea-green hover:text-white hover:scale-105  
                      transition-all duration-300"
                 >
                     More Info

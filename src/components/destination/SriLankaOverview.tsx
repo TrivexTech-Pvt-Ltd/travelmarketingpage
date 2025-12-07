@@ -228,9 +228,9 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
       </div>
       <div className="my-16 px-5 lg:px-56">
         <h4 className="font-semibold text-shadow-wash uppercase text-xl my-2">Sri Lanka is where every journey becomes a story.</h4>
-        <p className="text-gray-800 text-sm md:text-lg leading-7 py-3 italic">
-          At Travel Nation, we reveal Sri Lanka through experiences that go beyond the guidebooks, a walk through the cobbled streets of Galle Fort as the sun sets over the ramparts, the sound of temple drums in Kandy, a morning safari in Yala where leopards roam free, or a quiet moment by a lake watching elephants bathe in the golden light.
-          We know the pulse of this island, its rhythm, its flavours, its soul and we invite you to explore it in a way that is deeply personal, luxurious, and authentic.
+        <p className="text-gray-500 text-base md:text-xl py-3 italic leading-9">
+          "At Travel Nation, we reveal Sri Lanka through experiences that go beyond the guidebooks, a walk through the cobbled streets of Galle Fort as the sun sets over the ramparts, the sound of temple drums in Kandy, a morning safari in Yala where leopards roam free, or a quiet moment by a lake watching elephants bathe in the golden light.
+          We know the pulse of this island, its rhythm, its flavours, its soul and we invite you to explore it in a way that is deeply personal, luxurious, and authentic."
         </p>
       </div>
       <FooterNote />
