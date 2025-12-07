@@ -1,10 +1,7 @@
-import { Hero6, MaldivesHero } from "@/utils/staticImages";
-import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { slSliderNew, MalSliderNew } from "@/utils/data";
 import ImageSlider from "../ui/ImageSlider";
-import { FiArrowDownRight, FiArrowRight } from "react-icons/fi";
+import { FiArrowRight } from "react-icons/fi";
 
 const Destinations = () => {
   return (
@@ -13,10 +10,10 @@ const Destinations = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2">
         {/* IMAGE LEFT */}
         <div className="h-full">
-          <ImageSlider
-            heroData={slSliderNew}
-            height="h-96 lg:h-full xl:h-[680px]"
-          />
+            <ImageSlider
+              heroData={slSliderNew}
+              height="h-96 lg:h-full xl:h-[680px]"
+            />
         </div>
 
         {/* TEXT RIGHT */}
@@ -58,13 +55,11 @@ const Destinations = () => {
             </Link>
           </div>
         </div>
-        <ImageSlider
-          heroData={MalSliderNew}
-          height="h-96 lg:h-full xl:h-[680px]"
-        />
+          <ImageSlider
+            heroData={MalSliderNew}
+            height="h-96 lg:h-full xl:h-[680px]"
+          />
       </div>
-
-
     </div>
   );
 };
