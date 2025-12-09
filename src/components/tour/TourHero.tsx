@@ -14,7 +14,7 @@ const TourHero = () => {
     const packageData = useTourPackageStore(s => s.tourPackage);
     if (!packageData?.heroImages) return null;
     return (
-        <div className="relative w-full h-[600px]">
+        <div className="relative w-full h-96 lg:h-full xl:h-[680px] 4xl:h-[1080px]">
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                 slidesPerView={1}

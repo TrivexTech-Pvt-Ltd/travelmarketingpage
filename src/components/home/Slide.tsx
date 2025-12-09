@@ -57,7 +57,7 @@ const Slide = ({
             alt="hero image"
             width={1920}
             height={1080}
-            className="w-full h-200 object-fill "
+            className="w-full h-96 lg:h-full xl:h-screen object-cover"
             style={{ height: height || "620px" }}
           />
 

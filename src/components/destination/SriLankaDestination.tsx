@@ -74,7 +74,7 @@ const SriLankaDestination = () => {
                             exit={{ opacity: 0, x: 20 }}
                             transition={{ duration: 0.3 }}
                         >
-                            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 p-4 relative sm:mx-10">
+                            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 p-4 relative sm:px-10 xl:px-40 4xl:px-96">
                                 {
                                     slPackages.map((data) => (
                                         <PackageCard key={data.id} {...data} />

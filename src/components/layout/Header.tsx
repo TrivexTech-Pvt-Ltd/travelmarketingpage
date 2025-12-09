@@ -56,7 +56,7 @@ const Header = () => {
 
         {/* Desktop Menu */}
         <div className="flex items-center gap-8 relative">
-          <ul className="hidden tablet:flex text-base items-center gap-10 font-medium uppercase">
+          <ul className="hidden tablet:flex text-base 4xl:text-xl items-center gap-10 font-medium uppercase">
             {menuItems.map((item, index) =>
               item.name === "Destinations" ? (
                 <li
@@ -78,7 +78,7 @@ const Header = () => {
 
                   {/* Dropdown */}
                   {isDropdownOpen && (
-                    <ul className="absolute top-7 left-0 bg-sea-green text-white shadow-lg rounded-lg py-2 w-48 border border-white/20 transition-all duration-300 backdrop-blur-sm">
+                    <ul className="absolute top-6 left-0 bg-sea-green text-white shadow-lg rounded-lg py-2 w-48 border border-white/20 transition-all duration-300 backdrop-blur-sm">
                       <li>
                         <Link
                           href="/sri-lanka"

@@ -1,40 +1,42 @@
-//Header
-import MdHeader1 from "../../public/images/maldives/header/Aerial 2_SOMaldives.webp";
-import MdHeader2 from "../../public/images/maldives/header/Conrad Maldives Rangali Island_Rangali Finolhu Island Pool_Justin Nicholas.webp";
-import MdHeader3 from "../../public/images/maldives/header/F&BSunsetSetup-4.webp";
-import MdHeader4 from "../../public/images/maldives/header/High_resolution_300dpi-Jumeirah Maldives - Miri - Three Bedroom Beach Retreat - Pool.webp";
-import MdHeader5 from "../../public/images/maldives/header/High_resolution_300dpi-Jumeirah Maldives - Sunset Water Villa - Aerial View.webp";
-import MdHeader6 from "../../public/images/maldives/header/High_resolution_300dpi-Jumeirah Maldives - Sunset Water Villa - Deck copy.webp";
-import MdHeader7 from "../../public/images/maldives/header/MLEAI aerial.webp";
-import MdHeader8 from "../../public/images/maldives/header/OO_RR_Resort_ArrivalYacht_Drone_1.webp";
-import MdHeader9 from "../../public/images/maldives/header/Soneva Soul at Soneva Jani.webp";
-import MdHeader10 from "../../public/images/maldives/header/Three-Bedroom Ocean Water Pool Atelier.webp";
+const baseUrl = "https://resources.travelnationsl.com"
+// Header
+const MdHeader1 = `${baseUrl}/images/maldives/header/Aerial 2_SOMaldives.webp`;
+const MdHeader2 = `${baseUrl}/images/maldives/header/Conrad Maldives Rangali Island_Rangali Finolhu Island Pool_Justin Nicholas.webp`;
+const MdHeader3 = `${baseUrl}/images/maldives/header/F&BSunsetSetup-4.webp`;
+const MdHeader4 = `${baseUrl}/images/maldives/header/High_resolution_300dpi-Jumeirah Maldives - Miri - Three Bedroom Beach Retreat - Pool.webp`;
+const MdHeader5 = `${baseUrl}/images/maldives/header/High_resolution_300dpi-Jumeirah Maldives - Sunset Water Villa - Aerial View.webp`;
+const MdHeader6 = `${baseUrl}/images/maldives/header/High_resolution_300dpi-Jumeirah Maldives - Sunset Water Villa - Deck copy.webp`;
+const MdHeader7 = `${baseUrl}/images/maldives/header/MLEAI aerial.webp`;
+const MdHeader8 = `${baseUrl}/images/maldives/header/OO_RR_Resort_ArrivalYacht_Drone_1.webp`;
+const MdHeader9 = `${baseUrl}/images/maldives/header/Soneva Soul at Soneva Jani.webp`;
+const MdHeader10 = `${baseUrl}/images/maldives/header/Three-Bedroom Ocean Water Pool Atelier.webp`;
 
-//Resorts & Villas
-import MdRv1 from "../../public/images/maldives/resort-villas/Beach Pool Villa Sunrise - Elevated View - Group.webp";
-import MdRv2 from "../../public/images/maldives/resort-villas/Deluxe Beach Villa with Pool exterior.jpg.webp";
-import MdRv3 from "../../public/images/maldives/resort-villas/Duplex Beach Pool Villa - Bedroom.webp";
-import MdRv4 from "../../public/images/maldives/resort-villas/High_resolution_300dpi-Jumeirah Maldives - Beach Villa with Pool - Bathroom 2.webp";
-import MdRv5 from "../../public/images/maldives/resort-villas/Soneva Fushi - Water Retreats.webp";
+// Resorts & Villas
+const MdRv1 = `${baseUrl}/images/maldives/resort-villas/Beach Pool Villa Sunrise - Elevated View - Group.webp`;
+const MdRv2 = `${baseUrl}/images/maldives/resort-villas/Deluxe Beach Villa with Pool exterior.jpg.webp`;
+const MdRv3 = `${baseUrl}/images/maldives/resort-villas/Duplex Beach Pool Villa - Bedroom.webp`;
+const MdRv4 = `${baseUrl}/images/maldives/resort-villas/High_resolution_300dpi-Jumeirah Maldives - Beach Villa with Pool - Bathroom 2.webp`;
+const MdRv5 = `${baseUrl}/images/maldives/resort-villas/Soneva Fushi - Water Retreats.webp`;
 
-//Diving & Marine Life
-import MdDML1 from "../../public/images/maldives/diving/Aerial_COMO Yacht_couple close up.webp"
-import MdDML2 from "../../public/images/maldives/diving/Cave_Overhangs_2.webp"
-import MdDML3 from "../../public/images/maldives/diving/Soneva Fushi - Dolphin Cruise .webp"
-import MdDML4 from "../../public/images/maldives/diving/The Westin Maldives-Snorkel with Mantas.webp"
+// Diving & Marine Life
+const MdDML1 = `${baseUrl}/images/maldives/diving/Aerial_COMO Yacht_couple close up.webp`;
+const MdDML2 = `${baseUrl}/images/maldives/diving/Cave_Overhangs_2.webp`;
+const MdDML3 = `${baseUrl}/images/maldives/diving/Soneva Fushi - Dolphin Cruise .webp`;
+const MdDML4 = `${baseUrl}/images/maldives/diving/The Westin Maldives-Snorkel with Mantas.webp`;
 
-//Romance & Honeymoons
-import MdRH1 from "../../public/images/maldives/honeymoon/Anantara Kihavah - Couple.jpg"
-import MdRH2 from "../../public/images/maldives/honeymoon/Anantara Kihavah - Ocean Whisperer Yacht Sunset.jpg"
-import MdRH3 from "../../public/images/maldives/honeymoon/Anantara Kihavah - Underwater Wedding Couple.jpg"
-import MdRH4 from "../../public/images/maldives/honeymoon/CS_Dual Treatment_2.jpg"
-import MdRH5 from "../../public/images/maldives/honeymoon/Sandbank_Wedding_Couple 2.jpg"
-import MdRH6 from "../../public/images/maldives/honeymoon/Three Bedroom COMO Sunset Villa_Floating Breakfast Female Model.jpg"
+// Romance & Honeymoons
+const MdRH1 = `${baseUrl}/images/maldives/honeymoon/Anantara Kihavah - Couple.jpg`;
+const MdRH2 = `${baseUrl}/images/maldives/honeymoon/Anantara Kihavah - Ocean Whisperer Yacht Sunset.jpg`;
+const MdRH3 = `${baseUrl}/images/maldives/honeymoon/Anantara Kihavah - Underwater Wedding Couple.jpg`;
+const MdRH4 = `${baseUrl}/images/maldives/honeymoon/CS_Dual Treatment_2.jpg`;
+const MdRH5 = `${baseUrl}/images/maldives/honeymoon/Sandbank_Wedding_Couple 2.jpg`;
+const MdRH6 = `${baseUrl}/images/maldives/honeymoon/Three Bedroom COMO Sunset Villa_Floating Breakfast Female Model.jpg`;
 
-//Atolls & Islands
-import MdAI1 from "../../public/images/maldives/islands/Atolls.jpg"
-import MdAI2 from "../../public/images/maldives/islands/pexels-asadphoto-12858514.jpg"
-import { PackageSL1 } from "./staticImages";
+// Atolls & Islands
+const MdAI1 = `${baseUrl}/images/maldives/islands/Atolls.jpg`;
+const MdAI2 = `${baseUrl}/images/maldives/islands/pexels-asadphoto-12858514.jpg`;
+
+
 
 export {
     MdHeader1,

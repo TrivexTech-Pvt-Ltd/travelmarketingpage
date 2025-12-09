@@ -24,6 +24,9 @@
 
   /* breakpoints */
   --breakpoint-tablet: 56rem;
+  --breakpoint-3xl: 120rem;
+  --breakpoint-4xl: 160rem;
+  --breakpoint-5xl: 240rem;
 }
 
 .slick-dots {
@@ -37,12 +40,6 @@
 
 .slick-dots li button:focus {
   outline: none !important;
-}
-
-.services-bg {
-  background-image: url("../../public/images/hero/services-hero.webp");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 /* Make dots visible & stylish */
@@ -61,10 +58,11 @@
 .swiper-pagination-bullet-active {
   background-color: white !important;
 }
+
 .swiper-pagination-bullet {
-  background-color: theme(
-    "colors.white"
-  ); /* optional if using Tailwind config */
+  background-color: theme("colors.white");
+    
+  /* optional if using Tailwind config */
 }
 
 /* --- Swiper Navigation Hover Style --- */
@@ -135,6 +133,7 @@
 }
 
 @keyframes spin {
+
   0%,
   100% {
     box-shadow: 0.2em 0px 0 0px currentcolor;
@@ -174,6 +173,7 @@
     opacity: 0;
     transform: translateY(15px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -185,6 +185,7 @@
     opacity: 1;
     transform: translateY(0);
   }
+
   to {
     opacity: 0;
     transform: translateY(15px);
@@ -198,6 +199,9 @@
 .fade-out {
   animation: fadeOut 0.4s ease forwards;
 }
-/* .swiper li span {
-  color: white !important;
-} */
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}

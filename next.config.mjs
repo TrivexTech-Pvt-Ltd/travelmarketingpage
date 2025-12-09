@@ -8,6 +8,11 @@ const nextConfig = {
         hostname: "cdn.trustpilot.net",
         pathname: "/brand-assets/**",
       },
+      {
+        protocol: "https",
+        hostname: "resources.travelnationsl.com",
+        pathname: "/**",
+      },
     ],
   },
    typescript: {

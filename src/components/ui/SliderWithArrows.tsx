@@ -46,7 +46,7 @@ const SliderWithArrows = ({ images }: SliderWithArrowsProps) => {
     <>
       {/* FsLightbox is always rendered for stable hook order */}
 
-      <div className="relative w-full h-[420px] rounded-2xl overflow-hidden group">
+      <div className="relative w-full h-96 lg:h-full xl:h-96 4xl:h-[840px] rounded-2xl overflow-hidden group">
         <Swiper
           modules={[Navigation, Pagination, Autoplay, A11y]}
           slidesPerView={1}

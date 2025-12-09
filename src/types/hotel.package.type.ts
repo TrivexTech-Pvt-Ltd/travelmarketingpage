@@ -1,7 +1,6 @@
-import { StaticImageData } from "next/image";
 
 // ---------- Base Image Type ----------
-export type ResortImage = StaticImageData;
+export type ResortImage = string;
 
 // ---------- Stay ----------
 export type ResortStay = {
