@@ -1,3 +1,5 @@
+const basrUrl = "https://resources.travelnationsl.com"
+
 // Logo
 import Logo from "../../public/images/logo/Logo.webp";
 import LogoWhite from "../../public/images/logo/logo-white.jpeg";

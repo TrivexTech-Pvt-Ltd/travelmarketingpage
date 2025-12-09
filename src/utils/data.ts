@@ -310,7 +310,7 @@ import { HeroType } from "@/types/hero.types";
 //Home Page Hero
 
 export const slideData: HeroType[] = [
-  { id: 1, video: "/videos/intro-video.mp4" },
+  { id: 1, video: "https://resources.travelnationsl.com/videos/intro-video.mp4" },
 ];
 
 // export const slideData = [
