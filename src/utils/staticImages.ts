@@ -1,9 +1,9 @@
 const basrUrl = "https://resources.travelnationsl.com"
 
 // Logo
-import Logo from "../../public/images/logo/Logo.webp";
-import LogoWhite from "../../public/images/logo/logo-white.jpeg";
-import LogoNew from "../../public/images/logo/TN - White Logo - Edited.png";
+const Logo = `${basrUrl}/images/logo/Logo.webp`;
+const LogoWhite = `${basrUrl}/images/logo/logo-white.jpeg`;
+const LogoNew = `${basrUrl}/images/logo/TN-White-Logo.png`;
 
 //slSliderNew
 import slSliderNew1 from "../../public/images/SL - INSIDE/Sigiriya 01.jpg";
@@ -97,7 +97,7 @@ import YourJourney from "../../public/images/hero/your-journey.jpg";
 import LuxHoliday1 from "../../public/images/hero/ltmh-1.jpg";
 import LuxHoliday2 from "../../public/images/hero/ltmh-2.jpg";
 import TestimonialImage from "../../public/images/hero/testimonials.jpg";
-import OurCoreHero from "../../public/images/hero/ourCore-hero.jpg";  
+import OurCoreHero from "../../public/images/hero/ourCore-hero.jpg";
 
 //Sl-outside
 import SlOutside1 from "../../public/images/SL - OUTSIDE/Temple of the Tooth in Kandy, Sri Lanka.jpg";
