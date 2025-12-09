@@ -56,12 +56,13 @@ export default function RootLayout({
 
       </Head>
       <body
-        className={`${PlayfairDisplay.variable} ${montserrat.variable} ${libreBaskerville.variable} antialiased min-h-screen flex flex-col font-montserrat bg-light-cyan`}
+        className={`${PlayfairDisplay.variable} ${montserrat.variable} ${libreBaskerville.variable} antialiased min-h-screen flex flex-col font-montserrat bg-light-cyan overflow-x-hidden`}
       >
         <Script
           src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
           strategy="afterInteractive"
         />
+        <Script src="https://cdn.lightwidget.com/widgets/lightwidget.js" async></Script>
         <noscript>
           <img height="1" width="1" style={{ display: "none" }}
             src="https://www.facebook.com/tr?id=1332591208616921&ev=PageView&noscript=1"

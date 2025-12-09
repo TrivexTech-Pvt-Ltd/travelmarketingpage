@@ -1,6 +1,7 @@
 import Blogs from "@/components/home/Blogs";
 import Destinations from "@/components/home/Destinations";
 import Hero from "@/components/home/Hero";
+import InstaFeed from "@/components/home/InstaFeed";
 import Intro from "@/components/home/Intro";
 import Services from "@/components/home/Services";
 import TourPackages from "@/components/tour/TourPackages";
@@ -18,6 +19,7 @@ export default function Home() {
       <Destinations />
       <Services />
       <TourPackages />
+      <InstaFeed/>
       <Testimonials />
       <Blogs />
     </>
