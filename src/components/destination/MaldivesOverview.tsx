@@ -114,7 +114,7 @@ const MaldivesOverview = ({ setActiveTab }: MaldivesOverviewProps) => {
         <div className="flex justify-center items-center bg-soft-beige h-full order-2 lg:order-1 lg:px-16 px-5">
           <div className="pr-2">
             <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display my-5">
-              Romance <span className="font-libreBaskerville">&</span>{" "}
+              Romance <span className="font-libreBaskerville">&</span>
               Honeymoons
             </h3>
             <p className="text-shadow-wash text-base lg:text-xl uppercase font-medium my-5 max-w-prose mx-auto">

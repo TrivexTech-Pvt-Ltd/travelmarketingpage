@@ -1,7 +1,9 @@
-import Blog1Banner from "../../public/images/blog/maldives/asadphoto-3320529.jpg"
-import Blog2Banner from "../../public/images/SL - INSIDE/Nuwara Eliya 01.jpg"
-import Blog3Banner from "../../public/images/blog/maldives/asadphoto-30037393.jpg"
-import Blog4Banner from "../../public/images/SL - INSIDE/Leopard 02.jpg"
+const baseUrl = "https://resources.travelnationsl.com"
+
+const Blog1Banner = `${baseUrl}/images/blog/maldives/asadphoto-3320529.jpg`;
+const Blog2Banner = `${baseUrl}/images/SL - INSIDE/Nuwara Eliya 01.jpg`;
+const Blog3Banner = `${baseUrl}/images/blog/maldives/asadphoto-30037393.jpg`;
+const Blog4Banner = `${baseUrl}/images/SL - INSIDE/Leopard 02.jpg`;
 
 export const blogData = [
     {

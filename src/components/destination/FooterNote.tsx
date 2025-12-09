@@ -11,6 +11,7 @@ const FooterNote = () => {
           src={YourJourney}
           alt="Adventure landscape"
           className="w-full h-full object-cover"
+          fill
         />
         {/* Soft Overlay */}
         <div className="absolute inset-0 bg-black/40"></div>
