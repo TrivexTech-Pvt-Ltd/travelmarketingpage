@@ -15,14 +15,14 @@ import { StaticImageData } from "next/image";
 
 export interface HeroTypeImage {
   id: number;
-  image: StaticImageData;
+  image: string;
   country: string;
   title: string;
 }
 
 export interface HeroType {
   id: number;
-  image?: StaticImageData | string; // optional
+  image?: string; // optional
   video?: string; // optional
   country?: string;
   text?: string;
@@ -31,5 +31,5 @@ export interface HeroType {
 
 export type ImageSliderType = {
   id: number;
-  image: StaticImageData;
+  image: string;
 };

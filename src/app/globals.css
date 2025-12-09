@@ -42,12 +42,6 @@
   outline: none !important;
 }
 
-.services-bg {
-  background-image: url("../../public/images/hero/services-hero.webp");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 /* Make dots visible & stylish */
 .slick-dots li button:before {
   font-size: 12px !important;
@@ -205,10 +199,6 @@
 .fade-out {
   animation: fadeOut 0.4s ease forwards;
 }
-
-/* .swiper li span {
-  color: white !important;
-} */
 
 .fade-out {
   opacity: 0;

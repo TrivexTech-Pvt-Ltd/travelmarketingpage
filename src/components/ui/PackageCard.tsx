@@ -6,7 +6,7 @@ import { FiMapPin } from "react-icons/fi";
 interface TravelCardProps {
     name: string;
     location: string;
-    image: StaticImageData;
+    image: string;
     title: string;
     slug: string;
     country?: string;
