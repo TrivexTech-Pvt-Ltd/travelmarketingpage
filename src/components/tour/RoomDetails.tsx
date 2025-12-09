@@ -24,7 +24,7 @@ const RoomDetails = ({ resort, room }: RoomDetailsProps) => {
     if (!roomData) return null;
     return (
         <div className='space-y-2'>
-                <ImageSlider heroData={images} height="h-96 md:h-[580px]" />
+                <ImageSlider heroData={images} height="h-96 lg:h-full xl:h-[680px] 4xl:h-[1080px]" />
             <div className='max-w-7xl mx-auto'>
                 <div className='flex flex-col gap-y-4 justify-center items-center pt-10'>
                     <h1 className='text-5xl text-black font-medium'>{roomData.name}</h1>

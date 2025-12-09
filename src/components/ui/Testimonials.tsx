@@ -1,17 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Star, MapPin, Quote } from "lucide-react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules"; // removed Navigation
 import "swiper/css";
 import "swiper/css/pagination";
-import ImageSlider from "./ImageSlider";
-import { slSliderNew, testimonials } from "@/utils/data";
+import { testimonials } from "@/utils/data";
 import Link from "next/link";
-import { FiArrowRight } from "react-icons/fi";
 import Image from "next/image";
-import { About1, About5 } from "@/utils/staticImages";
+import { About5, TestimonialImage } from "@/utils/staticImages";
 import { motion, AnimatePresence } from "framer-motion";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
@@ -48,9 +43,27 @@ export default function Testimonials() {
     }
   };
 
+  const textVariants = {
+    hidden: { opacity: 0, x: -50 },
+    visible: { opacity: 1, x: 0 },
+  };
+
+  const imageVariants = {
+    hidden: { opacity: 0, x: 50 },
+    visible: { opacity: 1, x: 0 },
+  };
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 items-center my-10">
-      <div className="bg-soft-beige p-6 flex justify-center items-center flex-col lg:px-12 h-full order-2 lg:order-1">
+      {/* TEXT */}
+      <motion.div
+        className="bg-soft-beige p-6 flex justify-center items-center flex-col lg:px-12 h-full order-2 lg:order-1"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.3 }}
+        variants={textVariants}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      >
         <div className="max-w-5xl">
           <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl uppercase font-normal font-playfair-display py-3">
             STORIES FROM OUR JOURNEYS
@@ -59,6 +72,8 @@ export default function Testimonials() {
             Our guests arrive as travellers and leave as friends <br /> carrying
             stories, laughter, and memories that last a lifetime
           </p>
+
+          {/* Testimonial Card */}
           <AnimatePresence mode="wait">
             <motion.div
               key={index}
@@ -74,7 +89,6 @@ export default function Testimonials() {
               <p className="text-base md:text-lg leading-relaxed text-shadow-wash mt-4">
                 {testimonials[index].text}
               </p>
-
               <p className="text-sm md:text-base text-gray-500 font-semibold">
                 {testimonials[index].author}
               </p>
@@ -99,6 +113,8 @@ export default function Testimonials() {
               <MdArrowForward size={22} />
             </button>
           </div>
+
+          {/* Trustpilot Link */}
           <div className="w-fit px-5 rounded-sm py-1 bg-gray-900 mt-6">
             <Link
               href="https://www.trustpilot.com/review/travelnationsl.com?utm_medium=trustbox&utm_source=TrustBoxReviewCollector"
@@ -117,14 +133,26 @@ export default function Testimonials() {
             </Link>
           </div>
         </div>
-      </div>
-      <Image
-        src={About5}
-        height={500}
-        width={500}
-        alt="maldives"
-        className="w-full h-96 lg:h-full xl:h-[680px] order-1 lg:order-2"
-      />
+      </motion.div>
+
+      {/* IMAGE */}
+      <motion.div
+        className="order-1 lg:order-2"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.3 }}
+        variants={imageVariants}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      >
+        <Image
+          src={TestimonialImage}
+          height={500}
+          width={500}
+          alt="maldives"
+          priority
+          className="h-96 lg:h-full xl:h-[680px] 4xl:h-[1080px] w-full object-cover"
+        />
+      </motion.div>
     </div>
   );
 }
