@@ -284,7 +284,7 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
         <div className="order-1 lg:order-1 h-full w-full">
           <ImageSlider
             heroData={slCulture}
-            height="h-80 sm:h-96 lg:h-[500px] xl:h-[650px] 2xl:h-[750px]"
+            height="h-96 lg:h-full xl:h-[680px] 4xl:h-[1080px]"
           />
         </div>
 
@@ -313,7 +313,7 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
         <div className="order-1 lg:order-2 h-full w-full">
           <ImageSlider
             heroData={slillCountry}
-            height="h-80 sm:h-96 lg:h-[500px] xl:h-[650px] 2xl:h-[750px]"
+            height="h-96 lg:h-full xl:h-[680px] 4xl:h-[1080px]"
           />
         </div>
 
@@ -345,7 +345,7 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
         <div className="order-1 lg:order-1 h-full w-full">
           <ImageSlider
             heroData={slWildLife}
-            height="h-80 sm:h-96 lg:h-[450px] xl:h-[550px] 2xl:h-[650px]"
+            height="h-96 lg:h-full xl:h-[680px] 4xl:h-[1080px]"
           />
         </div>
 
@@ -377,7 +377,7 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
         <div className="order-1 lg:order-2 h-full w-full">
           <ImageSlider
             heroData={slOcean}
-            height="h-80 sm:h-96 lg:h-[500px] xl:h-[650px] 2xl:h-[750px]"
+            height="h-96 lg:h-full xl:h-[680px] 4xl:h-[1080px]"
           />
         </div>
 
@@ -408,7 +408,7 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
         <div className="order-1 lg:order-1 h-full w-full">
           <ImageSlider
             heroData={slGastronomy}
-            height="h-80 sm:h-96 lg:h-[450px] xl:h-[550px] 2xl:h-[650px]"
+            height="h-96 lg:h-full xl:h-[680px] 4xl:h-[1080px]"
           />
         </div>
 
@@ -444,7 +444,7 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
         <div className="order-1 lg:order-2 h-full w-full">
           <ImageSlider
             heroData={slColombo}
-            height="h-80 sm:h-96 lg:h-[500px] xl:h-[650px] 2xl:h-[750px]"
+            height="h-96 lg:h-full xl:h-[680px] 4xl:h-[1080px]"
           />
         </div>
 
@@ -452,22 +452,18 @@ const SriLankaOverview = ({ setActiveTab }: SriLankaOverviewProps) => {
           <div className="p-6 sm:p-12">
             <h3 className="text-sea-green text-3xl sm:text-4xl md:text-5xl font-normal uppercase font-playfair-display my-3 sm:my-5"> Colombo </h3>
             <p className="text-base lg:text-xl text-shadow-wash mb-6 sm:mb-8 leading-7">
-              {" "}
-              Where Heritage Meets Modernity{" "}
-            </p>{" "}
+              Where Heritage Meets Modernity
+            </p>
             <p className="text-sm lg:text-lg text-gray-500 mb-6 sm:mb-8 leading-7">
-              {" "}
               Once a trading port, now a vibrant capital, Colombo blends
-              colonial charm with contemporary style.{" "}
-            </p>{" "}
+              colonial charm with contemporary style.
+            </p>
             <p className="text-sm lg:text-lg text-gray-500 mb-6 sm:mb-8 leading-7">
-              {" "}
               Café-lined streets, galleries, boutique stores, and rooftop bars
-              reflect a city that&apos;s both energetic and elegant.{" "}
-            </p>{" "}
+              reflect a city that&apos;s both energetic and elegant.
+            </p>
             <p className="text-sm lg:text-lg text-gray-500 leading-7">
-              {" "}
-              It is the perfect beginning or end to your island story.{" "}
+              It is the perfect beginning or end to your island story.
             </p>
           </div>
         </div>

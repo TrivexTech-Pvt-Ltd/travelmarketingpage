@@ -1,3 +1,5 @@
+const basrUrl = "https://resources.travelnationsl.com"
+
 // Logo
 import Logo from "../../public/images/logo/Logo.webp";
 import LogoWhite from "../../public/images/logo/logo-white.jpeg";
@@ -91,7 +93,11 @@ import AlilaHero3 from "../../public/images/hero/alila/alila-hero-3.webp";
 import AlilaHero4 from "../../public/images/hero/alila/alila-hero-4.webp";
 import AlilaHero5 from "../../public/images/hero/alila/alila-hero-5.webp";
 import AlilaHero6 from "../../public/images/hero/alila/alila-hero-6.webp";
-import YourJourney from "../../public/images/hero/your-journey.webp" 
+import YourJourney from "../../public/images/hero/your-journey.jpg";
+import LuxHoliday1 from "../../public/images/hero/ltmh-1.jpg";
+import LuxHoliday2 from "../../public/images/hero/ltmh-2.jpg";
+import TestimonialImage from "../../public/images/hero/testimonials.jpg";
+import OurCoreHero from "../../public/images/hero/ourCore-hero.jpg";  
 
 //Sl-outside
 import SlOutside1 from "../../public/images/SL - OUTSIDE/Temple of the Tooth in Kandy, Sri Lanka.jpg";
@@ -124,6 +130,8 @@ import PackageSL3 from "../../public/images/packages/srilanka/pk-sl3.webp";
 import PackageSL4 from "../../public/images/packages/srilanka/pk-sl4.webp";
 import PackageSL5 from "../../public/images/packages/srilanka/pk-sl5.webp";
 import PackageSL6 from "../../public/images/packages/srilanka/pk-sl6.webp";
+import PackageSL7 from "../../public/images/packages/srilanka/sl-north-east.jpg";
+import PackageSL8 from "../../public/images/packages/srilanka/sl-wellness.jpg";
 
 //shapes
 import PlaneShape from "../../public/images/shapes/about-shape.png";
@@ -801,5 +809,11 @@ export {
   MalOutside3,
   MalOutside4,
   MalOutside5,
-  YourJourney
+  YourJourney,
+  LuxHoliday1,
+  LuxHoliday2,
+  TestimonialImage,
+  PackageSL7,
+  PackageSL8,
+  OurCoreHero
 };
