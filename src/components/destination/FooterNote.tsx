@@ -30,10 +30,10 @@ const FooterNote = () => {
 
         {/* Right Text */}
         <div className="max-w-md space-y-6">
-          <p className="text-gray-700 text-lg md:text-xl 4xl:2xl leading-relaxed">
+          <p className="text-white text-lg md:text-xl 4xl:2xl leading-relaxed">
             Let us guide you forward
           </p>
-          <button type='button' className="cursor-pointer text-gray-900 text-sm 4xl:lg w-fit flex items-center gap-x-2 rounded-md bg-transparent py-3 px-6 sm:py-4 sm:px-8 border border-gray-900 transition-all duration-300 hover:bg-gray-900 hover:text-white hover:scale-105 font-medium">
+          <button type='button' className="cursor-pointer text-white text-sm 4xl:lg w-fit flex items-center gap-x-2 rounded-md bg-transparent py-3 px-6 sm:py-4 sm:px-8 border border-gray-100 transition-all duration-300 hover:bg-gray-900 hover:text-white hover:scale-105 font-medium">
             Let&apos;s go Places
           </button>
         </div>
