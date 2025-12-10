@@ -1,5 +1,5 @@
 "use client";
-import { About5, TestimonialImage } from "@/utils/staticImages";
+import { About5, mapnew } from "@/utils/staticImages";
 import { useState } from "react";
 import Swal from "sweetalert2";
 import {
@@ -215,7 +215,7 @@ export default function ContactUs() {
             className="relative w-full h-[500px] overflow-hidden rounded-lg my-4"
           >
             <img
-              src={TestimonialImage}
+              src={mapnew}
               alt="Travel Nation Map"
               className="w-full h-full object-cover"
             />

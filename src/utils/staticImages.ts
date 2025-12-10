@@ -477,7 +477,7 @@ const LuxHoliday1 = `${baseUrl}/images/hero/ltmh-1.jpg`;
 const LuxHoliday2 = `${baseUrl}/images/hero/ltmh-2.jpg`;
 const TestimonialImage = `${baseUrl}/images/hero/testimonials.jpg`;
 const OurCoreHero = `${baseUrl}/images/hero/ourCore-hero.jpg`;
-const mapnew = `${baseUrl}/images/hero/Travel Nation Map (2).jpg`;
+const mapnew = `${baseUrl}/images/ts-map.png`;
 export {
   Logo,
   LogoWhite,
