@@ -1,4 +1,4 @@
-const baseUrl = "https://resources.travelnationsl.com"
+const baseUrl = "https://resources.travelnationsl.com";
 
 // Logo
 const Logo = `${baseUrl}/images/logo/Logo.webp`;
@@ -477,6 +477,7 @@ const LuxHoliday1 = `${baseUrl}/images/hero/ltmh-1.jpg`;
 const LuxHoliday2 = `${baseUrl}/images/hero/ltmh-2.jpg`;
 const TestimonialImage = `${baseUrl}/images/hero/testimonials.jpg`;
 const OurCoreHero = `${baseUrl}/images/hero/ourCore-hero.jpg`;
+const mapnew = `${baseUrl}/images/ts-map.png`;
 export {
   Logo,
   LogoWhite,
@@ -818,5 +819,6 @@ export {
   TestimonialImage,
   PackageSL7,
   PackageSL8,
-  OurCoreHero
+  OurCoreHero,
+  mapnew,
 };
