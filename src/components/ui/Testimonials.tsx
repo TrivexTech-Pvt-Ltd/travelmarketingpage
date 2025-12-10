@@ -136,7 +136,7 @@ export default function Testimonials() {
       </motion.div>
 
       {/* IMAGE */}
-      <motion.div
+      {/* <motion.div
         className="order-1 lg:order-2"
         initial="hidden"
         whileInView="visible"
@@ -152,6 +152,26 @@ export default function Testimonials() {
           priority
           className="h-96 lg:h-full xl:h-[680px] 4xl:h-[1080px] w-full object-cover"
         />
+      </motion.div> */}
+      <motion.div
+        className="order-1 lg:order-2"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.3 }}
+        variants={imageVariants}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      >
+        <div className="relative h-96 lg:h-full xl:h-[680px] 4xl:h-[1080px] w-full">
+          <Image
+            src={TestimonialImage}
+            alt="maldives"
+            fill
+            quality={100}
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
+        </div>
       </motion.div>
     </div>
   );

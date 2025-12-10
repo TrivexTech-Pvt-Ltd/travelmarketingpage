@@ -4,15 +4,74 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Modal from "../ui/Modal";
 import Quotation from "../ui/Quotation";
+import { motion } from "framer-motion";
 
+const fadeDown = {
+  hidden: { opacity: 0, y: -40 },
+  show: { opacity: 1, y: 0 },
+};
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 40 },
+  show: { opacity: 1, y: 0 },
+};
 const DetailsHeader = () => {
   const data = useTourPackageStore((s) => s.tourPackage);
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   if (!data) return null;
   return (
-    <div className="flex flex-col lg:flex-row md:justify-center md:items-center gap-8 md:gap-16 my-5 max-w-7xl mx-auto">
+    // <div className="flex flex-col lg:flex-row md:justify-center md:items-center gap-8 md:gap-16 my-5 max-w-7xl mx-auto">
+    //   {data?.logo && (
+    //     <div className="flex-shrink-0">
+    //       <Image
+    //         src={data.logo}
+    //         alt={data.name}
+    //         width={200}
+    //         height={200}
+    //         className="max-sm:mx-auto"
+    //       />
+    //     </div>
+    //   )}
+    //   <div className="text-lg text-gray-500 flex-1 max-sm:text-center">
+    //     {data?.descriptionLong}
+    //   </div>
+    //   {/* <div className="flex-shrink-0 max-sm:mx-auto">
+    //             <div className='space-y-3 max-sm:mx-auto'>
+    //                 <p className='text-lg text-gray-500 uppercase'>PER ROOM STARTING</p>
+    //                 <button
+    //                     onClick={() => setIsModalOpen(true)}
+    //                     className="block text-white bg-sea-green rounded-md py-3 px-6 cursor-pointer uppercase text-sm hover:opacity-90 mx-auto"
+    //                     type="button"
+    //                 >
+    //                     inquire
+    //                 </button>
+    //             </div>
+    //         </div> */}
+
+    //   {/* Modal */}
+    //   <Modal
+    //     isOpen={isModalOpen}
+    //     onClose={() => setIsModalOpen(false)}
+    //     title="Get a Quote"
+    //   >
+    //     <Quotation />
+    //   </Modal>
+    // </div>
+
+    <motion.div
+      className="flex flex-col lg:flex-row md:justify-center md:items-center gap-8 md:gap-16 my-5 max-w-7xl mx-auto"
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ staggerChildren: 0.2 }}
+    >
+      {/* LOGO — fade DOWN */}
       {data?.logo && (
-        <div className="flex-shrink-0">
+        <motion.div
+          variants={fadeDown}
+          transition={{ duration: 0.7, ease: "easeOut" }}
+          className="flex-shrink-0"
+        >
           <Image
             src={data.logo}
             alt={data.name}
@@ -20,23 +79,17 @@ const DetailsHeader = () => {
             height={200}
             className="max-sm:mx-auto"
           />
-        </div>
+        </motion.div>
       )}
-      <div className="text-lg text-gray-500 flex-1 max-sm:text-center">
+
+      {/* DESCRIPTION — fade UP */}
+      <motion.div
+        variants={fadeUp}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        className="text-lg text-gray-500 flex-1 max-sm:text-center"
+      >
         {data?.descriptionLong}
-      </div>
-      {/* <div className="flex-shrink-0 max-sm:mx-auto">
-                <div className='space-y-3 max-sm:mx-auto'>
-                    <p className='text-lg text-gray-500 uppercase'>PER ROOM STARTING</p>
-                    <button
-                        onClick={() => setIsModalOpen(true)}
-                        className="block text-white bg-sea-green rounded-md py-3 px-6 cursor-pointer uppercase text-sm hover:opacity-90 mx-auto"
-                        type="button"
-                    >
-                        inquire
-                    </button>
-                </div>
-            </div> */}
+      </motion.div>
 
       {/* Modal */}
       <Modal
@@ -46,7 +99,7 @@ const DetailsHeader = () => {
       >
         <Quotation />
       </Modal>
-    </div>
+    </motion.div>
   );
 };
 
