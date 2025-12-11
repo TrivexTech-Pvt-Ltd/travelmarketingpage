@@ -34,10 +34,10 @@ export const blogData = [
     hospitality in equal measure, and our aim is to present it in a way that feels personal and meaningful.
   </p>
   <div class="sl-images grid grid-cols-1 sm:grid-cols-2 gap-4 my-8">
-    <img src="/images/blog/sri-lanka/Anuradhapura-03.jpg" alt="Sri Lanka Image 01" class="w-full rounded h-96" />
-    <img src="/images/SL - INSIDE/Nuwara Eliya 02.jpg" alt="Sri Lanka Image 02" class="w-full rounded h-96" />
-    <img src="/images/blog/sri-lanka/People-18.jpg" alt="Sri Lanka Image 03" class="w-full rounded h-96" />
-    <img src="/images/SL - INSIDE/Yala National Park 01.jpg" alt="Sri Lanka Image 04" class="w-full rounded h-96" />
+    <img src="https://resources.travelnationsl.com/images/blog/sri-lanka/Anuradhapura-03.jpg" alt="Sri Lanka Image 01" class="w-full rounded h-96" />
+    <img src="https://resources.travelnationsl.com/images/SL - INSIDE/Nuwara Eliya 02.jpg" alt="Sri Lanka Image 02" class="w-full rounded h-96" />
+    <img src="https://resources.travelnationsl.com/images/blog/sri-lanka/People-18.jpg" alt="Sri Lanka Image 03" class="w-full rounded h-96" />
+    <img src="https://resources.travelnationsl.com/images/SL - INSIDE/Yala National Park 01.jpg" alt="Sri Lanka Image 04" class="w-full rounded h-96" />
   </div>
   <h3 class="text-2xl md:text-3xl font-semibold mt-8 mb-4">The Maldives - A Different Shape of Paradise</h3>
   <p class="mb-4 text-base md:text-lg text-gray-500">
@@ -51,10 +51,10 @@ export const blogData = [
     continues to evolve while keeping its timeless appeal.
   </p>
   <div class="ml-images grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 mb-8">
-    <img src="/images/blog/maldives/asadphoto.jpg" alt="Maldives Image 01" class="w-full rounded h-96" />
-    <img src="/images/blog/maldives/asadphoto-3320529.jpg" alt="Maldives Image 02" class="w-full rounded h-96" />
-    <img src="/images/blog/maldives/emmali-5159137.jpg" alt="Maldives Image 03" class="w-full rounded h-96" />
-    <img src="/images/blog/maldives/asadphoto-9500416.jpg" alt="Maldives Image 04" class="w-full rounded h-96" />
+    <img src="https://resources.travelnationsl.com/images/blog/maldives/asadphoto.jpg" alt="Maldives Image 01" class="w-full rounded h-96" />
+    <img src="https://resources.travelnationsl.com/images/blog/maldives/asadphoto-3320529.jpg" alt="Maldives Image 02" class="w-full rounded h-96" />
+    <img src="https://resources.travelnationsl.com/images/blog/maldives/emmali-5159137.jpg" alt="Maldives Image 03" class="w-full rounded h-96" />
+    <img src="https://resources.travelnationsl.com/images/blog/maldives/asadphoto-9500416.jpg" alt="Maldives Image 04" class="w-full rounded h-96" />
   </div>
   <p class="mb-8 text-center font-medium text-2xl text-gray-500 py-4 italic">
     Travel Nation is proud to begin this journey with you, bringing Sri Lanka and the Maldives to life in ways 
@@ -83,10 +83,10 @@ export const blogData = [
     <p class="mb-4 text-base md:text-lg text-gray-500">A visit to a local tea factory helps guests understand how much care goes into each stage of production. The guided walk through the machinery, followed by a tasting session, adds depth to what is often only seen from a distance. It also gives travellers a chance to appreciate the roots of one of the country’s most important industries.</p>
 
     <div class="ml-images grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 mb-8">
-      <img class="w-full rounded h-96" src="/images/blog/sri-lanka/NuwaraEliya-01.jpg" />
-      <img class="w-full rounded h-96" src="/images/blog/sri-lanka/NuwaraEliya-09.jpg" />
-      <img class="w-full rounded h-96" src="/images/blog/sri-lanka/Mountain-10-Riverston.jpg" />
-      <img class="w-full rounded h-96" src="/images/SL - INSIDE/Mountain 05.jpg" />
+      <img class="w-full rounded h-96" src="https://resources.travelnationsl.com/images/blog/sri-lanka/NuwaraEliya-01.jpg" />
+      <img class="w-full rounded h-96" src="https://resources.travelnationsl.com/images/blog/sri-lanka/NuwaraEliya-09.jpg" />
+      <img class="w-full rounded h-96" src="https://resources.travelnationsl.com/images/blog/sri-lanka/Mountain-10-Riverston.jpg" />
+      <img class="w-full rounded h-96" src="https://resources.travelnationsl.com/images/SL - INSIDE/Mountain 05.jpg" />
     </div>
 
     <h3 class="text-2xl md:text-3xl font-semibold mt-8 mb-4">A Train Ride Through the Mountains</h3>
@@ -94,9 +94,9 @@ export const blogData = [
     <p class="mb-4 text-base md:text-lg text-gray-500">For many guests, this journey becomes a highlight of their time in Sri Lanka. The open windows, cool air and slow pace make it a simple but memorable way to see the landscape.</p>
 
     <div class="ml-images grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 mb-8">
-      <img class="w-full rounded h-72" src="/images/blog/sri-lanka/TrainJourney-02.jpg" />
-      <img class="w-full rounded h-72" src="/images/SL - INSIDE/Ella 04.jpg" />
-      <img class="w-full rounded h-72" src="/images/blog/sri-lanka/People-13.jpg" />
+      <img class="w-full rounded h-72" src="https://resources.travelnationsl.com/images/blog/sri-lanka/TrainJourney-02.jpg" />
+      <img class="w-full rounded h-72" src="https://resources.travelnationsl.com/images/SL - INSIDE/Ella 04.jpg" />
+      <img class="w-full rounded h-72" src="https://resources.travelnationsl.com/images/blog/sri-lanka/People-13.jpg" />
     </div>
 
     <h3 class="text-2xl md:text-3xl font-semibold mt-8 mb-4">Why the Hill Country Works for Every Traveller</h3>
@@ -125,7 +125,7 @@ export const blogData = [
   <p class="mb-4 text-base md:text-lg text-gray-500">The Maldives is made up of more than a thousand islands, grouped into long chains called atolls. Many islands hold a single resort, which gives guests an immediate sense of space and privacy. The water is clear enough to see coral, fish and rays from the shore, and the colour changes gently through the day with the movement of the sun.</p>
 
   <div class="my-6">
-    <img class="w-full mx-auto" src="/images/blog/maldives/faikackmerd-33243110.jpg" />
+    <img class="w-full mx-auto" src="https://resources.travelnationsl.com/images/blog/maldives/faikackmerd-33243110.jpg" />
   </div>
 
   <h2 class="text-2xl md:text-3xl font-semibold mt-8 mb-4">Life Above and Below the Water</h2>
@@ -133,9 +133,9 @@ export const blogData = [
   <p class="mb-4 text-base md:text-lg text-gray-500">For those who enjoy diving, several atolls offer channels where large marine life can be seen. Whale sharks, manta rays and reef sharks are among the key highlights. Even travellers who prefer to stay on the surface can join relaxed sunset cruises, where pods of dolphins often swim alongside the boat.</p>
 
   <div class="ml-images grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 mb-8">
-    <img class="w-full rounded h-72" src="/images/blog/maldives/user-193600335-12059912.jpg" />
-    <img class="w-full rounded h-72" src="/images/blog/maldives/emmali-5159137.jpg" />
-    <img class="w-full rounded h-72" src="/images/blog/maldives/Soneva-Fushi-Dolphin-Cruise.jpg" />
+    <img class="w-full rounded h-72" src="https://resources.travelnationsl.com/images/blog/maldives/user-193600335-12059912.jpg" />
+    <img class="w-full rounded h-72" src="https://resources.travelnationsl.com/images/blog/maldives/emmali-5159137.jpg" />
+    <img class="w-full rounded h-72" src="https://resources.travelnationsl.com/images/blog/maldives/Soneva-Fushi-Dolphin-Cruise.jpg" />
   </div>
 
   <h2 class="text-2xl md:text-3xl font-semibold mt-8 mb-4">Resorts Designed for Different Travellers</h2>
@@ -143,9 +143,9 @@ export const blogData = [
   <p class="mb-4 text-base md:text-lg text-gray-500">Overwater villas remain one of the most recognisable features of the Maldives. These villas sit above calm lagoons with direct access to the sea. Beach villas, set among coconut palms and soft sand, are equally popular with travellers who prefer a more grounded setting.</p>
 
   <div class="ml-images grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 mb-8">
-    <img class="w-full rounded h-72" src="/images/blog/maldives/asadphoto-3155727.jpg" />
-    <img class="w-full rounded h-72" src="/images/blog/maldives/asadphoto-30037393.jpg" />
-    <img class="w-full rounded h-72" src="/images/blog/maldives/asadphoto-28843952.jpg" />
+    <img class="w-full rounded h-72" src="https://resources.travelnationsl.com/images/blog/maldives/asadphoto-3155727.jpg" />
+    <img class="w-full rounded h-72" src="https://resources.travelnationsl.com/images/blog/maldives/asadphoto-30037393.jpg" />
+    <img class="w-full rounded h-72" src="https://resources.travelnationsl.com/images/blog/maldives/asadphoto-28843952.jpg" />
   </div>
 
   <h2 class="text-2xl md:text-3xl font-semibold mt-8 mb-4">Why the Maldives Works So Well with Sri Lanka</h2>
@@ -172,23 +172,23 @@ export const blogData = [
   <p class="mb-4 text-base md:text-lg text-gray-500">Morning safaris usually begin with soft light moving across the park’s grasslands. Waterholes attract deer, peacocks and wild buffalo, while birdlife gathers in quiet groups along the edges. The mix of forest and open ground gives visitors a chance to see animals at different times of day, each with its own rhythm.</p>
 
   <div class="my-6">
-    <img class="w-full mx-auto" src="/images/blog/sri-lanka/YalaNationalPark-02.jpg" />
+    <img class="w-full mx-auto" src="https://resources.travelnationsl.com/images/blog/sri-lanka/YalaNationalPark-02.jpg" />
   </div>
 
   <h2 class="text-2xl md:text-3xl font-semibold mt-8 mb-4">Leopards and Their Territory</h2>
   <p class="mb-4 text-base md:text-lg text-gray-500">Yala is known internationally for having one of the highest densities of leopards in Asia. Sightings are never guaranteed, but the chances here are better than in many parts of the region. Visitors often see leopards resting on warm rocks or moving quietly between trees. The experience is memorable because the animals are usually seen in natural behaviour rather than staged settings.</p>
 
   <div class="grid sm:grid-cols-2 gap-4 my-6">
-    <img class="w-full h-96" src="/images/blog/sri-lanka/Leopard-02.jpg" />
-    <img class="w-full h-96" src="/images/SL - INSIDE/Leopard 04.jpg" />
+    <img class="w-full h-96" src="https://resources.travelnationsl.com/images/blog/sri-lanka/Leopard-02.jpg" />
+    <img class="w-full h-96" src="https://resources.travelnationsl.com/images/SL - INSIDE/Leopard 04.jpg" />
   </div>
 
   <h2 class="text-2xl md:text-3xl font-semibold mt-8 mb-4">Elephants and the Smaller Residents</h2>
   <p class="mb-4 text-base md:text-lg text-gray-500">Elephants are another highlight. They move across the park in family groups and are often seen near water during the warmer hours. Yala also shelters sloth bears, jackals, mongooses, crocodiles and a wide range of birds. Even travellers who are not focused on large animals enjoy the variety of wildlife that appears throughout a single safari.</p>
 
   <div class="grid sm:grid-cols-2 gap-4 my-6">
-    <img class="w-full h-96" src="/images/SL - INSIDE/Yala National Park 01.jpg" />
-    <img class="w-full h-96" src="/images/blog/sri-lanka/Bird-02.jpg" />
+    <img class="w-full h-96" src="https://resources.travelnationsl.com/images/SL - INSIDE/Yala National Park 01.jpg" />
+    <img class="w-full h-96" src="https://resources.travelnationsl.com/images/blog/sri-lanka/Bird-02.jpg" />
   </div>
 
   <h2 class="text-2xl md:text-3xl font-semibold mt-8 mb-4">Why Yala Works for Travellers</h2>
@@ -196,7 +196,7 @@ export const blogData = [
   <p class="mb-4 text-base md:text-lg text-gray-500">At Travel Nation, we select guides and jeep teams familiar with the park’s behaviour patterns and viewing ethics. This helps ensure that sightings are respectful and that guests receive reliable information about the animals and their environment.</p>
 
   <div class="my-6">
-    <img class="w-full h-auto mx-auto" src="/images/SL - INSIDE/Safari 01.jpg" />
+    <img class="w-full h-auto mx-auto" src="https://resources.travelnationsl.com/images/SL - INSIDE/Safari 01.jpg" />
   </div>
 
   <p class="mb-8 text-center font-medium text-2xl text-gray-500 py-4 italic">As one of Sri Lanka’s signature wildlife areas, Yala continues to show visitors a side of the island that feels raw and powerful. Travel Nation will keep highlighting experiences that help travellers connect with nature while maintaining responsible and informed travel practices.</p>
