@@ -1,3 +1,4 @@
+const baseUrl = "https://resources.travelnationsl.com";
 import {
   Accommodation1,
   Accommodation2,
@@ -310,7 +311,10 @@ import { HeroType } from "@/types/hero.types";
 //Home Page Hero
 
 export const slideData: HeroType[] = [
-  { id: 1, video: "https://resources.travelnationsl.com/videos/intro-video.mp4" },
+  {
+    id: 1,
+    video: "https://resources.travelnationsl.com/videos/intro-video.mp4",
+  },
 ];
 
 // export const slideData = [
@@ -819,7 +823,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom7, SMAccom8, SMAccom9, SMAccom10],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
 
@@ -852,7 +856,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom1, SMAccom2, SMAccom3],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -874,7 +878,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom4, SMAccom5, SMAccom1, SMAccom3, SMAccom6],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -903,7 +907,7 @@ export const MaldivesData = [
           SMAccom16,
         ],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -930,7 +934,7 @@ export const MaldivesData = [
           SMAccom29,
         ],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -955,7 +959,7 @@ export const MaldivesData = [
           SMAccom44,
         ],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -987,7 +991,7 @@ export const MaldivesData = [
           SMAccom38,
         ],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -1009,7 +1013,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom7, SMAccom8, SMAccom9, SMAccom10],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -1037,7 +1041,7 @@ export const MaldivesData = [
           SMAccom38,
         ],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -1066,7 +1070,7 @@ export const MaldivesData = [
           SMAccom44,
         ],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
 
@@ -1086,7 +1090,7 @@ export const MaldivesData = [
         features: ["Private pool", "Lagoon slide", "Direct ocean access"],
         images: [SMAccom4, SMAccom5, SMAccom1, SMAccom3, SMAccom6],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -1104,7 +1108,7 @@ export const MaldivesData = [
         features: ["Lagoon slide", "Private pool", "Glass views"],
         images: [SMAccom7, SMAccom8, SMAccom9, SMAccom10],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -1129,7 +1133,7 @@ export const MaldivesData = [
           SMAccom16,
         ],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -1147,7 +1151,7 @@ export const MaldivesData = [
         features: ["Overwater pavilion", "Slide", "Large private pool"],
         images: [SMAccom13, SMAccom14, SMAccom15],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -1174,7 +1178,7 @@ export const MaldivesData = [
           SMAccom29,
         ],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -1199,7 +1203,7 @@ export const MaldivesData = [
           SMAccom44,
         ],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -1222,7 +1226,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom7, SMAccom8, SMAccom9, SMAccom1],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
     ],
@@ -1494,7 +1498,7 @@ export const MaldivesData = [
       "Malé Velana International Airport",
     ],
     resortMap: {
-      path: "/images/maldives/resort-maps/NOOE Maldives Kunaavashi.jpg",
+      path: "https://resources.travelnationsl.com/images/maldives/resort-maps/NOOE Maldives Kunaavashi.jpg",
     },
     highlightContent: {
       title: "A lifestyle in perfect balance",
@@ -1742,7 +1746,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom1, SMAccom2, SMAccom3],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
 
@@ -1765,7 +1769,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom4, SMAccom5, SMAccom1, SMAccom3, SMAccom6],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
 
@@ -1789,7 +1793,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom7, SMAccom8, SMAccom9, SMAccom10],
         floorPlan: {
-          path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf",
         },
       },
 
@@ -1820,7 +1824,7 @@ export const MaldivesData = [
           SMAccom16,
         ],
         floorPlan: {
-          path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf",
         },
       },
 
@@ -1844,7 +1848,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom17, SMAccom18, SMAccom19, SMAccom20, SMAccom21],
         floorPlan: {
-          path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_family-beach-pool-villa-with-capsule.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/so-maldives/so_maldives_floorplans_family-beach-pool-villa-with-capsule.pdf",
         },
       },
     ],
@@ -2006,7 +2010,7 @@ export const MaldivesData = [
       "Water sports centre",
     ],
     resortMap: {
-      path: "/images/maldives/resort-maps/NH Maldives Kuda Rah Resort.jpg",
+      path: "https://resources.travelnationsl.com/images/maldives/resort-maps/NH Maldives Kuda Rah Resort.jpg",
     },
 
     highlightContent: {
@@ -2037,7 +2041,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom1, SMAccom2],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -2055,7 +2059,7 @@ export const MaldivesData = [
         features: ["Lagoon access", "Private pool", "Panoramic ocean views"],
         images: [SMAccom4, SMAccom5, SMAccom1, SMAccom3, SMAccom6],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -2073,7 +2077,7 @@ export const MaldivesData = [
         features: ["Two bedrooms", "Direct beach access", "Large private pool"],
         images: [SMAccom7, SMAccom8, SMAccom9, SMAccom10],
         floorPlan: {
-          path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf",
         },
       },
       {
@@ -2102,7 +2106,7 @@ export const MaldivesData = [
           SMAccom16,
         ],
         floorPlan: {
-          path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf",
         },
       },
       {
@@ -2124,7 +2128,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom17, SMAccom18, SMAccom19, SMAccom20, SMAccom21],
         floorPlan: {
-          path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_family-beach-pool-villa-with-capsule.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/so-maldives/so_maldives_floorplans_family-beach-pool-villa-with-capsule.pdf",
         },
       },
       // {
@@ -2438,7 +2442,7 @@ export const MaldivesData = [
       "Roster of weekly events and activities, from live music nights and pool parties to cooking classes and stargazing experiences",
     ],
     resortMap: {
-      path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+      path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
     },
     highlightContent: {
       title: "Where castaway meets runway",
@@ -2468,7 +2472,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom1, SMAccom2, SMAccom3],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -2491,7 +2495,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom4, SMAccom5, SMAccom1, SMAccom3, SMAccom6],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -2514,7 +2518,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom7, SMAccom8, SMAccom9, SMAccom10],
         floorPlan: {
-          path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf",
         },
       },
       {
@@ -2544,7 +2548,7 @@ export const MaldivesData = [
           SMAccom16,
         ],
         floorPlan: {
-          path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf",
         },
       },
       {
@@ -2567,7 +2571,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom17, SMAccom18, SMAccom19, SMAccom20, SMAccom21],
         floorPlan: {
-          path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_family-beach-pool-villa-with-capsule.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/so-maldives/so_maldives_floorplans_family-beach-pool-villa-with-capsule.pdf",
         },
       },
       {
@@ -2599,7 +2603,7 @@ export const MaldivesData = [
           SMAccom29,
         ],
         floorPlan: {
-          path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_two-bedroom-ocean-water-pool-atelier.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/so-maldives/so_maldives_floorplans_two-bedroom-ocean-water-pool-atelier.pdf",
         },
       },
       {
@@ -2632,7 +2636,7 @@ export const MaldivesData = [
           SMAccom38,
         ],
         floorPlan: {
-          path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_two-bedroom-lagoon-beach-pool-loft.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/so-maldives/so_maldives_floorplans_two-bedroom-lagoon-beach-pool-loft.pdf",
         },
       },
       {
@@ -2662,7 +2666,7 @@ export const MaldivesData = [
           SMAccom44,
         ],
         floorPlan: {
-          path: "/images/maldives/accommodation/so-maldives/so_maldives_floorplans_three-bedroom-ocean-water-pool-atelier.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/so-maldives/so_maldives_floorplans_three-bedroom-ocean-water-pool-atelier.pdf",
         },
       },
     ],
@@ -2789,7 +2793,7 @@ export const MaldivesData = [
       ],
     },
     resortMap: {
-      path: "/images/maldives/resort-maps/Mövenpick Resort Kuredhivaru Maldives.jpg",
+      path: "https://resources.travelnationsl.com/images/maldives/resort-maps/Mövenpick Resort Kuredhivaru Maldives.jpg",
     },
     accommodation: [
       {
@@ -2814,7 +2818,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom1, SMAccom2, SMAccom3],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -2837,7 +2841,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom4, SMAccom5, SMAccom1, SMAccom3, SMAccom6],
         floorPlan: {
-          path: "/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/resort-maps/so_maldives_floorplans_water-pool-villa-collection.pdf",
         },
       },
       {
@@ -2860,7 +2864,7 @@ export const MaldivesData = [
         ],
         images: [SMAccom7, SMAccom8, SMAccom9, SMAccom10],
         floorPlan: {
-          path: "/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/so-maldives/so_maldives_lagoon-beach-pool-villa.pdf",
         },
       },
       {
@@ -3241,7 +3245,7 @@ export const MaldivesData = [
       "A unique resort’s private sandbank, The Shack",
     ],
     resortMap: {
-      path: "/images/maldives/resort-maps/alila-kothaifaru-maldives-resort-map.webp",
+      path: "https://resources.travelnationsl.com/images/maldives/resort-maps/alila-kothaifaru-maldives-resort-map.webp",
     },
     highlightContent: {
       title: "A new way to experience the Maldives",
@@ -3272,7 +3276,7 @@ export const MaldivesData = [
         ],
         images: [AKAccom1, AKAccom2, AKAccom3, AKAccom4],
         floorPlan: {
-          path: "/images/maldives/accommodation/alila-kothaifaru/lagoon-overwater-pool-villa.webp",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/alila-kothaifaru/lagoon-overwater-pool-villa.webp",
         },
       },
       {
@@ -3295,7 +3299,7 @@ export const MaldivesData = [
         ],
         images: [AKAccom8, AKAccom5, AKAccom1],
         floorPlan: {
-          path: "/images/maldives/accommodation/alila-kothaifaru/Ocean-Overwater-Pool-Villa.webp",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/alila-kothaifaru/Ocean-Overwater-Pool-Villa.webp",
         },
       },
       {
@@ -3318,7 +3322,7 @@ export const MaldivesData = [
         ],
         images: [AKAccom6, AKAccom7, AKAccom8, AKAccom1, AKAccom4],
         floorPlan: {
-          path: "/images/maldives/accommodation/alila-kothaifaru/Sunset-Overwater-Pool-Villa.webp",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/alila-kothaifaru/Sunset-Overwater-Pool-Villa.webp",
         },
       },
       {
@@ -3341,7 +3345,7 @@ export const MaldivesData = [
         ],
         images: [AKAccom9, AKAccom10],
         floorPlan: {
-          path: "/images/maldives/accommodation/alila-kothaifaru/Beach-Pool-Villa.png",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/alila-kothaifaru/Beach-Pool-Villa.png",
         },
       },
       {
@@ -3364,7 +3368,7 @@ export const MaldivesData = [
         ],
         images: [AKAccom11, AKAccom9, AKAccom12],
         floorPlan: {
-          path: "/images/maldives/accommodation/alila-kothaifaru/Beach-Pool-Villa.png",
+          path: "https://resources.travelnationsl.com/images/maldives/accommodation/alila-kothaifaru/Beach-Pool-Villa.png",
         },
       },
     ],
@@ -3548,7 +3552,8 @@ export const srilankanData = [
         day: 1,
         location: "Negombo",
         travelTime: "20 Minutes",
-        image: "/images/srilanka/tourSlider/Experience/negombo.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Experience/negombo.jpg",
         highlights: ["Relax By The Pool And Unwind On Arrival At Your Hotel"],
       },
       {
@@ -3556,7 +3561,8 @@ export const srilankanData = [
         day: 2,
         location: "Sigiriya",
         travelTime: "3 Hours",
-        image: "/images/srilanka/tourSlider/Experience/sigiriya.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Experience/sigiriya.jpg",
         highlights: [
           "Explore The Iconic Sigiriya Rock Fortress.",
           "Enjoy An Authentic Village Experience.",
@@ -3567,7 +3573,8 @@ export const srilankanData = [
         day: 3,
         location: "Polonnaruwa & Minneriya – (Safari)",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Experience/minneriya.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Experience/minneriya.jpg",
         highlights: [
           "Explore The Ancient City Of Polonnaruwa.",
           "Enjoy a Game Drive Exploring The Minneriya National Park.",
@@ -3578,7 +3585,8 @@ export const srilankanData = [
         day: 4,
         location: "Kandy",
         travelTime: "2.5 Hours",
-        image: "/images/srilanka/tourSlider/Experience/kandy.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Experience/kandy.jpg",
         highlights: [
           "Visit The Golden Cave Temple At Dambulla.",
           "Experience And Learn About Spices And Herbals At A Spice Garden In Matale.",
@@ -3590,7 +3598,8 @@ export const srilankanData = [
         day: 5,
         location: "Train Journey to Nuwara Eliya",
         travelTime: "3.5 Hours(Train Journey)",
-        image: "/images/srilanka/tourSlider/Experience/nuwaraeliya.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Experience/nuwaraeliya.jpg",
         highlights: [
           "Embark on a mesmerizing train journey from Kandy to Nuwara Eliya.",
         ],
@@ -3600,7 +3609,8 @@ export const srilankanData = [
         day: 6,
         location: "Horton Plains – (Trek) + Tea Plantation & Sightseeing",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Experience/horton.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Experience/horton.jpg",
         highlights: [
           "Explore Horton Plains National Park. (Trek)",
           "Drive Around The Legendary Old British Hill Station Of Nuwara Eliya.",
@@ -3611,7 +3621,8 @@ export const srilankanData = [
         day: 7,
         location: "Galle & South Coast",
         travelTime: "5 Hours",
-        image: "/images/srilanka/tourSlider/Experience/galle_south_court.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Experience/galle_south_court.jpg",
         highlights: [
           "Leave for the South Coast via Galle – Explore the Galle Dutch Fort.",
           "Visit a Turtle Hatchery in Kosgoda.",
@@ -3622,7 +3633,8 @@ export const srilankanData = [
         day: 8,
         location: "South Coast – (Leisure)",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Experience/south1.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Experience/south1.jpg",
         highlights: ["Enjoy Beach Time And Relax By The Pool."],
       },
       {
@@ -3630,7 +3642,8 @@ export const srilankanData = [
         day: 9,
         location: "South Coast – (Leisure)",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Experience/south2.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Experience/south2.jpg",
         highlights: ["Enjoy Beach Time And Relax By The Pool."],
       },
       {
@@ -3638,7 +3651,8 @@ export const srilankanData = [
         day: 10,
         location: "Departure Transfer",
         travelTime: "1.5 Hours",
-        image: "/images/srilanka/tourSlider/Experience/depature.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Experience/depature.jpg",
         highlights: ["Leave to connect with your departure flight back home."],
       },
     ],
@@ -3702,7 +3716,8 @@ export const srilankanData = [
         day: 1,
         location: "Colombo",
         travelTime: "1 Hour",
-        image: "/images/srilanka/tourSlider/Highlights/colombo.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Highlights/colombo.jpg",
         highlights: [
           "Relax By The Pool And Unwind On Arrival At Your Hotel",
           "If Time Permits, Proceed On A Sightseeing Tour Of Colombo",
@@ -3713,7 +3728,8 @@ export const srilankanData = [
         day: 2,
         location: "Habarana",
         travelTime: "3 Hours",
-        image: "/images/srilanka/tourSlider/Highlights/habarana.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Highlights/habarana.jpg",
         highlights: [
           "Visit The Golden Cave Temple At Dambulla.",
           "Explore The Ancient City Of Polonnaruwa.",
@@ -3724,7 +3740,8 @@ export const srilankanData = [
         day: 3,
         location: "kandy",
         travelTime: "2.5 Hours",
-        image: "/images/srilanka/tourSlider/Highlights/kandy.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Highlights/kandy.jpg",
         highlights: [
           "Explore The Iconic Sigiriya Rock Fortress.",
           "Experience And Learn About Spices And Herbals At A Spice Garden In Matale.",
@@ -3736,7 +3753,8 @@ export const srilankanData = [
         day: 4,
         location: "Nuwara Eliya",
         travelTime: "2.5 Hours",
-        image: "/images/srilanka/tourSlider/Highlights/nuwaraeliya.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Highlights/nuwaraeliya.jpg",
         highlights: [
           "Visit The Elephant Orphanage In Pinnawala.",
           "Head Towards The Lush Hills Of Nuwara Eliya.",
@@ -3748,7 +3766,8 @@ export const srilankanData = [
         day: 5,
         location: "Negombo (coast)",
         travelTime: "5.5 Hours",
-        image: "/images/srilanka/tourSlider/Highlights/negombo.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Highlights/negombo.jpg",
         highlights: [
           "Leave For Negombo",
           "Enjoy Some Leisure Time By The Beach.",
@@ -3759,7 +3778,8 @@ export const srilankanData = [
         day: 6,
         location: "Departure",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Highlights/departure.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Highlights/departure.jpg",
         highlights: ["Leave To Connect With Your Departure Flight Back Home."],
       },
     ],
@@ -3821,7 +3841,8 @@ export const srilankanData = [
         day: 1,
         location: "Arrival - Kandy",
         travelTime: "3 Hours",
-        image: "/images/srilanka/tourSlider/Swift_Escape/kandy.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Swift_Escape/kandy.jpg",
         highlights: [
           "Arrive And Leave for Kandy.",
           "En route, visit the Pinnawala Elephant Orphanage in Pinnawala",
@@ -3834,7 +3855,8 @@ export const srilankanData = [
         day: 2,
         location: "Nuwara Eliya",
         travelTime: "2.5 Hours",
-        image: "/images/srilanka/tourSlider/Swift_Escape/nuwaraeliya.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Swift_Escape/nuwaraeliya.jpg",
         highlights: [
           "Head towards the lush hills of Nuwara Eliya.",
           "En-route explore a Tea plantation and a Tea factory.",
@@ -3847,7 +3869,8 @@ export const srilankanData = [
         day: 3,
         location: "Galle & South Coast",
         travelTime: "5 Hours",
-        image: "/images/srilanka/tourSlider/Swift_Escape/galle.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Swift_Escape/galle.jpg",
         highlights: [
           "Leave for the South Coast via Galle – Explore the Galle Dutch Fort.",
         ],
@@ -3857,7 +3880,8 @@ export const srilankanData = [
         day: 4,
         location: "Departure",
         travelTime: "1.5 Hours",
-        image: "/images/srilanka/tourSlider/Swift_Escape/departure.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Swift_Escape/departure.jpg",
         highlights: ["Leave to connect with your departure flight back home."],
       },
     ],
@@ -3928,7 +3952,8 @@ export const srilankanData = [
         location: "Negombo",
         travelTime: "—",
         // image: "/images/srilanka/tourSlider/Experience/Beach 06.jpg",
-        image: "/images/srilanka/tourSlider/North_East/Beach6.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/North_East/Beach6.jpg",
         highlights: ["Arrive in Sri Lanka and rest in Negombo."],
       },
       {
@@ -3937,7 +3962,7 @@ export const srilankanData = [
         location: "Wilpattu / Anuradhapura",
         travelTime: "—",
         image:
-          "/images/srilanka/tourSlider/North_East/WilpattuNationalPark02.jpg",
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/North_East/WilpattuNationalPark02.jpg",
         highlights: [
           "Safari in Wilpattu National Park.",
           "Travel to Anuradhapura.",
@@ -3948,7 +3973,8 @@ export const srilankanData = [
         day: 3,
         location: "Jaffna",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/North_East/Jaffna05.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/North_East/Jaffna05.jpg",
         highlights: ["Train to Jaffna.", "Evening at leisure."],
       },
       {
@@ -3956,7 +3982,8 @@ export const srilankanData = [
         day: 4,
         location: "Jaffna City Tour",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/North_East/Jaffna01.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/North_East/Jaffna01.jpg",
         highlights: [
           "Explore Jaffna Fort, Library, Market.",
           "Visit Nallur Kandaswamy Kovil.",
@@ -3967,7 +3994,8 @@ export const srilankanData = [
         day: 5,
         location: "Nilaveli",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/North_East/Trinco02.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/North_East/Trinco02.jpg",
         highlights: ["Travel to Nilaveli for beach time."],
       },
       {
@@ -3975,7 +4003,8 @@ export const srilankanData = [
         day: 6,
         location: "Nilaveli – Leisure",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/North_East/Trinco01.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/North_East/Trinco01.jpg",
         highlights: ["Leisure day or visit Pigeon Island."],
       },
       {
@@ -3983,7 +4012,8 @@ export const srilankanData = [
         day: 7,
         location: "Polonnaruwa / Sigiriya",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/North_East/Polonnaruwa03.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/North_East/Polonnaruwa03.jpg",
         highlights: ["Visit Polonnaruwa.", "Head to Sigiriya."],
       },
       {
@@ -3991,7 +4021,8 @@ export const srilankanData = [
         day: 8,
         location: "Sigiriya / Negombo",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/North_East/Sigiriya04.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/North_East/Sigiriya04.jpg",
         highlights: ["Climb Sigiriya rock fortress.", "Village experience."],
       },
       {
@@ -3999,7 +4030,8 @@ export const srilankanData = [
         day: 9,
         location: "Departure",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/Swift_Escape/departure.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Swift_Escape/departure.jpg",
         highlights: ["Depart from Sri Lanka."],
       },
     ],
@@ -4057,7 +4089,8 @@ export const srilankanData = [
         day: 1,
         location: "Sigiriya",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/Wellness/CountrySide01.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Wellness/CountrySide01.jpg",
         highlights: ["Travel to Sigiriya.", "Dinner & overnight stay."],
       },
       {
@@ -4065,7 +4098,8 @@ export const srilankanData = [
         day: 2,
         location: "Anuradhapura / Habarana",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/Wellness/Anuradhapura03.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Wellness/Anuradhapura03.jpg",
         highlights: [
           "Explore Anuradhapura.",
           "Visit Ayurvedic treatment centre.",
@@ -4077,7 +4111,8 @@ export const srilankanData = [
         day: 3,
         location: "Sigiriya",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/Wellness/Village03.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Wellness/Village03.jpg",
         highlights: ["Climb Sigiriya Fortress.", "Village tour & canoe ride."],
       },
       {
@@ -4085,7 +4120,8 @@ export const srilankanData = [
         day: 4,
         location: "Kandy / Werapitiya",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/Wellness/DambullaRockTemple.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Wellness/DambullaRockTemple.jpg",
         highlights: [
           "Visit Dambulla Temple.",
           "Explore Spice Garden in Matale.",
@@ -4097,7 +4133,8 @@ export const srilankanData = [
         day: 5,
         location: "Santani Wellness",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/Wellness/HotelSantani02.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Wellness/HotelSantani02.jpg",
         highlights: ["Full wellness day.", "Yoga, treatments, relaxation."],
       },
       {
@@ -4105,7 +4142,8 @@ export const srilankanData = [
         day: 6,
         location: "Santani Wellness",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/Wellness/HotelSantani03.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Wellness/HotelSantani03.jpg",
         highlights: ["Another full wellness day."],
       },
       {
@@ -4113,7 +4151,8 @@ export const srilankanData = [
         day: 7,
         location: "Kosgoda",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/Wellness/Beach13.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Wellness/Beach13.jpg",
         highlights: ["Travel to Kosgoda.", "Beach relaxation."],
       },
       {
@@ -4121,7 +4160,8 @@ export const srilankanData = [
         day: 8,
         location: "Galle / Kosgoda",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/Wellness/Galle09.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Wellness/Galle09.jpg",
         highlights: ["Visit Galle Fort.", "Visit Turtle Conservation Centre."],
       },
       {
@@ -4129,7 +4169,8 @@ export const srilankanData = [
         day: 9,
         location: "Kosgoda – Leisure",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/Wellness/Beach05.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Wellness/Beach05.jpg",
         highlights: ["Full leisure day at the beach."],
       },
       {
@@ -4137,7 +4178,8 @@ export const srilankanData = [
         day: 10,
         location: "Departure",
         travelTime: "—",
-        image: "/images/srilanka/tourSlider/Swift_Escape/departure.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Swift_Escape/departure.jpg",
         highlights: ["Airport transfer and departure."],
       },
     ],
@@ -4197,7 +4239,8 @@ export const srilankanData = [
         day: 1,
         location: "Negombo",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Culture/Negombo05.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Culture/Negombo05.jpg",
         highlights: ["Arrival and transfer to Negombo.", "Leisure evening."],
       },
       {
@@ -4205,7 +4248,8 @@ export const srilankanData = [
         day: 2,
         location: "Negombo → Dambulla → Sigiriya",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Culture/Dambulla02.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Culture/Dambulla02.jpg",
         highlights: [
           "Early visit to Negombo Fish Market.",
           "Visit Dambulla Cave Temple.",
@@ -4217,7 +4261,8 @@ export const srilankanData = [
         day: 3,
         location: "Sigiriya",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Culture/Sigiriya03.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Culture/Sigiriya03.jpg",
         highlights: [
           "Climb Sigiriya Rock Fortress.",
           "Village trail with cookery demonstration and local lunch.",
@@ -4228,7 +4273,8 @@ export const srilankanData = [
         day: 4,
         location: "Matale → Kandy",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Culture/SpiceGarden05.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Culture/SpiceGarden05.jpg",
         highlights: [
           "Visit a spice garden in Matale.",
           "Arrive in Kandy.",
@@ -4240,7 +4286,8 @@ export const srilankanData = [
         day: 5,
         location: "Kandy",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Culture/Kandy06.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Culture/Kandy06.jpg",
         highlights: [
           "Participate in a hands-on Sri Lankan cooking class.",
           "Guided Kandy city & market walk.",
@@ -4251,7 +4298,8 @@ export const srilankanData = [
         day: 6,
         location: "Kandy → Bandarawela",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Culture/TrainJourney01.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Culture/TrainJourney01.jpg",
         highlights: [
           "Scenic train journey through Sri Lanka’s highlands.",
           "Evening at leisure in Bandarawela.",
@@ -4262,7 +4310,8 @@ export const srilankanData = [
         day: 7,
         location: "Bandarawela",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Culture/NuwaraEliya03.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Culture/NuwaraEliya03.jpg",
         highlights: [
           "Tea plucking and processing experience.",
           "Enjoy free time in the highlands.",
@@ -4273,7 +4322,8 @@ export const srilankanData = [
         day: 8,
         location: "Ella → Udawalawe → Mirissa",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Culture/ElephantTransitHome.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Culture/ElephantTransitHome.jpg",
         highlights: [
           "Explore Ella’s scenic viewpoints.",
           "Visit Elephant Transit Camp.",
@@ -4285,7 +4335,8 @@ export const srilankanData = [
         day: 9,
         location: "Mirissa",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Culture/Mirissa05.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Culture/Mirissa05.jpg",
         highlights: ["Relax on the beach.", "Optional water activities."],
       },
       {
@@ -4293,7 +4344,8 @@ export const srilankanData = [
         day: 10,
         location: "Galle → Colombo",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Culture/Galle14.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Culture/Galle14.jpg",
         highlights: ["Explore Galle Fort.", "Colombo city highlights tour."],
       },
       {
@@ -4301,7 +4353,8 @@ export const srilankanData = [
         day: 11,
         location: "Departure",
         travelTime: "",
-        image: "/images/srilanka/tourSlider/Swift_Escape/departure.jpg",
+        image:
+          "https://resources.travelnationsl.com/images/srilanka/tourSlider/Swift_Escape/departure.jpg",
         highlights: ["Transfer to the airport."],
       },
     ],
@@ -4332,7 +4385,7 @@ export const tourPackagesCardData = [
     country: "sri-lanka",
     location: "Sri Lanka",
     image: PackageSL1,
-    nights: "10 Days / 9 Nights"
+    nights: "10 Days / 9 Nights",
   },
   {
     id: "eb8801d0-d377-4721-8ae5-c09f8ec4c45c",
@@ -4342,7 +4395,7 @@ export const tourPackagesCardData = [
     country: "maldives",
     location: "Maldives",
     image: PackageM1,
-    nights: "10 Days / 9 Nights"
+    nights: "10 Days / 9 Nights",
   },
   {
     id: "e1616998-2161-41cd-906f-fe6f24fb375c",
@@ -4352,7 +4405,7 @@ export const tourPackagesCardData = [
     country: "sri-lanka",
     location: "Sri Lanka",
     image: PackageSL2,
-    nights: "6 Days / 5 Nights"
+    nights: "6 Days / 5 Nights",
   },
   {
     id: "d0e3f36a-e4bb-4312-aba6-aa5292f7b026",
@@ -4362,7 +4415,7 @@ export const tourPackagesCardData = [
     country: "maldives",
     location: "Maldives",
     image: PackageM2,
-    nights: "4 Days / 3 Nights"
+    nights: "4 Days / 3 Nights",
   },
   {
     id: "4be7e0f0-d1ca-4e8c-a830-d1a827319c69",
@@ -4371,8 +4424,8 @@ export const tourPackagesCardData = [
     slug: "swift-escape-to-sri-lankas-hills-shores",
     country: "sri-lanka",
     location: "Sri Lanka",
-    image: PackageSL8,
-    nights: "4 Days / 3 Nights"
+    image: PackageSL5,
+    nights: "4 Days / 3 Nights",
   },
   {
     id: "ec37735e-8b69-451c-871d-e5da508c5f9e",
@@ -4382,7 +4435,7 @@ export const tourPackagesCardData = [
     country: "maldives",
     location: "Maldives",
     image: PackageM3,
-    nights: "4 Days / 3 Nights"
+    nights: "4 Days / 3 Nights",
   },
 
   {
@@ -4393,7 +4446,7 @@ export const tourPackagesCardData = [
     country: "sri-lanka",
     location: "Sri Lanka",
     image: PackageSL7,
-    nights: "9 Days / 8 Nights"
+    nights: "9 Days / 8 Nights",
   },
 
   {
@@ -4404,7 +4457,7 @@ export const tourPackagesCardData = [
     country: "maldives",
     location: "Maldives",
     image: PackageM4,
-    nights: "4 Days / 3 Nights"
+    nights: "4 Days / 3 Nights",
   },
 
   {
@@ -4414,8 +4467,8 @@ export const tourPackagesCardData = [
     slug: "sri-lanka-wellness-leisure",
     country: "sri-lanka",
     location: "Sri Lanka",
-    image: PackageSL5,
-    nights: "10 Days / 9 Nights"
+    image: PackageSL8,
+    nights: "10 Days / 9 Nights",
   },
 
   {
@@ -4426,7 +4479,7 @@ export const tourPackagesCardData = [
     country: "maldives",
     location: "Maldives",
     image: PackageM5,
-    nights: "4 Days / 3 Nights"
+    nights: "4 Days / 3 Nights",
   },
 
   {
@@ -4437,7 +4490,7 @@ export const tourPackagesCardData = [
     country: "sri-lanka",
     location: "Sri Lanka",
     image: PackageSL6,
-    nights: "11 Days / 10 Nights"
+    nights: "11 Days / 10 Nights",
   },
 
   {
@@ -4448,7 +4501,7 @@ export const tourPackagesCardData = [
     country: "maldives",
     location: "Maldives",
     image: PackageM6,
-    nights: "4 Days / 3 Nights"
+    nights: "4 Days / 3 Nights",
   },
 ];
 
@@ -4634,8 +4687,8 @@ export const luxHolidaySlider = [
   {
     id: 2,
     image: LuxHoliday2,
-  }
-]
+  },
+];
 export const MalSliderNew = [
   {
     id: 1,
@@ -5230,4 +5283,3 @@ export const testimonials = [
     author: "Farah & Ahmed (June 2025) – UAE",
   },
 ];
-
