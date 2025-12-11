@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import { testimonials } from "@/utils/data";
 import Link from "next/link";
 import Image from "next/image";
-import { About5, TestimonialImage } from "@/utils/staticImages";
+import { TestimonialImage } from "@/utils/staticImages";
 import { motion, AnimatePresence } from "framer-motion";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
@@ -134,25 +134,6 @@ export default function Testimonials() {
           </div>
         </div>
       </motion.div>
-
-      {/* IMAGE */}
-      {/* <motion.div
-        className="order-1 lg:order-2"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
-        variants={imageVariants}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-      >
-        <Image
-          src={TestimonialImage}
-          height={500}
-          width={500}
-          alt="maldives"
-          priority
-          className="h-96 lg:h-full xl:h-[680px] 4xl:h-[1080px] w-full object-cover"
-        />
-      </motion.div> */}
       <motion.div
         className="order-1 lg:order-2"
         initial="hidden"

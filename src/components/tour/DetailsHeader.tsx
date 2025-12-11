@@ -1,7 +1,7 @@
 "use client";
 import { useTourPackageStore } from "@/store/TourPackageStore";
 import Image from "next/image";
-import React, { useState } from "react";
+import { useState } from "react";
 import Modal from "../ui/Modal";
 import Quotation from "../ui/Quotation";
 import { motion } from "framer-motion";

@@ -2,7 +2,6 @@
 "use client";
 import { MaldivesData } from "@/utils/data";
 import { useTourPackageStore } from "@/store/TourPackageStore";
-import React from "react";
 import PackageCard from "../ui/PackageCard";
 
 const FeaturedHotels = () => {
@@ -15,8 +14,8 @@ const FeaturedHotels = () => {
   );
 
   return (
-    <div className="py-16 md:px-10 4xl:px-96">
-      <h3 className="text-3xl sm:text-4xl text-sea-green font-semibold font-playfair-display">
+    <div className="py-16 md:px-36 4xl:px-96">
+      <h3 className="text-3xl sm:text-4xl text-sea-green font-semibold font-playfair-display py-5">
         You May Also Like
       </h3>
 
@@ -26,7 +25,7 @@ const FeaturedHotels = () => {
             key={index}
             country="maldives"
             {...hotel}
-            nights={String(hotel.nights)} // 🔥 IMPORTANT FIX
+            nights={String(hotel.nights)} 
           />
         ))}
       </div>
