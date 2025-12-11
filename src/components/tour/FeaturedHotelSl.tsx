@@ -1,22 +1,30 @@
 "use client";
-import { slFeaturedHotels } from "@/utils/data";
 import { useSLTourPackageStore } from "@/store/TourPackageStore";
-import FeaturedHotelSlCard from "./FeaturedHotelSlCard";
+import PackageCard from "../ui/PackageCard";
+import { srilankanData } from "@/utils/data";
 
 const FeaturedHotelSl = () => {
   const data = useSLTourPackageStore((s) => s.tourPackage);
-  const featuredHotelsData = slFeaturedHotels.filter((x) =>
+
+  if (!data) return null;
+
+  const featuredHotelsData = srilankanData.filter((x) =>
     data?.featuredHotels?.includes(x.id)
   );
-  if (!data) return null;
   return (
-    <div className="max-w-7xl mx-auto py-5 sm:py-14">
-      <h3 className="text-3xl sm:text-4xl text-sea-green font-semibold font-playfair-display text-center my-4">
-        Our Featured Hotels
+    <div className="py-16 md:px-36 4xl:px-96">
+      <h3 className="text-3xl sm:text-4xl text-sea-green font-semibold font-playfair-display py-5">
+        You May Also Like
       </h3>
+
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 p-4">
-        {featuredHotelsData.map((hotel) => (
-          <FeaturedHotelSlCard key={hotel.id} {...hotel} />
+        {featuredHotelsData.map((hotel, index) => (
+          <PackageCard
+            key={index}
+            country="maldives"
+            {...hotel}
+            nights={String(hotel.nights)}
+          />
         ))}
       </div>
     </div>

@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Star, Bed, Utensils, Heart, Activity, MapPin } from "lucide-react";
+import { Bed, Utensils, Heart, Activity, MapPin } from "lucide-react";
 import { useTourPackageStore } from "@/store/TourPackageStore";
 import AccommodationTab from "./AccommodationTab";
 import DiningTab from "./DiningTab";
@@ -56,11 +56,10 @@ const TourFeaturesTab = () => {
           <button
             type="button"
             key={id}
-            className={`px-2 lg:px-4 py-3 text-sm lg:text-base rounded-sm flex items-center gap-2 transition cursor-pointer ${
-              id === tabIndex
+            className={`px-2 lg:px-4 py-3 text-sm lg:text-base rounded-sm flex items-center gap-2 transition cursor-pointer ${id === tabIndex
                 ? "bg-white text-sea-green shadow-md"
                 : "bg-sea-green text-white hover:bg-sea-green/85"
-            }`}
+              }`}
             onClick={() => setTabIndex(id)}
           >
             <Icon size={18} />
