@@ -7,6 +7,7 @@ import TourItinerary from "./TourItinerary";
 import TourSliderSl from "./TourSliderSl";
 import FooterNote from "../destination/FooterNote";
 import Testimonials from "../ui/Testimonials";
+import FeaturedHotelSl from "./FeaturedHotelSl";
 
 const TourDetailsSriLanka = ({ slug }: { slug: string }) => {
   const packageData = getSriLankanBySlug(slug);
@@ -22,6 +23,7 @@ const TourDetailsSriLanka = ({ slug }: { slug: string }) => {
       <TourSliderSl data={packageData?.slItineryDetails} />
       <FooterNote />
       <Testimonials />
+      <FeaturedHotelSl/>
     </>
   );
 };

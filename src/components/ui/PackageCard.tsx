@@ -47,7 +47,7 @@ const PackageCard = ({
       <motion.div
         variants={fadeUp}
         transition={{ duration: 0.7, ease: "easeOut" }}
-        className="relative h-96 md:h-[680px] 4xl:h-[920px] w-full"
+        className="relative h-96 md:h-[520px] 2xl:h-[620px] 4xl:h-[920px] w-full"
       >
         <Image
           src={image}

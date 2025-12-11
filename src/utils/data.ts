@@ -1240,17 +1240,6 @@ export const MaldivesData = [
         images: [SMSpa1, SMSpa2, SMSpa4, SMSpa5, SMSpa6],
       },
     ],
-    // activities: [
-    //   {
-    //     title: "WATER ADVENTURES & EXCURSIONS",
-    //     description: [
-    //       "An array of paid and complimentary water-based adventures including kayaking, parasailing, snorkeling, jet ski, stand-up paddleboarding, and offsite excursions are available to further enhance travelers’ experience of the island.",
-    //       "Guests can learn how to scuba dive, or for experienced divers, there is a wide selection of curated dives that can be arranged daily including turtle expeditions, outer reef explorations and traditional Maldivian fishing excursions.",
-    //     ],
-
-    //     images: [SMACT1, SMACT2, SMACT3, SMACT4],
-    //   },
-    // ],
     activities: [
       {
         title: "WATER ADVENTURES & EXCURSIONS",
@@ -2603,6 +2592,11 @@ export const srilankanData = [
     price: 1299,
     image: PackageSL1,
     heroImages: [Hero6, SLBeach, ColomboSL, TempleOfTooth],
+    featuredHotels: [
+      "e1616998-2161-41cd-906f-fe6f24fb375c",
+      "720deb55-a52c-4811-8d3c-1a4c9d8b6835",
+      "fb928d65-1500-4779-8ceb-bd610939e486",
+    ],
     itinerary: {
       title: "Sri Lanka Experience Tour Itinerary",
       description:
@@ -2753,11 +2747,6 @@ export const srilankanData = [
         },
       ],
     },
-    featuredHotels: [
-      "c39e6c6a-345a-4b56-9c67-6a8a14ec0975",
-      "c35c9c3f-57dd-4007-a46c-e317731c0925",
-      "f73f18df-5def-4c7d-9563-20ae9b6c2658",
-    ],
   },
   {
     id: "e1616998-2161-41cd-906f-fe6f24fb375c",
@@ -2772,6 +2761,11 @@ export const srilankanData = [
     price: 999,
     image: PackageSL2,
     heroImages: [Hero6, SLBeach, ColomboSL, TempleOfTooth],
+    featuredHotels: [
+      "ff41ffd5-d723-4be9-9bab-e465e12671e1",
+      "720deb55-a52c-4811-8d3c-1a4c9d8b6835",
+      "1f1f7b03-d39f-4328-93bc-5506d620b762",
+    ],
     itinerary: {
       title: "Sri Lanka Highlights Tour",
       description:
@@ -2879,11 +2873,6 @@ export const srilankanData = [
         },
       ],
     },
-    featuredHotels: [
-      "22096c0f-7610-4341-92bd-110833d796e4",
-      "59e9f778-2222-41fc-910b-998dc8c82613",
-      "d81e3483-5cde-42a2-8128-774fcd432e45",
-    ],
   },
   {
     id: "4be7e0f0-d1ca-4e8c-a830-d1a827319c69",
@@ -2898,6 +2887,11 @@ export const srilankanData = [
     price: 499,
     image: PackageSL3,
     heroImages: [Hero6, SLBeach, ColomboSL, TempleOfTooth],
+    featuredHotels: [
+      "720deb55-a52c-4811-8d3c-1a4c9d8b6835",
+      "1f1f7b03-d39f-4328-93bc-5506d620b762",
+      "fb928d65-1500-4779-8ceb-bd610939e486",
+    ],
     itinerary: {
       title: "Swift Escape Tour of Sri Lanka Hills & Shores",
       description:
@@ -2981,11 +2975,6 @@ export const srilankanData = [
         },
       ],
     },
-    featuredHotels: [
-      "b4d2e0a2-55d0-41f8-ba2c-b863d548425a",
-      "bd5dd5e7-dd04-4101-bf67-c20ae93c53b6",
-      "d707f117-6276-4c26-b25d-73eb8c2226da",
-    ],
   },
 
   {
@@ -3001,7 +2990,11 @@ export const srilankanData = [
     price: 1399,
     image: PackageSL4,
     heroImages: [Hero6, SLBeach],
-
+    featuredHotels: [
+      "e1616998-2161-41cd-906f-fe6f24fb375c",
+      "1f1f7b03-d39f-4328-93bc-5506d620b762",
+      "4be7e0f0-d1ca-4e8c-a830-d1a827319c69",
+    ],
     itinerary: {
       title: "Sri Lanka North-East Tour Itinerary",
       description:
@@ -3118,12 +3111,6 @@ export const srilankanData = [
         { type: "Deluxe", price: 1799 },
       ],
     },
-
-    featuredHotels: [
-      "b4d2e0a2-55d0-41f8-ba2c-b863d548425a",
-      "bd5dd5e7-dd04-4101-bf67-c20ae93c53b6",
-      "d707f117-6276-4c26-b25d-73eb8c2226da",
-    ],
   },
   {
     id: "1f1f7b03-d39f-4328-93bc-5506d620b762",
@@ -3138,7 +3125,11 @@ export const srilankanData = [
     price: 1699,
     image: PackageSL5,
     heroImages: [Hero6, SLBeach],
-
+    featuredHotels: [
+      "ff41ffd5-d723-4be9-9bab-e465e12671e1",
+      "4be7e0f0-d1ca-4e8c-a830-d1a827319c69",
+      "fb928d65-1500-4779-8ceb-bd610939e486",
+    ],
     itinerary: {
       title: "Sri Lanka Wellness & Leisure Itinerary",
       description:
@@ -3266,12 +3257,6 @@ export const srilankanData = [
         { type: "Deluxe", price: 2199 },
       ],
     },
-
-    featuredHotels: [
-      "b4d2e0a2-55d0-41f8-ba2c-b863d548425a",
-      "bd5dd5e7-dd04-4101-bf67-c20ae93c53b6",
-      "d707f117-6276-4c26-b25d-73eb8c2226da",
-    ],
   },
   {
     id: "fb928d65-1500-4779-8ceb-bd610939e486",
@@ -3284,10 +3269,13 @@ export const srilankanData = [
     nights: 10,
     days: 11,
     price: 1899,
-
     image: PackageSL6,
     heroImages: [Hero6, SLBeach, ColomboSL, TempleOfTooth],
-
+    featuredHotels: [
+      "ff41ffd5-d723-4be9-9bab-e465e12671e1",
+      "720deb55-a52c-4811-8d3c-1a4c9d8b6835",
+      "1f1f7b03-d39f-4328-93bc-5506d620b762",
+    ],
     itinerary: {
       title: "Sri Lanka Culture, Cuisine & Wildlife Tour",
       description:
@@ -3441,12 +3429,6 @@ export const srilankanData = [
         { type: "Deluxe", price: 2399 },
       ],
     },
-
-    featuredHotels: [
-      "b4d2e0a2-55d0-41f8-ba2c-b863d548425a",
-      "bd5dd5e7-dd04-4101-bf67-c20ae93c53b6",
-      "d707f117-6276-4c26-b25d-73eb8c2226da",
-    ],
   },
 ];
 
@@ -4164,72 +4146,6 @@ export const ourValuesData = [
     title: "Customer-Centric Approach",
     description:
       "Your satisfaction is our top priority. We’re here to make your dream trip a reality, with personalized attention every step of the way.",
-  },
-];
-
-export const slFeaturedHotels = [
-  {
-    id: "c39e6c6a-345a-4b56-9c67-6a8a14ec0975",
-    name: "Goldi Sands Hotel",
-    description:
-      "Goldi Sands is a glamorous iconic hotel nestled on the golden beaches of Negombo. Just imagine staying in a hotel that’s right on the beach, just next to the Indian Ocean… and what a wonderful feeling knowing that the beach is all yours anytime of the day or even the night.",
-    image: GoldiSandsHotel,
-  },
-  {
-    id: "c35c9c3f-57dd-4007-a46c-e317731c0925",
-    name: "The Lynden Grove Hotel",
-    description:
-      "A luxury boutique hotel with old world charm in the heart of Nuwara Eliya, enjoy the warmth of Sri Lankan hospitality in the cool climes of our Island. While our stylishly designed rooms celebrate the wonder of trees, its elements are reflected in its art and amenities.",
-    image: LyndenHotel,
-  },
-  {
-    id: "f73f18df-5def-4c7d-9563-20ae9b6c2658",
-    name: "The Blue Water Hotel and Spa",
-    description:
-      "The Blue Water Hotel and Spa offers 5-star luxury accommodation in Sri Lanka, designed by the world-renowned architect Geoffrey Bawa, featuring breathtaking views of the Indian Ocean. Nestled among Wadduwa’s wild coconut groves, this serene, laid-back paradise boasts stunning sunsets and tranquil surroundings, making it the perfect destination for a luxurious beachfront escape.",
-    image: BlueWaterHotel,
-  },
-  {
-    id: "22096c0f-7610-4341-92bd-110833d796e4",
-    name: "Cinnamon Lakeside",
-    description:
-      "Cinnamon Lakeside Colombo is your quintessential resort in the city. With views of the stunning Beira Lake framed in the backdrop, connect with the likeminded over lakefront gatherings and inventive culinary delights. ",
-    image: CinnamonLakeside,
-  },
-  {
-    id: "59e9f778-2222-41fc-910b-998dc8c82613",
-    name: "Cinnamon Lodge",
-    description:
-      "And there's plenty of it, in this expansive 27-acre hideaway. Here, comfort cosies up with a touch of rustic charm to reconnect you with nature. Dine under a vast canopy of trees or take an exhilarating safari to watch herds of Elephants roam free. Life here, is part of nature's theatre.",
-    image: CinnamonLodge,
-  },
-  {
-    id: "d81e3483-5cde-42a2-8128-774fcd432e45",
-    name: "The Grand Hotel",
-    description:
-      "The Grand Hotel, a timeless masterpiece, where heritage and natural beauty converge. Nestled amid lush surroundings, this luxury hotel in Nuwara Eliya, exudes luxury and sophistication. With its rich history, exquisite architecture, and top-tier amenities, it offers an enchanting blend of old-world charm and modern opulence, making it a premier destination for discerning travelers.",
-    image: TheGrandHotel,
-  },
-  {
-    id: "b4d2e0a2-55d0-41f8-ba2c-b863d548425a",
-    name: "Araliya Green City",
-    description:
-      "Located at the very heart of a city that is surrounded by immaculate mountains capes, verdant tea hills and salubrious climes, Araliya Green City is a resort that offers its patrons the joy of an intimate and luxurious getaway! ",
-    image: AraliyaHotel,
-  },
-  {
-    id: "bd5dd5e7-dd04-4101-bf67-c20ae93c53b6",
-    name: "Cinnamon Bey Resort",
-    description:
-      "Nestled on the shores where the ocean waves at you like an old friend, Cinnamon Bey Beruwala is a world far from the hurried pace of life. Build sandcastles, let your inner child out or catch the waves; there are no rules in the tropics.",
-    image: CinnamonBey,
-  },
-  {
-    id: "d707f117-6276-4c26-b25d-73eb8c2226da",
-    name: "Cinnamon Citadel",
-    description:
-      "Kandy, in a new perspective Framed against the Knuckles Mountain Range and the Mahaweli River, a stay here will open your eyes to the many facets of Kandy.",
-    image: CinnamonCitadel,
   },
 ];
 
