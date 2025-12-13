@@ -478,6 +478,14 @@ const LuxHoliday2 = `${baseUrl}/images/hero/ltmh-2.jpg`;
 const TestimonialImage = `${baseUrl}/images/hero/testimonials.jpg`;
 const OurCoreHero = `${baseUrl}/images/hero/ourCore-hero.jpg`;
 const mapnew = `${baseUrl}/images/ts-map.png`;
+
+//Instagram
+import Insta1 from "../../public/images/instagram/sl-1.jpg"
+import Insta2 from "../../public/images/instagram/md-1.jpg"
+import Insta3 from "../../public/images/instagram/sl-2.jpg"
+import Insta4 from "../../public/images/instagram/md-2.jpg"
+
+
 export {
   Logo,
   LogoWhite,
@@ -821,4 +829,8 @@ export {
   PackageSL8,
   OurCoreHero,
   mapnew,
+  Insta1,
+  Insta2,
+  Insta3,
+  Insta4
 };

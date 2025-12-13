@@ -305,6 +305,10 @@ import {
   PackageSL7,
   PackageSL8,
   OurCoreHero,
+  Insta1,
+  Insta2,
+  Insta3,
+  Insta4,
 } from "./staticImages";
 import { HeroType } from "@/types/hero.types";
 
@@ -4207,3 +4211,27 @@ export const testimonials = [
     author: "Farah & Ahmed (June 2025) – UAE",
   },
 ];
+
+
+export const instaFeedImages = [
+  {
+    id:1,
+    image:Insta1,
+    link:"https://www.instagram.com/p/DSEgOa-iqCV/"
+  },
+  {
+    id:2,
+    image:Insta2,
+    link:"https://www.instagram.com/p/DSBjnJLj1Qi/?img_index=1"
+  },
+  {
+    id:3,
+    image:Insta3,
+    link:"https://www.instagram.com/p/DP-jqnvjCcM/"
+  },
+  {
+    id:4,
+    image:Insta4,
+    link:"https://www.instagram.com/p/DP1Hb8wAXgI/?img_index=1"
+  }
+]
