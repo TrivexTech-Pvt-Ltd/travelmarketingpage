@@ -49,7 +49,7 @@ const Services = () => {
       >
         <div className="space-y-6 py-6">
           <motion.h3
-            className="text-sea-green text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-6xl uppercase font-normal text-center font-playfair-display"
+            className="text-sea-green text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl uppercase font-normal text-center font-playfair-display"
             variants={fadeInUp}
             transition={{ duration: 0.8 }}
           >
