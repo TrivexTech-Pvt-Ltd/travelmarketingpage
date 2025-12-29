@@ -21,7 +21,7 @@ const TourPackages = () => {
     <div className="px-5 md:px-8 xl:px-10 2xl:px-20 4xl:px-96 py-5 sm:py-12">
       {/* Heading */}
       <motion.h3
-        className="text-3xl md:text-4xl lg:text-4xl text-center pt-10 font-playfair-display text-sea-green font-normal mb-4 uppercase"
+        className="text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-6xl text-center pt-10 font-playfair-display text-sea-green font-normal mb-4 uppercase"
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}

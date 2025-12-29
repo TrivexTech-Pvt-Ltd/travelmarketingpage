@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { Hero8 } from "@/utils/staticImages";
@@ -7,7 +7,6 @@ import ImageSlider from "../ui/ImageSlider";
 import { luxHolidaySlider } from "@/utils/data";
 
 const Services = () => {
-
   const fadeInUp = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0 },
@@ -50,7 +49,7 @@ const Services = () => {
       >
         <div className="space-y-6 py-6">
           <motion.h3
-            className="text-sea-green text-3xl sm:text-4xl md:text-4xl  lg:text-4xl uppercase font-normal text-center font-playfair-display"
+            className="text-sea-green text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-6xl uppercase font-normal text-center font-playfair-display"
             variants={fadeInUp}
             transition={{ duration: 0.8 }}
           >
@@ -61,7 +60,7 @@ const Services = () => {
             "Crafted with precision, delivered with passion.",
             "Every traveller is unique, and so is every journey we create. Our travel designers work with you personally to curate bespoke itineraries that reflect your interests, pace, and style.",
             "From boutique stays to private chauffeurs and exclusive experiences, we ensure that your holiday is seamless, sophisticated, and unforgettable.",
-            "At Travel Nation, luxury is not about extravagance, it is about meaningful moments, thoughtfully delivered."
+            "At Travel Nation, luxury is not about extravagance, it is about meaningful moments, thoughtfully delivered.",
           ].map((text, index) => (
             <motion.p
               key={index}

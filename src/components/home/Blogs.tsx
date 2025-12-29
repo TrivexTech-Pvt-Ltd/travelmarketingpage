@@ -1,10 +1,9 @@
-"use client"
+"use client";
 import { blogData } from "@/utils/blogsData";
 import BlogCard from "../ui/BlogCard";
 import { motion } from "framer-motion";
 
 const Blogs = () => {
-
   const fadeInUp = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0 },
@@ -28,7 +27,7 @@ const Blogs = () => {
     <div className="px-5 md:px-8 xl:px-20 2xl:px-60 3xl:px-96 py-10" id="blogs">
       {/* Heading */}
       <motion.h3
-        className="text-sea-green text-3xl sm:text-4xl md:text-5xl uppercase font-normal text-center py-5 font-playfair-display"
+        className="text-sea-green text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-6xl uppercase font-normal text-center py-5 font-playfair-display"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
