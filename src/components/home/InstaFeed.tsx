@@ -19,7 +19,7 @@ export default function InstaFeed() {
       </motion.p>
 
       <motion.h3
-        className="text-sea-green text-3xl sm:text-4xl md:text-4xl uppercase font-normal font-playfair-display text-center py-5"
+        className="text-sea-green text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-6xl uppercase font-normal font-playfair-display text-center py-5"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.2 }}
