@@ -93,7 +93,7 @@ const Intro = () => {
     <div className="flex flex-col px-5 md:px-20 xl:px-40 my-12 md:my-24 max-md:mb-10 gap-y-4">
       {/* First H2 + P: Slide down */}
       <motion.h2
-        className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-6xl
+        className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-5xl
         text-sea-green font-normal text-center uppercase font-playfair-display
         leading-tight lg:leading-snug"
         initial={{ opacity: 0, y: -50 }}
@@ -107,7 +107,7 @@ const Intro = () => {
       </motion.h2>
 
       <motion.p
-        className="text-base sm:text-lg md:text-xl text-gray-500 text-center py-6 leading-relaxed"
+        className="text-sm sm:text-lg md:text-xl text-gray-500 text-center py-6 leading-relaxed"
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
@@ -120,7 +120,7 @@ const Intro = () => {
 
       {/* Second H2 + P + P: Slide up */}
       <motion.h2
-        className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-6xl
+        className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl
         text-sea-green uppercase font-normal text-center font-playfair-display
         leading-tight"
         initial={{ opacity: 0, y: 50 }}
@@ -132,7 +132,7 @@ const Intro = () => {
       </motion.h2>
 
       <motion.p
-        className="text-base sm:text-lg md:text-xl text-gray-500 text-center pt-6 leading-relaxed"
+        className="text-sm sm:text-lg md:text-xl text-gray-500 text-center pt-6 leading-relaxed"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
