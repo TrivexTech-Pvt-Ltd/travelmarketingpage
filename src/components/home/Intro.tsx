@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
@@ -8,13 +7,14 @@ const Intro = () => {
     <div className="flex flex-col px-5 md:px-20 xl:px-40 my-12 md:my-24 max-md:mb-10 gap-y-4">
       {/* First H2 + P: Slide down */}
       <motion.h2
-        className="text-3xl sm:text-4xl md:text-5xl text-sea-green font-normal text-center uppercase font-playfair-display"
+        className="text-3xl sm:text-4xl md:text-4xl lg:text-4xl text-sea-green font-normal text-center uppercase font-playfair-display"
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        Crafting Journeys Beyond the Ordinary Across <br /> Sri Lanka{" "}
+        Crafting Journeys Beyond the Ordinary
+        <br /> Across <br /> Sri Lanka{" "}
         <span className="font-libreBaskerville">&</span> the Maldives
       </motion.h2>
 

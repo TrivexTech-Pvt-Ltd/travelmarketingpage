@@ -23,10 +23,8 @@ const fadeInRight = {
 const Destinations = () => {
   return (
     <div className="flex flex-col">
-
       {/* SRI LANKA SECTION */}
       <div className="grid grid-cols-1 lg:grid-cols-2">
-
         {/* IMAGE */}
         <motion.div
           className="order-1 lg:order-1"
@@ -52,9 +50,8 @@ const Destinations = () => {
           variants={fadeInRight}
         >
           <div className="space-y-6 md:space-y-10 max-xl:mb-5">
-
             <motion.h3
-              className="text-sea-green text-3xl sm:text-4xl md:text-5xl uppercase font-normal font-playfair-display"
+              className="text-sea-green text-3xl sm:text-4xl md:text-4xl  lg:text-4xl uppercase font-normal font-playfair-display"
               variants={fadeInUp}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
@@ -80,14 +77,12 @@ const Destinations = () => {
                 View Destination <FiArrowRight size={16} />
               </Link>
             </motion.div>
-
           </div>
         </motion.div>
       </div>
 
       {/* MALDIVES SECTION */}
       <div className="grid grid-cols-1 lg:grid-cols-2">
-
         {/* IMAGE */}
         <motion.div
           className="order-1 lg:order-2"
@@ -113,9 +108,8 @@ const Destinations = () => {
           variants={fadeInLeft}
         >
           <div className="space-y-6 md:space-y-10 max-xl:mb-5">
-
             <motion.h3
-              className="text-sea-green text-3xl sm:text-4xl md:text-5xl uppercase font-normal font-playfair-display"
+              className="text-sea-green text-3xl sm:text-4xl md:text-4xl  lg:text-4xl uppercase font-normal font-playfair-display"
               variants={fadeInUp}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
@@ -127,7 +121,8 @@ const Destinations = () => {
               variants={fadeInUp}
               transition={{ duration: 0.6, delay: 0.25 }}
             >
-              The epitome of barefoot luxury, where time slows and nature breathes in colour.
+              The epitome of barefoot luxury, where time slows and nature
+              breathes in colour.
             </motion.p>
 
             <motion.div
@@ -141,11 +136,9 @@ const Destinations = () => {
                 View Destination <FiArrowRight size={16} />
               </Link>
             </motion.div>
-
           </div>
         </motion.div>
       </div>
-
     </div>
   );
 };
