@@ -197,7 +197,7 @@ const Destinations = () => {
         >
           <div className="space-y-6 md:space-y-10 max-xl:mb-5">
             <motion.h3
-              className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-6xl
+              className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl
               text-sea-green uppercase font-normal font-playfair-display"
               variants={fadeInUp}
               transition={{ duration: 0.6, delay: 0.1 }}
@@ -260,7 +260,7 @@ const Destinations = () => {
         >
           <div className="space-y-6 md:space-y-10 max-xl:mb-5">
             <motion.h3
-              className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-6xl
+              className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl
               text-sea-green uppercase font-normal font-playfair-display"
               variants={fadeInUp}
               transition={{ duration: 0.6, delay: 0.1 }}

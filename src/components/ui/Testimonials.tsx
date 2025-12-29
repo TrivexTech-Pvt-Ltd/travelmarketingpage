@@ -65,7 +65,7 @@ export default function Testimonials() {
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <div className="max-w-5xl">
-          <h3 className="text-sea-green text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-6xl uppercase font-normal font-playfair-display py-3">
+          <h3 className="text-sea-green text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl uppercase font-normal font-playfair-display py-3">
             STORIES FROM OUR JOURNEYS
           </h3>
           <p className="text-base lg:text-lg italic text-gray-500 leading-7 py-3">
